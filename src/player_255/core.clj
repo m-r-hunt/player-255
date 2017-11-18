@@ -12,9 +12,9 @@
   (let [pick (rand-nth games)
         next-list (into [] (remove #(= % pick) games))
         played (conj played-games {:game pick :rating :na})]
-    (println "Enter rating for " + (:game (last played)))
+    (println (str "Enter rating for '" (:game (last played-games)) "':"))
     (let [rating (read-line)]
       (println pick)
       (spit "games.edn" (with-out-str (pp/pprint next-list)))
       (spit "played-games.edn" (with-out-str (pp/pprint
-                                              (assoc-in played [(length player) :rating] rating)))))))
+                                              (assoc-in played [(dec (dec (count played))) :rating] rating)))))))
