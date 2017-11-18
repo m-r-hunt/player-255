@@ -18,3 +18,15 @@
       (spit "games.edn" (with-out-str (pp/pprint next-list)))
       (spit "played-games.edn" (with-out-str (pp/pprint
                                               (assoc-in played [(dec (dec (count played))) :rating] rating)))))))
+
+(defn stats
+  []
+  (reduce #(case (:rating %2)
+             1 (update-in (update-in %1 [:ones] inc) [:worst] conj (:game %2))
+             2 (update-in %1 [:twos] inc)
+             3 (update-in %1 [:threes] inc)
+             4 (update-in %1 [:fours] inc)
+             5 (update-in (update-in %1 [:fives] inc) [:best] conj (:game %2))
+               %1)
+          {:ones 0 :twos 0 :threes 0 :fours 0 :fives 0 :best [] :worst []}
+          played-games))
