@@ -1,29 +1,91 @@
-[{:game
-  "The Legend of Zelda: The Minish Cap 89 User: 9.0 Jan 10, 2005",
-  :rating 4}
- {:game "Game & Watch Gallery 4 71 User: 8.1 Oct 28, 2002", :rating 2}
+[{:game "The Legend of Zelda: The Minish Cap",
+  :rating 4,
+  :meta-rating "89",
+  :meta-user "9.0",
+  :date "Jan 10, 2005"}
+ {:game "Game & Watch Gallery 4",
+  :rating 2,
+  :meta-rating "71",
+  :meta-user "8.1",
+  :date "Oct 28, 2002"}
  {:game
-  "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 73 User: 7.6 Mar 14, 2006",
-  :rating 2}
- {:game "Spyro: Season of Ice 74 User: 8.0 Oct 29, 2001", :rating 3}
- {:game "Teenage Mutant Ninja Turtles 71 User: 8.9 Oct 31, 2003",
-  :rating 3}
- {:game "Boulder Dash EX 79 User: tbd Sep 16, 2002", :rating 3}
- {:game "Yu-Gi-Oh! The Eternal Duelist Soul 81 User: 8.8 Oct 15, 2002",
-  :rating 2}
- {:game "Riviera: The Promised Land 76 User: 8.5 Jun 28, 2005",
-  :rating 3}
- {:game "Boktai: The Sun Is in Your Hand 83 User: 9.0 Sep 16, 2003",
-  :rating 4}
- {:game "Need for Speed Underground 77 User: 8.2 Dec 18, 2003",
-  :rating 1}
- {:game "CIMA: The Enemy 70 User: tbd Nov 17, 2003", :rating 1}
- {:game "Mario & Luigi: Superstar Saga 90 User: 9.0 Nov 17, 2003",
-  :rating 5}
- {:game "Lego Star Wars 75 User: 8.6 Mar 29, 2005", :rating 2}
- {:game "Metal Slug Advance 79 User: 8.3 Dec 2, 2004", :rating 3}
- {:game "Mega Man Zero 4 77 User: 8.9 Oct 4, 2005", :rating 3}
- {:game "Egg Mania 75 User: tbd Sep 16, 2002", :rating 3}
- {:game "Jackie Chan Adventures 75 User: 8.0 Nov 6, 2001", :rating 2}
- {:game "Final Fantasy V Advance 83 User: 7.3 Nov 6, 2006",
-  :rating :na}]
+  "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
+  :rating 2,
+  :meta-rating "73",
+  :meta-user "7.6",
+  :date "Mar 14, 2006"}
+ {:game "Spyro: Season of Ice",
+  :rating 3,
+  :meta-rating "74",
+  :meta-user "8.0",
+  :date "Oct 29, 2001"}
+ {:game "Teenage Mutant Ninja Turtles",
+  :rating 3,
+  :meta-rating "71",
+  :meta-user "8.9",
+  :date "Oct 31, 2003"}
+ {:game "Boulder Dash EX",
+  :rating 3,
+  :meta-rating "79",
+  :meta-user "tbd",
+  :date "Sep 16, 2002"}
+ {:game "Yu-Gi-Oh! The Eternal Duelist Soul",
+  :rating 2,
+  :meta-rating "81",
+  :meta-user "8.8",
+  :date "Oct 15, 2002"}
+ {:game "Riviera: The Promised Land",
+  :rating 3,
+  :meta-rating "76",
+  :meta-user "8.5",
+  :date "Jun 28, 2005"}
+ {:game "Boktai: The Sun Is in Your Hand",
+  :rating 4,
+  :meta-rating "83",
+  :meta-user "9.0",
+  :date "Sep 16, 2003"}
+ {:game "Need for Speed Underground",
+  :rating 1,
+  :meta-rating "77",
+  :meta-user "8.2",
+  :date "Dec 18, 2003"}
+ {:game "CIMA: The Enemy",
+  :rating 1,
+  :meta-rating "70",
+  :meta-user "tbd",
+  :date "Nov 17, 2003"}
+ {:game "Mario & Luigi: Superstar Saga",
+  :rating 5,
+  :meta-rating "90",
+  :meta-user "9.0",
+  :date "Nov 17, 2003"}
+ {:game "Lego Star Wars",
+  :rating 2,
+  :meta-rating "75",
+  :meta-user "8.6",
+  :date "Mar 29, 2005"}
+ {:game "Metal Slug Advance",
+  :rating 3,
+  :meta-rating "79",
+  :meta-user "8.3",
+  :date "Dec 2, 2004"}
+ {:game "Mega Man Zero 4",
+  :rating 3,
+  :meta-rating "77",
+  :meta-user "8.9",
+  :date "Oct 4, 2005"}
+ {:game "Egg Mania",
+  :rating 3,
+  :meta-rating "75",
+  :meta-user "tbd",
+  :date "Sep 16, 2002"}
+ {:game "Jackie Chan Adventures",
+  :rating 2,
+  :meta-rating "75",
+  :meta-user "8.0",
+  :date "Nov 6, 2001"}
+ {:game "Final Fantasy V Advance",
+  :rating :na,
+  :meta-rating "83",
+  :meta-user "7.3",
+  :date "Nov 6, 2006"}]
