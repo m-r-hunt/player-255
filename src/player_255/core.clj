@@ -1,23 +1,55 @@
 (ns player-255.core
   (:gen-class)
   (:require [clojure.edn :as edn]
-            [clojure.pprint :as pp]))
+            [clojure.pprint :as pp]
+            [player-255.site-generator :as site-generator]))
 
 (def games (edn/read-string (slurp "games.edn")))
 (def played-games (edn/read-string (slurp "played-games.edn")))
 
+(defn datestamp
+  []
+  (let [calendar (java.util.Calendar/getInstance)]
+    (str (.get calendar java.util.Calendar/YEAR)
+         "-"
+         (inc (.get calendar java.util.Calendar/MONTH))
+         "-"
+         (.get calendar java.util.Calendar/DAY_OF_MONTH))))
+
+(defn get-filenames
+  [dry-run]
+  (if dry-run
+    ["games.test.edn"
+     "played-games.test.edn"]
+    ["games.edn"
+     "played-games.edn"]))
+
+(defn ask
+  [prompt]
+  (println prompt)
+  (read-line))
+
+(defn gather-input
+  [game]
+  (-> []
+      (conj :rating (Integer. (ask (str "Enter rating for '" game "':"))))
+      (conj :completion-date (datestamp))))
+
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Get input about the last played game, pick the next one, and regenerate the site."
   [& args]
-  (let [pick (rand-nth games)
+  (let [dry-run (some #(= "--dry-run" %) *command-line-args*)
+        pick (rand-nth games)
         next-list (into [] (remove #(= % pick) games))
-        played (conj played-games (assoc pick :rating :na))]
-    (println (str "Enter rating for '" (:game (last played-games)) "':"))
-    (let [rating (Integer. (read-line))]
-      (println (:game pick))
-      (spit "games.edn" (with-out-str (pp/pprint next-list)))
-      (spit "played-games.edn" (with-out-str (pp/pprint
-                                              (assoc-in played [(dec (dec (count played))) :rating] rating)))))))
+        played (conj played-games (assoc pick :rating :na))
+        [games-file played-games-file] (get-filenames dry-run)
+        input (gather-input (:game (last played-games)))
+        n (dec (dec (count played)))
+        next-played (update played n #(apply assoc % input))]
+    (println (str "Next up: " (:game pick)))
+    (spit games-file (with-out-str (pp/pprint next-list)))
+    (spit played-games-file (with-out-str (pp/pprint next-played)))
+    (site-generator/generate next-list next-played)))
 
 (defn stats
   []
@@ -30,3 +62,9 @@
                %1)
           {:ones 0 :twos 0 :threes 0 :fours 0 :fives 0 :best [] :worst []}
           played-games))
+
+(defn csv
+  []
+  (let [csv-data (apply str (map #(str (:game %) "," (:rating %) "," (:meta-rating %) "\n")
+                                 (butlast played-games)))]
+    (spit "played-games.csv" csv-data)))

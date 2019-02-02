@@ -2,18 +2,10 @@
   :meta-rating "95",
   :meta-user "9.0",
   :date "Dec 3, 2002"}
- {:game "Tony Hawk's Pro Skater 2",
-  :meta-rating "95",
-  :meta-user "6.7",
-  :date "May 30, 2001"}
  {:game "Super Mario Advance 4: Super Mario Bros. 3",
   :meta-rating "94",
   :meta-user "9.1",
   :date "Oct 21, 2003"}
- {:game "Mario Kart Super Circuit",
-  :meta-rating "93",
-  :meta-user "8.2",
-  :date "Aug 26, 2001"}
  {:game "Advance Wars",
   :meta-rating "92",
   :meta-user "9.0",
@@ -26,18 +18,10 @@
   :meta-rating "92",
   :meta-user "9.1",
   :date "Nov 17, 2002"}
- {:game "Final Fantasy VI Advance",
-  :meta-rating "92",
-  :meta-user "8.5",
-  :date "Feb 5, 2007"}
  {:game "Yoshi's Island: Super Mario Advance 3",
   :meta-rating "91",
   :meta-user "9.0",
   :date "Sep 24, 2002"}
- {:game "Castlevania: Aria of Sorrow",
-  :meta-rating "91",
-  :meta-user "8.9",
-  :date "May 6, 2003"}
  {:game "Golden Sun",
   :meta-rating "91",
   :meta-user "9.1",
@@ -50,10 +34,6 @@
   :meta-rating "90",
   :meta-user "8.0",
   :date "Mar 4, 2002"}
- {:game "Metroid: Zero Mission",
-  :meta-rating "89",
-  :meta-user "8.9",
-  :date "Feb 9, 2004"}
  {:game "Advance Wars 2: Black Hole Rising",
   :meta-rating "89",
   :meta-user "9.3",
@@ -62,26 +42,10 @@
   :meta-rating "89",
   :meta-user "8.8",
   :date "May 21, 2003"}
- {:game "Tactics Ogre: The Knight of Lodis",
-  :meta-rating "88",
-  :meta-user "9.1",
-  :date "May 11, 2002"}
- {:game "Wario Land 4",
-  :meta-rating "88",
-  :meta-user "8.6",
-  :date "Nov 18, 2001"}
  {:game "WarioWare: Twisted!",
   :meta-rating "88",
   :meta-user "8.9",
   :date "May 23, 2005"}
- {:game "Fire Emblem",
-  :meta-rating "88",
-  :meta-user "9.2",
-  :date "Nov 3, 2003"}
- {:game "Castlevania: Harmony of Dissonance",
-  :meta-rating "87",
-  :meta-user "8.0",
-  :date "Sep 16, 2002"}
  {:game "Final Fantasy Tactics Advance",
   :meta-rating "87",
   :meta-user "7.8",
@@ -94,10 +58,6 @@
   :meta-rating "86",
   :meta-user "9.2",
   :date "Apr 14, 2003"}
- {:game "Tony Hawk's Underground",
-  :meta-rating "86",
-  :meta-user "7.7",
-  :date "Oct 27, 2003"}
  {:game "Castlevania Double Pack",
   :meta-rating "86",
   :meta-user "8.4",
@@ -106,22 +66,6 @@
   :meta-rating "86",
   :meta-user "8.4",
   :date "Jun 12, 2001"}
- {:game "Astro Boy: Omega Factor",
-  :meta-rating "85",
-  :meta-user "8.8",
-  :date "Aug 18, 2004"}
- {:game "Fire Emblem: The Sacred Stones",
-  :meta-rating "85",
-  :meta-user "9.1",
-  :date "May 23, 2005"}
- {:game "Tony Hawk's Pro Skater 4",
-  :meta-rating "85",
-  :meta-user "8.8",
-  :date "Oct 28, 2002"}
- {:game "Final Fantasy IV Advance",
-  :meta-rating "85",
-  :meta-user "7.4",
-  :date "Dec 12, 2005"}
  {:game "Dave Mirra Freestyle BMX 2",
   :meta-rating "85",
   :meta-user "tbd",
@@ -130,10 +74,6 @@
   :meta-rating "84",
   :meta-user "8.6",
   :date "Jun 22, 2004"}
- {:game "Super Street Fighter II: Turbo Revival",
-  :meta-rating "84",
-  :meta-user "7.6",
-  :date "Oct 30, 2001"}
  {:game "Super Mario Advance",
   :meta-rating "84",
   :meta-user "7.8",
@@ -162,22 +102,6 @@
   :meta-rating "84",
   :meta-user "8.4",
   :date "Jun 10, 2001"}
- {:game "Virtua Tennis",
-  :meta-rating "83",
-  :meta-user "tbd",
-  :date "Oct 8, 2002"}
- {:game "Racing Gears Advance",
-  :meta-rating "83",
-  :meta-user "8.0",
-  :date "Feb 8, 2005"}
- {:game "Street Fighter Alpha 3",
-  :meta-rating "83",
-  :meta-user "7.7",
-  :date "Dec 1, 2002"}
- {:game "Super Puzzle Fighter II",
-  :meta-rating "83",
-  :meta-user "7.6",
-  :date "Mar 31, 2003"}
  {:game "Gunstar Super Heroes",
   :meta-rating "83",
   :meta-user "8.5",
@@ -186,10 +110,6 @@
   :meta-rating "83",
   :meta-user "8.3",
   :date "Mar 9, 2003"}
- {:game "Rayman 3",
-  :meta-rating "83",
-  :meta-user "7.8",
-  :date "Mar 2, 2003"}
  {:game "Super Robot Taisen: Original Generation 2",
   :meta-rating "82",
   :meta-user "8.1",
@@ -198,10 +118,6 @@
   :meta-rating "82",
   :meta-user "8.7",
   :date "Mar 18, 2003"}
- {:game "Super Monkey Ball Jr.",
-  :meta-rating "82",
-  :meta-user "8.6",
-  :date "Nov 19, 2002"}
  {:game "Mega Man Zero",
   :meta-rating "82",
   :meta-user "8.9",
@@ -214,10 +130,6 @@
   :meta-rating "82",
   :meta-user "8.0",
   :date "Jan 28, 2002"}
- {:game "Harvest Moon: More Friends of Mineral Town",
-  :meta-rating "82",
-  :meta-user "8.9",
-  :date "Jul 26, 2005"}
  {:game "Mat Hoffman's Pro BMX 2",
   :meta-rating "82",
   :meta-user "tbd",
@@ -230,10 +142,6 @@
   :meta-rating "82",
   :meta-user "8.2",
   :date "Apr 22, 2003"}
- {:game "Doom",
-  :meta-rating "81",
-  :meta-user "8.5",
-  :date "Oct 28, 2001"}
  {:game "Drill Dozer",
   :meta-rating "81",
   :meta-user "8.8",
@@ -242,10 +150,6 @@
   :meta-rating "81",
   :meta-user "8.4",
   :date "Aug 12, 2002"}
- {:game "Mega Man Zero 2",
-  :meta-rating "81",
-  :meta-user "8.6",
-  :date "Oct 14, 2003"}
  {:game "Mario Tennis: Power Tour",
   :meta-rating "81",
   :meta-user "8.0",
@@ -258,10 +162,6 @@
   :meta-rating "81",
   :meta-user "8.9",
   :date "Dec 2, 2002"}
- {:game "Mario vs. Donkey Kong",
-  :meta-rating "81",
-  :meta-user "8.0",
-  :date "May 24, 2004"}
  {:game "Mortal Kombat: Deadly Alliance",
   :meta-rating "81",
   :meta-user "8.1",
@@ -270,14 +170,6 @@
   :meta-rating "81",
   :meta-user "7.9",
   :date "Aug 26, 2003"}
- {:game "Pokemon FireRed Version",
-  :meta-rating "81",
-  :meta-user "8.7",
-  :date "Sep 7, 2004"}
- {:game "Pokemon LeafGreen Version",
-  :meta-rating "81",
-  :meta-user "8.6",
-  :date "Sep 7, 2004"}
  {:game "Harvest Moon: Friends of Mineral Town",
   :meta-rating "81",
   :meta-user "9.5",
@@ -294,10 +186,6 @@
   :meta-rating "80",
   :meta-user "8.0",
   :date "Nov 27, 2001"}
- {:game "The Legend of Spyro: The Eternal Night",
-  :meta-rating "80",
-  :meta-user "8.1",
-  :date "Oct 2, 2007"}
  {:game "Broken Sword: The Shadow of the Templars",
   :meta-rating "80",
   :meta-user "8.3",
@@ -306,18 +194,10 @@
   :meta-rating "80",
   :meta-user "6.1",
   :date "Mar 20, 2007"}
- {:game "The King of Fighters EX2: Howling Blood",
-  :meta-rating "80",
-  :meta-user "8.5",
-  :date "Dec 11, 2003"}
  {:game "Disney's Lilo & Stitch",
   :meta-rating "80",
   :meta-user "7.8",
   :date "Jun 7, 2002"}
- {:game "Ultimate Brain Games",
-  :meta-rating "80",
-  :meta-user "8.3",
-  :date "Mar 18, 2003"}
  {:game "Donkey Kong Country 2",
   :meta-rating "80",
   :meta-user "8.9",
@@ -326,10 +206,6 @@
   :meta-rating "80",
   :meta-user "8.1",
   :date "Jun 23, 2003"}
- {:game "Medal of Honor Infiltrator",
-  :meta-rating "80",
-  :meta-user "7.2",
-  :date "Nov 17, 2003"}
  {:game "Kirby & the Amazing Mirror",
   :meta-rating "80",
   :meta-user "8.9",
@@ -338,10 +214,6 @@
   :meta-rating "79",
   :meta-user "tbd",
   :date "Jun 16, 2002"}
- {:game "Pac-Man Collection",
-  :meta-rating "79",
-  :meta-user "7.8",
-  :date "Jul 12, 2001"}
  {:game "Final Fantasy I & II: Dawn of Souls",
   :meta-rating "79",
   :meta-user "6.8",
@@ -350,22 +222,6 @@
   :meta-rating "79",
   :meta-user "8.3",
   :date "Oct 15, 2003"}
- {:game "Activision Anthology",
-  :meta-rating "79",
-  :meta-user "tbd",
-  :date "Dec 9, 2003"}
- {:game "Mega Man & Bass",
-  :meta-rating "79",
-  :meta-user "8.6",
-  :date "Mar 10, 2003"}
- {:game "Namco Museum",
-  :meta-rating "79",
-  :meta-user "7.3",
-  :date "Jun 10, 2001"}
- {:game "Monster Rancher Advance 2",
-  :meta-rating "79",
-  :meta-user "8.6",
-  :date "Nov 17, 2002"}
  {:game "Summon Night: Swordcraft Story 2",
   :meta-rating "79",
   :meta-user "8.4",
@@ -394,26 +250,14 @@
   :meta-rating "78",
   :meta-user "tbd",
   :date "Nov 26, 2002"}
- {:game "Klonoa 2: Dream Champ Tournament",
-  :meta-rating "78",
-  :meta-user "8.8",
-  :date "Feb 23, 2005"}
  {:game "Gradius Galaxies",
   :meta-rating "78",
   :meta-user "tbd",
   :date "Nov 12, 2001"}
- {:game "Konami Collector's Series: Arcade Advanced",
-  :meta-rating "78",
-  :meta-user "tbd",
-  :date "Mar 21, 2002"}
  {:game "NickToons Racing",
   :meta-rating "78",
   :meta-user "tbd",
   :date "Jun 14, 2002"}
- {:game "Donkey Kong Country",
-  :meta-rating "78",
-  :meta-user "8.9",
-  :date "Jun 9, 2003"}
  {:game "Super Ghouls 'n Ghosts",
   :meta-rating "78",
   :meta-user "8.4",
@@ -422,10 +266,6 @@
   :meta-rating "78",
   :meta-user "8.1",
   :date "Dec 18, 2003"}
- {:game "Rebelstar: Tactical Command",
-  :meta-rating "78",
-  :meta-user "8.8",
-  :date "Sep 6, 2005"}
  {:game "Konami Krazy Racers",
   :meta-rating "78",
   :meta-user "tbd",
@@ -434,14 +274,6 @@
   :meta-rating "78",
   :meta-user "8.6",
   :date "Sep 17, 2003"}
- {:game "Iridion II",
-  :meta-rating "78",
-  :meta-user "8.3",
-  :date "May 29, 2003"}
- {:game "Boktai 2: Solar Boy Django",
-  :meta-rating "78",
-  :meta-user "8.0",
-  :date "Oct 19, 2004"}
  {:game "Crash Bandicoot: The Huge Adventure",
   :meta-rating "78",
   :meta-user "7.7",
@@ -450,18 +282,6 @@
   :meta-rating "77",
   :meta-user "tbd",
   :date "Oct 30, 2001"}
- {:game "Hamtaro: Ham-Ham Games",
-  :meta-rating "77",
-  :meta-user "8.1",
-  :date "Jul 27, 2004"}
- {:game "Mega Man Zero 3",
-  :meta-rating "77",
-  :meta-user "8.0",
-  :date "Oct 5, 2004"}
- {:game "Car Battler Joe",
-  :meta-rating "77",
-  :meta-user "tbd",
-  :date "Oct 21, 2002"}
  {:game "Stuntman",
   :meta-rating "77",
   :meta-user "tbd",
@@ -470,14 +290,6 @@
   :meta-rating "77",
   :meta-user "tbd",
   :date "Nov 21, 2006"}
- {:game "Crash Nitro Kart",
-  :meta-rating "77",
-  :meta-user "8.3",
-  :date "Nov 11, 2003"}
- {:game "F-Zero GP Legend",
-  :meta-rating "77",
-  :meta-user "8.3",
-  :date "Sep 20, 2004"}
  {:game "Donkey Kong Country 3",
   :meta-rating "77",
   :meta-user "8.5",
@@ -498,10 +310,6 @@
   :meta-rating "77",
   :meta-user "8.9",
   :date "Jun 8, 2004"}
- {:game "Doom II",
-  :meta-rating "77",
-  :meta-user "8.6",
-  :date "Oct 28, 2002"}
  {:game "Tom Clancy's Splinter Cell",
   :meta-rating "77",
   :meta-user "8.6",
@@ -534,10 +342,6 @@
   :meta-rating "76",
   :meta-user "tbd",
   :date "Jun 29, 2004"}
- {:game "Tales of Phantasia",
-  :meta-rating "76",
-  :meta-user "8.0",
-  :date "Mar 6, 2006"}
  {:game "Monster Rancher Advance",
   :meta-rating "76",
   :meta-user "tbd",
@@ -554,18 +358,10 @@
   :meta-rating "76",
   :meta-user "8.1",
   :date "Nov 24, 2002"}
- {:game "Kingdom Hearts: Chain of Memories",
-  :meta-rating "76",
-  :meta-user "7.9",
-  :date "Dec 7, 2004"}
  {:game "Baldur's Gate: Dark Alliance",
   :meta-rating "76",
   :meta-user "6.8",
   :date "Feb 10, 2004"}
- {:game "One Piece",
-  :meta-rating "76",
-  :meta-user "7.9",
-  :date "Sep 7, 2005"}
  {:game "Harry Potter and the Chamber of Secrets",
   :meta-rating "76",
   :meta-user "7.9",
@@ -574,18 +370,10 @@
   :meta-rating "76",
   :meta-user "8.8",
   :date "Apr 30, 2005"}
- {:game "Lufia: The Ruins of Lore",
-  :meta-rating "76",
-  :meta-user "8.3",
-  :date "May 6, 2003"}
  {:game "Uno / Skip-Bo",
   :meta-rating "75",
   :meta-user "tbd",
   :date "Oct 2, 2006"}
- {:game "Atari Anniversary Advance",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "Mar 25, 2002"}
  {:game "Muppet Pinball Mayhem",
   :meta-rating "75",
   :meta-user "tbd",
@@ -598,22 +386,10 @@
   :meta-rating "75",
   :meta-user "tbd",
   :date "Nov 5, 2002"}
- {:game "Dragon Ball Z: The Legacy of Goku II",
-  :meta-rating "75",
-  :meta-user "8.5",
-  :date "Jun 17, 2003"}
  {:game "Mary-Kate and Ashley: Girls Night Out",
   :meta-rating "75",
   :meta-user "tbd",
   :date "Mar 19, 2002"}
- {:game "Tiger Woods PGA Tour 2004",
-  :meta-rating "75",
-  :meta-user "7.5",
-  :date "Nov 4, 2003"}
- {:game "Bomberman Max 2: Red Advance",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "May 30, 2002"}
  {:game "River City Ransom EX",
   :meta-rating "75",
   :meta-user "8.4",
@@ -630,34 +406,18 @@
   :meta-rating "75",
   :meta-user "tbd",
   :date "Aug 27, 2002"}
- {:game "Worms World Party",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "Oct 29, 2002"}
  {:game "Bomberman Max 2: Blue Advance",
   :meta-rating "75",
   :meta-user "tbd",
   :date "May 30, 2002"}
- {:game "Crash Bandicoot 2: N-Tranced",
-  :meta-rating "75",
-  :meta-user "7.7",
-  :date "Jan 7, 2003"}
  {:game "Mortal Kombat: Tournament Edition",
   :meta-rating "75",
   :meta-user "8.1",
   :date "Aug 27, 2003"}
- {:game "Dragon Ball: Advanced Adventure",
-  :meta-rating "75",
-  :meta-user "8.5",
-  :date "Jun 6, 2006"}
  {:game "Double Dragon Advance",
   :meta-rating "75",
   :meta-user "8.4",
   :date "Nov 14, 2003"}
- {:game "Prince of Persia: The Sands of Time",
-  :meta-rating "75",
-  :meta-user "8.8",
-  :date "Oct 30, 2003"}
  {:game "Dr. Mario / Puzzle League",
   :meta-rating "74",
   :meta-user "7.8",
@@ -678,10 +438,6 @@
   :meta-rating "74",
   :meta-user "tbd",
   :date "Jul 1, 2001"}
- {:game "James Bond 007: Everything or Nothing",
-  :meta-rating "73",
-  :meta-user "8.3",
-  :date "Nov 17, 2003"}
  {:game "Frogger's Adventures: Temple of the Frog",
   :meta-rating "73",
   :meta-user "7.8",
@@ -698,10 +454,6 @@
   :meta-rating "73",
   :meta-user "tbd",
   :date "Nov 1, 2005"}
- {:game "Blender Bros.",
-  :meta-rating "73",
-  :meta-user "tbd",
-  :date "Apr 15, 2002"}
  {:game "It's Mr. Pants",
   :meta-rating "73",
   :meta-user "tbd",
@@ -710,26 +462,10 @@
   :meta-rating "73",
   :meta-user "7.6",
   :date "May 4, 2005"}
- {:game "LarryBoy and the Bad Apple",
-  :meta-rating "73",
-  :meta-user "tbd",
-  :date "Aug 8, 2006"}
  {:game "Dragon Ball Z: Supersonic Warriors",
   :meta-rating "73",
   :meta-user "7.0",
   :date "Jun 22, 2004"}
- {:game "Drome Racers",
-  :meta-rating "73",
-  :meta-user "tbd",
-  :date "Jun 19, 2003"}
- {:game "Classic NES Series: Zelda II: The Adventure of Link",
-  :meta-rating "73",
-  :meta-user "7.6",
-  :date "Oct 25, 2004"}
- {:game "X2: Wolverine's Revenge",
-  :meta-rating "72",
-  :meta-user "7.2",
-  :date "Apr 15, 2003"}
  {:game "Need for Speed Underground 2",
   :meta-rating "72",
   :meta-user "8.2",
@@ -742,22 +478,10 @@
   :meta-rating "72",
   :meta-user "8.0",
   :date "Nov 10, 2004"}
- {:game "Sword of Mana",
-  :meta-rating "72",
-  :meta-user "8.3",
-  :date "Dec 1, 2003"}
  {:game "Shrek 2",
   :meta-rating "72",
   :meta-user "7.0",
   :date "Apr 28, 2004"}
- {:game "Shaman King: Master of Spirits 2",
-  :meta-rating "72",
-  :meta-user "8.3",
-  :date "Aug 2, 2005"}
- {:game "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel",
-  :meta-rating "72",
-  :meta-user "8.8",
-  :date "Apr 8, 2003"}
  {:game "Noddy: A Day in Toyland",
   :meta-rating "72",
   :meta-user "tbd",
@@ -778,10 +502,6 @@
   :meta-rating "72",
   :meta-user "7.9",
   :date "Sep 10, 2003"}
- {:game "Super Robot Taisen: Original Generation",
-  :meta-rating "72",
-  :meta-user "7.8",
-  :date "Aug 8, 2006"}
  {:game "Earthworm Jim",
   :meta-rating "72",
   :meta-user "5.7",
@@ -798,22 +518,10 @@
   :meta-rating "72",
   :meta-user "tbd",
   :date "Mar 31, 2002"}
- {:game "Spyro: Attack of the Rhynocs",
-  :meta-rating "72",
-  :meta-user "7.5",
-  :date "Oct 27, 2003"}
  {:game "The Urbz: Sims in the City",
   :meta-rating "72",
   :meta-user "8.9",
   :date "Nov 9, 2004"}
- {:game "Turok: Evolution",
-  :meta-rating "72",
-  :meta-user "7.0",
-  :date "Aug 26, 2002"}
- {:game "The Mummy",
-  :meta-rating "72",
-  :meta-user "tbd",
-  :date "Nov 20, 2002"}
  {:game "Aero the Acro-bat",
   :meta-rating "71",
   :meta-user "tbd",
@@ -822,11 +530,6 @@
   :meta-rating "71",
   :meta-user "7.7",
   :date "Sep 10, 2002"}
- {:game
-  "Tim Burton's The Nightmare Before Christmas: The Pumpkin King",
-  :meta-rating "71",
-  :meta-user "5.5",
-  :date "Oct 10, 2005"}
  {:game "CT Special Forces",
   :meta-rating "71",
   :meta-user "tbd",
@@ -839,14 +542,6 @@
   :meta-rating "71",
   :meta-user "tbd",
   :date "May 14, 2002"}
- {:game "Disney's Chicken Little",
-  :meta-rating "71",
-  :meta-user "tbd",
-  :date "Oct 20, 2005"}
- {:game "Shrek: Hassle at the Castle",
-  :meta-rating "71",
-  :meta-user "7.4",
-  :date "Oct 10, 2002"}
  {:game "Madagascar",
   :meta-rating "71",
   :meta-user "tbd",
@@ -871,10 +566,6 @@
   :meta-rating "71",
   :meta-user "tbd",
   :date "Sep 16, 2002"}
- {:game "Mat Hoffman's Pro BMX",
-  :meta-rating "71",
-  :meta-user "tbd",
-  :date "Nov 19, 2001"}
  {:game "Zone of the Enders: The Fist of Mars",
   :meta-rating "71",
   :meta-user "8.4",
@@ -892,30 +583,14 @@
   :meta-rating "70",
   :meta-user "tbd",
   :date "Nov 3, 2002"}
- {:game "Turbo Turtle Adventure",
-  :meta-rating "70",
-  :meta-user "tbd",
-  :date "Sep 14, 2002"}
  {:game "Wing Commander: Prophecy",
   :meta-rating "70",
   :meta-user "8.3",
   :date "Jun 4, 2003"}
- {:game "Dokapon: Monster Hunter",
-  :meta-rating "70",
-  :meta-user "7.0",
-  :date "Oct 30, 2001"}
- {:game "Pirates of the Caribbean: Dead Man's Chest",
-  :meta-rating "70",
-  :meta-user "6.0",
-  :date "Jun 27, 2006"}
  {:game "DK: King of Swing",
   :meta-rating "70",
   :meta-user "5.0",
   :date "Sep 19, 2005"}
- {:game "Gekido Advance: Kintaro's Revenge",
-  :meta-rating "70",
-  :meta-user "7.0",
-  :date "Nov 25, 2003"}
  {:game "Sega Arcade Gallery",
   :meta-rating "70",
   :meta-user "tbd",
@@ -936,15 +611,23 @@
   :meta-rating "70",
   :meta-user "tbd",
   :date "Aug 28, 2001"}
- {:game "Silent Scope",
-  :meta-rating "70",
-  :meta-user "8.0",
-  :date "Sep 4, 2002"}
  {:game "Gem Smashers",
   :meta-rating "70",
   :meta-user "8.6",
   :date "Jul 1, 2003"}
- {:game "Disney's Magical Quest",
-  :meta-rating "70",
+ {:game "Mega Man Zero 2",
+  :meta-rating "81",
+  :meta-user "8.6",
+  :date "Oct 14, 2003"}
+ {:game "Disney's Chicken Little",
+  :meta-rating "71",
   :meta-user "tbd",
-  :date "Aug 13, 2002"}]
+  :date "Oct 20, 2005"}
+ {:game "Harvest Moon: More Friends of Mineral Town",
+  :meta-rating "82",
+  :meta-user "8.9",
+  :date "Jul 26, 2005"}
+ {:game "Fire Emblem: The Sacred Stones",
+  :meta-rating "85",
+  :meta-user "9.1",
+  :date "May 23, 2005"}]
