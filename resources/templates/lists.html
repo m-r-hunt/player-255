@@ -1,4 +1,103 @@
-<ul>
-  {% for game in remaining-games %}
-  <li> {{game.game}} </li>
-</ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lists</title>
+
+    <style>
+      * {margin: 0; padding: 0;}
+ 
+      div {
+      margin: 20px;
+      }
+ 
+      ul {
+      list-style-type: none;
+      width: 75%;
+      margin: auto;
+      }
+
+      ul li ul {
+      width: 90%;
+      }
+ 
+      h3 {
+      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+      }
+ 
+      li img {
+      float: left;
+      margin: 0 15px 0 0;
+      }
+ 
+      li p {
+      font: 200 12px/1.5 Georgia, Times New Roman, serif;
+      }
+ 
+      li {
+      padding: 10px;
+      overflow: auto;
+      }
+
+      .title {
+      float: left;
+      height: 160px;
+      width: 240px;
+      }
+
+      .score {
+      float: left;
+      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+      }
+
+      .info-block {
+      }
+
+      li:hover {
+      background: #eee;
+      cursor: pointer;
+      }
+
+      ul li a {
+      padding: 5px 30px 5px 10px;
+      display: block;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    
+    <div>
+      <ul>
+	{% for game in played-games %}
+	<li onclick="location.href = '{{game.shortname}}.html'">
+	  <img class="title" src="images/{{game.shortname}}-title.png">
+	  <h3>{{game.game}}</h3>
+	  <div class="info-block">
+	  <div class="score"> {{game.rating}} / 5 </div>
+	  <ul>
+	    <li> <b>Release Date:</b> {{game.date}} </li>
+	    <li> <b>Meta Score:</b> {{game.meta-rating}} </li>
+	  </ul>
+	  </div>
+	</li>
+	{% endfor %}
+      </ul>
+    </div>
+    
+    <div>
+      <ul>
+	{% for game in remaining-games %}
+	<li>
+	  <h3>{{game.game}}</h3>
+	  <ul>
+	    <li> <b>Release Date:</b> {{game.date}} </li>
+	    <li> <b>Meta Score :</b> {{game.meta-rating}} </li>
+	  </ul>
+	</li>
+	{% endfor %}
+      </ul>
+    </div>
+
+  </body>
+</html>

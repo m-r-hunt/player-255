@@ -2,7 +2,8 @@
   :rating 4,
   :meta-rating "89",
   :meta-user "9.0",
-  :date "Jan 10, 2005"}
+  :date "Jan 10, 2005"
+  :shortname "minish"}
  {:game "Game & Watch Gallery 4",
   :rating 2,
   :meta-rating "71",

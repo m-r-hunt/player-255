@@ -9,5 +9,9 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+
+# Emacs junk
 *~
+
+# Dry run test data files
 *.test.*
