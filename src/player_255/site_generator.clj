@@ -1,5 +1,8 @@
 (ns player-255.site-generator
-  (:require [selmer.parser :as template]))
+  (:require [selmer.parser :as template]
+            [selmer.filters :as filters]))
+
+(filters/add-filter! :status (fn [s] (clojure.string/capitalize (name s))))
 
 (defn generate-game-page
   [game]
@@ -10,6 +13,6 @@
   [remaining-games played-games]
   (clojure.java.io/make-parents "docs/foo.html")
   (spit "docs/lists.html" (template/render-file "templates/lists.html" {:remaining-games remaining-games :played-games played-games}))
-  (map generate-game-page played-games)
+  (dorun (map generate-game-page played-games))
   ;; TODO Copy images to output
   nil)

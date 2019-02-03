@@ -5,6 +5,11 @@
 
     <style>
       * {margin: 0; padding: 0;}
+
+      body {
+      width: 75%;
+      margin: auto;
+      }
  
       div {
       margin: 20px;
@@ -12,7 +17,6 @@
  
       ul {
       list-style-type: none;
-      width: 75%;
       margin: auto;
       }
 
@@ -71,7 +75,7 @@
       <ul>
 	{% for game in played-games %}
 	<li onclick="location.href = '{{game.shortname}}.html'">
-	  <img class="title" src="images/{{game.shortname}}-title.png">
+	  <img class="title" src="images/screenshots/{{game.shortname}}-title.png">
 	  <h3>{{game.game}}</h3>
 	  <div class="info-block">
 	  <div class="score"> {{game.rating}} / 5 </div>
