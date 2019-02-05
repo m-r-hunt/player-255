@@ -5,6 +5,7 @@
   :date "Jan 10, 2005",
   :shortname "minish",
   :status :complete,
+  :completion-date "2017-05-27"
   :notes "Minish Cap is a pretty great game in the 2D Zelda tradition. I actually prefer the 2D Zelda games over the 3D Ocarina of Time and descendants. The game has excellent graphics and music, and mostly strong gameplay. I have played Minish Cap before, at least twice as far as I remember.
 
 The story is fairly typical Zelda fare, although it does a few things differently. Zelda's been turned to stone rather than kidnapped, (spoilers) the bad guy isn't Gannon in disguise, there's no explicit triforce (although there is a \"Light force\" which is probably the same thing) and no master sword.
@@ -31,23 +32,165 @@ All in all, a strong game to start with."}
   :rating 2,
   :meta-rating "71",
   :meta-user "8.1",
-  :date "Oct 28, 2002"}
+  :date "Oct 28, 2002",
+  :completion-date "2017-05-30",
+  :status :not-complete,
+  :shortname "g&w4"
+  :notes "Game and Watch Gallery 4 is a collection of mini games. These are based on the games from the Game and Watch series, very old single-game LCD handhelds produced by Nintendo. You may have noticed that this is entry number 4 in the series. Well, the previous 3 are on Gameboy/Gameboy Colour, so this is the only one we're playing for the challenge. It also has one of the lower metacritic scores, 71, just making it into the list.
+
+
+
+There's no story mode. I haven't \"completed\" the game (in terms of reaching the credits, which are in the game). I haven't unlocked all the games either. But at this point I'm not having any fun, as I just find the minigames too slow and frustrating. I've played more than 2 hours, and played all the games unlocked so far. So I'm pronouncing this as \"done\". I may come back to it at some point if I feel like it, as I think part of the problem is that the game isn't really designed to be played intensively towards the goal of beating it and moving on. Here's what I've got to say about what I've seen so far:
+
+
+
+Initially it wasn't clear if the game had a traditional end, since the mini games play indefinitely for high scores. After a little play and googling to figure out how things work, I found the game has an unlockables system. You earn stars which in turn unlock new features and games. I looked it up and the game does have an unlockable credits screen. To get there you need 170 stars, out of the 220 total that can be earned by playing the game.
+
+Each mini game is played on a single screen. Everything moves between fixed separate states. For example, in many games you are moving a character around a flat floor. But you won't move him smoothly and continuously like you would in a normal game. Instead he will jump between several fixed points where he's allowed to stand. Everything in the game moves like this in classic. In modern, some things do move more naturally, although you always control your character like that. This jerky motion is true to the original LCDs, which could only display by turning preset areas of the screen on and off. In addition to the mini games themselves, there's a \"gallery\" which contains some miscellany: a sound test, records of all the hints the game has given you, etc.
+
+Each game (with some exceptions) has two modes: classic and modern. Classic is a recreation of the graphics and gameplay of the original, whereas modern is updated with new art and animation and gameplay tweaks, usually featuring Mario characters rather than generic sprites. There are also easy and hard difficulties. In each combination of mode and difficulty you can earn 5 stars: usually 1 per 200 points, so you need a high score of 1000 to earn all 5 stars. So each game has 20 stars to get. There are some exceptions to this rule that I'll note below. You start with 6 games unlocked, and unlock another 5 full games with modes/stars to earn, plus 9 smaller games with no stars. This gives a total of 20 games to play.
+
+The modern variants have a nice level of detail and polish, and generally good graphics that will usually change a bit as you progress through a game. I found the music loops a bit short and grating sometimes. The classic variants, presumably, are faithful to the original but are nothing special. The screens always look really crowded and messy because of the LCD effect where all the possible states are visible but inactive.
+
+The general theme of most the games is that you wait for some kind of threat to appear, and position your character to intercept that threat. The game then becomes about reading all the upcoming threats and timing your movement counter all of them correctly. This type of gameplay seems to flip between slow and boring to suddenly overwhelmingly hectic with almost no warning. I think it probably worked well given the limitations of LCD devices, but it doesn't sit well on a modern system where so much more is possible.
+
+I would have preferred the games to ramp up difficulty faster, leading to a shorter but more intense experience each time you play, and lower score targets to get the stars. I think that would have worked better, for me at least. The hard variants were moving in that direction a bit.
+
+Here are short reviews of individual games:
+
+
+Boxing - Pretty much what it says on the tin, you can dodge, and block/punch low and high. In modern you play Luigi fighting a loop of Wiggler, Boo, and Waluigi. In classic, just boxers. I came up with a strategy (dodge a lot) that allowed me to win easily. Instead of score, it's 3 KOs per star. Instead of easy/hard, it's 1 or 2 player. I can't play 2 player as it needs a link cable.
+
+Donkey Kong 3 - Another competitive game like Boxing, with 1p and 2p modes. Play as Mario shooting bubbles to push a fireball or boo down 3 lanes toward DK, who is doing the same. Also not too hard to win, although a lot slower to earn stars as you're actually scoring points and it's only 10 per win. In modern, bubbles seem a bit janky and sometimes pop for no reason. Classic is basically identical.
+
+Donkey Kong Jr - A platformer where DKjr must grab a key and use it to free DKsr. Each level is replayed 4 times before moving onto the next... and there are only 4 levels in total. Gets very repetitive very fast. Also because we're still in the Game and Watch LCD style, it's very clunky compared to a real platformer. Again classic is much the same, except even more clunky.
+
+Rainshower - In classic/modern you are protecting clothes/Mario characters hanging on a washing line from falling raindrops/waterbombs. This one starts off really slow. It takes an age to get points, as each rain drop takes several seconds to fall and will only give you 1 or 2 points. Also, drops will often fall through empty space so you don't have to do anything.
+
+Mario's Cement Factory - Mario is running around, riding elevators, to drop blobs of concrete down through the levels of the factory. Movement is very frustrating due to the jerkiness, I often fell off an elevator because I moved at the exact moment it did. And you just die if you miss an elevator. I wasn't a fan.
+
+Chef - Classic and Modern are significantly different. In modern Princess Peach juggles bits of food thrown by Mario and Luigi until they are done, at which point they can be dropped down to a hungry Yoshi. Feed Yoshi enough and he'll lay an egg that will hatch into a new baby Yoshi who you then have to feed. All of this gains you points. In modern you are a chef juggling bits of food again, but you just have to keep them up indefinitely, away from the hungry mouse below. Fairly straightforward, modern hard mixes it up as the food moves between columns rather than just bouncing straight up and down.
+
+Mario Bros. - Not what I was expecting, you play Mario and Luigi in a cookie factory, pass the cookies between conveyor belts. Requires you to control one bro with each hand, which takes a bit of coordination.
+
+Donkey Kong - Classic Donkey Kong, as Mario jump over barrels and climb up the stage to rescue princess peach. Pretty similar to Donkey Kong Jr but with less variety."}
  {:game
   "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
   :rating 2,
   :meta-rating "73",
   :meta-user "7.6",
-  :date "Mar 14, 2006"}
+  :date "Mar 14, 2006",
+  :shortname "ygo"
+  :completion-date "2017-06-02"
+  :status :not-complete
+  :notes "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 is an adaptation of the Yu-Gi-Oh Trading/Collectible Card Game, aka Duel Monsters, one of several on the GBA (3 made it into the challenge for reference). If you really don't know anything about Yu-Gi-Oh, I suggest you look it up elsewhere (also where you living under a rock in the early 2000s?) As for my experience with the franchise, I enjoyed the anime as a child, and more recently the Abridged Series on Youtube, but was never really into the trading card game. It's also worth noting I'm not a big fan of TCGs/CCGs in general, the only one I've played much of is Hearthstone, but I've lost interest in that too.
+
+
+
+I'm abandoning Yu-Gi-Oh. I really didn't want to, as 2 in a row right at the start of the challenge is a bad precedent, but the game has broken me. This is within the rules as the game doesn't have a traditional story mode or ending, and I've played for more than 2 hours (more like 10). This evening has hammered home that I'm not having fun. I beat the same opponent twice in a row easily, and then proceeded to lose 14 times in a row before getting the 3rd win, due to a combination of abominable luck and occasional misplays. Then I looked it up and discovered I need 5 wins, not 3, to unlock the whole of the next tier of opponents. Blargh.
+
+
+I've played a representative sample of the game's modes, and I think I've seen everything in the game barring just more cards and decks, which doesn't interest me that much.
+
+
+In Free Duel you fight opponents with set decks in regular duels. More are unlocked in tiers by repeatedly beating the earlier ones. In Duel Puzzle, the only mode I really enjoyed, you get a set board position and have to figure out how to win in one turn. In Limited you have to win with a deck that obeys certain restrictions. In Theme you have to achieve an objective other than just winning in the traditional way. And in survival you have to win as many duels in a row as possible with a single life point total.
+
+The game has so many cards, to a Yu-Gi-Oh noob like me it's overwhelming. Apparently it's all the cards released when the game came out (give or take a few). I have 380 already and that's only a small fraction of the total. And every one of those has a paragraph or 2 of text you need to read to understand it.
+
+
+I don't want to ramble too much about why I don't like Yu-Gi-Oh. A few short points though:
+* Lack of resource management other than cards and life means the game lacks depth.
+* Too many powerful cards means \"normal\" play of regular summoning and fighting monsters is almost non-existent.
+* No standard effects/keywords means almost every card has a lot of text on it.
+* Very fiddly rules around chaining and countering.
+* Activation of cards on the opponents turn makes for a slow and clunky video game version.
+
+Graphically the game is a little disappointing, as you can't really see card art in the main view and it's not exactly stellar in the zoomed in view. That's probably inevitable on the GBA's screen though. The interface is functional enough when you get used to it. The deck management interface is complex but has solid functionality for managing the hundreds of cards you'll accumulate. Background music and sound effects are unintrusive, nothing spectacular."}
  {:game "Spyro: Season of Ice",
   :rating 3,
   :meta-rating "74",
   :meta-user "8.0",
-  :date "Oct 29, 2001"}
+  :date "Oct 29, 2001"
+  :shortname "ssoi",
+  :completion-date "2017-06-02",
+  :status :complete,
+  :notes "Spyro: Season of Ice is an isometric 3d platformer with 2d graphics. It's a sequel to the classic 3d collectathon platformer series from the Playstation 1 era. Unlike the home console series and other sequels, which have gone in some crazy directions, Season of Ice is a direct sequel to the original trilogy and sticks pretty close in terms of gameplay too. I'm a big fan of the PS1 Spyro games.
+
+
+You explore isometric 3d worlds as Spyro, a juvenile purple dragon, accompanied by his faithful dragonfly pal Sparx. An Rynoc has stolen the sorceresses' spell book (from Spyro 3) and has accidentally given himself 2 heads in an attempt to become smart. He needs 100 pairs of fairy wings to brew a potion to fix himself, and so has cast another spell to encase all the fairies in ice. Spyro, being the designated hero, has to go and save them and defeat the bad guy. Standard stuff, and the main villain is pretty nonthreatening and forgettable compared to some of the characters in the original series, but it gets the job done.
+
+
+
+The gameplay is basically the same as the originals, with Spyro charging, flaming, jumping and gliding to get around and collect gems and free fairies.
+
+The shift to isometric graphics on the gba's small screen hasn't gone perfectly though. The camera feels very close in, and combined with the repetitive tiled graphics it's very difficult to stay oriented as you navigate around. In the later levels too you need to do long glides over bottomless pits, and it can sometimes be hard to tell what height platforms are, and so whether you can reach them.
+
+
+The game has issues with its difficulty curve I think. When you die, none of the enemies come back (which is nice as one of your objectives in each level is to kill all of the enemies). However, some objectives, like the flammable objects in every level, do reset. This can make the game very frustrating as you try and find the last thing to finish up and get the fairy, but make one slip into one of the omnipresent bottomless pits and have to start all over. This is extra frustrating when you can't find your way back to where you were because of the hard to navigate levels.
+
+Those bottomless pits are the game's biggest problem. They're everywhere and they always kill you instantly. (Often they're actually water rather than pits but it's functionally the same). This saps a fair bit of fun out of the game. I think they could have made it a lot more fun if falling in a pit took away one hit point, rather than killing you instantly. That would remove a lot of the frustration.
+
+Another annoyance is that whenever you complete an objective the game teleports you back to the questgiver who gives you the fairy. This can be really irritating when that's all the way across the level. I also had issues with the camera control. You can hold L and press the directional buttons to look around, but if you're not completely stopped when you do so you'll just walk instead. More than once this lead to me accidentally falling off a ledge when I was trying to look across the gap.
+
+Each of the 4 hub worlds also has two non-platformer levels. There's a flying \"speedway\" stage where you control Spyro in an over-the-shoulder flying and shooting level. These are fun enough, but having to play twice on both normal and hard to get 2 fairies feels a bit like filler. Depth perception is an issue in these stages, as is replaying them to get all the gems. The exception is the final one on hard which is brutally hard. And remember you need to beat this to finish the game.
+
+
+ There are also top down stages where you play as Sparx, which revolve around finding keys to open doors and fighting insect enemies. Not particularly inspired but not bad.
+
+The boss fights are dissapointing. There are only 2, at the halfway point and the end, and they play identically apart from cosmetic changes.
+
+I beat this one 100% (because you haven't really played a Spyro game if you haven't obsessively collected every gem). You have to get all 99 fairies to get to the final boss anyway, which is a bit of a harsh requirement compared to other games in the series where you just need a good chunk of the collectables to finish the game. There's also a bonus level for getting 100 fairies (1 from the final boss). The game is fairly short, I beat it in the best part of a day.
+
+
+I enjoyed it, but its flaws mean it gets frustrating at times. I referred to maps of the levels a few times, which make it so much easier to find your way around."}
  {:game "Teenage Mutant Ninja Turtles",
   :rating 3,
   :meta-rating "71",
   :meta-user "8.9",
-  :date "Oct 31, 2003"}
+  :date "Oct 31, 2003",
+  :shortname "tmnt03"
+  :completion-date "2017-06-02"
+  :status :complete
+  :notes "Teenage Mutant Ninja Turtles is a side scrolling beat em up based on the beloved, and sometimes abused, franchise. Actually there are several TMNT games on the GBA. Confusingly, this one is based on the 2003 animated series. There's another, just titled TMNT (the acronym, not spelled out) released in 2007, based on the movie. But that's for another time.
+
+
+At the beginning you pick your turtle from the 4, and get down to it. Initially I thought the game was insanely short after I beat the 4 acts with the first character in less than an hour. But as it turns out the 4 turtles have significantly different paths, rather than it just being a different character on the same levels, and I went through them all. There are some collectible secret crystals to find, but I didn't really bother with them.
+
+
+The story is nothing special but it gets the job done. A mad scientist has created some robot dogs and is using them to terrorise the turtles and April O'Neil, so they go to kick his ass and discover that Shredder is really behind it. Also Casey and Raph just beat up some gang members.
+
+
+The basic gameplay is simple sidescrolling beat-em-up stuff, on a single plane (no moving towards/away from the camera). Just mashing the basic combo is enough to beat normal easily enough, but there are other combos and charge moves that are kind of fun to pull off. The 4 turtles play pretty similarly, with the same inputs giving differently animated combos, but I didn't really have to change my style. There are some minigame levels too. Here's a quick summary of each turtle's path:
+
+Leonardo:
+Act 1 - Beating up robot dogs, dudes, and crawling through the sewers. Not much to say.
+Act 2 - Kind of a rail shooter, driving a car through the sewers you shoot down incoming robot dogs. Kind of \"boss fight\" with a steel door while waves of dogs attack.
+Act 3 - Beating up foot ninjas, science goons, and more doggos in a lab. The science dudes with guns gave me a little trouble.
+Act 4 - Boss fight against a weird chicken walker robot. Just avoid his attacks and wail on his head. Missles are slightly hard to avoid. I did actually die once here.
+
+Raphael:
+Act 1 - Beat up a ton of gang members in the city streets.
+Act 2 - Boss fight with Casey. Dodge one of his hits, hit him until he falls over, repeat.
+Act 3 - Weirdly hard race minigame vs Casey. You basically need to memorise the course as there's no time to react to stuff and go fast enough to win.
+Act 4 - A kind of arena fight with an AI controlled Casey, ending in a gang boss fight.
+
+
+Donnatello
+Act 1 - Beat up some gang members in the city streets.
+Act 2 - Going through a lab with more ninjas and science goons. Has some more platformer elements/obstacles. They don't work that well...
+Act 3 - Escaping on a glider in a side scrolling shooter minigame.
+Act 4 - Boss fight with 2 invisible ninjas. You turn on heat vision, get a few hits in, and repeat.
+
+Michaelangelo
+Act 1 - Beat up ninjas and science goons in subway tunnels.
+Act 2 - Crazy skateboarding minigame where you're going down a tunnel avoiding barrels and grabbing crystals.
+Act 3 - Light (and annoying) platforming over some lava, plus fights with unique monster enemies.
+Act 4 - Arena fight with some more monsters.
+
+...and then finally you fight your way up Shredder's tower to fight the man himself, which is actually a fairly tough fight.
+
+
+Overall, it's a solid enough game, although still quite short even after beating all the turtles and the extra stage for the final ending. The fighting isn't that nuanced or challenging, on normal anyway. Nothing that hasn't been done better before, but not actively bad either."}
  {:game "Boulder Dash EX",
   :rating 3,
   :meta-rating "79",

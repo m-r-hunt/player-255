@@ -29,11 +29,22 @@
   (println prompt)
   (read-line))
 
+(defn ask-status
+  []
+  (println "Status? (c)omplete (n)ot complete (o)ther")
+  (case (first (read-line))
+    \c [:status :complete]
+    \n [:status :not-complete]
+    [:status :other :status-note (ask "Enter status note:")]))
+
 (defn gather-input
   [game]
   (-> []
       (conj :rating (Integer. (ask (str "Enter rating for '" game "':"))))
-      (conj :completion-date (datestamp))))
+      (conj :completion-date (datestamp))
+      (conj :shortname (ask "Enter shortname:"))
+      (conj :notes (ask "Enter notes:"))
+      (concat (ask-status))))
 
 (defn -main
   "Get input about the last played game, pick the next one, and regenerate the site."

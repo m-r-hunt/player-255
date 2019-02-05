@@ -70,10 +70,16 @@
   </head>
 
   <body>
+
+    <p>Currently Playing: {{next-up.game}}</p>
+
+    <p><a href="lists.html">List of played and upcoming games.</a></p>
+
+    <p>Here are some recent games I've played in the challenge:</p>
     
     <div>
       <ul>
-	{% for game in played-games %}
+	{% for game in recent-games %}
 	<li onclick="location.href = '{{game.shortname}}.html'">
 	  <img class="title" src="images/screenshots/{{game.shortname}}-title.png">
 	  <h3><img class="status-img" src="images/{% if game.status %}{{game.status|name}}{% else %}other{% endif %}.png" /> {{game.game}}</h3>
@@ -89,19 +95,5 @@
       </ul>
     </div>
     
-    <div>
-      <ul>
-	{% for game in remaining-games %}
-	<li>
-	  <h3>{{game.game}}</h3>
-	  <ul>
-	    <li> <b>Release Date:</b> {{game.date}} </li>
-	    <li> <b>Meta Score :</b> {{game.meta-rating}} </li>
-	  </ul>
-	</li>
-	{% endfor %}
-      </ul>
-    </div>
-
   </body>
 </html>

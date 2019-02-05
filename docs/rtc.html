@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{game}}</title>
+    <title>Rebelstar: Tactical Command</title>
 
     <style>
       * {margin: 0; padding: 0;}
@@ -55,7 +55,6 @@
       .screenshot-gallery {
       display: flex;
       justify-content: space-around;
-      flex-wrap: wrap;
       }
 
       .screenshot {
@@ -68,27 +67,23 @@
 
   <body>
 
-    <h1>{{game}}</h1>
+    <h1>Rebelstar: Tactical Command</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/{{status|name}}.png" />{{status|status}}{% if status-note %}({{status-note}}){% endif %} on {{completion-date}}</p> </div>
-      <div class="databox"> <p>{{rating}} / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> {{date}}</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> {{meta-rating}}</p> </div>
+      <div class="databox"> <p><img class="status-img" src="images/complete.png" />Complete on 2019-2-3</p> </div>
+      <div class="databox"> <p>3 / 5</p> </div>
+      <div class="databox"> <p><b>Release Date:</b> Sep 6, 2005</p> </div>
+      <div class="databox"> <p><b>Meta Score:</b> 78</p> </div>
     </div>
 
     <div class="screenshot-gallery">
-      <img class="screenshot" src="images/screenshots/{{shortname}}-title.png" />
-      {% for screenshot in screenshots|remove-title-credits %}
-      <img class="screenshot" src="images/screenshots/{{screenshot}}" />
-      {% endfor %}
-      {% if screenshots|has-credits? %}
-      <img class="screenshot" src="images/screenshots/{{shortname}}-credits.png" />
-      {% endif %}
+      <img class="screenshot" src="images/screenshots/rtc-title.png" />
+      
+      
     </div>
     
     <h3>Notes</h3>
-    {{notes|linebreaks|safe}}
+    <p>asdf</p>
     
   </body>
 </html>
