@@ -46,7 +46,7 @@
       (conj :notes (ask "Enter notes:"))
       (concat (ask-status game))))
 
-(defn old-main
+(defn -main
   "Get input about the last played game, pick the next one, and regenerate the site."
   [& args]
   (let [dry-run (some #(= "--dry-run" %) *command-line-args*)
@@ -139,7 +139,7 @@
       (data-entry-status)
       (data-entry-notes)))
 
-(defn -main
+(defn x-main
   []
   (loop [i 0 played-games (edn/read-string (slurp "played-games.edn"))]
     (if (< i (count played-games))
