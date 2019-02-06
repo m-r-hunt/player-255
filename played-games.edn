@@ -925,18 +925,28 @@
   :date "Apr 15, 2003",
   :rating 2,
   :completion-date "2019-2-2"}
- {:game "Rebelstar: Tactical Command",
+ {:date "Sep 6, 2005",
   :meta-rating "78",
-  :meta-user "8.8",
-  :date "Sep 6, 2005",
-  :rating 3,
+  :game "Rebelstar: Tactical Command",
   :completion-date "2019-2-6",
-  :shortname "rtc",
+  :status :not-complete,
   :notes
   "Decent but slow and fiddly tactics game. Gave up after dying to bad RNG on a mission and lacking motivation to replay the first half.",
-  :status :not-complete}
+  :shortname "rtc",
+  :meta-user "8.8",
+  :rating 3}
  {:game "Muppet Pinball Mayhem",
   :meta-rating "75",
   :meta-user "tbd",
   :date "May 29, 2002",
+  :rating 2,
+  :completion-date "2019-2-6",
+  :shortname "mpm",
+  :notes
+  "I'm not much of a pinballist, and there are a few coming up... I played a game and it was pinball. There is an adventure mode but I'm not sure how you progress in it. Looks like there are 4 tables, so a somewhat reasonable amount of content? Moved swiftly on.",
+  :status :not-complete}
+ {:game "Summon Night: Swordcraft Story",
+  :meta-rating "77",
+  :meta-user "8.1",
+  :date "Jul 26, 2006",
   :rating :na}]
