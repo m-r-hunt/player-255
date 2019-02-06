@@ -104,10 +104,31 @@
             (recur (update game :notes str input "\n"))))))
     game))
 
+(defn month-from-str
+  [month]
+  (case month
+    "January" "01"
+    "February" "02"
+    "March" "03"
+    "April" "04"
+    "May" "05"
+    "June" "06"
+    "July" "07"
+    "August" "08"
+    "September" "09"
+    "October" "10"
+    "November" "11"
+    "December" "12"))
+
+(defn parse-crappy-date
+  [s]
+  (let [[day month year] (clojure.string/split s #" ")]
+    (str year "-" (month-from-str month) "-" day)))
+
 (defn data-entry-date
   [game]
   (if (not (:completion-date game))
-    (assoc game :completion-date (ask (str "Enter completion date for " (:game game) ":")))
+    (assoc game :completion-date (parse-crappy-date (ask (str "Enter completion date for " (:game game) ":"))))
     game))
 
 (defn data-entry
