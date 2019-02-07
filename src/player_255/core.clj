@@ -139,7 +139,7 @@
       (data-entry-status)
       (data-entry-notes)))
 
-(defn x-main
+(defn de-main
   []
   (loop [i 0 played-games (edn/read-string (slurp "played-games.edn"))]
     (if (< i (count played-games))
