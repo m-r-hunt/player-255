@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+}
+
+/* Header/nav bar stuff */
+.header {
+    box-shadow: 0 3px 5px rgba(20, 20, 30, .75); 
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    background: rgba(240, 240, 240, 1);
+}
+
+.shadow-header {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logo {
+    flex: initial;
+    margin: 5px;
+}
+
+.logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.nav-button {
+    flex: initial;
+    width: 100px;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+    margin-right: -1px;
+}
+
+.nav-button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-button a:hover {
+    background: rgba(150, 150, 150, 1.0);
+}
+
+.nav-button a p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Page contents */
+
+.top-level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.sidebar {
+}
+
+.now-playing {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(220, 220, 220, 1);
+}
+
+.games-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.games-list-row:nth-child(odd) {
+    background: rgba(220, 220, 220, 1);
+}
+
+.games-list-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:  center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -1px;
+    border: solid;
+    border-width: 1px 0px 1px 0px;
+    color: black;
+    text-decoration: none;
+}
+
+.games-list-col-title-image {
+    /* Half-size of GBA screen */
+    height: 80px;
+    width: 120px;
+    flex: initial;
+    margin-right: 10px;
+}
+
+.games-list-col-title {
+    flex: 6;
+}
+
+.games-list-col-completion {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.completion-image {
+    margin: 5px;
+}
+
+.games-list-col-score {
+    flex: 1;
+}

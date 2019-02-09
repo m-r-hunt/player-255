@@ -1,99 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lists</title>
+    <title>Player 255</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      ul {
-      list-style-type: none;
-      margin: auto;
-      }
-
-      ul li ul {
-      width: 90%;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      }
- 
-      li img {
-      float: left;
-      margin: 0 15px 0 0;
-      }
- 
-      li p {
-      font: 200 12px/1.5 Georgia, Times New Roman, serif;
-      }
- 
-      li {
-      padding: 10px;
-      overflow: auto;
-      }
-
-      .title {
-      float: left;
-      height: 160px;
-      width: 240px;
-      }
-
-      .score {
-      float: left;
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      }
-
-      .info-block {
-      }
-
-      li:hover {
-      background: #eee;
-      cursor: pointer;
-      }
-
-      ul li a {
-      padding: 5px 30px 5px 10px;
-      display: block;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
-    <p>Currently Playing: {{next-up.game}}</p>
+    {% include "templates/header.html" %}
 
-    <p><a href="lists.html">List of played and upcoming games.</a></p>
+    <div class="top-level">
+      <div class="sidebar">
+      </div>
 
-    <p>Here are some recent games I've played in the challenge:</p>
+      <div class="content">
+
+	<div class="now-playing"><p>Now Playing: <b>{{next-up.game}}</b></p></div>
+
+	<h3>Recent Games</h3>
     
-    <div>
-      <ul>
-	{% for game in recent-games %}
-	<li onclick="location.href = '{{game.shortname}}.html'">
-	  <img class="title" src="images/screenshots/{{game.shortname}}-title.png">
-	  <h3><img class="status-img" src="images/{% if game.status %}{{game.status|name}}{% else %}other{% endif %}.png" /> {{game.game}}</h3>
-	  <div class="info-block">
-	  <div class="score"> {{game.rating}} / 5 </div>
-	  <ul>
-	    <li> <b>Release Date:</b> {{game.date}} </li>
-	    <li> <b>Meta Score:</b> {{game.meta-rating}} </li>
-	  </ul>
-	  </div>
-	</li>
-	{% endfor %}
-      </ul>
-    </div>
+	<div class="games-list">
+	  {% for game in recent-games %}
+	  <a class="games-list-row" href="{{game.shortname}}.html">
+	    <img class="games-list-col-title-image" src="images/screenshots/{{game.shortname}}-title.png">
+	    <h3 class="games-list-col-title">{{game.game}}</h3>
+	    <div class="games-list-col-completion"> <img class="completion-image" src="images/{% if game.status %}{{game.status|name}}{% else %}other{% endif %}.png" /> {{game.completion-date}} </div>
+	    <div class="games-list-col-score"> {{game.rating}} / 5 </div>
+	  </a>
+	  {% endfor %}
+	</div>
+
+      </div>
+
+      <div class="sidebar">
+      </div>
     
   </body>
 </html>
