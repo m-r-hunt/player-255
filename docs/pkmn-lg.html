@@ -3,80 +3,53 @@
   <head>
     <title>Pokemon LeafGreen Version</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    <div class="header">
+  <div class="logo">
+    <a href="index.html">PLAYER 255</a>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="nav-button fixed-width">
+    <a href="index.html"><p>HOME</p></a>
+  </div>
+  <div class="nav-button fixed-width">
+    <a href="lists.html"><p>LISTS</p></a>
+  </div>
+</div>
+
+<div class="shadow-header"></div>
+
+
+    <div class="actual-body">
+      <div class="sidebar">
+	
+	<a class="side-button" href="dr.html">Previous</a>
+	<a class="side-button" href="dr.html">Previous</a>
+	
+      </div>
+
+      <div class="content">
+
     <h1>Pokemon LeafGreen Version</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/complete.png" />Complete on 2018-8-25</p> </div>
-      <div class="databox"> <p>4 / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> Sep 7, 2004</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> 81</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/complete.png" /><p>Complete on 2018-8-25</p></li>
+	<li><p>4 / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> Sep 7, 2004</p></li>
+	<li><p><b>Meta Score:</b> 81</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/pkmn-lg-title.png" />
       
@@ -85,6 +58,23 @@
     
     <h3>Notes</h3>
     <p>It's Pokemon. A remake of the original games, so a big nostalgia hit. Graphics much improved over the original, nice sprite work in general. Suffers from some of the same problems as the original, including a weird difficulty curve in the mid-game and some progression that would be obtuse if I didn't know the games (i.e. stuff with the Silph Scope/Pokeflute, getting Tea for the border guards, etc.). I also seemed to need to do some grinding to beat the Elite 4/Champion even though I had trained my team consistently, which was a little annoying.<br /></p>
+
+      </div>
+
+      <div class="sidebar">
+	
+	<a class="side-button" href="som.html">Next</a>
+	<a class="side-button" href="som.html">Next</a>
+	
+      </div>
+
+    </div>
+    
+    <div class="footer">
+  <div class="nav-button"><a href="mechtoast.com"><p>Back to Homepage</p></a></div>
+  <div class="nav-button"><a href="https://github.com/m-r-hunt/player-255"><p>View source on Github</p></a></div>
+</div>
+
     
   </body>
 </html>

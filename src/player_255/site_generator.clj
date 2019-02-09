@@ -21,7 +21,7 @@
 
 (defn get-screenshots
   [played-games]
-  (let [fs (file-seq (clojure.java.io/file "images/screenshots"))]
+  (let [fs (file-seq (clojure.java.io/file "static-assets/images/screenshots"))]
     (into [] (reduce (fn [played-games file]
                        (let [filename (.getName file)
                              shortname (first (clojure.string/split filename #"-"))
@@ -33,12 +33,22 @@
                      (map #(assoc % :screenshots []) played-games)
                      fs))))
 
+(defn make-links
+  [played-games]
+  (map #(assoc %1 :next (:shortname %2) :prev (:shortname %3))
+       played-games
+       (drop 1 (conj played-games {}))
+       (conj (butlast played-games) {})))
+
 (defn generate
   [remaining-games played-games]
-  (let [played-games (get-screenshots played-games)]
+  (let [played-games (make-links (get-screenshots played-games))]
     (clojure.java.io/make-parents "docs/foo.html")
     (spit "docs/lists.html" (template/render-file "templates/lists.html" {:remaining-games remaining-games :played-games played-games}))
     (dorun (map generate-game-page played-games))
-    (spit "docs/index.html" (template/render-file "templates/index.html" {:recent-games (take 10 (drop 1 (reverse played-games))) :next-up (last played-games)}))
+    (spit "docs/index.html" (template/render-file "templates/index.html" {:recent-games (take 10 (drop 1 (reverse played-games)))
+                                                                          :next-up (last played-games)
+                                                                          :count (dec (count played-games))
+                                                                          :percent (float (* (/ (dec (count played-games)) 255) 100))}))
     ;; TODO Copy images to output
     nil))

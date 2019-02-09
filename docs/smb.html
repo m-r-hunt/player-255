@@ -3,80 +3,53 @@
   <head>
     <title>Super Monkey Ball Jr.</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    <div class="header">
+  <div class="logo">
+    <a href="index.html">PLAYER 255</a>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="nav-button fixed-width">
+    <a href="index.html"><p>HOME</p></a>
+  </div>
+  <div class="nav-button fixed-width">
+    <a href="lists.html"><p>LISTS</p></a>
+  </div>
+</div>
+
+<div class="shadow-header"></div>
+
+
+    <div class="actual-body">
+      <div class="sidebar">
+	
+	<a class="side-button" href="ffvi.html">Previous</a>
+	<a class="side-button" href="ffvi.html">Previous</a>
+	
+      </div>
+
+      <div class="content">
+
     <h1>Super Monkey Ball Jr.</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/complete.png" />Complete on 2018-05-3</p> </div>
-      <div class="databox"> <p>4 / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> Nov 19, 2002</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> 82</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/complete.png" /><p>Complete on 2018-05-3</p></li>
+	<li><p>4 / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> Nov 19, 2002</p></li>
+	<li><p><b>Meta Score:</b> 82</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/smb-title.png" />
       
@@ -89,6 +62,23 @@
     
     <h3>Notes</h3>
     <p>Super Monkey Ball Jr is a port of the monkey rolling game that started in arcades, and then moved on to consoles starting with the Gamecube. It's a classic marble rolling style game, where the "marbles" are monkeys in hamster balls.</p><p><br />Yes, it's a weird concept, but well executed.</p><p></p><p>Basic gameplay is to roll your monkey (from a choice of 4) to the end of each stage. The dpad tilts the stage, along with a or b for finer control. That's basically it, but you have to contend with ramps, narrow platforms, moving platforms, pinball-style bumpers etc, as the game ramps up in difficulty. It starts very simple but gets very hard when combined with the timer pushing you forward (which maintains a fast pacing throughout).</p><p>This all works well enough, but the lack of an analog stick is a bit of a loss. This combined with the inability to control the camera (which just follows the direction you roll), can make navigating narrow pathways frustrating. You really need the camera to line up along the path so you can roll directly along the path, but you can't directly manipulate it so you end up fiddling around trying to get lined up right. This was annoying.</p><p>There are 3 difficulties/modes: Beginner (with 10 stages), Advanced (20), and Expert (30). Each has some extra stages at the end if you finish without continues (more on this in a second). I played through Beginner and Advanced. Beating any mode ends in the credits, and since Advanced seems to be normal mode, I called that done. I tried Expert, but it seems a lot harder.</p><p><br />Playing the game earns you points, which apart from high scores for each mode, are used to unlock extra game features like minigames. You accumulated these whatever you do, so this just locks the features behind play time really. Nothing spectacularly interesting seemed to be forthcoming here.</p><p>The lives and continues system is a bit dumb. You start with 2 lives and if you die, you lose your accumulated score and the chance for the extra stages at the end of the mode. Initially you can continue 5 times, but (according to the internet) one of things you can unlock is infinite continues. This seems obnoxious to me. Either just let me retry infinitely from the start, or not at all. Don't lock it behind some arbitrary play time gate.</p><p>Graphically the game is 3D rendered, but the simple and abstract style means it looks decent (unlike most other 3D rendered games on the GBA). There are some draw distance issues in longer stages though, which is a little annoying.</p><p><br />Overall, a decent enough port, but with some issues and a little lacking in content.<br /></p>
+
+      </div>
+
+      <div class="sidebar">
+	
+	<a class="side-button" href="hhg.html">Next</a>
+	<a class="side-button" href="hhg.html">Next</a>
+	
+      </div>
+
+    </div>
+    
+    <div class="footer">
+  <div class="nav-button"><a href="mechtoast.com"><p>Back to Homepage</p></a></div>
+  <div class="nav-button"><a href="https://github.com/m-r-hunt/player-255"><p>View source on Github</p></a></div>
+</div>
+
     
   </body>
 </html>

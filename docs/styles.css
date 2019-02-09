@@ -6,7 +6,25 @@
     font-kerning: normal;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /* Header/nav bar stuff */
+
+body {
+    min-height: 100vh; /* As far as I can tell this is need so the footer ends up at the bottom on short pages. */
+    display: flex;
+    flex-direction: column;
+}
+
+.actual-body {
+    flex: 1;
+}
+
+/* Sticky header. Fairly modest so I won't hate myself. */
 .header {
     box-shadow: 0 3px 5px rgba(20, 20, 30, .75); 
     height: 50px;
@@ -16,12 +34,28 @@
     align-items: center;
     position: fixed;
     background: rgba(240, 240, 240, 1);
+    flex: initial;
 }
 
+/* Shadow header makes sure there's space for the header at the top of the page. */
 .shadow-header {
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
+    flex: initial;
+}
+
+/* Non-sticky footer. */
+.footer {
+    box-shadow: 0 -3px 5px rgba(20, 20, 30, .75); 
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(240, 240, 240, 1);
+    margin-top: 10px;
+    flex: initial;
 }
 
 .logo {
@@ -43,11 +77,14 @@
 
 .nav-button {
     flex: initial;
-    width: 100px;
     height: 100%;
     border-style: solid;
     border-width: 0 1px 0 1px;
     margin-right: -1px;
+}
+
+.fixed-width {
+    width: 100px;
 }
 
 .nav-button a {
@@ -63,27 +100,84 @@
     background: rgba(150, 150, 150, 1.0);
 }
 
-.nav-button a p {
+.nav-button p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
 }
 
 /* Page contents */
 
-.top-level {
+.actual-body {   
     display: flex;
     justify-content: space-between;
 }
 
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .content {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
 }
 
 .sidebar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.side-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    max-width: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+    background: rgba(240, 240, 240, 1);
+    color: black;
+    text-decoration: none;
+}
+
+.side-button:hover {
+    background: rgba(150, 150, 150, 1.0);
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.progress p {
+    flex: initial;
+    margin: 20px;
+}
+    
+
+.progress-bar {
+    position: relative;
+    flex: 1;
+    height: 10px;
+    margin: 20px;
+    background: rgba(230, 30, 30, 1);
+    border-radius: 5px;
+}
+
+.progress-bar-fill {
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(30, 230, 30, 1);
 }
 
 .now-playing {
@@ -124,6 +218,15 @@
     width: 120px;
     flex: initial;
     margin-right: 10px;
+    margin-left: 10px;
+}
+
+.games-list-col-shadow-title-image {
+    height: 80px;
+    width: 120px;
+    flex: initial;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .games-list-col-title {
@@ -142,4 +245,33 @@
 
 .games-list-col-score {
     flex: 1;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data ul {
+    list-style-type: none;
+}
+
+.data li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.screenshot-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.screenshot {
+    height: 160px;
+    width: 240px;
+    margin: 10px;
 }

@@ -3,105 +3,48 @@
   <head>
     <title>Lists</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      ul {
-      list-style-type: none;
-      margin: auto;
-      }
-
-      ul li ul {
-      width: 90%;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      }
- 
-      li img {
-      float: left;
-      margin: 0 15px 0 0;
-      }
- 
-      li p {
-      font: 200 12px/1.5 Georgia, Times New Roman, serif;
-      }
- 
-      li {
-      padding: 10px;
-      overflow: auto;
-      }
-
-      .title {
-      float: left;
-      height: 160px;
-      width: 240px;
-      }
-
-      .score {
-      float: left;
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      }
-
-      .info-block {
-      }
-
-      li:hover {
-      background: #eee;
-      cursor: pointer;
-      }
-
-      ul li a {
-      padding: 5px 30px 5px 10px;
-      display: block;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
+
+    {% include "templates/header.html" %}
+
+    <div class="actual-body">
+      <div class="sidebar">
+      </div>
+
+      <div class="content">
+
+	<h3>Played Games</h3>
     
-    <div>
-      <ul>
-	{% for game in played-games %}
-	<li onclick="location.href = '{{game.shortname}}.html'">
-	  <img class="title" src="images/screenshots/{{game.shortname}}-title.png">
-	  <h3><img class="status-img" src="images/{% if game.status %}{{game.status|name}}{% else %}other{% endif %}.png" /> {{game.game}}</h3>
-	  <div class="info-block">
-	  <div class="score"> {{game.rating}} / 5 </div>
-	  <ul>
-	    <li> <b>Release Date:</b> {{game.date}} </li>
-	    <li> <b>Meta Score:</b> {{game.meta-rating}} </li>
-	  </ul>
+	<div class="games-list">
+	  {% for game in played-games %}
+	  {% include "templates/games-list.html" %}
+	  {% endfor %}
+	</div>
+
+	<h3>Upcoming Games</h3>
+
+	<p>Note: These will be played in random order.</p>
+    
+	<div class="games-list">
+	  {% for game in remaining-games %}
+	  <div class="games-list-row">
+	    <div class="games-list-col-shadow-title-image"></div>
+	    <h3 class="games-list-col-title">{{game.game}}</h3>
 	  </div>
-	</li>
-	{% endfor %}
-      </ul>
+	  {% endfor %}
+	</div>
+
+      </div>
+
+      <div class="sidebar">
+      </div>
+
     </div>
     
-    <div>
-      <ul>
-	{% for game in remaining-games %}
-	<li>
-	  <h3>{{game.game}}</h3>
-	  <ul>
-	    <li> <b>Release Date:</b> {{game.date}} </li>
-	    <li> <b>Meta Score :</b> {{game.meta-rating}} </li>
-	  </ul>
-	</li>
-	{% endfor %}
-      </ul>
-    </div>
+    {% include "templates/footer.html" %}
 
   </body>
 </html>

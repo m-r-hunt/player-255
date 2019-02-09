@@ -3,80 +3,53 @@
   <head>
     <title>Game &amp; Watch Gallery 4</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    <div class="header">
+  <div class="logo">
+    <a href="index.html">PLAYER 255</a>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="nav-button fixed-width">
+    <a href="index.html"><p>HOME</p></a>
+  </div>
+  <div class="nav-button fixed-width">
+    <a href="lists.html"><p>LISTS</p></a>
+  </div>
+</div>
+
+<div class="shadow-header"></div>
+
+
+    <div class="actual-body">
+      <div class="sidebar">
+	
+	<a class="side-button" href="minish.html">Previous</a>
+	<a class="side-button" href="minish.html">Previous</a>
+	
+      </div>
+
+      <div class="content">
+
     <h1>Game &amp; Watch Gallery 4</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/not-complete.png" />Not-complete on 2017-05-30</p> </div>
-      <div class="databox"> <p>2 / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> Oct 28, 2002</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> 71</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/not-complete.png" /><p>Not-complete on 2017-05-30</p></li>
+	<li><p>2 / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> Oct 28, 2002</p></li>
+	<li><p><b>Meta Score:</b> 71</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/g&amp;w4-title.png" />
       
@@ -87,6 +60,23 @@
     
     <h3>Notes</h3>
     <p>Game and Watch Gallery 4 is a collection of mini games. These are based on the games from the Game and Watch series, very old single-game LCD handhelds produced by Nintendo. You may have noticed that this is entry number 4 in the series. Well, the previous 3 are on Gameboy/Gameboy Colour, so this is the only one we're playing for the challenge. It also has one of the lower metacritic scores, 71, just making it into the list.<br /><br /><br /><br />There's no story mode. I haven't "completed" the game (in terms of reaching the credits, which are in the game). I haven't unlocked all the games either. But at this point I'm not having any fun, as I just find the minigames too slow and frustrating. I've played more than 2 hours, and played all the games unlocked so far. So I'm pronouncing this as "done". I may come back to it at some point if I feel like it, as I think part of the problem is that the game isn't really designed to be played intensively towards the goal of beating it and moving on. Here's what I've got to say about what I've seen so far:<br /><br /><br /><br />Initially it wasn't clear if the game had a traditional end, since the mini games play indefinitely for high scores. After a little play and googling to figure out how things work, I found the game has an unlockables system. You earn stars which in turn unlock new features and games. I looked it up and the game does have an unlockable credits screen. To get there you need 170 stars, out of the 220 total that can be earned by playing the game.<br /><br />Each mini game is played on a single screen. Everything moves between fixed separate states. For example, in many games you are moving a character around a flat floor. But you won't move him smoothly and continuously like you would in a normal game. Instead he will jump between several fixed points where he's allowed to stand. Everything in the game moves like this in classic. In modern, some things do move more naturally, although you always control your character like that. This jerky motion is true to the original LCDs, which could only display by turning preset areas of the screen on and off. In addition to the mini games themselves, there's a "gallery" which contains some miscellany: a sound test, records of all the hints the game has given you, etc.<br /><br />Each game (with some exceptions) has two modes: classic and modern. Classic is a recreation of the graphics and gameplay of the original, whereas modern is updated with new art and animation and gameplay tweaks, usually featuring Mario characters rather than generic sprites. There are also easy and hard difficulties. In each combination of mode and difficulty you can earn 5 stars: usually 1 per 200 points, so you need a high score of 1000 to earn all 5 stars. So each game has 20 stars to get. There are some exceptions to this rule that I'll note below. You start with 6 games unlocked, and unlock another 5 full games with modes/stars to earn, plus 9 smaller games with no stars. This gives a total of 20 games to play.<br /><br />The modern variants have a nice level of detail and polish, and generally good graphics that will usually change a bit as you progress through a game. I found the music loops a bit short and grating sometimes. The classic variants, presumably, are faithful to the original but are nothing special. The screens always look really crowded and messy because of the LCD effect where all the possible states are visible but inactive.<br /><br />The general theme of most the games is that you wait for some kind of threat to appear, and position your character to intercept that threat. The game then becomes about reading all the upcoming threats and timing your movement counter all of them correctly. This type of gameplay seems to flip between slow and boring to suddenly overwhelmingly hectic with almost no warning. I think it probably worked well given the limitations of LCD devices, but it doesn't sit well on a modern system where so much more is possible.<br /><br />I would have preferred the games to ramp up difficulty faster, leading to a shorter but more intense experience each time you play, and lower score targets to get the stars. I think that would have worked better, for me at least. The hard variants were moving in that direction a bit.<br /><br />Here are short reviews of individual games:<br /><br /><br />Boxing - Pretty much what it says on the tin, you can dodge, and block/punch low and high. In modern you play Luigi fighting a loop of Wiggler, Boo, and Waluigi. In classic, just boxers. I came up with a strategy (dodge a lot) that allowed me to win easily. Instead of score, it's 3 KOs per star. Instead of easy/hard, it's 1 or 2 player. I can't play 2 player as it needs a link cable.<br /><br />Donkey Kong 3 - Another competitive game like Boxing, with 1p and 2p modes. Play as Mario shooting bubbles to push a fireball or boo down 3 lanes toward DK, who is doing the same. Also not too hard to win, although a lot slower to earn stars as you're actually scoring points and it's only 10 per win. In modern, bubbles seem a bit janky and sometimes pop for no reason. Classic is basically identical.<br /><br />Donkey Kong Jr - A platformer where DKjr must grab a key and use it to free DKsr. Each level is replayed 4 times before moving onto the next... and there are only 4 levels in total. Gets very repetitive very fast. Also because we're still in the Game and Watch LCD style, it's very clunky compared to a real platformer. Again classic is much the same, except even more clunky.<br /><br />Rainshower - In classic/modern you are protecting clothes/Mario characters hanging on a washing line from falling raindrops/waterbombs. This one starts off really slow. It takes an age to get points, as each rain drop takes several seconds to fall and will only give you 1 or 2 points. Also, drops will often fall through empty space so you don't have to do anything.<br /><br />Mario's Cement Factory - Mario is running around, riding elevators, to drop blobs of concrete down through the levels of the factory. Movement is very frustrating due to the jerkiness, I often fell off an elevator because I moved at the exact moment it did. And you just die if you miss an elevator. I wasn't a fan.<br /><br />Chef - Classic and Modern are significantly different. In modern Princess Peach juggles bits of food thrown by Mario and Luigi until they are done, at which point they can be dropped down to a hungry Yoshi. Feed Yoshi enough and he'll lay an egg that will hatch into a new baby Yoshi who you then have to feed. All of this gains you points. In modern you are a chef juggling bits of food again, but you just have to keep them up indefinitely, away from the hungry mouse below. Fairly straightforward, modern hard mixes it up as the food moves between columns rather than just bouncing straight up and down.<br /><br />Mario Bros. - Not what I was expecting, you play Mario and Luigi in a cookie factory, pass the cookies between conveyor belts. Requires you to control one bro with each hand, which takes a bit of coordination.<br /><br />Donkey Kong - Classic Donkey Kong, as Mario jump over barrels and climb up the stage to rescue princess peach. Pretty similar to Donkey Kong Jr but with less variety.</p>
+
+      </div>
+
+      <div class="sidebar">
+	
+	<a class="side-button" href="ygo.html">Next</a>
+	<a class="side-button" href="ygo.html">Next</a>
+	
+      </div>
+
+    </div>
+    
+    <div class="footer">
+  <div class="nav-button"><a href="mechtoast.com"><p>Back to Homepage</p></a></div>
+  <div class="nav-button"><a href="https://github.com/m-r-hunt/player-255"><p>View source on Github</p></a></div>
+</div>
+
     
   </body>
 </html>

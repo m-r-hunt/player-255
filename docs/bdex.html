@@ -3,80 +3,53 @@
   <head>
     <title>Boulder Dash EX</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    <div class="header">
+  <div class="logo">
+    <a href="index.html">PLAYER 255</a>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="nav-button fixed-width">
+    <a href="index.html"><p>HOME</p></a>
+  </div>
+  <div class="nav-button fixed-width">
+    <a href="lists.html"><p>LISTS</p></a>
+  </div>
+</div>
+
+<div class="shadow-header"></div>
+
+
+    <div class="actual-body">
+      <div class="sidebar">
+	
+	<a class="side-button" href="tmnt03.html">Previous</a>
+	<a class="side-button" href="tmnt03.html">Previous</a>
+	
+      </div>
+
+      <div class="content">
+
     <h1>Boulder Dash EX</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/complete.png" />Complete on 2017-06-06</p> </div>
-      <div class="databox"> <p>3 / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> Sep 16, 2002</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> 79</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/complete.png" /><p>Complete on 2017-06-06</p></li>
+	<li><p>3 / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> Sep 16, 2002</p></li>
+	<li><p><b>Meta Score:</b> 79</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/bdex-title.png" />
       
@@ -89,6 +62,23 @@
     
     <h3>Notes</h3>
     <p>Boulder Dash Ex is a remake of the classic 8-bit Atari game Boulder Dash (no surprises there). It seems to be relatively obscure, although it has quite a good metacritic score, that comes from very few reviews. There also isn't a Wikipedia page for it (although there is one for Boulder Dash, the original game).</p><p></p><p>I beat the main story mode of Boulder Dash Ex. There's also a tutorial, and a multiplayer battle mode. Finally there's a classic mode which appears to be a closer representation of the original game.</p><p><br />The campaign has a story, which is weird and seemingly unrelated to the gameplay itself. It feels very tacked on over the top. You play a blue haired cat boy named Alex who's out to rescue his pink-haired bunny girlfriend from the "Dark King". To do this he needs to collect shards of a magical amulet which take the form of gems.</p><p>The gameplay is a hybrid action/puzzler. You dig out earth, collect gems, and avoid getting crushed by boulders or killed by enemies. The boulders and gems fall down in (mostly) predictable ways, and enemies patrol with set patterns, like following walls or bouncing up and down. In each level you have to collect a minimum quota of gems and then reach the exit mirror.</p><p><br />It's basically a puzzler but there are certain actiony elements. Avoiding and killing enemies by dropping rocks on them can be more based on reflexes and luck than puzzle skill. The fundamental gameplay is OK, with a few flaws. Boulders and other items fall quite slowly, and some can be held in mid-air if an enemy keeps bumping into them. This leads to quite counter-intuitive behaviour.</p><p>You play across multiple worlds, each of which has a different tileset. One annoying thing is that enemies with the same behaviour look totally different in different worlds, meaning you always have to use trial and error every time you encounter a new enemy, even though it's likely the same as one you've seen before. The world are also pretty uninspired. Forest, desert, water, ice, lava, dark castle...</p><p><br />Other than that, my main criticism is that the game feels a bit stretched, and doesn't really introduce any new mechanics in the latter part of the game. I was quite enjoying it until the last 2 worlds, which started to feel like a slog.<br /></p>
+
+      </div>
+
+      <div class="sidebar">
+	
+	<a class="side-button" href="ygo2.html">Next</a>
+	<a class="side-button" href="ygo2.html">Next</a>
+	
+      </div>
+
+    </div>
+    
+    <div class="footer">
+  <div class="nav-button"><a href="mechtoast.com"><p>Back to Homepage</p></a></div>
+  <div class="nav-button"><a href="https://github.com/m-r-hunt/player-255"><p>View source on Github</p></a></div>
+</div>
+
     
   </body>
 </html>

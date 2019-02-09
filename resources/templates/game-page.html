@@ -3,80 +3,37 @@
   <head>
     <title>{{game}}</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    {% include "templates/header.html" %}
+
+    <div class="actual-body">
+      <div class="sidebar">
+	{% if prev %}
+	<a class="side-button" href="{{prev}}.html">Previous</a>
+	<a class="side-button" href="{{prev}}.html">Previous</a>
+	{% endif %}
+      </div>
+
+      <div class="content">
+
     <h1>{{game}}</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/{{status|name}}.png" />{{status|status}}{% if status-note %}({{status-note}}){% endif %} on {{completion-date}}</p> </div>
-      <div class="databox"> <p>{{rating}} / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> {{date}}</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> {{meta-rating}}</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/{{status|name}}.png" /><p>{{status|status}}{% if status-note %}({{status-note}}){% endif %} on {{completion-date}}</p></li>
+	<li><p>{{rating}} / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> {{date}}</p></li>
+	<li><p><b>Meta Score:</b> {{meta-rating}}</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/{{shortname}}-title.png" />
       {% for screenshot in screenshots|remove-title-credits %}
@@ -89,6 +46,19 @@
     
     <h3>Notes</h3>
     {{notes|linebreaks|safe}}
+
+      </div>
+
+      <div class="sidebar">
+	{% if next %}
+	<a class="side-button" href="{{next}}.html">Next</a>
+	<a class="side-button" href="{{next}}.html">Next</a>
+	{% endif %}
+      </div>
+
+    </div>
+    
+    {% include "templates/footer.html" %}
     
   </body>
 </html>

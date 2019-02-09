@@ -3,80 +3,53 @@
   <head>
     <title>Ultimate Brain Games</title>
 
-    <style>
-      * {margin: 0; padding: 0;}
-
-      body {
-      width: 75%;
-      margin: auto;
-      }
- 
-      div {
-      margin: 20px;
-      }
- 
-      h1 {
-      font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
- 
-      h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-      text-align: center;
-      }
-
-      .data {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      }
-
-      .data li {
-      }
-
-      .databox {
-      background: #dddddd;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-
-      .databox p {
-      }
-
-      .status-img {
-      vertical-align: middle;
-      margin: 10px;
-      }
-
-      .screenshot-gallery {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      }
-
-      .screenshot {
-      width: 240px;
-      height: 160px;
-      }
- 
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
 
+    <div class="header">
+  <div class="logo">
+    <a href="index.html">PLAYER 255</a>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="nav-button fixed-width">
+    <a href="index.html"><p>HOME</p></a>
+  </div>
+  <div class="nav-button fixed-width">
+    <a href="lists.html"><p>LISTS</p></a>
+  </div>
+</div>
+
+<div class="shadow-header"></div>
+
+
+    <div class="actual-body">
+      <div class="sidebar">
+	
+	<a class="side-button" href="dmq.html">Previous</a>
+	<a class="side-button" href="dmq.html">Previous</a>
+	
+      </div>
+
+      <div class="content">
+
     <h1>Ultimate Brain Games</h1>
 
     <div class="data">
-      <div class="databox"> <p><img class="status-img" src="images/other.png" />Other(Not a traditional game, no ending.) on 2018-9-16</p> </div>
-      <div class="databox"> <p>3 / 5</p> </div>
-      <div class="databox"> <p><b>Release Date:</b> Mar 18, 2003</p> </div>
-      <div class="databox"> <p><b>Meta Score:</b> 80</p> </div>
+      <ul>
+	<li><img class="completion-image" src="images/other.png" /><p>Other(Not a traditional game, no ending.) on 2018-9-16</p></li>
+	<li><p>3 / 5</p></li>
+      </ul>
+      <ul>
+	<li><p><b>Release Date:</b> Mar 18, 2003</p></li>
+	<li><p><b>Meta Score:</b> 80</p></li>
+      </ul>
     </div>
 
+    <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/ubg-title.png" />
       
@@ -89,6 +62,23 @@
     
     <h3>Notes</h3>
     <p>Ultimate Brain Games is a collection of classic board games made for the GBA.</p><p><br />Yup, this going to be a quick one.</p><p>The games seem competently put together, with a decent variety. They're pretty much what you'd expect: Chess, Checkers, Dominoes, Mahjong Solitaire, etc. Battleships and Connect 4 get non-trademark-infringing versions with slight differences. No complaints here, but also not much to offer in the modern age. There are 1 player vs. AI and 2 player variants (where appropriate). The AI seemed reasonably competent, but might struggle to challenge e.g. hardcore chess players due to the GBA's slow processor speed.</p><p><br />There's a surprisingly detailed avatar/character creator to make your little portrait which is displayed during games. You have to remember the GBA has only local multiplayer, so this seems fairly pointless.</p><p><br />Obviously the game doesn't have a story mode or an ending, so I stopped after trying out the modes.<br /></p>
+
+      </div>
+
+      <div class="sidebar">
+	
+	<a class="side-button" href="doom.html">Next</a>
+	<a class="side-button" href="doom.html">Next</a>
+	
+      </div>
+
+    </div>
+    
+    <div class="footer">
+  <div class="nav-button"><a href="mechtoast.com"><p>Back to Homepage</p></a></div>
+  <div class="nav-button"><a href="https://github.com/m-r-hunt/player-255"><p>View source on Github</p></a></div>
+</div>
+
     
   </body>
 </html>

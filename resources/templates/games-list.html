@@ -1,0 +1,8 @@
+
+	  <a class="games-list-row" href="{{game.shortname}}.html">
+	    <img class="games-list-col-title-image" src="images/screenshots/{{game.shortname}}-title.png">
+	    <h3 class="games-list-col-title">{{game.game}}</h3>
+	    <div class="games-list-col-completion"> <img class="completion-image" src="images/{% if game.status %}{{game.status|name}}{% else %}other{% endif %}.png" /> {{game.completion-date}} </div>
+	    <div class="games-list-col-score"> {{game.rating}} / 5 </div>
+	  </a>
+	  
