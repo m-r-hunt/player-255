@@ -865,56 +865,56 @@
   :shortname "ygo3",
   :meta-user "8.8",
   :rating 2}
- {:game "Crash Nitro Kart",
+ {:date "Nov 11, 2003",
   :meta-rating "77",
-  :meta-user "8.3",
-  :date "Nov 11, 2003",
-  :rating 4,
+  :game "Crash Nitro Kart",
   :completion-date "2019-1-14",
+  :status :complete,
+  :notes
+  "A pretty decent kart racer by GBA standards. Mini-turbo controls are a bit awkward and there's a lot of rubberbanding, but otherwise good.\n",
   :shortname "cnk",
-  :status :complete,
-  :notes
-  "A pretty decent kart racer by GBA standards. Mini-turbo controls are a bit awkward and there's a lot of rubberbanding, but otherwise good.\n"}
- {:game "Mega Man Zero 3",
+  :meta-user "8.3",
+  :rating 4}
+ {:date "Oct 5, 2004",
   :meta-rating "77",
-  :meta-user "8.0",
-  :date "Oct 5, 2004",
-  :rating 4,
+  :game "Mega Man Zero 3",
   :completion-date "2019-1-16",
+  :status :complete,
+  :notes
+  "Much the same as other Mega Man games, this one becomes an enjoyable platformer once you use save states to fix the game's lack of checkpoints.\n",
   :shortname "mmz3",
-  :status :complete,
-  :notes
-  "Much the same as other Mega Man games, this one becomes an enjoyable platformer once you use save states to fix the game's lack of checkpoints.\n"}
- {:game "Crash Bandicoot 2: N-Tranced",
+  :meta-user "8.0",
+  :rating 4}
+ {:date "Jan 7, 2003",
   :meta-rating "75",
-  :meta-user "7.7",
-  :date "Jan 7, 2003",
-  :rating 4,
+  :game "Crash Bandicoot 2: N-Tranced",
   :completion-date "2019-1-18",
-  :shortname "crash2",
   :status :complete,
   :notes
-  "A solid GBA adaptation of the Crash series. Note this is a seperate game, not a straight port of the PS1 game. Part 1 coming up later in the challenge.\n"}
- {:game "Super Robot Taisen: Original Generation",
+  "A solid GBA adaptation of the Crash series. Note this is a seperate game, not a straight port of the PS1 game. Part 1 coming up later in the challenge.\n",
+  :shortname "crash2",
+  :meta-user "7.7",
+  :rating 4}
+ {:date "Aug 8, 2006",
   :meta-rating "72",
-  :meta-user "7.8",
-  :date "Aug 8, 2006",
-  :rating 3,
+  :game "Super Robot Taisen: Original Generation",
   :completion-date "2019-1-19",
-  :shortname "srtog",
   :status :not-complete,
   :notes
-  "Decent tactics RPG, gets a bit repetition quickly due to boring map design.\n"}
- {:game "Spyro: Attack of the Rhynocs",
+  "Decent tactics RPG, gets a bit repetition quickly due to boring map design.\n",
+  :shortname "srtog",
+  :meta-user "7.8",
+  :rating 3}
+ {:date "Oct 27, 2003",
   :meta-rating "72",
-  :meta-user "7.5",
-  :date "Oct 27, 2003",
-  :rating 4,
+  :game "Spyro: Attack of the Rhynocs",
   :completion-date "2019-1-20",
-  :shortname "saor",
   :status :complete,
   :notes
-  "Adds a new layer to classic Spyro gameplay: escherian interlocking fetch quests. Pretty reasonable game apart from an annoying cleanup phase right at the end of  the game.\n"}
+  "Adds a new layer to classic Spyro gameplay: escherian interlocking fetch quests. Pretty reasonable game apart from an annoying cleanup phase right at the end of  the game.\n",
+  :shortname "saor",
+  :meta-user "7.5",
+  :rating 4}
  {:date "Dec 9, 2003",
   :meta-rating "79",
   :game "Activision Anthology",
@@ -925,46 +925,46 @@
   :shortname "actan",
   :meta-user "tbd",
   :rating 2}
- {:game "LarryBoy and the Bad Apple",
+ {:date "Aug 8, 2006",
   :meta-rating "73",
-  :meta-user "tbd",
-  :date "Aug 8, 2006",
-  :rating 3,
+  :game "LarryBoy and the Bad Apple",
   :completion-date "2019-1-22",
+  :status :complete,
+  :notes
+  "Mario & DK - esque puzzle platformer. Running allows you to skip large sections of level, not sure if that was really intended. Surprisingly fun as you can blow through the game quickly, bad minigame boss fights.\n",
   :shortname "larry",
-  :status :complete,
-  :notes
-  "Mario & DK - esque puzzle platformer. Running allows you to skip large sections of level, not sure if that was really intended. Surprisingly fun as you can blow through the game quickly, bad minigame boss fights.\n"}
- {:game "Racing Gears Advance",
+  :meta-user "tbd",
+  :rating 3}
+ {:date "Feb 8, 2005",
   :meta-rating "83",
-  :meta-user "8.0",
-  :date "Feb 8, 2005",
-  :rating 2,
+  :game "Racing Gears Advance",
   :completion-date "2019-1-22",
-  :shortname "rga",
   :status :not-complete,
   :notes
-  "Top down racing simulator. Reminds me of micro machines, a game I enjoyed a lot as a kid. Kind of awkward and unforgiving controls.\n"}
- {:game "Castlevania: Harmony of Dissonance",
-  :meta-rating "87",
+  "Top down racing simulator. Reminds me of micro machines, a game I enjoyed a lot as a kid. Kind of awkward and unforgiving controls.\n",
+  :shortname "rga",
   :meta-user "8.0",
-  :date "Sep 16, 2002",
-  :rating 3,
+  :rating 2}
+ {:date "Sep 16, 2002",
+  :meta-rating "87",
+  :game "Castlevania: Harmony of Dissonance",
   :completion-date "2019-1-27",
-  :shortname "chod",
   :status :complete,
   :notes
-  "Not as good as the other Castlevania GBA games, but still a solid platformer. Exploration can be a bit repetetive due to the 2 castles mechanic, and it has a lot of bosses, many seemingly optional and pointless.\n"}
- {:game "X2: Wolverine's Revenge",
+  "Not as good as the other Castlevania GBA games, but still a solid platformer. Exploration can be a bit repetetive due to the 2 castles mechanic, and it has a lot of bosses, many seemingly optional and pointless.\n",
+  :shortname "chod",
+  :meta-user "8.0",
+  :rating 3}
+ {:date "Apr 15, 2003",
   :meta-rating "72",
-  :meta-user "7.2",
-  :date "Apr 15, 2003",
-  :rating 2,
+  :game "X2: Wolverine's Revenge",
   :completion-date "2019-2-2",
-  :shortname "x2",
   :status :not-complete,
   :notes
-  "Middle of the road action platoformer, some slightly interesting mechanics with retracting wolverine's claws. Horrible bosses.\n"}
+  "Middle of the road action platoformer, some slightly interesting mechanics with retracting wolverine's claws. Horrible bosses.\n",
+  :shortname "x2",
+  :meta-user "7.2",
+  :rating 2}
  {:date "Sep 6, 2005",
   :meta-rating "78",
   :game "Rebelstar: Tactical Command",
@@ -989,4 +989,14 @@
   :meta-rating "77",
   :meta-user "8.1",
   :date "Jul 26, 2006",
+  :rating 4,
+  :completion-date "2019-2-9",
+  :shortname "sn",
+  :notes
+  "A solid action RPG, somewhat of a hidden gem I think. Story and cutscenes can drag a bit, but the core gameplay loop of exploring, gathering materials, fighting bosses and repeat is very good. Good combat.",
+  :status :complete}
+ {:game "Super Mario Advance 4: Super Mario Bros. 3",
+  :meta-rating "94",
+  :meta-user "9.1",
+  :date "Oct 21, 2003",
   :rating :na}]
