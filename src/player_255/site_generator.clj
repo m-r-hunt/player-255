@@ -50,5 +50,6 @@
                                                                           :next-up (last played-games)
                                                                           :count (dec (count played-games))
                                                                           :percent (float (* (/ (dec (count played-games)) 255) 100))}))
+    (spit "docs/about.html" (template/render-file "templates/about.html" {}))
     ;; TODO Copy images to output
     nil))
