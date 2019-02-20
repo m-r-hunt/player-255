@@ -985,18 +985,38 @@
   :shortname "mpm",
   :meta-user "tbd",
   :rating 2}
- {:game "Summon Night: Swordcraft Story",
+ {:date "Jul 26, 2006",
   :meta-rating "77",
-  :meta-user "8.1",
-  :date "Jul 26, 2006",
-  :rating 4,
+  :game "Summon Night: Swordcraft Story",
   :completion-date "2019-2-9",
-  :shortname "sn",
+  :status :complete,
   :notes
   "A solid action RPG, somewhat of a hidden gem I think. Story and cutscenes can drag a bit, but the core gameplay loop of exploring, gathering materials, fighting bosses and repeat is very good. Good combat.",
-  :status :complete}
- {:game "Super Mario Advance 4: Super Mario Bros. 3",
+  :shortname "sn",
+  :meta-user "8.1",
+  :rating 4}
+ {:date "Oct 21, 2003",
   :meta-rating "94",
+  :game "Super Mario Advance 4: Super Mario Bros. 3",
+  :completion-date "2019-2-15",
+  :status :complete,
+  :notes
+  "Pretty good Mario platformer, but not my favourite. SO MANY AUTOSCROLLERS. And miniboss fights.",
+  :shortname "sma4",
   :meta-user "9.1",
-  :date "Oct 21, 2003",
+  :rating 4}
+ {:game "CT Special Forces 2: Back in the Trenches",
+  :meta-rating "76",
+  :meta-user "tbd",
+  :date "Jun 29, 2004",
+  :rating 3,
+  :completion-date "2019-2-20",
+  :shortname "ct2",
+  :notes
+  "Decent run and gun game, reminiscent of metal slug. Game over and password save lead to me giving up about half way through the game as I wasn't having much fun and continuing would have been annoying.",
+  :status :not-complete}
+ {:game "Phalanx",
+  :meta-rating "71",
+  :meta-user "tbd",
+  :date "Dec 27, 2001",
   :rating :na}]
