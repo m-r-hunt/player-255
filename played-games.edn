@@ -1005,18 +1005,57 @@
   :shortname "sma4",
   :meta-user "9.1",
   :rating 4}
- {:game "CT Special Forces 2: Back in the Trenches",
+ {:date "Jun 29, 2004",
   :meta-rating "76",
-  :meta-user "tbd",
-  :date "Jun 29, 2004",
-  :rating 3,
+  :game "CT Special Forces 2: Back in the Trenches",
   :completion-date "2019-2-20",
-  :shortname "ct2",
+  :status :not-complete,
   :notes
   "Decent run and gun game, reminiscent of metal slug. Game over and password save lead to me giving up about half way through the game as I wasn't having much fun and continuing would have been annoying.",
-  :status :not-complete}
- {:game "Phalanx",
-  :meta-rating "71",
+  :shortname "ct2",
   :meta-user "tbd",
-  :date "Dec 27, 2001",
+  :rating 3}
+ {:date "Dec 27, 2001",
+  :meta-rating "71",
+  :game "Phalanx",
+  :completion-date "2019-3-10",
+  :status :not-complete,
+  :notes
+  "Another fairly boring shootemup. I'm becoming quite bored of this style of dodgy shootemup with not much going on.",
+  :shortname "phalanx",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "May 23, 2005",
+  :meta-rating "71",
+  :game "Madagascar",
+  :completion-date "2019-3-10",
+  :status :not-complete,
+  :notes "A pretty limp tie in platformer. Gave up fairly quickly.",
+  :shortname "mad",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "Sep 9, 2002",
+  :meta-rating "82",
+  :game "Mega Man Zero",
+  :completion-date "2019-4-10",
+  :status :not-complete,
+  :notes
+  "Yet Another Mega Man(TM). Wasn't having as much fun with this one and gave up. Bosses seemed to just have a ton of health.",
+  :shortname "mmz1",
+  :meta-user "8.9",
+  :rating 3}
+ {:game "Wings",
+  :meta-rating "72",
+  :meta-user "tbd",
+  :date "Feb 13, 2003",
+  :rating 2,
+  :completion-date "2019-4-10",
+  :shortname "wings",
+  :notes
+  "A valiant attempt at a GBA flight sim but it's let down by controls and graphics. Pretty bad.",
+  :status :not-complete}
+ {:game "Fire Emblem: The Sacred Stones",
+  :meta-rating "85",
+  :meta-user "9.1",
+  :date "May 23, 2005",
   :rating :na}]
