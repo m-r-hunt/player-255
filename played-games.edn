@@ -1044,18 +1044,28 @@
   :shortname "mmz1",
   :meta-user "8.9",
   :rating 3}
- {:game "Wings",
+ {:date "Feb 13, 2003",
   :meta-rating "72",
-  :meta-user "tbd",
-  :date "Feb 13, 2003",
-  :rating 2,
+  :game "Wings",
   :completion-date "2019-4-10",
-  :shortname "wings",
+  :status :not-complete,
   :notes
   "A valiant attempt at a GBA flight sim but it's let down by controls and graphics. Pretty bad.",
-  :status :not-complete}
+  :shortname "wings",
+  :meta-user "tbd",
+  :rating 2}
  {:game "Fire Emblem: The Sacred Stones",
   :meta-rating "85",
   :meta-user "9.1",
   :date "May 23, 2005",
+  :rating 3,
+  :completion-date "2019-5-7",
+  :shortname "fess",
+  :notes
+  "Shares good points with the other FE game on GBA, but level design seems lacking in this one, many levels that are waves of similar enemies without much strategic interest. Got a bit bored towards the end but pushed throught",
+  :status :complete}
+ {:game "Donkey Kong Country 3",
+  :meta-rating "77",
+  :meta-user "8.5",
+  :date "Nov 7, 2005",
   :rating :na}]
