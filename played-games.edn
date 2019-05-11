@@ -1054,18 +1054,48 @@
   :shortname "wings",
   :meta-user "tbd",
   :rating 2}
- {:game "Fire Emblem: The Sacred Stones",
+ {:date "May 23, 2005",
   :meta-rating "85",
-  :meta-user "9.1",
-  :date "May 23, 2005",
-  :rating 3,
+  :game "Fire Emblem: The Sacred Stones",
   :completion-date "2019-5-7",
-  :shortname "fess",
+  :status :complete,
   :notes
   "Shares good points with the other FE game on GBA, but level design seems lacking in this one, many levels that are waves of similar enemies without much strategic interest. Got a bit bored towards the end but pushed throught",
-  :status :complete}
- {:game "Donkey Kong Country 3",
+  :shortname "fess",
+  :meta-user "9.1",
+  :rating 3}
+ {:date "Nov 7, 2005",
   :meta-rating "77",
+  :game "Donkey Kong Country 3",
+  :completion-date "2019-5-10",
+  :status :complete,
+  :notes
+  "Almost good, but frustrating camera, too many gimmick levels and water levels.",
+  :shortname "dkc3",
   :meta-user "8.5",
-  :date "Nov 7, 2005",
+  :rating 3}
+ {:date "Nov 3, 2002",
+  :meta-rating "70",
+  :game "Contra Advance: The Alien Wars EX",
+  :completion-date "2019-5-11",
+  :status :not-complete,
+  :notes
+  "Decent run n gun, has lives and continues with very quick deaths and a password save, so I gave up after game overing.",
+  :shortname "ca",
+  :meta-user "tbd",
+  :rating 3}
+ {:game "Mortal Kombat: Tournament Edition",
+  :meta-rating "75",
+  :meta-user "8.1",
+  :date "Aug 27, 2003",
+  :rating 2,
+  :completion-date "2019-5-11",
+  :shortname "mkt",
+  :notes
+  "Another fighting game. No apparent tutorials, no move list. Gave it a go button mashing until I lost in arcade mode.",
+  :status :not-complete}
+ {:game "Final Fantasy Tactics Advance",
+  :meta-rating "87",
+  :meta-user "7.8",
+  :date "Sep 8, 2003",
   :rating :na}]

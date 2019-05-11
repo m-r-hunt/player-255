@@ -42,10 +42,6 @@
   :meta-rating "88",
   :meta-user "8.9",
   :date "May 23, 2005"}
- {:game "Final Fantasy Tactics Advance",
-  :meta-rating "87",
-  :meta-user "7.8",
-  :date "Sep 8, 2003"}
  {:game "Sonic Advance",
   :meta-rating "87",
   :meta-user "8.2",
@@ -386,10 +382,6 @@
   :meta-rating "75",
   :meta-user "tbd",
   :date "May 30, 2002"}
- {:game "Mortal Kombat: Tournament Edition",
-  :meta-rating "75",
-  :meta-user "8.1",
-  :date "Aug 27, 2003"}
  {:game "Double Dragon Advance",
   :meta-rating "75",
   :meta-user "8.4",
@@ -543,10 +535,6 @@
   :meta-rating "70",
   :meta-user "8.1",
   :date "Jun 5, 2003"}
- {:game "Contra Advance: The Alien Wars EX",
-  :meta-rating "70",
-  :meta-user "tbd",
-  :date "Nov 3, 2002"}
  {:game "Wing Commander: Prophecy",
   :meta-rating "70",
   :meta-user "8.3",
