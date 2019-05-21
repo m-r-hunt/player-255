@@ -154,10 +154,6 @@
   :meta-rating "81",
   :meta-user "8.1",
   :date "Nov 20, 2002"}
- {:game "Pokemon Pinball: Ruby & Sapphire",
-  :meta-rating "81",
-  :meta-user "7.9",
-  :date "Aug 26, 2003"}
  {:game "Harvest Moon: Friends of Mineral Town",
   :meta-rating "81",
   :meta-user "9.5",
@@ -254,10 +250,6 @@
   :meta-rating "78",
   :meta-user "8.1",
   :date "Dec 18, 2003"}
- {:game "Konami Krazy Racers",
-  :meta-rating "78",
-  :meta-user "tbd",
-  :date "Jun 10, 2001"}
  {:game "Road Rash: Jailbreak",
   :meta-rating "78",
   :meta-user "8.6",
@@ -374,10 +366,6 @@
   :meta-rating "75",
   :meta-user "8.8",
   :date "Mar 30, 2003"}
- {:game "Aggressive Inline",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "Aug 27, 2002"}
  {:game "Bomberman Max 2: Blue Advance",
   :meta-rating "75",
   :meta-user "tbd",
@@ -466,10 +454,6 @@
   :meta-rating "72",
   :meta-user "8.8",
   :date "Apr 8, 2003"}
- {:game "Banjo-Kazooie: Grunty's Revenge",
-  :meta-rating "72",
-  :meta-user "7.9",
-  :date "Sep 10, 2003"}
  {:game "Earthworm Jim",
   :meta-rating "72",
   :meta-user "5.7",
@@ -506,10 +490,6 @@
   :meta-rating "71",
   :meta-user "tbd",
   :date "May 14, 2002"}
- {:game "Secret Agent Barbie: Royal Jewels Mission",
-  :meta-rating "71",
-  :meta-user "tbd",
-  :date "Oct 8, 2002"}
  {:game "Hi Hi Puffy AmiYumi: Kaznapped!",
   :meta-rating "71",
   :meta-user "5.4",

@@ -1084,18 +1084,68 @@
   :shortname "ca",
   :meta-user "tbd",
   :rating 3}
- {:game "Mortal Kombat: Tournament Edition",
+ {:date "Aug 27, 2003",
   :meta-rating "75",
-  :meta-user "8.1",
-  :date "Aug 27, 2003",
-  :rating 2,
+  :game "Mortal Kombat: Tournament Edition",
   :completion-date "2019-5-11",
-  :shortname "mkt",
+  :status :not-complete,
   :notes
   "Another fighting game. No apparent tutorials, no move list. Gave it a go button mashing until I lost in arcade mode.",
-  :status :not-complete}
- {:game "Final Fantasy Tactics Advance",
+  :shortname "mkt",
+  :meta-user "8.1",
+  :rating 2}
+ {:date "Sep 8, 2003",
   :meta-rating "87",
+  :game "Final Fantasy Tactics Advance",
+  :completion-date "2019-5-18",
+  :status :not-complete,
+  :notes
+  "Solid tactical RPG. Eventually got stuck with seemingly grinding required to progress, and lost some gameplay due to slightly annoying save/game over system, so gave up, not wanting to stall the challenge.",
+  :shortname "ffta",
   :meta-user "7.8",
-  :date "Sep 8, 2003",
+  :rating 3}
+ {:date "Oct 8, 2002",
+  :meta-rating "71",
+  :game "Secret Agent Barbie: Royal Jewels Mission",
+  :completion-date "2019-5-18",
+  :status :complete,
+  :notes
+  "Surprisingly competent stealth platformer despite theme. Levels are a joke and quite short.",
+  :shortname "bsa",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "Aug 27, 2002",
+  :meta-rating "75",
+  :game "Aggressive Inline",
+  :completion-date "2019-5-18",
+  :status :not-complete,
+  :notes
+  "Another extreme sports game that has really suffered on translation to gba.",
+  :shortname "ai",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "Jun 10, 2001",
+  :meta-rating "78",
+  :game "Konami Krazy Racers",
+  :completion-date "2019-5-18",
+  :status :not-complete,
+  :notes
+  "A fairly uninspired Mario Kart style racer. Gave up after the game completely locked up half way through a cup for no apparent reason.",
+  :shortname "kkr",
+  :meta-user "tbd",
+  :rating 2}
+ {:game "Banjo-Kazooie: Grunty's Revenge",
+  :meta-rating "72",
+  :meta-user "7.9",
+  :date "Sep 10, 2003",
+  :rating 4,
+  :completion-date "2019-5-21",
+  :shortname "bk",
+  :notes
+  "Fun enough 2.5d collectathon platformer, quite faithful to the console versions. Some perspective problems and I lost patience near the end.",
+  :status :complete}
+ {:game "Pokemon Pinball: Ruby & Sapphire",
+  :meta-rating "81",
+  :meta-user "7.9",
+  :date "Aug 26, 2003",
   :rating :na}]
