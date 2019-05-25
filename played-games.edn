@@ -1134,18 +1134,68 @@
   :shortname "kkr",
   :meta-user "tbd",
   :rating 2}
- {:game "Banjo-Kazooie: Grunty's Revenge",
+ {:date "Sep 10, 2003",
   :meta-rating "72",
-  :meta-user "7.9",
-  :date "Sep 10, 2003",
-  :rating 4,
+  :game "Banjo-Kazooie: Grunty's Revenge",
   :completion-date "2019-5-21",
-  :shortname "bk",
+  :status :complete,
   :notes
   "Fun enough 2.5d collectathon platformer, quite faithful to the console versions. Some perspective problems and I lost patience near the end.",
-  :status :complete}
- {:game "Pokemon Pinball: Ruby & Sapphire",
-  :meta-rating "81",
+  :shortname "bk",
   :meta-user "7.9",
-  :date "Aug 26, 2003",
+  :rating 4}
+ {:date "Aug 26, 2003",
+  :meta-rating "81",
+  :game "Pokemon Pinball: Ruby & Sapphire",
+  :completion-date "2019-5-21",
+  :status :not-complete,
+  :notes
+  "It's pinball. Seems to have some interesting stuff going on with catching all the pokemon, but I'm still not a pinball convert.",
+  :shortname "pp",
+  :meta-user "7.9",
+  :rating 3}
+ {:date "Jun 24, 2003",
+  :meta-rating "77",
+  :game "Stuntman",
+  :completion-date "2019-5-24",
+  :status :not-complete,
+  :notes
+  "Kinda fun racing game with a twist. Suffers really badly from horrible gba 3d visuals. Ended up rage quitting a decent way into the game due to the excessively harsh completion requirements.",
+  :shortname "sm",
+  :meta-user "tbd",
+  :rating 3}
+ {:date "Feb 4, 2002",
+  :meta-rating "70",
+  :game "Columns Crown",
+  :completion-date "2019-5-24",
+  :status :not-complete,
+  :notes
+  "A fairly mediocre arcade style platformer, I wasn't a fan of the mechanics.",
+  :shortname "cc",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "May 23, 2005",
+  :meta-rating "88",
+  :game "WarioWare: Twisted!",
+  :completion-date "2019-5-25",
+  :status :not-complete,
+  :notes
+  "A minigame collection with a wacky sense of humour. This one is designed for a gyroscope equipped cartridge and it took some effort to get it working. Ultimately had to quit due to one particular boss minigame that is extremely hard with the faked controls.",
+  :shortname "wwt",
+  :meta-user "8.9",
+  :rating 4}
+ {:game "F-Zero: Maximum Velocity",
+  :meta-rating "86",
+  :meta-user "8.4",
+  :date "Jun 12, 2001",
+  :rating 3,
+  :completion-date "2019-5-25",
+  :shortname "fz-mv",
+  :notes
+  "Decent futuristic arcadey racer. Very slidy and hard until I discovered the trick of tapping the throttle to corner effortlessly, then the game became kind of easy. Wierdly the game doesn't give you any kind of result when finishing a grand prix, but I did all of them so I'm calling it complete.",
+  :status :complete}
+ {:game "Shrek 2",
+  :meta-rating "72",
+  :meta-user "7.0",
+  :date "Apr 28, 2004",
   :rating :na}]

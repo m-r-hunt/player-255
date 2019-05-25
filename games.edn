@@ -38,10 +38,6 @@
   :meta-rating "89",
   :meta-user "8.8",
   :date "May 21, 2003"}
- {:game "WarioWare: Twisted!",
-  :meta-rating "88",
-  :meta-user "8.9",
-  :date "May 23, 2005"}
  {:game "Sonic Advance",
   :meta-rating "87",
   :meta-user "8.2",
@@ -54,10 +50,6 @@
   :meta-rating "86",
   :meta-user "8.4",
   :date "Jan 11, 2006"}
- {:game "F-Zero: Maximum Velocity",
-  :meta-rating "86",
-  :meta-user "8.4",
-  :date "Jun 12, 2001"}
  {:game "Dave Mirra Freestyle BMX 2",
   :meta-rating "85",
   :meta-user "tbd",
@@ -262,10 +254,6 @@
   :meta-rating "77",
   :meta-user "tbd",
   :date "Oct 30, 2001"}
- {:game "Stuntman",
-  :meta-rating "77",
-  :meta-user "tbd",
-  :date "Jun 24, 2003"}
  {:game "Yggdra Union",
   :meta-rating "77",
   :meta-user "tbd",
@@ -434,10 +422,6 @@
   :meta-rating "72",
   :meta-user "8.0",
   :date "Nov 10, 2004"}
- {:game "Shrek 2",
-  :meta-rating "72",
-  :meta-user "7.0",
-  :date "Apr 28, 2004"}
  {:game "Noddy: A Day in Toyland",
   :meta-rating "72",
   :meta-user "tbd",
@@ -531,10 +515,6 @@
   :meta-rating "70",
   :meta-user "tbd",
   :date "Oct 4, 2004"}
- {:game "Columns Crown",
-  :meta-rating "70",
-  :meta-user "tbd",
-  :date "Feb 4, 2002"}
  {:game "Disney's Extreme Skate Adventure",
   :meta-rating "70",
   :meta-user "tbd",
