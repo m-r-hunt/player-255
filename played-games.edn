@@ -1184,18 +1184,28 @@
   :shortname "wwt",
   :meta-user "8.9",
   :rating 4}
- {:game "F-Zero: Maximum Velocity",
+ {:date "Jun 12, 2001",
   :meta-rating "86",
-  :meta-user "8.4",
-  :date "Jun 12, 2001",
-  :rating 3,
+  :game "F-Zero: Maximum Velocity",
   :completion-date "2019-5-25",
-  :shortname "fz-mv",
+  :status :complete,
   :notes
   "Decent futuristic arcadey racer. Very slidy and hard until I discovered the trick of tapping the throttle to corner effortlessly, then the game became kind of easy. Wierdly the game doesn't give you any kind of result when finishing a grand prix, but I did all of them so I'm calling it complete.",
-  :status :complete}
+  :shortname "fz-mv",
+  :meta-user "8.4",
+  :rating 3}
  {:game "Shrek 2",
   :meta-rating "72",
   :meta-user "7.0",
   :date "Apr 28, 2004",
+  :rating 3,
+  :completion-date "2019-5-26",
+  :shortname "s2",
+  :notes
+  "Surprisingly well executed platformer with some puzzle elements. Only gets annoying in a few stages.",
+  :status :complete}
+ {:game "Shining Force: Resurrection of the Dark Dragon",
+  :meta-rating "77",
+  :meta-user "8.9",
+  :date "Jun 8, 2004",
   :rating :na}]
