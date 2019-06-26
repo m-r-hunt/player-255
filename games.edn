@@ -42,10 +42,6 @@
   :meta-rating "87",
   :meta-user "8.2",
   :date "Feb 3, 2002"}
- {:game "Golden Sun: The Lost Age",
-  :meta-rating "86",
-  :meta-user "9.2",
-  :date "Apr 14, 2003"}
  {:game "Castlevania Double Pack",
   :meta-rating "86",
   :meta-user "8.4",
@@ -54,10 +50,6 @@
   :meta-rating "85",
   :meta-user "tbd",
   :date "Nov 25, 2001"}
- {:game "Mario Golf: Advance Tour",
-  :meta-rating "84",
-  :meta-user "8.6",
-  :date "Jun 22, 2004"}
  {:game "Super Mario Advance",
   :meta-rating "84",
   :meta-user "7.8",
@@ -110,10 +102,6 @@
   :meta-rating "82",
   :meta-user "8.0",
   :date "Jan 28, 2002"}
- {:game "Mat Hoffman's Pro BMX 2",
-  :meta-rating "82",
-  :meta-user "tbd",
-  :date "Aug 13, 2002"}
  {:game "Final Fight One",
   :meta-rating "82",
   :meta-user "7.8",
@@ -170,10 +158,6 @@
   :meta-rating "80",
   :meta-user "6.1",
   :date "Mar 20, 2007"}
- {:game "Disney's Lilo & Stitch",
-  :meta-rating "80",
-  :meta-user "7.8",
-  :date "Jun 7, 2002"}
  {:game "Donkey Kong Country 2",
   :meta-rating "80",
   :meta-user "8.9",
@@ -238,10 +222,6 @@
   :meta-rating "78",
   :meta-user "8.4",
   :date "Sep 23, 2002"}
- {:game "Max Payne",
-  :meta-rating "78",
-  :meta-user "8.1",
-  :date "Dec 18, 2003"}
  {:game "Road Rash: Jailbreak",
   :meta-rating "78",
   :meta-user "8.6",
@@ -306,10 +286,6 @@
   :meta-rating "76",
   :meta-user "7.7",
   :date "Aug 21, 2005"}
- {:game "Phantasy Star Collection",
-  :meta-rating "76",
-  :meta-user "8.1",
-  :date "Nov 24, 2002"}
  {:game "Baldur's Gate: Dark Alliance",
   :meta-rating "76",
   :meta-user "6.8",
@@ -398,10 +374,6 @@
   :meta-rating "73",
   :meta-user "tbd",
   :date "Nov 15, 2005"}
- {:game "Star Wars Episode III: Revenge of the Sith",
-  :meta-rating "73",
-  :meta-user "7.6",
-  :date "May 4, 2005"}
  {:game "Dragon Ball Z: Supersonic Warriors",
   :meta-rating "73",
   :meta-user "7.0",
@@ -474,10 +446,6 @@
   :meta-rating "71",
   :meta-user "5.4",
   :date "Nov 20, 2005"}
- {:game "Rampage Puzzle Attack",
-  :meta-rating "71",
-  :meta-user "tbd",
-  :date "Nov 29, 2001"}
  {:game "AirForce Delta Storm",
   :meta-rating "71",
   :meta-user "tbd",

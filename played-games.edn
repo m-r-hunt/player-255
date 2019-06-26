@@ -1194,18 +1194,98 @@
   :shortname "fz-mv",
   :meta-user "8.4",
   :rating 3}
- {:game "Shrek 2",
+ {:date "Apr 28, 2004",
   :meta-rating "72",
-  :meta-user "7.0",
-  :date "Apr 28, 2004",
-  :rating 3,
+  :game "Shrek 2",
   :completion-date "2019-5-26",
-  :shortname "s2",
+  :status :complete,
   :notes
   "Surprisingly well executed platformer with some puzzle elements. Only gets annoying in a few stages.",
-  :status :complete}
- {:game "Shining Force: Resurrection of the Dark Dragon",
+  :shortname "s2",
+  :meta-user "7.0",
+  :rating 3}
+ {:date "Jun 8, 2004",
   :meta-rating "77",
+  :game "Shining Force: Resurrection of the Dark Dragon",
+  :completion-date "2019-6-13",
+  :status :not-complete,
+  :notes
+  "A decent SRPG, but it didn't really grab me and I ended up losing interest and stalling for a while.",
+  :shortname "sf",
   :meta-user "8.9",
-  :date "Jun 8, 2004",
+  :rating 3}
+ {:date "Nov 24, 2002",
+  :meta-rating "76",
+  :game "Phantasy Star Collection",
+  :completion-date "2019-6-13",
+  :status :not-complete,
+  :notes
+  "Classic JRPG collection. I found them a little too old and primitive to really be playable. Abbreviated item names with no explanation/description in game are too much for me. Interesting psuedo 3d dungeon crawling though.",
+  :shortname "psc",
+  :meta-user "8.1",
+  :rating 2}
+ {:date "May 4, 2005",
+  :meta-rating "73",
+  :game "Star Wars Episode III: Revenge of the Sith",
+  :completion-date "2019-6-15",
+  :status :complete,
+  :notes
+  "Surprisingly solid brawler, nice animations and core combat. Quite short and repetitious, but in some ways a gem.",
+  :shortname "sw3",
+  :meta-user "7.6",
+  :rating 4}
+ {:date "Nov 29, 2001",
+  :meta-rating "71",
+  :game "Rampage Puzzle Attack",
+  :completion-date "2019-6-16",
+  :status :not-complete,
+  :notes
+  "Odd choice of puzzle spinoff from classic arcade title Rampage. Fairly mediocre core mechanic, a few different modes, I played a bit before stopping.",
+  :shortname "rpa",
+  :meta-user "tbd",
+  :rating 2}
+ {:date "Dec 18, 2003",
+  :meta-rating "78",
+  :game "Max Payne",
+  :completion-date "2019-6-16",
+  :status :not-complete,
+  :notes
+  "Hot garbage. Attempts to directly adapt the source as an isometric shooter, fails miserably. Aiming is horrible, the signature bullet time is clunky (and the only way to fight with a vague chance of not getting hit) and you get shot from offscreen or just stupidly. Gave up after gameovering a few levels in.",
+  :shortname "mp",
+  :meta-user "8.1",
+  :rating 2}
+ {:date "Jun 22, 2004",
+  :meta-rating "84",
+  :game "Mario Golf: Advance Tour",
+  :completion-date "2019-6-22",
+  :status :complete,
+  :notes
+  "Great arcade golf game that started me on the genre. Cool story mode with some rpg elements too.",
+  :shortname "mgat",
+  :meta-user "8.6",
+  :rating 5}
+ {:date "Jun 7, 2002",
+  :meta-rating "80",
+  :game "Disney's Lilo & Stitch",
+  :completion-date "2019-6-26",
+  :status :not-complete,
+  :notes
+  "Suprisingly this is a split metal slug clone/puzzle platformer. The puzzle sections proved to be obnoxious.",
+  :shortname "ls",
+  :meta-user "7.8",
+  :rating 2}
+ {:game "Mat Hoffman's Pro BMX 2",
+  :meta-rating "82",
+  :meta-user "tbd",
+  :date "Aug 13, 2002",
+  :rating 2,
+  :completion-date "2019-6-26",
+  :shortname "mhpbmx2",
+  :notes
+  "Yet another extreme sports game. These are just not good on the gba.",
+  :status :not-complete}
+ {:game "Golden Sun: The Lost Age",
+  :meta-rating "86",
+  :meta-user "9.2",
+  :date "Apr 14, 2003",
   :rating :na}]
