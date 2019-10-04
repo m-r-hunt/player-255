@@ -23,12 +23,12 @@
 	<p>{{count}}/255</p>
 	</div>
 
-	<div class="now-playing"><p>Now Playing: <b>{{next-up.game}}</b></p></div>
+	<div class="now-playing"><p>Now Playing: <b>{{next_up.game}}</b></p></div>
 
 	<h3>Recent Games</h3>
     
 	<div class="games-list">
-	  {% for game in recent-games %}
+	  {% for game in recent_games %}
 	  {% include "templates/games-list.html" %}
 	  {% endfor %}
 	</div>
