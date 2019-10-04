@@ -18,10 +18,6 @@
   :meta-rating "91",
   :meta-user "9.0",
   :date "Sep 24, 2002"}
- {:game "Golden Sun",
-  :meta-rating "91",
-  :meta-user "9.1",
-  :date "Nov 11, 2001"}
  {:game "Castlevania: Circle of the Moon",
   :meta-rating "91",
   :meta-user "8.6",
@@ -502,4 +498,8 @@
  {:game "Harvest Moon: More Friends of Mineral Town",
   :meta-rating "82",
   :meta-user "8.9",
-  :date "Jul 26, 2005"}]
+  :date "Jul 26, 2005"}
+ {:game "Golden Sun: The Lost Age",
+  :meta-rating "86",
+  :meta-user "9.2",
+  :date "Apr 14, 2003"}]

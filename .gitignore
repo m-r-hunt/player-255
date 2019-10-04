@@ -15,3 +15,5 @@ pom.xml.asc
 
 # Dry run test data files
 *.test.*
+
+*.sublime-workspace

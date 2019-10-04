@@ -1284,8 +1284,8 @@
   :notes
   "Yet another extreme sports game. These are just not good on the gba.",
   :status :not-complete}
- {:game "Golden Sun: The Lost Age",
-  :meta-rating "86",
-  :meta-user "9.2",
-  :date "Apr 14, 2003",
+ {:game "Golden Sun",
+  :meta-rating "91",
+  :meta-user "9.1",
+  :date "Nov 11, 2001",
   :rating :na}]
