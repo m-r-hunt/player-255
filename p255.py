@@ -2,6 +2,17 @@
 import wx
 import django.template
 import wx.lib.mixins.listctrl
+import edn_format
+import datetime
+import random
+
+
+def generateWebsite():
+    print("Generating... (TODO)")
+
+
+def copyScreenshots(screenshots):
+    print("Copying... (TODO")
 
 
 class FileDropper(wx.FileDropTarget):
@@ -23,7 +34,6 @@ class ScreenshotList(wx.ListCtrl, wx.lib.mixins.listctrl.TextEditMixin):
 
         self.AppendColumn("File")
         self.AppendColumn("Title")
-        self.Append(["c:/foo", ""])
         self.Bind(wx.EVT_LIST_END_LABEL_EDIT, self.OnUpdate)
         self.SetDropTarget(FileDropper(self))
 
@@ -32,11 +42,15 @@ class ScreenshotList(wx.ListCtrl, wx.lib.mixins.listctrl.TextEditMixin):
 
 
 class P255Frame(wx.Frame):
-    def __init__(self, parent):
+    def __init__(self, parent, now_playing):
         wx.Frame.__init__(self, parent, title="Player 255", size=(500, 800))
         panel = wx.Panel(self)
         self.grid = wx.FlexGridSizer(2, 10, 10)
         self.grid.AddGrowableCol(0)
+
+        self.now_playing = wx.StaticText(panel, label=str(now_playing))
+        self.now_playing.Wrap(250)
+        self.AddLabelledControl(panel, "Now Playing", self.now_playing)
 
         self.shortname = wx.TextCtrl(panel)
         self.AddLabelledControl(panel, "Shortname", self.shortname)
@@ -106,27 +120,106 @@ class P255Frame(wx.Frame):
 
     def OnGoButton(self, event):
         print("Going:")
-        print("shortname:", self.shortname.GetValue())
-        print("status:", self.choice_list[self.choice.GetSelection()])
-        print("status note:", self.status_note_box.GetValue())
+        shortname = self.shortname.GetValue()
+        if shortname == "":
+            mb = wx.MessageDialog(self, "Missing shortname")
+            mb.ShowModal()
+            return
+        status = self.choice_list[self.choice.GetSelection()]
+        status_note = self.status_note_box.GetValue()
+        rating = 0
         for i in range(0, 5):
             if self.rating_buttons[i].GetValue():
-                print("rating:", "*" * (i + 1))
+                rating = i + 1
 
+        screenshots = []
         for i in range(0, self.screenshot_list.GetItemCount()):
-            print(
-                "a screenshot:",
-                self.screenshot_list.GetItem(i).GetText(),
-                self.screenshot_list.GetItem(i, 1).GetText(),
+            screenshots.append(
+                [
+                    self.screenshot_list.GetItem(i).GetText(),
+                    self.screenshot_list.GetItem(i, 1).GetText(),
+                ]
             )
-        print("notes:", self.note_box.GetValue())
+        if len(screenshots) < 2:
+            mb = wx.MessageDialog(
+                self, "Not enough screenshots, do at least title and gameplay."
+            )
+            mb.ShowModal()
+            return
+
+        notes = self.note_box.GetValue()
+        if notes == "":
+            mb = wx.MessageDialog(self, "Missing notes")
+            mb.ShowModal()
+            return
+
+        played_games = {}
+        with open("played-games.edn", "r") as file:
+            data = file.read()
+            played_games = edn_format.loads(data)
+        played_games = played_games[:]
+        pg = dict(played_games[-1])
+        pg[edn_format.Keyword("shortname")] = shortname
+        pg[edn_format.Keyword("rating")] = rating
+        pg[edn_format.Keyword("status")] = edn_format.Keyword(
+            status.lower().replace(" ", "-")
+        )
+        if status == "Other" and status_note != "":
+            pg[edn_format.Keyword("status-note")] = status_note
+        pg[edn_format.Keyword("notes")] = notes
+        pg[edn_format.Keyword("completion-date")] = str(datetime.datetime.now().date())
+        played_games[-1] = pg
+
+        games = {}
+        with open("games.edn", "r") as file:
+            data = file.read()
+            games = edn_format.loads(data)
+        games = games[:]
+
+        r = random.randrange(len(games))
+        next_game = games[r]
+        games.remove(next_game)
+        next_game = dict(next_game)
+        next_game[edn_format.Keyword("rating")] = edn_format.Keyword("na")
+        played_games.append(next_game)
+
+        with open("games.edn", "w") as file:
+            file.write(edn_format.dumps(games))
+
+        with open("played-games.edn", "w") as file:
+            file.write(edn_format.dumps(played_games))
+
+        mb = wx.MessageDialog(self, "Next up:" + str(next_game))
+        mb.ShowModal()
+
+        self.now_playing.SetLabel(str(next_game))
+        self.now_playing.Wrap(250)
+        self.shortname.SetValue("")
+        self.status_note_box.SetValue("")
+        self.note_box.SetValue("")
+        self.screenshot_list.DeleteAllItems()
+
+        copyScreenshots(screenshots)
+        generateWebsite()
 
 
 if __name__ == "__main__":
+    played_games = {}
+    with open("played-games.edn", "r") as file:
+        data = file.read()
+        played_games = edn_format.loads(data)
+
+    games = {}
+    with open("games.edn", "r") as file:
+        data = file.read()
+        games = edn_format.loads(data)
+
+    now_playing = played_games[-1]
+
     engine = django.template.Engine(["resources"])
     template = engine.get_template("templates/index.html")
     context = django.template.Context({"recent-games": [], "next_up": {"game": "foo"}})
     # print(template.render(context))
     app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
-    frame = P255Frame(None)
+    frame = P255Frame(None, now_playing)
     app.MainLoop()
