@@ -19,7 +19,7 @@
 	<h3>Played Games</h3>
     
 	<div class="games-list">
-	  {% for game in played-games %}
+	  {% for game in played_games %}
 	  {% include "templates/games-list.html" %}
 	  {% endfor %}
 	</div>
@@ -29,7 +29,7 @@
 	<p>Note: These will be played in random order.</p>
     
 	<div class="games-list">
-	  {% for game in remaining-games %}
+	  {% for game in remaining_games %}
 	  <div class="games-list-row">
 	    <div class="games-list-col-shadow-title-image"></div>
 	    <h3 class="games-list-col-title">{{game.game}}</h3>

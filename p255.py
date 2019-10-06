@@ -6,15 +6,70 @@ import edn_format
 import datetime
 import random
 import shutil
+import os
+
+
+def rec_copy(src, dest):
+    for f in os.listdir(src):
+        srcf = src + "/" + f
+        destf = dest + "/" + f
+        if os.path.isdir(srcf):
+            rec_copy(srcf, destf)
+        else:
+            if not os.path.isfile(destf):
+                shutil.copyfile(srcf, destf)
+
+
+def unednize(l):
+    out = []
+    for item in l:
+        d = {}
+        for key, value in item.items():
+            d[key.name.replace("-", "_")] = value
+        out.append(d)
+    return out
 
 
 def generateWebsite():
-    print("Generating... (TODO)")
+    # shutil.rmtree("docs")
+    # shutil.copytree("static-assets", "docs")
+    rec_copy("static-assets", "docs")
+
+    played_games = {}
+    with open("played-games.edn", "r") as file:
+        data = file.read()
+        played_games = edn_format.loads(data)
+    played_games = unednize(played_games)
+    print(played_games)
+
+    games = {}
+    with open("games.edn", "r") as file:
+        data = file.read()
+        games = edn_format.loads(data)
+    games = unednize(games)
+
+    django.conf.settings.configure()
+    engine = django.template.Engine(["resources"], builtins=["filters"])
+    template = engine.get_template("templates/lists.html")
+    context = django.template.Context(
+        {"remaining_games": games, "played_games": played_games}
+    )
+    with open("docs/lists.html", "w") as file:
+        file.write(template.render(context))
+    # print(template.render(context))
 
 
 def copyScreenshots(shortname, screenshots):
     for (path, title) in screenshots:
-        shutil.copyfile(path, "static-assets/images/"+shortname+"-"+title+"."+path.split(".")[-1].lower())
+        shutil.copyfile(
+            path,
+            "static-assets/images/"
+            + shortname
+            + "-"
+            + title
+            + "."
+            + path.split(".")[-1].lower(),
+        )
 
 
 class FileDropper(wx.FileDropTarget):
@@ -150,9 +205,7 @@ class P255Frame(wx.Frame):
             return
         for (_, title) in screenshots:
             if title == "":
-                mb = wx.MessageDialog(
-                    self, "Untitled screenshot."
-                )
+                mb = wx.MessageDialog(self, "Untitled screenshot.")
                 mb.ShowModal()
                 return
 
@@ -191,7 +244,6 @@ class P255Frame(wx.Frame):
             mb = wx.MessageDialog(self, "Woah, challenge done?!")
             mb.ShowModal()
             quit()
-
 
         r = random.randrange(len(games))
         next_game = games[r]
