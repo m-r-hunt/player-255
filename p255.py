@@ -115,7 +115,7 @@ def copyScreenshots(shortname, screenshots):
     for (path, title) in screenshots:
         shutil.copyfile(
             path,
-            "static-assets/images/"
+            "static-assets/images/screenshots/"
             + shortname
             + "-"
             + title
