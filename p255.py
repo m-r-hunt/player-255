@@ -101,6 +101,15 @@ def generateWebsite():
     with open("docs/about.html", "w") as file:
         file.write(template.render(context))
 
+    count = len(played_games)-1
+    percent = int(count/255 * 100)
+    recent = played_games[-11:-1]
+    recent.reverse()
+    context = django.template.Context({"recent_games": recent, "next_up": played_games[-1], "count": count, "percent": percent})
+    template = engine.get_template("templates/index.html")
+    with open("docs/index.html", "w") as file:
+        file.write(template.render(context))
+
 
 def copyScreenshots(shortname, screenshots):
     for (path, title) in screenshots:
@@ -322,7 +331,6 @@ if __name__ == "__main__":
         played_games = edn_format.loads(data)
     now_playing = played_games[-1]
 
-    # app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
-    # frame = P255Frame(None, now_playing)
-    # app.MainLoop()
-    generateWebsite()
+    app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
+    frame = P255Frame(None, now_playing)
+    app.MainLoop()
