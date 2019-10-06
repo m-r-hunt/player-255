@@ -30,6 +30,19 @@ def unednize(l):
     return out
 
 
+# Not at all general purpose, only formats [{}, {}, ...] correctly.
+# Mostly matches clojure edn pretty printing in this one case, for good compatibility/diffs.
+def dump_edn(l):
+    out = "["
+    for item in l:
+        out += "{"
+        for k, v in item.items():
+            out += "" + edn_format.dumps(k) + " " + edn_format.dumps(v) + ",\n  "
+        out = out[0:-4] + "}\n "
+    out = out[0:-2] + "]\n"
+    return out
+
+
 def generateWebsite():
     # shutil.rmtree("docs")
     # shutil.copytree("static-assets", "docs")
@@ -100,11 +113,18 @@ def generateWebsite():
     with open("docs/about.html", "w") as file:
         file.write(template.render(context))
 
-    count = len(played_games)-1
-    percent = int(count/255 * 100)
+    count = len(played_games) - 1
+    percent = int(count / 255 * 100)
     recent = played_games[-11:-1]
     recent.reverse()
-    context = django.template.Context({"recent_games": recent, "next_up": played_games[-1], "count": count, "percent": percent})
+    context = django.template.Context(
+        {
+            "recent_games": recent,
+            "next_up": played_games[-1],
+            "count": count,
+            "percent": percent,
+        }
+    )
     template = engine.get_template("templates/index.html")
     with open("docs/index.html", "w") as file:
         file.write(template.render(context))
@@ -291,7 +311,7 @@ class P255Frame(wx.Frame):
 
         if len(games) == 0:
             with open("played-games.edn", "w") as file:
-                file.write(edn_format.dumps(played_games))
+                file.write(dump_edn(played_games))
             mb = wx.MessageDialog(self, "Woah, challenge done?!")
             mb.ShowModal()
             quit()
@@ -304,10 +324,10 @@ class P255Frame(wx.Frame):
         played_games.append(next_game)
 
         with open("games.edn", "w") as file:
-            file.write(edn_format.dumps(games))
+            file.write(dump_edn(games))
 
         with open("played-games.edn", "w") as file:
-            file.write(edn_format.dumps(played_games))
+            file.write(dump_edn(played_games))
 
         self.now_playing.SetLabel(str(next_game))
         self.now_playing.Wrap(250)
