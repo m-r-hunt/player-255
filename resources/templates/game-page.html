@@ -24,22 +24,22 @@
 
     <div class="data">
       <ul>
-	<li><img class="completion-image" src="images/{{status|name}}.png" /><p>{{status|status}}{% if status-note %}({{status-note}}){% endif %} on {{completion-date}}</p></li>
+	<li><img class="completion-image" src="images/{{status|name}}.png" /><p>{{status|status}}{% if status_note %}({{status_note}}){% endif %} on {{completion_date}}</p></li>
 	<li><p>{{rating}} / 5</p></li>
       </ul>
       <ul>
 	<li><p><b>Release Date:</b> {{date}}</p></li>
-	<li><p><b>Meta Score:</b> {{meta-rating}}</p></li>
+	<li><p><b>Meta Score:</b> {{meta_rating}}</p></li>
       </ul>
     </div>
 
     <h3>Screenshots</h3>
     <div class="screenshot-gallery">
       <img class="screenshot" src="images/screenshots/{{shortname}}-title.png" />
-      {% for screenshot in screenshots|remove-title-credits %}
+      {% for screenshot in screenshots|remove_title_credits %}
       <img class="screenshot" src="images/screenshots/{{screenshot}}" />
       {% endfor %}
-      {% if screenshots|has-credits? %}
+      {% if screenshots|has_credits %}
       <img class="screenshot" src="images/screenshots/{{shortname}}-credits.png" />
       {% endif %}
     </div>

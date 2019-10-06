@@ -40,7 +40,6 @@ def generateWebsite():
         data = file.read()
         played_games = edn_format.loads(data)
     played_games = unednize(played_games)
-    print(played_games)
 
     games = {}
     with open("games.edn", "r") as file:
@@ -56,7 +55,46 @@ def generateWebsite():
     )
     with open("docs/lists.html", "w") as file:
         file.write(template.render(context))
-    # print(template.render(context))
+
+    game_template = engine.get_template("templates/game-page.html")
+
+    game = dict(played_games[0])
+    shortname = game.get("shortname", False)
+    screenshots = []
+    for f in os.listdir("static-assets/images/screenshots"):
+        if shortname in f.split("-"):
+            screenshots.append(f)
+    game["screenshots"] = screenshots
+    game["next"] = played_games[1]["shortname"]
+    context = django.template.Context(game)
+    with open("docs/" + shortname + ".html", "w") as file:
+        file.write(game_template.render(context))
+
+    for i in range(1, len(played_games) - 2):
+        game = dict(played_games[i])
+        shortname = game["shortname"]
+        screenshots = []
+        for f in os.listdir("static-assets/images/screenshots"):
+            if shortname in f.split("-"):
+                screenshots.append(f)
+        game["screenshots"] = screenshots
+        game["prev"] = played_games[i - 1]["shortname"]
+        game["next"] = played_games[i + 1]["shortname"]
+        context = django.template.Context(game)
+        with open("docs/" + shortname + ".html", "w") as file:
+            file.write(game_template.render(context))
+
+    game = dict(played_games[len(played_games) - 2])
+    shortname = game["shortname"]
+    screenshots = []
+    for f in os.listdir("static-assets/images/screenshots"):
+        if shortname in f.split("-"):
+            screenshots.append(f)
+    game["screenshots"] = screenshots
+    game["prev"] = played_games[len(played_games) - 3]["shortname"]
+    context = django.template.Context(game)
+    with open("docs/" + shortname + ".html", "w") as file:
+        file.write(game_template.render(context))
 
 
 def copyScreenshots(shortname, screenshots):
@@ -277,18 +315,8 @@ if __name__ == "__main__":
     with open("played-games.edn", "r") as file:
         data = file.read()
         played_games = edn_format.loads(data)
-
-    games = {}
-    with open("games.edn", "r") as file:
-        data = file.read()
-        games = edn_format.loads(data)
-
     now_playing = played_games[-1]
 
-    engine = django.template.Engine(["resources"])
-    template = engine.get_template("templates/index.html")
-    context = django.template.Context({"recent-games": [], "next_up": {"game": "foo"}})
-    # print(template.render(context))
     app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
     frame = P255Frame(None, now_playing)
     app.MainLoop()
