@@ -149,9 +149,15 @@ class FileDropper(wx.FileDropTarget):
         self.list = list
 
     def OnDropFiles(self, x, y, filenames):
-        print(filenames)
-        for file in filenames:
-            self.list.Append([file, ""])
+        for file in sorted(filenames):
+            title = ""
+            if self.list.GetItemCount() == 0:
+                title = "title"
+            elif self.list.GetItemCount() == 1:
+                title = "gameplay"
+            elif self.list.GetItemCount() == 2:
+                title = "credits"
+            self.list.Append([file, title])
         return True
 
 
@@ -247,7 +253,6 @@ class P255Frame(wx.Frame):
             self.status_note_box.Disable()
 
     def OnGoButton(self, event):
-        print("Going:")
         shortname = self.shortname.GetValue()
         if shortname == "":
             mb = wx.MessageDialog(self, "Missing shortname")
@@ -337,10 +342,11 @@ class P255Frame(wx.Frame):
         self.screenshot_list.DeleteAllItems()
 
         copyScreenshots(shortname, screenshots)
-        generateWebsite()
 
         mb = wx.MessageDialog(self, "Next up:" + str(next_game))
         mb.ShowModal()
+
+        generateWebsite()
 
 
 if __name__ == "__main__":
