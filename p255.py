@@ -96,6 +96,11 @@ def generateWebsite():
     with open("docs/" + shortname + ".html", "w") as file:
         file.write(game_template.render(context))
 
+    context = django.template.Context({})
+    template = engine.get_template("templates/about.html")
+    with open("docs/about.html", "w") as file:
+        file.write(template.render(context))
+
 
 def copyScreenshots(shortname, screenshots):
     for (path, title) in screenshots:
@@ -317,6 +322,7 @@ if __name__ == "__main__":
         played_games = edn_format.loads(data)
     now_playing = played_games[-1]
 
-    app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
-    frame = P255Frame(None, now_playing)
-    app.MainLoop()
+    # app = wx.App(False)  # Create a new app, don't redirect stdout/stderr to a window.
+    # frame = P255Frame(None, now_playing)
+    # app.MainLoop()
+    generateWebsite()
