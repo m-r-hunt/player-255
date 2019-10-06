@@ -47,7 +47,6 @@ def generateWebsite():
         games = edn_format.loads(data)
     games = unednize(games)
 
-    django.conf.settings.configure()
     engine = django.template.Engine(["resources"], builtins=["filters"])
     template = engine.get_template("templates/lists.html")
     context = django.template.Context(
@@ -325,6 +324,8 @@ class P255Frame(wx.Frame):
 
 
 if __name__ == "__main__":
+    django.conf.settings.configure()
+
     played_games = {}
     with open("played-games.edn", "r") as file:
         data = file.read()
