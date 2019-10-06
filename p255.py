@@ -5,14 +5,16 @@ import wx.lib.mixins.listctrl
 import edn_format
 import datetime
 import random
+import shutil
 
 
 def generateWebsite():
     print("Generating... (TODO)")
 
 
-def copyScreenshots(screenshots):
-    print("Copying... (TODO")
+def copyScreenshots(shortname, screenshots):
+    for (path, title) in screenshots:
+        shutil.copyfile(path, "static-assets/images/"+shortname+"-"+title+"."+path.split(".")[-1].lower())
 
 
 class FileDropper(wx.FileDropTarget):
@@ -146,6 +148,13 @@ class P255Frame(wx.Frame):
             )
             mb.ShowModal()
             return
+        for (_, title) in screenshots:
+            if title == "":
+                mb = wx.MessageDialog(
+                    self, "Untitled screenshot."
+                )
+                mb.ShowModal()
+                return
 
         notes = self.note_box.GetValue()
         if notes == "":
@@ -176,6 +185,14 @@ class P255Frame(wx.Frame):
             games = edn_format.loads(data)
         games = games[:]
 
+        if len(games) == 0:
+            with open("played-games.edn", "w") as file:
+                file.write(edn_format.dumps(played_games))
+            mb = wx.MessageDialog(self, "Woah, challenge done?!")
+            mb.ShowModal()
+            quit()
+
+
         r = random.randrange(len(games))
         next_game = games[r]
         games.remove(next_game)
@@ -189,9 +206,6 @@ class P255Frame(wx.Frame):
         with open("played-games.edn", "w") as file:
             file.write(edn_format.dumps(played_games))
 
-        mb = wx.MessageDialog(self, "Next up:" + str(next_game))
-        mb.ShowModal()
-
         self.now_playing.SetLabel(str(next_game))
         self.now_playing.Wrap(250)
         self.shortname.SetValue("")
@@ -199,8 +213,11 @@ class P255Frame(wx.Frame):
         self.note_box.SetValue("")
         self.screenshot_list.DeleteAllItems()
 
-        copyScreenshots(screenshots)
+        copyScreenshots(shortname, screenshots)
         generateWebsite()
+
+        mb = wx.MessageDialog(self, "Next up:" + str(next_game))
+        mb.ShowModal()
 
 
 if __name__ == "__main__":
