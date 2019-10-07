@@ -1172,4 +1172,14 @@
   :meta-rating "75",
   :meta-user "tbd",
   :date "Oct 2, 2006",
+  :rating 2,
+  :shortname "usb",
+  :status :other,
+  :status-note "It's a board game conversion.",
+  :notes "Board game adaptation. Not particularly good board games either. Technically competent I guess. Passed pretty quickly.",
+  :completion-date "2019-10-07"}
+ {:game "Disney's Chicken Little",
+  :meta-rating "71",
+  :meta-user "tbd",
+  :date "Oct 20, 2005",
   :rating :na}]
