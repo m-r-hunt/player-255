@@ -1182,4 +1182,13 @@
   :meta-rating "71",
   :meta-user "tbd",
   :date "Oct 20, 2005",
+  :rating 4,
+  :shortname "cl",
+  :status :complete,
+  :notes "Surprisingly competent platformer. Multiple characters (normal chicken, buff chicken, and hoverboarding fish) which all work ok. Slightly questionable minigames but otherwise ok. Disappointing final boss. The midgame bosses are interesting fights with the buff chicken and anti-gravity walls but the final boss is a disappoitingly awkward fight with the normal chicken.",
+  :completion-date "2019-10-07"}
+ {:game "Classic NES Series: Super Mario Bros.",
+  :meta-rating "84",
+  :meta-user "8.6",
+  :date "Jun 2, 2004",
   :rating :na}]
