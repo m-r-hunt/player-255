@@ -294,10 +294,6 @@
   :meta-rating "76",
   :meta-user "8.8",
   :date "Apr 30, 2005"}
- {:game "Uno / Skip-Bo",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "Oct 2, 2006"}
  {:game "Sabre Wulf",
   :meta-rating "75",
   :meta-user "8.0",
@@ -454,8 +450,7 @@
   :meta-rating "70",
   :meta-user "7.0",
   :date "Nov 14, 2006"}
- {:game
-  "Ultimate Muscle: The Kinnikuman Legacy - The Path of the Superhero",
+ {:game "Ultimate Muscle: The Kinnikuman Legacy - The Path of the Superhero",
   :meta-rating "70",
   :meta-user "8.1",
   :date "Jun 5, 2003"}
