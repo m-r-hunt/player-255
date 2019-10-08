@@ -8,6 +8,7 @@ import random
 import shutil
 import os
 import sys
+import unittest
 
 
 def rec_copy(src, dest):
@@ -31,6 +32,56 @@ def unednize(l):
     return out
 
 
+class TestUnednize(unittest.TestCase):
+    def test_unednize(self):
+        self.assertEqual(unednize(edn_format.ImmutableList([])), [])
+        self.assertEqual(
+            unednize(edn_format.ImmutableList([edn_format.ImmutableDict({})])), [{}]
+        )
+        self.assertEqual(
+            unednize(
+                edn_format.ImmutableList(
+                    [edn_format.ImmutableDict({}), edn_format.ImmutableDict({})]
+                )
+            ),
+            [{}, {}],
+        )
+        self.assertEqual(
+            unednize(
+                edn_format.ImmutableList(
+                    [
+                        edn_format.ImmutableDict({}),
+                        edn_format.ImmutableDict({}),
+                        edn_format.ImmutableDict({}),
+                        edn_format.ImmutableDict({}),
+                        edn_format.ImmutableDict({}),
+                    ]
+                )
+            ),
+            [{}, {}, {}, {}, {}],
+        )
+        self.assertEqual(
+            unednize(
+                edn_format.ImmutableList(
+                    [edn_format.ImmutableDict({edn_format.Keyword("foo"): 123})]
+                )
+            ),
+            [{"foo": 123}],
+        )
+        self.assertEqual(
+            unednize(
+                edn_format.ImmutableList(
+                    [
+                        edn_format.ImmutableDict(
+                            {edn_format.Keyword("not-complete"): 123}
+                        )
+                    ]
+                )
+            ),
+            [{"not_complete": 123}],
+        )
+
+
 # Not at all general purpose, only formats [{}, {}, ...] correctly.
 # Mostly matches clojure edn pretty printing in this one case, for good compatibility/diffs.
 def dump_edn(l):
@@ -39,9 +90,36 @@ def dump_edn(l):
         out += "{"
         for k, v in item.items():
             out += "" + edn_format.dumps(k) + " " + edn_format.dumps(v) + ",\n  "
-        out = out[0:-4] + "}\n "
-    out = out[0:-2] + "]\n"
+        if out[-4:] == ",\n  ":
+            out = out[:-4]
+        out += "}\n "
+    if out[-2:] == "\n ":
+        out = out[:-2]
+    out += "]\n"
     return out
+
+
+class TestDumpEdn(unittest.TestCase):
+    def test_trivial_cases(self):
+        self.assertEqual(dump_edn([]), "[]\n")
+        self.assertEqual(dump_edn([{}]), "[{}]\n")
+        self.assertEqual(dump_edn([{}, {}]), "[{}\n {}]\n")
+        self.assertEqual(dump_edn([{}, {}, {}, {}, {}]), "[{}\n {}\n {}\n {}\n {}]\n")
+
+    def test_single_map(self):
+        self.assertEqual(dump_edn([{"a": "b"}]), '[{"a" "b"}]\n')
+        self.assertEqual(dump_edn([{"a": "b", "c": "d"}]), '[{"a" "b",\n  "c" "d"}]\n')
+
+    def test_multiple_maps(self):
+        self.assertEqual(
+            dump_edn([{"a": "b"}, {"c": "d"}]), '[{"a" "b"}\n {"c" "d"}]\n'
+        )
+
+    def test_edn_keywords(self):
+        self.assertEqual(
+            dump_edn([{edn_format.Keyword("foo"): edn_format.Keyword("bar")}]),
+            "[{:foo :bar}]\n",
+        )
 
 
 def generateWebsite(full_regen=False):
