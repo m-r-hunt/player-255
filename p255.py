@@ -194,11 +194,12 @@ class ScreenshotList(wx.ListCtrl, wx.lib.mixins.listctrl.TextEditMixin):
 
 
 class P255Frame(wx.Frame):
-    def __init__(self, parent, now_playing, all_shortnames):
+    def __init__(self, parent, now_playing, all_shortnames, write_data_fn):
         wx.Frame.__init__(self, parent, title="Player 255", size=(500, 800))
         panel = wx.Panel(self)
 
         self.all_shortnames = all_shortnames
+        self.write_data_fn = write_data_fn
 
         self.grid = wx.FlexGridSizer(2, 10, 10)
         self.grid.AddGrowableCol(0)
@@ -317,48 +318,15 @@ class P255Frame(wx.Frame):
             mb.ShowModal()
             return
 
-        played_games = {}
-        with open("played-games.edn", "r") as file:
-            data = file.read()
-            played_games = edn_format.loads(data)
-        played_games = played_games[:]
-        pg = dict(played_games[-1])
-        pg[edn_format.Keyword("shortname")] = shortname
-        pg[edn_format.Keyword("rating")] = rating
-        pg[edn_format.Keyword("status")] = edn_format.Keyword(
-            status.lower().replace(" ", "-")
-        )
-        if status == "Other" and status_note != "":
-            pg[edn_format.Keyword("status-note")] = status_note
-        pg[edn_format.Keyword("notes")] = notes
-        pg[edn_format.Keyword("completion-date")] = str(datetime.datetime.now().date())
-        played_games[-1] = pg
-
-        games = {}
-        with open("games.edn", "r") as file:
-            data = file.read()
-            games = edn_format.loads(data)
-        games = games[:]
-
-        if len(games) == 0:
-            with open("played-games.edn", "w") as file:
-                file.write(dump_edn(played_games))
-            mb = wx.MessageDialog(self, "Woah, challenge done?!")
-            mb.ShowModal()
-            quit()
-
-        r = random.randrange(len(games))
-        next_game = games[r]
-        games.remove(next_game)
-        next_game = dict(next_game)
-        next_game[edn_format.Keyword("rating")] = edn_format.Keyword("na")
-        played_games.append(next_game)
-
-        with open("games.edn", "w") as file:
-            file.write(dump_edn(games))
-
-        with open("played-games.edn", "w") as file:
-            file.write(dump_edn(played_games))
+        data = {
+            "shortname": shortname,
+            "rating": rating,
+            "notes": notes,
+            "screenshots": screenshots,
+            "status": status,
+            "status_note": status_note,
+        }
+        next_game = self.write_data_fn(data)
 
         self.now_playing.SetLabel(str(next_game))
         self.now_playing.Wrap(250)
@@ -367,14 +335,65 @@ class P255Frame(wx.Frame):
         self.note_box.SetValue("")
         self.screenshot_list.DeleteAllItems()
 
-        copyScreenshots(shortname, screenshots)
-
         self.all_shortnames.append(shortname)
 
         mb = wx.MessageDialog(self, "Next up:" + str(next_game))
         mb.ShowModal()
 
-        generateWebsite()
+
+def write_data(guidata):
+    played_games = {}
+    with open("played-games.edn", "r") as file:
+        data = file.read()
+        played_games = edn_format.loads(data)
+    played_games = played_games[:]
+    pg = dict(played_games[-1])
+    pg[edn_format.Keyword("shortname")] = guidata["shortname"]
+    pg[edn_format.Keyword("rating")] = guidata["rating"]
+    pg[edn_format.Keyword("status")] = edn_format.Keyword(
+        guidata["status"].lower().replace(" ", "-")
+    )
+    if guidata["status"] == "Other" and guidata["status_note"] != "":
+        pg[edn_format.Keyword("status-note")] = guidata["status_note"]
+    pg[edn_format.Keyword("notes")] = guidata["notes"]
+    pg[edn_format.Keyword("completion-date")] = str(datetime.datetime.now().date())
+    played_games[-1] = pg
+
+    games = {}
+    with open("games.edn", "r") as file:
+        data = file.read()
+        games = edn_format.loads(data)
+    games = games[:]
+
+    if len(games) == 0:
+        with open("played-games.edn", "w") as file:
+            file.write(dump_edn(played_games))
+        mb = wx.MessageDialog(None, "Woah, challenge done?!")
+        mb.ShowModal()
+        quit()
+
+    r = random.randrange(len(games))
+    next_game = games[r]
+    games.remove(next_game)
+    next_game = dict(next_game)
+    next_game[edn_format.Keyword("rating")] = edn_format.Keyword("na")
+    played_games.append(next_game)
+
+    with open("games.edn", "w") as file:
+        file.write(dump_edn(games))
+
+    with open("played-games.edn", "w") as file:
+        file.write(dump_edn(played_games))
+
+    copyScreenshots(guidata["shortname"], guidata["screenshots"])
+
+    generateWebsite()
+    return next_game
+
+
+def mock_write_data(data):
+    print(data)
+    return {"name": "Test game"}
 
 
 if __name__ == "__main__":
@@ -396,5 +415,10 @@ if __name__ == "__main__":
         app = wx.App(
             False
         )  # Create a new app, don't redirect stdout/stderr to a window.
-        frame = P255Frame(None, now_playing, all_shortnames)
+
+        fn = write_data
+        if len(sys.argv) >= 2 and sys.argv[1] == "-guitest":
+            fn = mock_write_data
+
+        frame = P255Frame(None, now_playing, all_shortnames, fn)
         app.MainLoop()
