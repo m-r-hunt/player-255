@@ -111,6 +111,28 @@ def mock_write_data(data):
     return {"name": "Test game"}
 
 
+def testAllShortnames():
+    played_games = readPlayedGames()
+    games = readGames()
+    all_shortnames = []
+    generated_shortnames = []
+    for g in played_games[:-1]:
+        sn = utils.makeShortname(g, all_shortnames)
+        all_shortnames.append(sn)
+        generated_shortnames.append(
+            (g[edn_format.Keyword("game")], sn, g[edn_format.Keyword("shortname")])
+        )
+    g = played_games[-1]
+    sn = utils.makeShortname(g, all_shortnames)
+    all_shortnames.append(sn)
+    generated_shortnames.append((g[edn_format.Keyword("game")], sn))
+    for g in games[:-1]:
+        sn = utils.makeShortname(g, all_shortnames)
+        all_shortnames.append(sn)
+        generated_shortnames.append((g[edn_format.Keyword("game")], sn))
+    return generated_shortnames
+
+
 if __name__ == "__main__":
     django.conf.settings.configure()
 

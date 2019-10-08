@@ -1,5 +1,7 @@
 import unittest
 import edn_format
+import string
+import re
 
 
 def unednize(l):
@@ -143,9 +145,71 @@ class TestMapScreenshotNames(unittest.TestCase):
         )
 
 
+def roman_to_int(input):
+    """ Convert a Roman numeral to an integer. """
+    """ Swiped from Python Cookbook, license:
+    Copyright (c) 2001, Paul M. Winkler
+All rights reserved.
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions 
+are met:
+   * Redistributions of source code must retain the above copyright 
+     notice, this list of conditions and the following disclaimer. 
+   * Redistributions in binary form must reproduce the above
+     copyright notice, this list of conditions and the following
+     disclaimer in the documentation and/or other materials provided
+     with the distribution. 
+   * Neither the name of the <ORGANIZATION> nor the names of its 
+     contributors may be used to endorse or promote products derived 
+     from this software without specific prior written permission. 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+"""
+    if not isinstance(input, type("")):
+        raise TypeError
+    input = input.upper()
+    nums = {"M": 1000, "D": 500, "C": 100, "L": 50, "X": 10, "V": 5, "I": 1}
+    sum = 0
+    for i in range(len(input)):
+        try:
+            value = nums[input[i]]
+            # If the next place holds a larger number, this value is negative
+            if i + 1 < len(input) and nums[input[i + 1]] > value:
+                sum -= value
+            else:
+                sum += value
+        except KeyError:
+            raise ValueError
+    return sum
+
+
+def filterWord(word):
+    if word == "":
+        return ""
+    if word.isnumeric():
+        return word
+    if re.fullmatch("[IVX]*", word):
+        return str(roman_to_int(word))
+
+    return word[0]
+
+
 def makeShortname(game, all_shortnames):
+    delete_table = str.maketrans("", "", string.punctuation)
     shortname = "".join(
-        [word[0] for word in game[edn_format.Keyword("game")].split(" ")]
+        [
+            filterWord(word.translate(delete_table))
+            for word in game[edn_format.Keyword("game")].split()
+        ]
     ).lower()
     if shortname in all_shortnames:
         n = 2
@@ -180,6 +244,22 @@ class TestMakeShortname(unittest.TestCase):
         )
         self.assertEqual(
             makeShortname({edn_format.Keyword("game"): "Maybe Some Caps?"}, []), "msc"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "* - . hello"}, []), "h"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "  hello\t\nasdf"}, []), "ha"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "longnum 12"}, []), "l12"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "roman IV"}, []), "r4"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "a : colon colon: IV:"}, []),
+            "acc4",
         )
 
 
