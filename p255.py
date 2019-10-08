@@ -194,9 +194,12 @@ class ScreenshotList(wx.ListCtrl, wx.lib.mixins.listctrl.TextEditMixin):
 
 
 class P255Frame(wx.Frame):
-    def __init__(self, parent, now_playing):
+    def __init__(self, parent, now_playing, all_shortnames):
         wx.Frame.__init__(self, parent, title="Player 255", size=(500, 800))
         panel = wx.Panel(self)
+
+        self.all_shortnames = all_shortnames
+
         self.grid = wx.FlexGridSizer(2, 10, 10)
         self.grid.AddGrowableCol(0)
 
@@ -276,6 +279,11 @@ class P255Frame(wx.Frame):
             mb = wx.MessageDialog(self, "Missing shortname")
             mb.ShowModal()
             return
+        if shortname in self.all_shortnames:
+            mb = wx.MessageDialog(self, "Duplicate shortname")
+            mb.ShowModal()
+            return
+
         status = self.choice_list[self.choice.GetSelection()]
         status_note = self.status_note_box.GetValue()
         rating = 0
@@ -361,6 +369,8 @@ class P255Frame(wx.Frame):
 
         copyScreenshots(shortname, screenshots)
 
+        self.all_shortnames.append(shortname)
+
         mb = wx.MessageDialog(self, "Next up:" + str(next_game))
         mb.ShowModal()
 
@@ -379,9 +389,12 @@ if __name__ == "__main__":
             data = file.read()
             played_games = edn_format.loads(data)
         now_playing = played_games[-1]
+        all_shortnames = [
+            game[edn_format.Keyword("shortname")] for game in played_games[:-1]
+        ]
 
         app = wx.App(
             False
         )  # Create a new app, don't redirect stdout/stderr to a window.
-        frame = P255Frame(None, now_playing)
+        frame = P255Frame(None, now_playing, all_shortnames)
         app.MainLoop()
