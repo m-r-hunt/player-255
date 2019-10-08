@@ -124,6 +124,10 @@ class P255Frame(wx.Frame):
             mb = wx.MessageDialog(self, "Duplicate shortname")
             mb.ShowModal()
             return
+        if "-" in shortname or "/" in shortname or "." in shortname:
+            mb = wx.MessageDialog(self, "Illegal character (-/.) in shortname")
+            mb.ShowModal()
+            return
 
         status = self.choice_list[self.choice.GetSelection()]
         status_note = self.status_note_box.GetValue()

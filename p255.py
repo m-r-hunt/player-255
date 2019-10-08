@@ -31,7 +31,22 @@ def generateWebsite(full_regen=False):
     else:
         rec_copy("static-assets", "docs")
 
-    files = website.functionalGenerateWebsite(full_regen)
+    played_games = {}
+    with open("played-games.edn", "r") as file:
+        data = file.read()
+        played_games = edn_format.loads(data)
+    played_games = utils.unednize(played_games)
+    website.sortScreenshots(
+        played_games, os.listdir("static-assets/images/screenshots")
+    )
+
+    games = {}
+    with open("games.edn", "r") as file:
+        data = file.read()
+        games = edn_format.loads(data)
+    games = utils.unednize(games)
+
+    files = website.functionalGenerateWebsite(games, played_games, full_regen)
     for filename, content in files.items():
         with open(filename, "w") as file:
             file.write(content)

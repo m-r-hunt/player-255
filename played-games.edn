@@ -321,7 +321,7 @@
   :completion-date "2018-5-31",
   :status :complete,
   :notes "Dragon Ball Z: The Legacy of Goku II is a top down action RPG based on the very popular Dragon Ball Z manga/anime/general pop cultural phenomenon. DBZ was pretty much at its height when the GBA was released, and quite a few DBZ games made it onto the GBA. Only 3 made it into the challenge list: this game, Dragon Ball Advanced Adventure (an action platformer based on the original Dragon Ball i.e. young Goku's adventures), and Dragon Ball Z Supersonic Warriors(a 2d fighting game).\n\n\nAs you may have guessed from the title, Legacy of Goku 2 is a sequel to another GBA title, Legacy of Goku. There was also a third game, Buu's Fury. Neither of these got good enough critical ratings to get onto the list, so it seems the Legacy of Goku 2 was a high point in the series.\n\n\n\nLegacy of Goku 2 covers the Android and Cell sagas from the Anime, and follows the story relatively closely. The only exception is that some stuff is added during what is essentially a timeskip in the source material (the 3 years between Trunks arriving from the future to defeat Frieza and the Androids actually appearing).\n\nThe pacing of the game is a little odd. The first half felt like the introduction to a much longer game, but when the Androids finally appeared the plot kicked into high gear and the game ended up finishing relatively quickly. I wonder if this was because they needed to add in some content to reintroduce the gameplay and characters, without much happening in the story. Then when the story gets going everything happens much faster. The game is fairly short overall, but does have some sidequests and post-game content I didn't get into.\n\n\nGameplay is decent, but not amazing. Mostly it consists of walking around, punching enemies and throwing various special attacks. Hitboxes are a little \"interesting\", depending on which angle you're facing. The main issue is there's no block or dodging mechanic, and after a hit you (or your enemies) get stunned. This means you can effectively stunlock enemies to death. This applies to all the bosses throughout the game. Getting that first hit in can be difficult due to the weird hitboxes though. The most threatening enemies are those that appear in large packs, as they can stunlock you to death very quickly.\n\nGraphically, the game looks fairly good, with decent bighead style pixel art. There are a few oddities, like the fact that Cell is much bigger than everyone else and has more realistic proportions.\n\nThe biggest problem with the game (other than the slightly dodgy core gameplay) is the necessity of grinding. You play as 5 different characters, each of which levels separately and you can only switch at a savepoint. There are doors in the world, which require specific characters at specific levels to open (with no attempt to explain in-fiction what these are). Sometimes you really are forced to grind, for example when you unlock Goku at level 35 you almost immediately need him at level 40 to unlock some doors. The saving grace is that levelling isn't that slow when you fight the hardest enemies available. Even an under levelled character can be brought up to scratch fairly quickly. I found this process surprisingly relaxing however, and it annoyed me less than grinding in some games does.\n\n\nOverall, Legacy of Goku is a cut above your average GBA tie in, but is let down from greatness by its short length, shallow gameplay, and grinding. I did enjoy the experience however.\n",
-  :shortname "db-lg2",
+  :shortname "dbzlg2",
   :meta-user "8.5",
   :rating 4}
  {:date "Oct 30, 2001",
@@ -366,7 +366,7 @@
   :completion-date "2018-6-12",
   :status :complete,
   :notes "F-Zero is a series of fast and futuristic anti-gravity arcade racing games. There have been quite a few of these, starting with F-Zero on the SNES.\n\n\nF-Zero GP Legend is one of 2 F-Zero titles on the GBA. It didn't get as good review scores as the other, F-Zero: Maximum Velocity.\n\nIt's an arcade racer, you accelerate, steer (with air brakes for drifting), and try to avoid crashing too much. You can boost, with a meter that gets refreshed by driving over certain parts of the track. You also have a health bar and lose if it runs out. Your ship can be repaired by driving over other sections of the track. It's pretty fun, controls are decent, and the AI is usually competetive.\n\n\n\nGraphically, it's 3D with mode-7 style stretched sprite graphics. Looks OK, with a good draw distance compared to some of the polygonal 3D games like Need for Speed. There's a nice variety in the ships too. The only problem is that the tracks are all flat and can look a bit sparse.\n\nThe game actually has a story mode, telling intertwining stories about different F-Zero racers. It's a kind of faintly cyberpunk sci-fi story, with bounty hunters tracking down criminals. Of course, everyone resolves their problem by having F-Zero races. The races in this mode are just races with slightly different objectives, like racing to the end of one lap of a long twisty track, or just a normal race, nothing amazing. I played to the completion of one of the character's story which brought up the credit. This didn't take too long, but there are multiple other unique stories for other characters.\n\nOverall, F-Zero is a pretty fun game on the GBA, even if it's not quite up to the intensity of the home console versions.\n",
-  :shortname "fz-gp",
+  :shortname "fzgp",
   :meta-user "8.3",
   :rating 4}
  {:date "Mar 6, 2006",
@@ -429,7 +429,7 @@
   :completion-date "2018-8-25",
   :status :complete,
   :notes "It's Pokemon. A remake of the original games, so a big nostalgia hit. Graphics much improved over the original, nice sprite work in general. Suffers from some of the same problems as the original, including a weird difficulty curve in the mid-game and some progression that would be obtuse if I didn't know the games (i.e. stuff with the Silph Scope/Pokeflute, getting Tea for the border guards, etc.). I also seemed to need to do some grinding to beat the Elite 4/Champion even though I had trained my team consistently, which was a little annoying.\n",
-  :shortname "pkmn-lg",
+  :shortname "pkmnlg",
   :meta-user "8.6",
   :rating 4}
  {:date "Dec 1, 2003",
@@ -714,7 +714,7 @@
   :completion-date "2019-1-12",
   :status :not-complete,
   :notes "Did a Nuzlocke run since this is a repeat. Died to Misty, who seems hard for where she appears in the game, since I had not managed to acquire a pokemon effective against her.\n",
-  :shortname "pkmn-fr",
+  :shortname "pkmnfr",
   :meta-user "8.7",
   :rating 3}
  {:date "May 29, 2003",
@@ -1075,7 +1075,7 @@
   :completion-date "2019-5-25",
   :status :complete,
   :notes "Decent futuristic arcadey racer. Very slidy and hard until I discovered the trick of tapping the throttle to corner effortlessly, then the game became kind of easy. Wierdly the game doesn't give you any kind of result when finishing a grand prix, but I did all of them so I'm calling it complete.",
-  :shortname "fz-mv",
+  :shortname "fzmv",
   :meta-user "8.4",
   :rating 3}
  {:date "Apr 28, 2004",

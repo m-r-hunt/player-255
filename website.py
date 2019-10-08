@@ -4,20 +4,17 @@ import django.template
 import os
 
 
-def functionalGenerateWebsite(full_regen=False):
+def sortScreenshots(played_games, screenshots):
+    temp_map = {game["shortname"]: game for game in played_games[:-1]}
+    for g in played_games[:-1]:
+        g["screenshots"] = []
+    for screenshot in screenshots:
+        shortname = os.path.basename(screenshot).split("-")[0]
+        temp_map[shortname]["screenshots"].append(screenshot)
+
+
+def functionalGenerateWebsite(games, played_games, full_regen=False):
     out = {}
-
-    played_games = {}
-    with open("played-games.edn", "r") as file:
-        data = file.read()
-        played_games = edn_format.loads(data)
-    played_games = utils.unednize(played_games)
-
-    games = {}
-    with open("games.edn", "r") as file:
-        data = file.read()
-        games = edn_format.loads(data)
-    games = utils.unednize(games)
 
     engine = django.template.Engine(["resources"], builtins=["filters"])
     template = engine.get_template("templates/lists.html")
@@ -31,11 +28,6 @@ def functionalGenerateWebsite(full_regen=False):
     if full_regen:
         game = dict(played_games[0])
         shortname = game.get("shortname", False)
-        screenshots = []
-        for f in os.listdir("static-assets/images/screenshots"):
-            if shortname in f.split("-"):
-                screenshots.append(f)
-        game["screenshots"] = screenshots
         game["next"] = played_games[1]["shortname"]
         context = django.template.Context(game)
         out["docs/" + shortname + ".html"] = game_template.render(context)
@@ -43,11 +35,6 @@ def functionalGenerateWebsite(full_regen=False):
         for i in range(1, len(played_games) - 3):
             game = dict(played_games[i])
             shortname = game["shortname"]
-            screenshots = []
-            for f in os.listdir("static-assets/images/screenshots"):
-                if shortname in f.split("-"):
-                    screenshots.append(f)
-            game["screenshots"] = screenshots
             game["prev"] = played_games[i - 1]["shortname"]
             game["next"] = played_games[i + 1]["shortname"]
             context = django.template.Context(game)
@@ -55,11 +42,6 @@ def functionalGenerateWebsite(full_regen=False):
 
     game = dict(played_games[len(played_games) - 3])
     shortname = game["shortname"]
-    screenshots = []
-    for f in os.listdir("static-assets/images/screenshots"):
-        if shortname in f.split("-"):
-            screenshots.append(f)
-    game["screenshots"] = screenshots
     game["prev"] = played_games[len(played_games) - 4]["shortname"]
     game["next"] = played_games[len(played_games) - 2]["shortname"]
     context = django.template.Context(game)
@@ -67,11 +49,6 @@ def functionalGenerateWebsite(full_regen=False):
 
     game = dict(played_games[len(played_games) - 2])
     shortname = game["shortname"]
-    screenshots = []
-    for f in os.listdir("static-assets/images/screenshots"):
-        if shortname in f.split("-"):
-            screenshots.append(f)
-    game["screenshots"] = screenshots
     game["prev"] = played_games[len(played_games) - 3]["shortname"]
     context = django.template.Context(game)
     out["docs/" + shortname + ".html"] = game_template.render(context)
