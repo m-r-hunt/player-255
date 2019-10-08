@@ -35,11 +35,10 @@ class ScreenshotList(wx.ListCtrl, wx.lib.mixins.listctrl.TextEditMixin):
 
 
 class P255Frame(wx.Frame):
-    def __init__(self, parent, now_playing, all_shortnames, write_data_fn):
+    def __init__(self, parent, now_playing, write_data_fn):
         wx.Frame.__init__(self, parent, title="Player 255", size=(500, 800))
         panel = wx.Panel(self)
 
-        self.all_shortnames = all_shortnames
         self.write_data_fn = write_data_fn
 
         self.grid = wx.FlexGridSizer(2, 10, 10)
@@ -48,9 +47,6 @@ class P255Frame(wx.Frame):
         self.now_playing = wx.StaticText(panel, label=str(now_playing))
         self.now_playing.Wrap(250)
         self.AddLabelledControl(panel, "Now Playing", self.now_playing)
-
-        self.shortname = wx.TextCtrl(panel)
-        self.AddLabelledControl(panel, "Shortname", self.shortname)
 
         self.choice_list = ["Complete", "Not Complete", "Other"]
         self.choice = wx.Choice(panel, choices=self.choice_list)
@@ -116,20 +112,6 @@ class P255Frame(wx.Frame):
             self.status_note_box.Disable()
 
     def OnGoButton(self, event):
-        shortname = self.shortname.GetValue()
-        if shortname == "":
-            mb = wx.MessageDialog(self, "Missing shortname")
-            mb.ShowModal()
-            return
-        if shortname in self.all_shortnames:
-            mb = wx.MessageDialog(self, "Duplicate shortname")
-            mb.ShowModal()
-            return
-        if "-" in shortname or "/" in shortname or "." in shortname:
-            mb = wx.MessageDialog(self, "Illegal character (-/.) in shortname")
-            mb.ShowModal()
-            return
-
         status = self.choice_list[self.choice.GetSelection()]
         status_note = self.status_note_box.GetValue()
         rating = 0
@@ -164,7 +146,6 @@ class P255Frame(wx.Frame):
             return
 
         data = {
-            "shortname": shortname,
             "rating": rating,
             "notes": notes,
             "screenshots": screenshots,
@@ -175,18 +156,15 @@ class P255Frame(wx.Frame):
 
         self.now_playing.SetLabel(str(next_game))
         self.now_playing.Wrap(250)
-        self.shortname.SetValue("")
         self.status_note_box.SetValue("")
         self.note_box.SetValue("")
         self.screenshot_list.DeleteAllItems()
-
-        self.all_shortnames.append(shortname)
 
         mb = wx.MessageDialog(self, "Next up:" + str(next_game))
         mb.ShowModal()
 
 
-def runGUI(now_playing, all_shortnames, fn):
+def runGUI(now_playing, fn):
     app = wx.App(False)
-    frame = P255Frame(None, now_playing, all_shortnames, fn)
+    frame = P255Frame(None, now_playing, fn)
     app.MainLoop()

@@ -78,7 +78,9 @@ def copyScreenshots(shortname, screenshots):
 def write_data(guidata):
     played_games = [dict(game) for game in readPlayedGames()]
 
-    utils.updateLastPlayed(played_games, guidata, str(datetime.datetime.now().date()))
+    shortname = utils.updateLastPlayed(
+        played_games, guidata, str(datetime.datetime.now().date())
+    )
 
     games = readGames()[:]
 
@@ -98,7 +100,7 @@ def write_data(guidata):
     writeGames(games)
     writePlayedGames(played_games)
 
-    copyScreenshots(guidata["shortname"], guidata["screenshots"])
+    copyScreenshots(shortname, guidata["screenshots"])
 
     generateWebsite()
     return next_game
@@ -118,10 +120,7 @@ if __name__ == "__main__":
     else:
         played_games = readPlayedGames()
         now_playing = played_games[-1]
-        all_shortnames = [
-            game[edn_format.Keyword("shortname")] for game in played_games[:-1]
-        ]
         fn = write_data
         if len(sys.argv) >= 2 and sys.argv[1] == "-guitest":
             fn = mock_write_data
-        gui.runGUI(now_playing, all_shortnames, fn)
+        gui.runGUI(now_playing, fn)

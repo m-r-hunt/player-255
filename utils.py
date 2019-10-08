@@ -143,9 +143,53 @@ class TestMapScreenshotNames(unittest.TestCase):
         )
 
 
+def makeShortname(game, all_shortnames):
+    shortname = "".join(
+        [word[0] for word in game[edn_format.Keyword("game")].split(" ")]
+    ).lower()
+    if shortname in all_shortnames:
+        n = 2
+        while (shortname + str(n)) in all_shortnames:
+            n += 1
+        return shortname + str(n)
+    return shortname
+
+
+class TestMakeShortname(unittest.TestCase):
+    def test_makeShortname(self):
+        self.assertEqual(makeShortname({edn_format.Keyword("game"): "word"}, []), "w")
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "multiple words"}, []), "mw"
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "this ones a repeat"}, ["toar"]),
+            "toar2",
+        )
+        self.assertEqual(
+            makeShortname(
+                {edn_format.Keyword("game"): "this ones a repeat"}, ["toar", "toar2"]
+            ),
+            "toar3",
+        )
+        self.assertEqual(
+            makeShortname(
+                {edn_format.Keyword("game"): "this ones a repeat"},
+                ["toar", "toar2", "toar3", "toar4"],
+            ),
+            "toar5",
+        )
+        self.assertEqual(
+            makeShortname({edn_format.Keyword("game"): "Maybe Some Caps?"}, []), "msc"
+        )
+
+
 def updateLastPlayed(played_games, guidata, date):
     game = played_games[-1]
-    game[edn_format.Keyword("shortname")] = guidata["shortname"]
+    all_shortnames = [
+        game[edn_format.Keyword("shortname")] for game in played_games[:-1]
+    ]
+    shortname = makeShortname(game, all_shortnames)
+    game[edn_format.Keyword("shortname")] = shortname
     game[edn_format.Keyword("rating")] = guidata["rating"]
     game[edn_format.Keyword("status")] = edn_format.Keyword(
         guidata["status"].lower().replace(" ", "-")
@@ -154,3 +198,4 @@ def updateLastPlayed(played_games, guidata, date):
         game[edn_format.Keyword("status-note")] = guidata["status_note"]
     game[edn_format.Keyword("notes")] = guidata["notes"]
     game[edn_format.Keyword("completion-date")] = date
+    return shortname
