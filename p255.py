@@ -23,6 +23,32 @@ def rec_copy(src, dest):
                 shutil.copyfile(srcf, destf)
 
 
+played_games_file = "played-games.edn"
+
+
+def readPlayedGames():
+    with open(played_games_file, "r") as file:
+        return edn_format.loads(file.read())
+
+
+def writePlayedGames(data):
+    with open(played_games_file, "w") as file:
+        file.write(utils.dump_edn(data))
+
+
+games_file = "games.edn"
+
+
+def readGames():
+    with open(games_file, "r") as file:
+        return edn_format.loads(file.read())
+
+
+def writeGames(data):
+    with open(games_file, "w") as file:
+        file.write(utils.dump_edn(data))
+
+
 def generateWebsite(full_regen=False):
     if full_regen:
         if os.path.isfile("docs") or os.path.isdir("docs"):
@@ -31,20 +57,12 @@ def generateWebsite(full_regen=False):
     else:
         rec_copy("static-assets", "docs")
 
-    played_games = {}
-    with open("played-games.edn", "r") as file:
-        data = file.read()
-        played_games = edn_format.loads(data)
-    played_games = utils.unednize(played_games)
+    played_games = utils.unednize(readPlayedGames())
     website.sortScreenshots(
         played_games, os.listdir("static-assets/images/screenshots")
     )
 
-    games = {}
-    with open("games.edn", "r") as file:
-        data = file.read()
-        games = edn_format.loads(data)
-    games = utils.unednize(games)
+    games = utils.unednize(readGames())
 
     files = website.functionalGenerateWebsite(games, played_games, full_regen)
     for filename, content in files.items():
@@ -58,32 +76,14 @@ def copyScreenshots(shortname, screenshots):
 
 
 def write_data(guidata):
-    played_games = {}
-    with open("played-games.edn", "r") as file:
-        data = file.read()
-        played_games = edn_format.loads(data)
-    played_games = played_games[:]
-    pg = dict(played_games[-1])
-    pg[edn_format.Keyword("shortname")] = guidata["shortname"]
-    pg[edn_format.Keyword("rating")] = guidata["rating"]
-    pg[edn_format.Keyword("status")] = edn_format.Keyword(
-        guidata["status"].lower().replace(" ", "-")
-    )
-    if guidata["status"] == "Other" and guidata["status_note"] != "":
-        pg[edn_format.Keyword("status-note")] = guidata["status_note"]
-    pg[edn_format.Keyword("notes")] = guidata["notes"]
-    pg[edn_format.Keyword("completion-date")] = str(datetime.datetime.now().date())
-    played_games[-1] = pg
+    played_games = [dict(game) for game in readPlayedGames()]
 
-    games = {}
-    with open("games.edn", "r") as file:
-        data = file.read()
-        games = edn_format.loads(data)
-    games = games[:]
+    utils.updateLastPlayed(played_games, guidata, str(datetime.datetime.now().date()))
+
+    games = readGames()[:]
 
     if len(games) == 0:
-        with open("played-games.edn", "w") as file:
-            file.write(utils.dump_edn(played_games))
+        writePlayedGames(played_games)
         mb = wx.MessageDialog(None, "Woah, challenge done?!")
         mb.ShowModal()
         quit()
@@ -95,11 +95,8 @@ def write_data(guidata):
     next_game[edn_format.Keyword("rating")] = edn_format.Keyword("na")
     played_games.append(next_game)
 
-    with open("games.edn", "w") as file:
-        file.write(utils.dump_edn(games))
-
-    with open("played-games.edn", "w") as file:
-        file.write(utils.dump_edn(played_games))
+    writeGames(games)
+    writePlayedGames(played_games)
 
     copyScreenshots(guidata["shortname"], guidata["screenshots"])
 
@@ -119,22 +116,12 @@ if __name__ == "__main__":
         print("Doing a full website generation")
         generateWebsite(True)
     else:
-        played_games = {}
-        with open("played-games.edn", "r") as file:
-            data = file.read()
-            played_games = edn_format.loads(data)
+        played_games = readPlayedGames()
         now_playing = played_games[-1]
         all_shortnames = [
             game[edn_format.Keyword("shortname")] for game in played_games[:-1]
         ]
-
-        app = wx.App(
-            False
-        )  # Create a new app, don't redirect stdout/stderr to a window.
-
         fn = write_data
         if len(sys.argv) >= 2 and sys.argv[1] == "-guitest":
             fn = mock_write_data
-
-        frame = gui.P255Frame(None, now_playing, all_shortnames, fn)
-        app.MainLoop()
+        gui.runGUI(now_playing, all_shortnames, fn)

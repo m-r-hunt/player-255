@@ -1,7 +1,17 @@
-import utils
-import edn_format
 import django.template
-import os
+import os.path
+import unittest
+
+
+def extractScreenshotShortname(screenshot):
+    return os.path.basename(screenshot).split("-")[0]
+
+
+class TestExtractScreenshotShortname(unittest.TestCase):
+    def test_extractScreenshotShortname(self):
+        self.assertEqual(extractScreenshotShortname("foo-title.png"), "foo")
+        self.assertEqual(extractScreenshotShortname("foo-bar-rtitle.png"), "foo")
+        self.assertEqual(extractScreenshotShortname("a/b/c/foo-bar-rtitle.png"), "foo")
 
 
 def sortScreenshots(played_games, screenshots):
@@ -9,8 +19,33 @@ def sortScreenshots(played_games, screenshots):
     for g in played_games[:-1]:
         g["screenshots"] = []
     for screenshot in screenshots:
-        shortname = os.path.basename(screenshot).split("-")[0]
-        temp_map[shortname]["screenshots"].append(screenshot)
+        temp_map[extractScreenshotShortname(screenshot)]["screenshots"].append(
+            screenshot
+        )
+
+
+class TestSortScreenshots(unittest.TestCase):
+    def test_sortScreenshots(self):
+        played_games = [{"shortname": "foo"}, {"shortname": "bar"}, {}]
+        screenshots = [
+            "foo-title.png",
+            "bar-credits.png",
+            "foo-credits.png",
+            "bar-title.png",
+        ]
+        sortScreenshots(played_games, screenshots)
+
+        self.assertIn("screenshots", played_games[0])
+        foo_screenshots = played_games[0]["screenshots"]
+        self.assertEqual(len(foo_screenshots), 2)
+        self.assertIn("foo-title.png", foo_screenshots)
+        self.assertIn("foo-credits.png", foo_screenshots)
+
+        self.assertIn("screenshots", played_games[1])
+        bar_screenshots = played_games[1]["screenshots"]
+        self.assertEqual(len(bar_screenshots), 2)
+        self.assertIn("bar-credits.png", bar_screenshots)
+        self.assertIn("bar-title.png", bar_screenshots)
 
 
 def functionalGenerateWebsite(games, played_games, full_regen=False):

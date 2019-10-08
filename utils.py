@@ -117,3 +117,40 @@ def mapScreenshotNames(shortname, screenshots):
             ]
         )
     return out
+
+
+class TestMapScreenshotNames(unittest.TestCase):
+    def test_mapScreenshotNames(self):
+        self.assertEqual(
+            mapScreenshotNames("foo", [["path/to/shot.png", "title"]]),
+            [["path/to/shot.png", "static-assets/images/screenshots/foo-title.png"]],
+        )
+        self.assertEqual(
+            mapScreenshotNames("foo", [["path/to/shot.PnG", "title"]]),
+            [["path/to/shot.PnG", "static-assets/images/screenshots/foo-title.png"]],
+        )
+        self.assertEqual(
+            mapScreenshotNames(
+                "foo", [["path/to/shot.PnG", "title"], ["another/as.gif", "gameplsefd"]]
+            ),
+            [
+                ["path/to/shot.PnG", "static-assets/images/screenshots/foo-title.png"],
+                [
+                    "another/as.gif",
+                    "static-assets/images/screenshots/foo-gameplsefd.gif",
+                ],
+            ],
+        )
+
+
+def updateLastPlayed(played_games, guidata, date):
+    game = played_games[-1]
+    game[edn_format.Keyword("shortname")] = guidata["shortname"]
+    game[edn_format.Keyword("rating")] = guidata["rating"]
+    game[edn_format.Keyword("status")] = edn_format.Keyword(
+        guidata["status"].lower().replace(" ", "-")
+    )
+    if guidata["status"] == "Other" and guidata["status_note"] != "":
+        game[edn_format.Keyword("status-note")] = guidata["status_note"]
+    game[edn_format.Keyword("notes")] = guidata["notes"]
+    game[edn_format.Keyword("completion-date")] = date

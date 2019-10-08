@@ -1,6 +1,7 @@
 import wx
 import wx.lib.mixins.listctrl
 
+
 class FileDropper(wx.FileDropTarget):
     def __init__(self, list):
         wx.FileDropTarget.__init__(self)
@@ -184,3 +185,8 @@ class P255Frame(wx.Frame):
         mb = wx.MessageDialog(self, "Next up:" + str(next_game))
         mb.ShowModal()
 
+
+def runGUI(now_playing, all_shortnames, fn):
+    app = wx.App(False)
+    frame = P255Frame(None, now_playing, all_shortnames, fn)
+    app.MainLoop()
