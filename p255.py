@@ -122,13 +122,8 @@ class TestDumpEdn(unittest.TestCase):
         )
 
 
-def generateWebsite(full_regen=False):
-    if full_regen:
-        if os.path.isfile("docs") or os.path.isdir("docs"):
-            shutil.rmtree("docs")
-        shutil.copytree("static-assets", "docs")
-    else:
-        rec_copy("static-assets", "docs")
+def functionalGenerateWebsite(full_regen=False):
+    out = {}
 
     played_games = {}
     with open("played-games.edn", "r") as file:
@@ -147,8 +142,7 @@ def generateWebsite(full_regen=False):
     context = django.template.Context(
         {"remaining_games": games, "played_games": played_games}
     )
-    with open("docs/lists.html", "w") as file:
-        file.write(template.render(context))
+    out["docs/lists.html"] = template.render(context)
 
     game_template = engine.get_template("templates/game-page.html")
 
@@ -162,8 +156,7 @@ def generateWebsite(full_regen=False):
         game["screenshots"] = screenshots
         game["next"] = played_games[1]["shortname"]
         context = django.template.Context(game)
-        with open("docs/" + shortname + ".html", "w") as file:
-            file.write(game_template.render(context))
+        out["docs/" + shortname + ".html"] = game_template.render(context)
 
         for i in range(1, len(played_games) - 3):
             game = dict(played_games[i])
@@ -176,8 +169,7 @@ def generateWebsite(full_regen=False):
             game["prev"] = played_games[i - 1]["shortname"]
             game["next"] = played_games[i + 1]["shortname"]
             context = django.template.Context(game)
-            with open("docs/" + shortname + ".html", "w") as file:
-                file.write(game_template.render(context))
+            out["docs/" + shortname + ".html"] = game_template.render(context)
 
     game = dict(played_games[len(played_games) - 3])
     shortname = game["shortname"]
@@ -189,8 +181,7 @@ def generateWebsite(full_regen=False):
     game["prev"] = played_games[len(played_games) - 4]["shortname"]
     game["next"] = played_games[len(played_games) - 2]["shortname"]
     context = django.template.Context(game)
-    with open("docs/" + shortname + ".html", "w") as file:
-        file.write(game_template.render(context))
+    out["docs/" + shortname + ".html"] = game_template.render(context)
 
     game = dict(played_games[len(played_games) - 2])
     shortname = game["shortname"]
@@ -201,13 +192,11 @@ def generateWebsite(full_regen=False):
     game["screenshots"] = screenshots
     game["prev"] = played_games[len(played_games) - 3]["shortname"]
     context = django.template.Context(game)
-    with open("docs/" + shortname + ".html", "w") as file:
-        file.write(game_template.render(context))
+    out["docs/" + shortname + ".html"] = game_template.render(context)
 
     context = django.template.Context({})
     template = engine.get_template("templates/about.html")
-    with open("docs/about.html", "w") as file:
-        file.write(template.render(context))
+    out["docs/about.html"] = template.render(context)
 
     count = len(played_games) - 1
     percent = int(count / 255 * 100)
@@ -222,21 +211,45 @@ def generateWebsite(full_regen=False):
         }
     )
     template = engine.get_template("templates/index.html")
-    with open("docs/index.html", "w") as file:
-        file.write(template.render(context))
+    out["docs/index.html"] = template.render(context)
+
+    return out
+
+
+def generateWebsite(full_regen=False):
+    if full_regen:
+        if os.path.isfile("docs") or os.path.isdir("docs"):
+            shutil.rmtree("docs")
+        shutil.copytree("static-assets", "docs")
+    else:
+        rec_copy("static-assets", "docs")
+
+    files = functionalGenerateWebsite(full_regen)
+    for filename, content in files.items():
+        with open(filename, "w") as file:
+            file.write(content)
+
+
+def mapScreenshotNames(shortname, screenshots):
+    out = []
+    for (path, title) in screenshots:
+        out.append(
+            [
+                path,
+                "static-assets/images/screenshots/"
+                + shortname
+                + "-"
+                + title
+                + "."
+                + path.split(".")[-1].lower(),
+            ]
+        )
+    return out
 
 
 def copyScreenshots(shortname, screenshots):
-    for (path, title) in screenshots:
-        shutil.copyfile(
-            path,
-            "static-assets/images/screenshots/"
-            + shortname
-            + "-"
-            + title
-            + "."
-            + path.split(".")[-1].lower(),
-        )
+    for (src, dest) in mapScreenshotNames(shortname, screenshots):
+        shutil.copyfile(src, dest)
 
 
 class FileDropper(wx.FileDropTarget):
