@@ -1200,4 +1200,13 @@
   :meta-rating "81",
   :meta-user "8.4",
   :date "Aug 12, 2002",
+  :rating 4,
+  :shortname "dna",
+  :status :complete,
+  :notes "Decent adaptation of Duke Nukem, very reminiscent of the Doom ports. This one is original rather than a direct port of Duke Nukem for PC. Has full 3D elements (e.g. jumping), but as a result the control scheme is even more squashed. You activate switches and doors by ramming your face into them. Has incredibly annoying alarm sound effects. Has more of a story, including in-level cutscenes. Has some light uncomfortable 90s sexism.",
+  :completion-date "2019-10-09"}
+ {:game "NickToons Racing",
+  :meta-rating "78",
+  :meta-user "tbd",
+  :date "Jun 14, 2002",
   :rating :na}]
