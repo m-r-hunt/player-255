@@ -1209,4 +1209,13 @@
   :meta-rating "78",
   :meta-user "tbd",
   :date "Jun 14, 2002",
+  :rating 3,
+  :shortname "nr",
+  :status :complete,
+  :notes "Competent technically, but uninspired and lacking anything to really stand out. Played through the available cups once and I'm counting that, but it turns out the credits are in the menu.",
+  :completion-date "2019-10-10"}
+ {:game "Hi Hi Puffy AmiYumi: Kaznapped!",
+  :meta-rating "71",
+  :meta-user "5.4",
+  :date "Nov 20, 2005",
   :rating :na}]
