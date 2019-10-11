@@ -278,4 +278,5 @@ def updateLastPlayed(played_games, guidata, date):
         game[edn_format.Keyword("status-note")] = guidata["status_note"]
     game[edn_format.Keyword("notes")] = guidata["notes"]
     game[edn_format.Keyword("completion-date")] = date
+    game[edn_format.Keyword("markdown")] = True
     return shortname

@@ -54,6 +54,8 @@ def renderGame(out, template, game, prev=None, next=None):
     shortname = game.get("shortname", False)
     game["next"] = next
     game["prev"] = prev
+    if game.get("markdown", False):
+        game["notes"] = markdown.markdown(game["notes"])
     context = django.template.Context(game)
     out["docs/" + shortname + ".html"] = template.render(context)
 
@@ -71,14 +73,33 @@ def renderWebsite(games, played_games, full_regen=False):
     game_template = engine.get_template("templates/game-page.html")
 
     if full_regen:
-        renderGame(out, game_template, played_games[0], next=played_games[1]["shortname"])
+        renderGame(
+            out, game_template, played_games[0], next=played_games[1]["shortname"]
+        )
 
         for i in range(1, len(played_games) - 3):
-            renderGame(out, game_template, played_games[i], played_games[i - 1]["shortname"], played_games[i + 1]["shortname"])
+            renderGame(
+                out,
+                game_template,
+                played_games[i],
+                played_games[i - 1]["shortname"],
+                played_games[i + 1]["shortname"],
+            )
 
-    renderGame(out, game_template, played_games[len(played_games) - 3], played_games[len(played_games) - 4]["shortname"], played_games[len(played_games) - 2]["shortname"])
+    renderGame(
+        out,
+        game_template,
+        played_games[len(played_games) - 3],
+        played_games[len(played_games) - 4]["shortname"],
+        played_games[len(played_games) - 2]["shortname"],
+    )
 
-    renderGame(out, game_template, played_games[len(played_games) - 2], prev=played_games[len(played_games) - 3]["shortname"])
+    renderGame(
+        out,
+        game_template,
+        played_games[len(played_games) - 2],
+        prev=played_games[len(played_games) - 3]["shortname"],
+    )
 
     context = django.template.Context({})
     template = engine.get_template("templates/about.html")
