@@ -141,6 +141,20 @@ if __name__ == "__main__":
         generateWebsite(True)
     else:
         played_games = readPlayedGames()
+        if len(played_games) == 0:
+            games = readGames()[:]
+            r = random.randrange(len(games))
+            next_game = games[r]
+            games.remove(next_game)
+            next_game = dict(next_game)
+            next_game[edn_format.Keyword("rating")] = edn_format.Keyword("na")
+            played_games = played_games[:]
+            played_games.append(next_game)
+            writeGames(games)
+            writePlayedGames(played_games)
+            print("Starting new challenge with: " + str(next_game))
+            played_games = readPlayedGames()
+
         now_playing = played_games[-1]
         fn = write_data
         if len(sys.argv) >= 2 and sys.argv[1] == "-guitest":
