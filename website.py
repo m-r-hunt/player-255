@@ -1,6 +1,7 @@
 import django.template
 import os.path
 import unittest
+import markdown
 
 
 def extractScreenshotShortname(screenshot):
@@ -48,7 +49,16 @@ class TestSortScreenshots(unittest.TestCase):
         self.assertIn("bar-title.png", bar_screenshots)
 
 
-def functionalGenerateWebsite(games, played_games, full_regen=False):
+def renderGame(out, template, game, prev=None, next=None):
+    game = dict(game)
+    shortname = game.get("shortname", False)
+    game["next"] = next
+    game["prev"] = prev
+    context = django.template.Context(game)
+    out["docs/" + shortname + ".html"] = template.render(context)
+
+
+def renderWebsite(games, played_games, full_regen=False):
     out = {}
 
     engine = django.template.Engine(["resources"], builtins=["filters"])
@@ -61,32 +71,14 @@ def functionalGenerateWebsite(games, played_games, full_regen=False):
     game_template = engine.get_template("templates/game-page.html")
 
     if full_regen:
-        game = dict(played_games[0])
-        shortname = game.get("shortname", False)
-        game["next"] = played_games[1]["shortname"]
-        context = django.template.Context(game)
-        out["docs/" + shortname + ".html"] = game_template.render(context)
+        renderGame(out, game_template, played_games[0], next=played_games[1]["shortname"])
 
         for i in range(1, len(played_games) - 3):
-            game = dict(played_games[i])
-            shortname = game["shortname"]
-            game["prev"] = played_games[i - 1]["shortname"]
-            game["next"] = played_games[i + 1]["shortname"]
-            context = django.template.Context(game)
-            out["docs/" + shortname + ".html"] = game_template.render(context)
+            renderGame(out, game_template, played_games[i], played_games[i - 1]["shortname"], played_games[i + 1]["shortname"])
 
-    game = dict(played_games[len(played_games) - 3])
-    shortname = game["shortname"]
-    game["prev"] = played_games[len(played_games) - 4]["shortname"]
-    game["next"] = played_games[len(played_games) - 2]["shortname"]
-    context = django.template.Context(game)
-    out["docs/" + shortname + ".html"] = game_template.render(context)
+    renderGame(out, game_template, played_games[len(played_games) - 3], played_games[len(played_games) - 4]["shortname"], played_games[len(played_games) - 2]["shortname"])
 
-    game = dict(played_games[len(played_games) - 2])
-    shortname = game["shortname"]
-    game["prev"] = played_games[len(played_games) - 3]["shortname"]
-    context = django.template.Context(game)
-    out["docs/" + shortname + ".html"] = game_template.render(context)
+    renderGame(out, game_template, played_games[len(played_games) - 2], prev=played_games[len(played_games) - 3]["shortname"])
 
     context = django.template.Context({})
     template = engine.get_template("templates/about.html")

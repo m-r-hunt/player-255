@@ -64,7 +64,7 @@ def generateWebsite(full_regen=False):
 
     games = utils.unednize(readGames())
 
-    files = website.functionalGenerateWebsite(games, played_games, full_regen)
+    files = website.renderWebsite(games, played_games, full_regen)
     for filename, content in files.items():
         with open(filename, "w") as file:
             file.write(content)
