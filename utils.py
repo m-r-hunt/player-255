@@ -208,7 +208,7 @@ def makeShortname(game, all_shortnames):
     shortname = "".join(
         [
             filterWord(word.translate(delete_table))
-            for word in game[edn_format.Keyword("game")].split()
+            for word in game.split()
         ]
     ).lower()
     if shortname in all_shortnames:
@@ -221,44 +221,44 @@ def makeShortname(game, all_shortnames):
 
 class TestMakeShortname(unittest.TestCase):
     def test_makeShortname(self):
-        self.assertEqual(makeShortname({edn_format.Keyword("game"): "word"}, []), "w")
+        self.assertEqual(makeShortname("word", []), "w")
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "multiple words"}, []), "mw"
+            makeShortname("multiple words", []), "mw"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "this ones a repeat"}, ["toar"]),
+            makeShortname("this ones a repeat", ["toar"]),
             "toar2",
         )
         self.assertEqual(
             makeShortname(
-                {edn_format.Keyword("game"): "this ones a repeat"}, ["toar", "toar2"]
+                "this ones a repeat", ["toar", "toar2"]
             ),
             "toar3",
         )
         self.assertEqual(
             makeShortname(
-                {edn_format.Keyword("game"): "this ones a repeat"},
+                "this ones a repeat",
                 ["toar", "toar2", "toar3", "toar4"],
             ),
             "toar5",
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "Maybe Some Caps?"}, []), "msc"
+            makeShortname("Maybe Some Caps?", []), "msc"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "* - . hello"}, []), "h"
+            makeShortname("* - . hello", []), "h"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "  hello\t\nasdf"}, []), "ha"
+            makeShortname("  hello\t\nasdf", []), "ha"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "longnum 12"}, []), "l12"
+            makeShortname("longnum 12", []), "l12"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "roman IV"}, []), "r4"
+            makeShortname("roman IV", []), "r4"
         )
         self.assertEqual(
-            makeShortname({edn_format.Keyword("game"): "a : colon colon: IV:"}, []),
+            makeShortname("a : colon colon: IV:", []),
             "acc4",
         )
 
@@ -268,7 +268,7 @@ def updateLastPlayed(played_games, guidata, date):
     all_shortnames = [
         game[edn_format.Keyword("shortname")] for game in played_games[:-1]
     ]
-    shortname = makeShortname(game, all_shortnames)
+    shortname = makeShortname(game[edn_format.Keyword("game")], all_shortnames)
     game[edn_format.Keyword("shortname")] = shortname
     game[edn_format.Keyword("rating")] = guidata["rating"]
     game[edn_format.Keyword("status")] = edn_format.Keyword(
@@ -280,3 +280,32 @@ def updateLastPlayed(played_games, guidata, date):
     game[edn_format.Keyword("completion-date")] = date
     game[edn_format.Keyword("markdown")] = True
     return shortname
+
+class TestUpdateLastPlayed(unittest.TestCase):
+    def test_updateLastPlayed(self):
+        date = "I am a date"
+        guidata = {
+            "rating": 3,
+            "status": "Not Completed",
+            "status_note": "I am a status note",
+            "notes": "I am a regular note",
+        }
+        played_games = [{edn_format.Keyword("shortname"): "untouched"}, {edn_format.Keyword("game"): "asdf"}]
+        ret = updateLastPlayed(played_games, guidata, date)
+        self.assertEqual(ret, makeShortname("asdf", []))
+
+        self.assertEqual(played_games[0], {edn_format.Keyword("shortname"): "untouched"})
+
+        updated_game = played_games[1]
+        self.assertEqual(updated_game[edn_format.Keyword("shortname")], ret)
+        self.assertEqual(updated_game[edn_format.Keyword("rating")], 3)
+        self.assertEqual(updated_game[edn_format.Keyword("status")], edn_format.Keyword("not-completed"))
+        self.assertNotIn(edn_format.Keyword("status-note"), updated_game.keys())
+        self.assertEqual(updated_game[edn_format.Keyword("notes")], "I am a regular note")
+        self.assertEqual(updated_game[edn_format.Keyword("completion-date")], "I am a date")
+        self.assertEqual(updated_game[edn_format.Keyword("markdown")], True)
+
+        guidata["status"] = "Other"
+        ret = updateLastPlayed(played_games, guidata, date)
+        self.assertEqual(updated_game[edn_format.Keyword("status")], edn_format.Keyword("other"))
+        self.assertEqual(updated_game[edn_format.Keyword("status-note")], "I am a status note")
