@@ -1218,4 +1218,14 @@
   :meta-rating "71",
   :meta-user "5.4",
   :date "Nov 20, 2005",
+  :rating 2,
+  :shortname "hhpak",
+  :status :not-complete,
+  :notes "Tie in platformer with an old cartoon based on a Japenese rock band? Totally bland and boring, just sapped my will to live.",
+  :completion-date "2019-10-12",
+  :markdown true}
+ {:game "Baldur's Gate: Dark Alliance",
+  :meta-rating "76",
+  :meta-user "6.8",
+  :date "Feb 10, 2004",
   :rating :na}]
