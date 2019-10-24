@@ -1,0 +1,1099 @@
+    Grand Theft Auto: Chinatown Wars
+    93
+        User: 8.3
+        Mar 17, 2009
+    Chrono Trigger
+    92
+        User: 9.1
+        Nov 25, 2008
+    Mario Kart DS
+    91
+        User: 8.7
+        Nov 14, 2005
+    Mario & Luigi: Bowser's Inside Story
+    90
+        User: 8.8
+        Sep 14, 2009
+    The Legend of Zelda: Phantom Hourglass
+    90
+        User: 8.0
+        Oct 1, 2007
+    Advance Wars: Dual Strike
+    90
+        User: 8.9
+        Aug 22, 2005
+    Castlevania: Dawn of Sorrow
+    89
+        User: 8.5
+        Oct 4, 2005
+    New Super Mario Bros.
+    89
+        User: 8.5
+        May 15, 2006
+    Meteos
+    88
+        User: 7.4
+        Jun 28, 2005
+    The World Ends with You
+    88
+        User: 8.6
+        Apr 22, 2008
+    Pokemon White Version
+    87
+        User: 7.7
+        Mar 6, 2011
+    Dragon Quest IX: Sentinels of the Starry Skies
+    87
+        User: 8.5
+        Jul 11, 2010
+    Pokemon SoulSilver Version
+    87
+        User: 8.5
+        Mar 14, 2010
+    Elite Beat Agents
+    87
+        User: 8.5
+        Nov 6, 2006
+    The Legend of Zelda: Spirit Tracks
+    87
+        User: 8.0
+        Dec 7, 2009
+    Pokemon HeartGold Version
+    87
+        User: 8.4
+        Mar 14, 2010
+    Pokemon Black Version
+    87
+        User: 7.6
+        Mar 6, 2011
+    Kirby: Canvas Curse
+    86
+        User: 7.8
+        Jun 13, 2005
+    Might & Magic: Clash of Heroes
+    86
+        User: 7.6
+        Dec 1, 2009
+    Mario & Luigi: Partners in Time
+    86
+        User: 8.5
+        Nov 28, 2005
+    Planet Puzzle League
+    86
+        User: 7.8
+        Jun 4, 2007
+    Professor Layton and the Unwound Future
+    86
+        User: 8.8
+        Sep 12, 2010
+    Advance Wars: Days of Ruin
+    86
+        User: 8.6
+        Jan 21, 2008
+    Radiant Historia
+    85
+        User: 8.7
+        Feb 22, 2011
+    Shantae: Risky's Revenge
+    85
+        User: 7.7
+        Oct 4, 2010
+    Castlevania: Portrait of Ruin
+    85
+        User: 8.3
+        Dec 5, 2006
+    Metroid Prime: Hunters
+    85
+        User: 7.9
+        Mar 20, 2006
+    Pokemon Pearl Version
+    85
+        User: 7.6
+        Apr 22, 2007
+    Professor Layton and the Curious Village
+    85
+        User: 8.5
+        Feb 10, 2008
+    Super Mario 64 DS
+    85
+        User: 8.2
+        Nov 20, 2004
+    Pokemon Diamond Version
+    85
+        User: 7.9
+        Apr 22, 2007
+    Final Fantasy IV
+    85
+        User: 8.9
+        Jul 21, 2008
+    Castlevania: Order of Ecclesia
+    85
+        User: 8.5
+        Oct 21, 2008
+    Space Invaders Extreme
+    85
+        User: 7.8
+        Jun 17, 2008
+    Peggle: Dual Shot
+    84
+        User: 7.8
+        Feb 27, 2009
+    Tetris DS
+    84
+        User: 7.9
+        Mar 20, 2006
+    Shin Megami Tensei: Devil Survivor
+    84
+        User: 4.1
+        Jun 23, 2009
+    Professor Layton and the Diabolical Box
+    84
+        User: 8.6
+        Aug 24, 2009
+    Dragon Quest V: Hand of the Heavenly Bride
+    84
+        User: 8.4
+        Feb 16, 2009
+    Ghost Trick: Phantom Detective
+    83
+        User: 8.8
+        Jan 11, 2011
+    Bangai-O Spirits
+    83
+        User: 7.8
+        Aug 12, 2008
+    Bleach: The Blade of Fate
+    83
+        User: 7.4
+        Oct 9, 2007
+    Picross DS
+    83
+        User: 8.0
+        Jul 30, 2007
+    Clubhouse Games
+    83
+        User: 7.8
+        Oct 9, 2006
+    Picross 3D
+    83
+        User: 8.0
+        May 3, 2010
+    Professor Layton and the Last Specter
+    83
+        User: 8.3
+        Oct 18, 2011
+    Ninja Gaiden: Dragon Sword
+    83
+        User: 7.8
+        Mar 25, 2008
+    Dragon Quest Heroes: Rocket Slime
+    83
+        User: 7.7
+        Sep 19, 2006
+    Contra 4
+    83
+        User: 7.9
+        Nov 13, 2007
+    Rhythm Heaven
+    83
+        User: 8.6
+        Apr 5, 2009
+    Kirby Mass Attack
+    83
+        User: 8.1
+        Sep 19, 2011
+    Pokemon Platinum Version
+    83
+        User: 8.2
+        Mar 22, 2009
+    WarioWare D.I.Y.
+    82
+        User: 8.2
+        Mar 28, 2010
+    KORG DS-10 Synthesizer
+    82
+        User: 8.2
+        Nov 4, 2008
+    Dawn of Discovery
+    82
+        User: 7.3
+        Jun 17, 2009
+    Disgaea DS
+    82
+        User: 7.8
+        Sep 23, 2008
+    Lunar Knights
+    82
+        User: 7.8
+        Feb 6, 2007
+    Viva Pinata: Pocket Paradise
+    82
+        User: 7.3
+        Sep 8, 2008
+    Henry Hatsworth in the Puzzling Adventure
+    82
+        User: 8.0
+        Mar 17, 2009
+    Okamiden
+    82
+        User: 8.3
+        Mar 10, 2011
+    Space Invaders Extreme 2
+    82
+        User: 7.1
+        Oct 19, 2009
+    Sonic Rush
+    82
+        User: 8.1
+        Nov 15, 2005
+    N+
+    82
+        User: 7.5
+        Aug 26, 2008
+    Etrian Odyssey II: Heroes of Lagaard
+    82
+        User: 8.0
+        Jun 13, 2008
+    Puzzle Quest: Challenge of the Warlords
+    82
+        User: 8.2
+        Mar 20, 2007
+    Nine Hours, Nine Persons, Nine Doors
+    82
+        User: 8.8
+        Nov 16, 2010
+    Bleach: Dark Souls
+    82
+        User: 7.8
+        Oct 7, 2008
+    WarioWare: Touched!
+    81
+        User: 8.1
+        Feb 14, 2005
+    Trauma Center: Under the Knife
+    81
+        User: 8.3
+        Oct 4, 2005
+    Fire Emblem: Shadow Dragon
+    81
+        User: 7.0
+        Feb 16, 2009
+    Phoenix Wright: Ace Attorney
+    81
+        User: 9.0
+        Oct 12, 2005
+    Yoshi's Island DS
+    81
+        User: 7.5
+        Nov 13, 2006
+    Plants vs. Zombies
+    81
+        User: 7.8
+        Jan 18, 2011
+    Final Fantasy XII: Revenant Wings
+    81
+        User: 8.9
+        Nov 20, 2007
+    Super Scribblenauts
+    81
+        User: 8.3
+        Oct 12, 2010
+    Worms: Open Warfare 2
+    81
+        User: 8.1
+        Sep 4, 2007
+    Phoenix Wright: Ace Attorney - Trials and Tribulations
+    81
+        User: 9.0
+        Oct 23, 2007
+    Sid Meier's Civilization Revolution
+    80
+        User: 7.7
+        Jul 8, 2008
+    Dragon Quest IV: Chapters of the Chosen
+    80
+        User: 8.1
+        Sep 16, 2008
+    Pokemon Black Version 2
+    80
+        User: 7.5
+        Oct 7, 2012
+    Age of Empires: The Age of Kings
+    80
+        User: 8.0
+        Feb 14, 2006
+    Final Fantasy Tactics A2: Grimoire of the Rift
+    80
+        User: 8.9
+        Jun 24, 2008
+    Pokemon White Version 2
+    80
+        User: 7.4
+        Oct 7, 2012
+    Shin Megami Tensei: Strange Journey
+    80
+        User: 4.0
+        Mar 23, 2010
+    Ninjatown
+    80
+        User: 8.3
+        Oct 28, 2008
+    LEGO Rock Band
+    80
+        User: 7.6
+        Nov 3, 2009
+    Pokemon Conquest
+    80
+        User: 8.3
+        Jun 18, 2012
+    Bookworm
+    80
+        User: tbd
+        Nov 30, 2009
+    Lufia: Curse of the Sinistrals
+    80
+        User: 8.1
+        Oct 12, 2010
+    Lock's Quest
+    80
+        User: 8.3
+        Sep 8, 2008
+    LEGO Indiana Jones: The Original Adventures
+    80
+        User: 7.9
+        Jun 3, 2008
+    LEGO Star Wars: The Complete Saga
+    80
+        User: 5.7
+        Nov 6, 2007
+    Phineas and Ferb
+    80
+        User: 4.2
+        Feb 3, 2009
+    Shin Megami Tensei: Devil Survivor 2
+    79
+        User: 3.4
+        Feb 28, 2012
+    Scribblenauts
+    79
+        User: 7.6
+        Sep 15, 2009
+    Sonic Colors
+    79
+        User: 7.9
+        Nov 16, 2010
+    Trauma Center: Under the Knife 2
+    79
+        User: 8.5
+        Jul 2, 2008
+    The New York Times Crosswords
+    79
+        User: 6.7
+        May 29, 2007
+    Monster Tale
+    79
+        User: 8.0
+        Mar 16, 2011
+    Mario vs. Donkey Kong: Mini-Land Mayhem
+    79
+        User: 7.9
+        Nov 14, 2010
+    Metroid Prime Pinball
+    79
+        User: 7.9
+        Oct 24, 2005
+    Golden Sun: Dark Dawn
+    79
+        User: 8.2
+        Nov 29, 2010
+    Geometry Wars: Galaxies
+    79
+        User: 7.9
+        Nov 27, 2007
+    Spider-Man 3
+    79
+        User: 6.6
+        May 4, 2007
+    Rock Band 3
+    79
+        User: 5.5
+        Oct 26, 2010
+    Broken Sword: Shadow of the Templars - The Director's Cut
+    78
+        User: 8.0
+        Mar 24, 2009
+    Bomberman Land Touch!
+    78
+        User: 7.4
+        Nov 7, 2006
+    Big Bang Mini
+    78
+        User: 8.2
+        Jan 21, 2009
+    Hotel Dusk: Room 215
+    78
+        User: 8.5
+        Jan 22, 2007
+    Robocalypse
+    78
+        User: 8.2
+        Nov 17, 2008
+    Dragon Quest VI: Realms of Revelation
+    78
+        User: 8.4
+        Feb 14, 2011
+    Age of Empires: Mythologies
+    78
+        User: 6.8
+        Nov 24, 2008
+    Apollo Justice: Ace Attorney
+    78
+        User: 8.2
+        Feb 19, 2008
+    Rune Factory: A Fantasy Harvest Moon
+    78
+        User: 8.2
+        Aug 14, 2007
+    Soul Bubbles
+    78
+        User: 8.0
+        Jun 10, 2008
+    Sonic Rush Adventure
+    78
+        User: 8.1
+        Sep 18, 2007
+    Anno 1701: Dawn of Discovery
+    78
+        User: 7.5
+        Mar 4, 2008
+    Mega Man ZX Advent
+    78
+        User: 8.5
+        Oct 23, 2007
+    Ultimate Spider-Man
+    78
+        User: 7.7
+        Sep 19, 2005
+    Sonic & Sega All-Stars Racing
+    78
+        User: 7.9
+        Feb 23, 2010
+    Dragon Ball: Origins
+    78
+        User: 7.6
+        Nov 4, 2008
+    Chibi-Robo! Park Patrol
+    78
+        User: 7.5
+        Sep 24, 2007
+    Alice in Wonderland
+    78
+        User: tbd
+        Mar 2, 2010
+    Ace Attorney Investigations: Miles Edgeworth
+    78
+        User: 8.4
+        Feb 16, 2010
+    Chronicles of Mystery: The Secret Tree of Life
+    78
+        User: tbd
+        Mar 1, 2011
+    Spider-Man: Web of Shadows
+    77
+        User: 7.1
+        Oct 21, 2008
+    Rune Factory 3: A Fantasy Harvest Moon
+    77
+        User: 8.3
+        Nov 9, 2010
+    Rune Factory 2: A Fantasy Harvest Moon
+    77
+        User: 8.0
+        Nov 18, 2008
+    WordJong
+    77
+        User: 7.7
+        Nov 16, 2007
+    Final Fantasy III
+    77
+        User: 8.6
+        Nov 14, 2006
+    Retro Game Challenge
+    77
+        User: 6.9
+        Feb 10, 2009
+    DK: Jungle Climber
+    77
+        User: 6.5
+        Sep 10, 2007
+    Bejeweled Twist
+    77
+        User: tbd
+        Jan 18, 2010
+    Etrian Odyssey III: The Drowned City
+    77
+        User: 8.3
+        Sep 21, 2010
+    Harvest Moon DS: Sunshine Islands
+    77
+        User: 7.7
+        Nov 12, 2009
+    Dragon Quest Monsters: Joker 2
+    77
+        User: 7.7
+        Sep 19, 2011
+    Final Fantasy Crystal Chronicles: Ring of Fates
+    77
+        User: 7.4
+        Mar 11, 2008
+    Mechanic Master
+    76
+        User: tbd
+        Oct 21, 2008
+    Puyo Pop Fever
+    76
+        User: 6.8
+        May 3, 2005
+    Mario vs. Donkey Kong 2: March of the Minis
+    76
+        User: 7.9
+        Sep 25, 2006
+    Suikoden Tierkreis
+    76
+        User: 7.8
+        Mar 17, 2009
+    Solatorobo: Red the Hunter
+    76
+        User: 8.3
+        Sep 27, 2011
+    Knights in the Nightmare
+    76
+        User: 8.5
+        Jun 3, 2009
+    Chronos Twins
+    76
+        User: 5.3
+        Jan 18, 2010
+    Mario & Sonic at the Olympic Winter Games
+    76
+        User: 7.6
+        Oct 13, 2009
+    Phoenix Wright: Ace Attorney - Justice for All
+    76
+        User: 8.6
+        Jan 16, 2007
+    Kirby Super Star Ultra
+    76
+        User: 8.8
+        Sep 22, 2008
+    Star Fox Command
+    76
+        User: 7.2
+        Aug 28, 2006
+    Tetris Party Deluxe
+    76
+        User: tbd
+        May 25, 2010
+    Aliens: Infestation
+    76
+        User: 8.2
+        Oct 11, 2011
+    Mega Man ZX
+    76
+        User: 8.1
+        Sep 12, 2006
+
+TouchMaster 2
+76
+
+    User: tbd
+    Oct 21, 2008
+
+de Blob 2
+75
+
+    User: 8.3
+    Feb 22, 2011
+
+The Tale of Despereaux
+75
+
+    User: tbd
+    Dec 2, 2008
+
+Puzzle Quest: Galactrix
+75
+
+    User: 6.7
+    Feb 24, 2009
+
+Dragon Quest Monsters: Joker
+75
+
+    User: 7.5
+    Nov 6, 2007
+
+Nanostray 2
+75
+
+    User: 7.8
+    Mar 11, 2008
+
+The Legendary Starfy
+75
+
+    User: 8.4
+    Jun 7, 2009
+
+
+Dementium II
+75
+
+    User: 8.3
+    May 4, 2010
+
+Infinite Space
+75
+
+    User: 8.2
+    Mar 16, 2010
+
+Etrian Odyssey
+75
+
+    User: 8.3
+    May 15, 2007
+
+Bejeweled 3
+75
+
+    User: tbd
+    Nov 15, 2011
+
+Bomberman
+75
+
+    User: 7.3
+    Jun 21, 2005
+
+Zubo
+75
+
+    User: 7.6
+    Mar 10, 2009
+
+Bust-A-Move DS
+75
+
+    User: 7.3
+    Dec 6, 2005
+
+Art Academy
+75
+
+    User: 8.0
+    Oct 26, 2010
+
+Call of Duty: World at War
+75
+
+    User: 7.4
+    Nov 10, 2008
+
+Elebits: The Adventures of Kai and Zero
+75
+
+    User: 8.3
+    Jan 6, 2009
+
+Call of Duty 4: Modern Warfare
+75
+
+    User: 7.3
+    Nov 5, 2007
+
+Feel the Magic: XY/XX
+75
+
+    User: 8.2
+    Nov 16, 2004
+
+Kingdom Hearts 358/2 Days
+75
+
+    User: 8.4
+    Sep 29, 2009
+
+Final Fantasy Fables: Chocobo Tales
+75
+
+    User: 7.1
+    Apr 3, 2007
+
+Final Fantasy Crystal Chronicles: Echoes of Time
+75
+
+    User: 7.6
+    Mar 24, 2009
+
+Monster Lab
+75
+
+    User: tbd
+    Nov 4, 2008
+
+Super Princess Peach
+75
+
+    User: 8.0
+    Feb 27, 2006
+
+Zoo Keeper
+74
+
+    User: 7.5
+    Jan 18, 2005
+
+Pokemon Trozei!
+74
+
+    User: 7.3
+    Mar 6, 2006
+
+
+Valkyrie Profile: Covenant of the Plume
+74
+
+    User: 7.3
+    Mar 16, 2009
+
+
+Drone Tactics
+74
+
+    User: 7.4
+    May 12, 2008
+
+
+Sonic Chronicles: The Dark Brotherhood
+74
+
+    User: 6.8
+    Sep 30, 2008
+
+
+Custom Robo Arena
+74
+
+    User: 8.3
+    Mar 19, 2007
+
+
+Puzzle Quest 2
+74
+
+    User: 5.8
+    Jun 22, 2010
+
+
+Puchi Puchi Virus
+73
+
+    User: 4.2
+    May 20, 2009
+
+Luminous Arc 2
+73
+
+    User: 7.8
+    Nov 18, 2008
+
+
+Yoshi Touch & Go
+73
+
+    User: 7.0
+    Mar 14, 2005
+
+Viewtiful Joe: Double Trouble!
+73
+
+    User: 7.4
+    Nov 18, 2005
+
+
+Polarium
+73
+
+    User: 8.4
+    Apr 18, 2005
+
+
+Summon Night: Twin Age
+73
+
+    User: 7.2
+    Jun 3, 2008
+
+
+Dragon Ball Z: Attack of the Saiyans
+73
+
+    User: 8.0
+    Nov 10, 2009
+
+
+Drawn to Life
+73
+
+    User: 7.9
+    Sep 10, 2007
+
+
+Contact
+73
+
+    User: 8.2
+    Oct 19, 2006
+
+
+Front Mission
+72
+
+    User: 8.0
+    Oct 23, 2007
+
+Dementium: The Ward
+72
+
+    User: 7.9
+    Oct 26, 2007
+
+
+Moon
+71
+
+    User: 7.5
+    Jan 13, 2009
+
+
+Final Fantasy: The 4 Heroes of Light
+71
+
+    User: 8.8
+    Oct 5, 2010
+
+
+Digimon World DS
+71
+
+    User: 7.8
+    Nov 7, 2006
+
+
+Scurge: Hive
+70
+
+    User: 7.4
+    Nov 1, 2006
+
+
+Cooking Mama 2: Dinner With Friends
+70
+
+    User: 8.0
+    Nov 13, 2007
+
+
+Neves
+70
+
+    User: tbd
+    Nov 6, 2007
+
+
+Luminous Arc
+70
+
+    User: 7.1
+    Aug 14, 2007
+
+
+Pokemon Ranger
+69
+
+    User: 7.3
+    Oct 30, 2006
+
+
+Lost in Blue
+69
+
+    User: 7.8
+    Sep 27, 2005
+
+
+Rondo of Swords
+69
+
+    User: 7.9
+    Apr 15, 2008
+
+Mystery Dungeon: Shiren the Wanderer
+69
+
+    User: 8.2
+    Mar 4, 2008
+
+Magical Starsign
+69
+
+    User: 7.9
+    Oct 23, 2006
+
+
+
+Glory of Heracles
+69
+
+    User: 7.4
+    Jan 18, 2010
+
+
+Blue Dragon Plus
+69
+
+    User: 6.5
+    Feb 19, 2009
+
+The Dark Spire
+69
+
+    User: 7.8
+    Apr 14, 2009
+
+
+Pokemon Ranger: Guardian Signs
+68
+
+    User: 8.1
+    Oct 4, 2010
+
+
+Pokemon Ranger: Shadows of Almia
+68
+
+    User: 8.1
+    Nov 10, 2008
+
+
+Digimon World: Dawn
+68
+
+    User: 7.6
+    Sep 18, 2007
+
+
+Lost Magic
+68
+
+    User: 7.9
+    Apr 25, 2006
+
+
+Rhapsody: A Musical Adventure
+67
+
+    User: 8.4
+    Sep 23, 2008
+
+
+Cooking Mama
+67
+
+    User: 7.3
+    Sep 12, 2006
+
+
+Touch Detective 2 1/2
+67
+
+    User: tbd
+    Oct 9, 2007
+
+
+Heroes of Mana
+66
+
+    User: 8.0
+    Aug 14, 2007
+
+
+Children of Mana
+65
+
+    User: 6.1
+    Nov 1, 2006
+
+
+Exit DS
+64
+
+    User: 6.7
+    Nov 5, 2008
+
+
+Super Monkey Ball: Touch & Roll
+63
+
+    User: 7.7
+    Feb 21, 2006
+
+
+Blue Dragon: Awakened Shadow
+63
+
+    User: 6.6
+    May 18, 2010
+
+
+Wario: Master of Disguise
+60
+
+    User: 7.4
+    Mar 5, 2007
+
+
+Touch Detective
+60
+
+    User: 6.6
+    Oct 24, 2006
+
+
+Mega Man Star Force: Pegasus
+60
+
+    User: 8.3
+    Aug 7, 2007
+
+Mega Man Star Force 3: Red Joker
+59
+
+    User: 7.5
+    Jun 30, 2009
+
+
+
+Mega Man Star Force 2: Zerker x Ninja
+55
+
+    User: 8.2
+    Jun 24, 2008
+
+
+Flower, Sun, and Rain
+54
+
+    User: 7.2
+    Jun 16, 2009
