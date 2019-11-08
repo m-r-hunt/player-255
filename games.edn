@@ -134,10 +134,6 @@
   :meta-rating "81",
   :meta-user "7.6",
   :date "Jun 17, 2002"}
- {:game "Ecks vs. Sever",
-  :meta-rating "80",
-  :meta-user "8.0",
-  :date "Nov 27, 2001"}
  {:game "Broken Sword: The Shadow of the Templars",
   :meta-rating "80",
   :meta-user "8.3",
@@ -166,10 +162,6 @@
   :meta-rating "79",
   :meta-user "6.8",
   :date "Nov 29, 2004"}
- {:game "Tak and the Power of Juju",
-  :meta-rating "79",
-  :meta-user "8.3",
-  :date "Oct 15, 2003"}
  {:game "Summon Night: Swordcraft Story 2",
   :meta-rating "79",
   :meta-user "8.4",
@@ -282,10 +274,6 @@
   :meta-rating "75",
   :meta-user "8.0",
   :date "Jun 9, 2004"}
- {:game "Frogger's Adventures 2: The Lost Wand",
-  :meta-rating "75",
-  :meta-user "tbd",
-  :date "Nov 5, 2002"}
  {:game "Mary-Kate and Ashley: Girls Night Out",
   :meta-rating "75",
   :meta-user "tbd",
@@ -378,10 +366,6 @@
   :meta-rating "72",
   :meta-user "8.8",
   :date "Apr 8, 2003"}
- {:game "Earthworm Jim",
-  :meta-rating "72",
-  :meta-user "5.7",
-  :date "Jun 10, 2001"}
  {:game "Defender of the Crown",
   :meta-rating "72",
   :meta-user "4.0",
