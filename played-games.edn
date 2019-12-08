@@ -1298,4 +1298,14 @@
   :meta-rating "77",
   :meta-user "tbd",
   :date "Sep 15, 2004",
+  :rating 2,
+  :shortname "dkp2dd",
+  :status :not-complete,
+  :notes "Very generic platformer. Mildly interesting gadgets but they're quite clunky to use. My heart wasn't in it.",
+  :completion-date "2019-12-01",
+  :markdown true}
+ {:game "Donkey Kong Country 2",
+  :meta-rating "80",
+  :meta-user "8.9",
+  :date "Nov 15, 2004",
   :rating :na}]
