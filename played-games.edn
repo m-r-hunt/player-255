@@ -1308,4 +1308,14 @@
   :meta-rating "80",
   :meta-user "8.9",
   :date "Nov 15, 2004",
+  :rating 2,
+  :shortname "dkc2",
+  :status :not-complete,
+  :notes "This stalled me out for way too long. I didn't enjoy this one, and it seemed worse than the other 2 DKC games for some reason. Many problems with lack of FOV. This one had really terrible Beehive levels with terrible \"walljumping\" off sticky walls, which broke me.",
+  :completion-date "2020-03-13",
+  :markdown true}
+ {:game "Broken Sword: The Shadow of the Templars",
+  :meta-rating "80",
+  :meta-user "8.3",
+  :date "Mar 17, 2002",
   :rating :na}]
