@@ -1318,4 +1318,14 @@
   :meta-rating "80",
   :meta-user "8.3",
   :date "Mar 17, 2002",
+  :rating 3,
+  :shortname "bstsott",
+  :status :complete,
+  :notes "Ok point and click adventure, which is somewhat unique for GBA. Some crazy logic in puzzles, animation was good although everything was too noisily pixelated. Not the best overall.",
+  :completion-date "2020-03-22",
+  :markdown true}
+ {:game "Classic NES Series: Castlevania",
+  :meta-rating "74",
+  :meta-user "8.6",
+  :date "Oct 25, 2004",
   :rating :na}]
