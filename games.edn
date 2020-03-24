@@ -66,10 +66,6 @@
   :meta-rating "84",
   :meta-user "8.5",
   :date "Jun 2, 2004"}
- {:game "ChuChu Rocket!",
-  :meta-rating "84",
-  :meta-user "8.4",
-  :date "Jun 10, 2001"}
  {:game "Gunstar Super Heroes",
   :meta-rating "83",
   :meta-user "8.5",
@@ -78,10 +74,6 @@
   :meta-rating "83",
   :meta-user "8.3",
   :date "Mar 9, 2003"}
- {:game "Super Robot Taisen: Original Generation 2",
-  :meta-rating "82",
-  :meta-user "8.1",
-  :date "Nov 14, 2006"}
  {:game "Pokemon Ruby Version",
   :meta-rating "82",
   :meta-user "8.7",
@@ -214,10 +206,6 @@
   :meta-rating "77",
   :meta-user "8.5",
   :date "Jun 24, 2003"}
- {:game "Tom Clancy's Splinter Cell",
-  :meta-rating "77",
-  :meta-user "8.6",
-  :date "Apr 27, 2003"}
  {:game "Super Bust-A-Move",
   :meta-rating "77",
   :meta-user "tbd",
@@ -230,10 +218,6 @@
   :meta-rating "77",
   :meta-user "8.2",
   :date "Nov 5, 2003"}
- {:game "Tom Clancy's Rainbow Six: Rogue Spear",
-  :meta-rating "76",
-  :meta-user "tbd",
-  :date "Mar 18, 2002"}
  {:game "Scurge: Hive",
   :meta-rating "76",
   :meta-user "8.6",
@@ -362,10 +346,6 @@
   :meta-rating "71",
   :meta-user "tbd",
   :date "May 14, 2002"}
- {:game "SpongeBob SquarePants: Revenge of the Flying Dutchman",
-  :meta-rating "71",
-  :meta-user "7.7",
-  :date "Sep 10, 2002"}
  {:game "CT Special Forces",
   :meta-rating "71",
   :meta-user "tbd",
