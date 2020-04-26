@@ -2,10 +2,6 @@
   :meta-rating "95",
   :meta-user "9.0",
   :date "Dec 3, 2002"}
- {:game "Advance Wars",
-  :meta-rating "92",
-  :meta-user "9.0",
-  :date "Sep 9, 2001"}
  {:game "Super Mario World: Super Mario Advance 2",
   :meta-rating "92",
   :meta-user "9.0",
@@ -26,10 +22,6 @@
   :meta-rating "90",
   :meta-user "8.0",
   :date "Mar 4, 2002"}
- {:game "Advance Wars 2: Black Hole Rising",
-  :meta-rating "89",
-  :meta-user "9.3",
-  :date "Jun 24, 2003"}
  {:game "WarioWare, Inc.: Mega Microgame$!",
   :meta-rating "89",
   :meta-user "8.8",
@@ -242,10 +234,6 @@
   :meta-rating "76",
   :meta-user "8.8",
   :date "Apr 30, 2005"}
- {:game "Sabre Wulf",
-  :meta-rating "75",
-  :meta-user "8.0",
-  :date "Jun 9, 2004"}
  {:game "Mary-Kate and Ashley: Girls Night Out",
   :meta-rating "75",
   :meta-user "tbd",
@@ -342,10 +330,6 @@
   :meta-rating "72",
   :meta-user "8.9",
   :date "Nov 9, 2004"}
- {:game "Aero the Acro-bat",
-  :meta-rating "71",
-  :meta-user "tbd",
-  :date "May 14, 2002"}
  {:game "CT Special Forces",
   :meta-rating "71",
   :meta-user "tbd",
@@ -413,4 +397,8 @@
  {:game "Golden Sun: The Lost Age",
   :meta-rating "86",
   :meta-user "9.2",
-  :date "Apr 14, 2003"}]
+  :date "Apr 14, 2003"}
+ {:game "Advance Wars 2: Black Hole Rising",
+  :meta-rating "89",
+  :meta-user "9.3",
+  :date "Jun 24, 2003"}]
