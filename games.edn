@@ -30,10 +30,6 @@
   :meta-rating "87",
   :meta-user "8.2",
   :date "Feb 3, 2002"}
- {:game "Castlevania Double Pack",
-  :meta-rating "86",
-  :meta-user "8.4",
-  :date "Jan 11, 2006"}
  {:game "Dave Mirra Freestyle BMX 2",
   :meta-rating "85",
   :meta-user "tbd",
@@ -82,10 +78,6 @@
   :meta-rating "82",
   :meta-user "7.8",
   :date "Sep 26, 2001"}
- {:game "Ninja Five-O",
-  :meta-rating "82",
-  :meta-user "8.2",
-  :date "Apr 22, 2003"}
  {:game "Drill Dozer",
   :meta-rating "81",
   :meta-user "8.8",
@@ -234,10 +226,6 @@
   :meta-rating "75",
   :meta-user "tbd",
   :date "Aug 11, 2003"}
- {:game "The Lost Vikings",
-  :meta-rating "75",
-  :meta-user "8.8",
-  :date "Mar 30, 2003"}
  {:game "Bomberman Max 2: Blue Advance",
   :meta-rating "75",
   :meta-user "tbd",
@@ -370,10 +358,6 @@
   :meta-rating "81",
   :meta-user "8.6",
   :date "Oct 14, 2003"}
- {:game "Harvest Moon: More Friends of Mineral Town",
-  :meta-rating "82",
-  :meta-user "8.9",
-  :date "Jul 26, 2005"}
  {:game "Golden Sun: The Lost Age",
   :meta-rating "86",
   :meta-user "9.2",
