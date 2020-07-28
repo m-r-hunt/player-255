@@ -1,8 +1,4 @@
-[{:game "The Legend of Zelda: A Link to the Past",
-  :meta-rating "95",
-  :meta-user "9.0",
-  :date "Dec 3, 2002"}
- {:game "Super Mario World: Super Mario Advance 2",
+[{:game "Super Mario World: Super Mario Advance 2",
   :meta-rating "92",
   :meta-user "9.0",
   :date "Feb 9, 2002"}
@@ -110,10 +106,6 @@
   :meta-rating "81",
   :meta-user "7.6",
   :date "Jun 17, 2002"}
- {:game "Rock 'N Roll Racing",
-  :meta-rating "80",
-  :meta-user "8.1",
-  :date "Jun 23, 2003"}
  {:game "Kirby & the Amazing Mirror",
   :meta-rating "80",
   :meta-user "8.9",
@@ -274,10 +266,6 @@
   :meta-rating "72",
   :meta-user "8.0",
   :date "Nov 10, 2004"}
- {:game "Noddy: A Day in Toyland",
-  :meta-rating "72",
-  :meta-user "tbd",
-  :date "Oct 16, 2006"}
  {:game "Justice League Heroes: The Flash",
   :meta-rating "72",
   :meta-user "7.4",
