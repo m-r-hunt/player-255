@@ -62,18 +62,6 @@
   :meta-rating "82",
   :meta-user "8.7",
   :date "Mar 18, 2003"}
- {:game "Bruce Lee: Return of the Legend",
-  :meta-rating "82",
-  :meta-user "7.2",
-  :date "Mar 28, 2003"}
- {:game "Tekken Advance",
-  :meta-rating "82",
-  :meta-user "8.0",
-  :date "Jan 28, 2002"}
- {:game "Final Fight One",
-  :meta-rating "82",
-  :meta-user "7.8",
-  :date "Sep 26, 2001"}
  {:game "Drill Dozer",
   :meta-rating "81",
   :meta-user "8.8",
@@ -82,18 +70,10 @@
   :meta-rating "81",
   :meta-user "8.0",
   :date "Dec 5, 2005"}
- {:game "Karnaaj Rally",
-  :meta-rating "81",
-  :meta-user "7.6",
-  :date "Jan 2, 2003"}
  {:game "Kirby: Nightmare in Dream Land",
   :meta-rating "81",
   :meta-user "8.9",
   :date "Dec 2, 2002"}
- {:game "Mortal Kombat: Deadly Alliance",
-  :meta-rating "81",
-  :meta-user "8.1",
-  :date "Nov 20, 2002"}
  {:game "Harvest Moon: Friends of Mineral Town",
   :meta-rating "81",
   :meta-user "9.5",
@@ -246,10 +226,6 @@
   :meta-rating "73",
   :meta-user "7.8",
   :date "Nov 24, 2001"}
- {:game "Lady Sia",
-  :meta-rating "73",
-  :meta-user "tbd",
-  :date "Oct 15, 2001"}
  {:game "Driver 2 Advance",
   :meta-rating "73",
   :meta-user "6.6",
@@ -326,10 +302,6 @@
   :meta-rating "70",
   :meta-user "tbd",
   :date "May 21, 2003"}
- {:game "Tony Hawk's Underground 2",
-  :meta-rating "70",
-  :meta-user "tbd",
-  :date "Oct 4, 2004"}
  {:game "Disney's Extreme Skate Adventure",
   :meta-rating "70",
   :meta-user "tbd",
