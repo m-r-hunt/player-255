@@ -1599,4 +1599,14 @@
   :meta-rating "82",
   :meta-user "7.2",
   :date "Mar 28, 2003",
+  :rating 4,
+  :shortname "blrotl",
+  :status :complete,
+  :notes "Surprisingly good action platformer, I had a lot of fun with this. Decent combat and fast pace due to good run speed. Let down a little by sometimes questionable platforming, bad looks, and forced stealth sections.",
+  :completion-date "2020-08-05",
+  :markdown true}
+ {:game "Spyro 2: Season of Flame",
+  :meta-rating "76",
+  :meta-user "7.6",
+  :date "Sep 25, 2002",
   :rating :na}]
