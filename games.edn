@@ -10,10 +10,6 @@
   :meta-rating "91",
   :meta-user "9.0",
   :date "Sep 24, 2002"}
- {:game "Castlevania: Circle of the Moon",
-  :meta-rating "91",
-  :meta-user "8.6",
-  :date "Jun 10, 2001"}
  {:game "Tony Hawk's Pro Skater 3",
   :meta-rating "90",
   :meta-user "8.0",
@@ -154,10 +150,6 @@
   :meta-rating "77",
   :meta-user "tbd",
   :date "Nov 27, 2001"}
- {:game "Sonic Pinball Party",
-  :meta-rating "77",
-  :meta-user "8.4",
-  :date "Jun 1, 2003"}
  {:game "The Lord of the Rings: The Return of the King",
   :meta-rating "77",
   :meta-user "8.2",
@@ -202,10 +194,6 @@
   :meta-rating "75",
   :meta-user "8.4",
   :date "Nov 14, 2003"}
- {:game "Dr. Mario / Puzzle League",
-  :meta-rating "74",
-  :meta-user "7.8",
-  :date "Nov 28, 2005"}
  {:game "Jet Grind Radio",
   :meta-rating "74",
   :meta-user "8.0",
@@ -306,10 +294,6 @@
   :meta-rating "70",
   :meta-user "tbd",
   :date "Aug 28, 2001"}
- {:game "Gem Smashers",
-  :meta-rating "70",
-  :meta-user "8.6",
-  :date "Jul 1, 2003"}
  {:game "Mega Man Zero 2",
   :meta-rating "81",
   :meta-user "8.6",
