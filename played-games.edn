@@ -1659,4 +1659,14 @@
   :meta-rating "84",
   :meta-user "8.3",
   :date "Jun 10, 2001",
+  :rating 4,
+  :shortname "ra",
+  :status :not-complete,
+  :notes "Rayman Advance is a port of the original PS1 version. It's a really good port, looks and plays great for a GBA game, capturing the original pretty well. The only real porting flaw is the camera which feels tighter on Rayman and makes some levels and jumps harder than they should be. I have some nostalgia for PS1 Rayman, as I played it back in the day. I remembered it being really hard, but I actually found the difficulty to be pretty good. Challenging but not frustrating for the most part.\n\nRayman does a really great job of theming. The worlds are very distinct, and avoid falling into classic \"Lava World, Ice World\" platformer cliches. It even manages to use \"ice physics\" (actually sliding on metal instrument tubes in the music themed world) to create actually fun levels. It also avoids overstaying its welcome. New mechanics are developed nicely, but not dragged out too much. Every level has something unique going on and they don't really ever feel like filler. The level design does use a lot of \"things suddenly appear\", but this is slightly better than in some games due to hints that triggers exist, and a sound effect when something pops into existence. Secret hunting can still be baffling though. Nice graphics and pretty good music and sound.\n\nControls are good, very responsive and they do the job perfectly. You gain new abilities through the course of the game, and do have to backtrack to use them to find all the hidden cages (which are required to beat the game). Again though, as the levels aren't too long or repetetive this avoids being too much of a chore. The combat uses a unique and pretty fun boomerang fist mechanic. Bosses are generally fair and avoid falling into the boring cycle-based bosses a lot of platformers use.\n\nUltimately gave up rather than hunt down every cage to finish the game. Overall, one of the better GBA platformers I've played despite not finishing.\n",
+  :completion-date "2020-12-28",
+  :markdown true}
+ {:game "Metroid Fusion",
+  :meta-rating "92",
+  :meta-user "9.1",
+  :date "Nov 17, 2002",
   :rating :na}]
