@@ -1669,4 +1669,14 @@
   :meta-rating "92",
   :meta-user "9.1",
   :date "Nov 17, 2002",
+  :rating 5,
+  :shortname "mf",
+  :status :complete,
+  :notes "Although it has its flaws, Metroid Fusion is still an amazing game. The totally linear design and unskipable dialog is annoying, but everything else about  the game is great. Burned through this pretty fast.",
+  :completion-date "2020-12-30",
+  :markdown true}
+ {:game "Breath of Fire II",
+  :meta-rating "81",
+  :meta-user "8.1",
+  :date "Apr 16, 2002",
   :rating :na}]
