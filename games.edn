@@ -18,10 +18,6 @@
   :meta-rating "87",
   :meta-user "8.2",
   :date "Feb 3, 2002"}
- {:game "Dave Mirra Freestyle BMX 2",
-  :meta-rating "85",
-  :meta-user "tbd",
-  :date "Nov 25, 2001"}
  {:game "Super Mario Advance",
   :meta-rating "84",
   :meta-user "7.8",
@@ -74,10 +70,6 @@
   :meta-rating "79",
   :meta-user "6.8",
   :date "Nov 29, 2004"}
- {:game "Summon Night: Swordcraft Story 2",
-  :meta-rating "79",
-  :meta-user "8.4",
-  :date "Oct 17, 2006"}
  {:game "Super Dodge Ball Advance",
   :meta-rating "79",
   :meta-user "tbd",
@@ -94,10 +86,6 @@
   :meta-rating "79",
   :meta-user "8.3",
   :date "Oct 30, 2001"}
- {:game "Dave Mirra Freestyle BMX 3",
-  :meta-rating "78",
-  :meta-user "tbd",
-  :date "Nov 26, 2002"}
  {:game "Gradius Galaxies",
   :meta-rating "78",
   :meta-user "tbd",
@@ -106,10 +94,6 @@
   :meta-rating "78",
   :meta-user "8.4",
   :date "Sep 23, 2002"}
- {:game "Crash Bandicoot: The Huge Adventure",
-  :meta-rating "78",
-  :meta-user "7.7",
-  :date "Feb 25, 2002"}
  {:game "Denki Blocks!",
   :meta-rating "77",
   :meta-user "tbd",
@@ -170,10 +154,6 @@
   :meta-rating "75",
   :meta-user "8.4",
   :date "Nov 14, 2003"}
- {:game "Shining Soul II",
-  :meta-rating "74",
-  :meta-user "8.3",
-  :date "Apr 20, 2004"}
  {:game "Hot Potato!",
   :meta-rating "74",
   :meta-user "tbd",
@@ -194,10 +174,6 @@
   :meta-rating "72",
   :meta-user "tbd",
   :date "Aug 21, 2002"}
- {:game "Lemony Snicket's A Series of Unfortunate Events",
-  :meta-rating "72",
-  :meta-user "8.0",
-  :date "Nov 10, 2004"}
  {:game "Justice League Heroes: The Flash",
   :meta-rating "72",
   :meta-user "7.4",
@@ -254,10 +230,6 @@
   :meta-rating "70",
   :meta-user "5.0",
   :date "Sep 19, 2005"}
- {:game "Sega Arcade Gallery",
-  :meta-rating "70",
-  :meta-user "tbd",
-  :date "May 21, 2003"}
  {:game "Disney's Extreme Skate Adventure",
   :meta-rating "70",
   :meta-user "tbd",
