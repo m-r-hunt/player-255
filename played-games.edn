@@ -1810,4 +1810,14 @@
   :meta-rating "76",
   :meta-user "7.9",
   :date "Nov 14, 2002",
+  :rating 3,
+  :shortname "hpatcos",
+  :status :not-complete,
+  :notes "Not a platformer and surprisingly decent. Still not great though.",
+  :completion-date "2021-02-12",
+  :markdown true}
+ {:game "Mega Man Battle Network 2",
+  :meta-rating "81",
+  :meta-user "7.6",
+  :date "Jun 17, 2002",
   :rating :na}]
