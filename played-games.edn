@@ -1840,4 +1840,14 @@
   :meta-rating "76",
   :meta-user "8.8",
   :date "Apr 30, 2005",
+  :rating 4,
+  :shortname "pev",
+  :status :complete,
+  :notes "Another pokemon game, probably the best on the GBA overall. Had fun despite taking a long time over it. Rayquaza captured via master ball carried me fairly hard through the Elite 4, although my team was doing some work.",
+  :completion-date "2021-07-16",
+  :markdown true}
+ {:game "Super Dodge Ball Advance",
+  :meta-rating "79",
+  :meta-user "tbd",
+  :date "Jun 10, 2001",
   :rating :na}]
