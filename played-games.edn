@@ -1850,4 +1850,14 @@
   :meta-rating "79",
   :meta-user "tbd",
   :date "Jun 10, 2001",
+  :rating 3,
+  :shortname "sdba",
+  :status :not-complete,
+  :notes "A dodgeball simulator. Not something that particularly interests me. I'm not very familiar with dodgeball but this seemed like a strange variant.",
+  :completion-date "2021-07-16",
+  :markdown true}
+ {:game "Golden Sun: The Lost Age",
+  :meta-rating "86",
+  :meta-user "9.2",
+  :date "Apr 14, 2003",
   :rating :na}]
