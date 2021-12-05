@@ -56,7 +56,7 @@ namespace P255
 			var listsHtml = listsTemplate.Render(Hash.FromAnonymousObject(new
 			{
 				played_games = isPlaying ? playedGames.Take(playedGames.Count-1).ToList() : playedGames,
-				remaining_games = DataManager.GetGames(),
+				remaining_games = remainingGames,
 				playing = isPlaying ? playedGames.Last() : null,
 			}));
 			File.WriteAllText("docs/lists.html", listsHtml);
