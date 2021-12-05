@@ -19,10 +19,10 @@ namespace P255
 
 	class GamePageEntry
 	{
-		public string game { get; set; }
-		public string meta_rating { get; set; }
-		public string meta_user { get; set; }
-		public string date { get; set; }
+		public string? game { get; set; }
+		public string? meta_rating { get; set; }
+		public string? meta_user { get; set; }
+		public string? date { get; set; }
 		public int rating { get; set; }
 		public string? shortname { get; set; }
 		public string? status { get; set; }
@@ -32,7 +32,7 @@ namespace P255
 		public bool? markdown { get; set; }
 		public string? prev { get; set; }
 		public string? next { get; set; }
-		public List<string> screenshots { get; set; }
+		public List<string>? screenshots { get; set; }
 	}
 	
 	public static class WebsiteManager
@@ -95,11 +95,11 @@ namespace P255
 					shortname = og.Shortname,
 					status = og.Status,
 					status_note = og.StatusNote,
-					screenshots = ScreenshotManager.GetScreenshots(og.Shortname),
+					screenshots = ScreenshotManager.GetScreenshots(og.Shortname!),
 				};
 				if (g.markdown ?? false)
 				{
-					g.notes = Markdown.ToHtml(g.notes);
+					g.notes = Markdown.ToHtml(g.notes!);
 				}
 
 				if (i > 0)
