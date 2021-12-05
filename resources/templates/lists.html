@@ -32,7 +32,7 @@
 	  {% for game in remaining_games %}
 	  <div class="games-list-row">
 	    <div class="games-list-col-shadow-title-image"></div>
-	    <h3 class="games-list-col-title">{{game.game}}</h3>
+	    <h3 class="games-list-col-title">{{game.game | escape}}</h3>
 	  </div>
 	  {% endfor %}
 	</div>
