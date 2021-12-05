@@ -21,9 +21,11 @@ namespace P255
 			// N.b. If we ever actually want to run on another platform, we'll have to use appropriate fast copy method
 			// rsync?
 			Process.Start(new ProcessStartInfo("robocopy", @"/e .\static-assets .\docs"){CreateNoWindow = true});
+			
+			// Set up DotLiquid
+			Template.FileSystem = new FS();
 
 			// Generate Lists page
-			Template.FileSystem = new FS();
 			var listsTemplate = Template.Parse(File.ReadAllText("resources/templates/lists.html"));
 			var listsHtml = listsTemplate.Render(Hash.FromAnonymousObject(new
 			{
@@ -32,11 +34,18 @@ namespace P255
 			}));
 			File.WriteAllText("docs/lists.html", listsHtml);
 
-			// Generate game pages
-
 			// Generate about page
+			var aboutTemplate = Template.Parse(File.ReadAllText("resources/templates/about.html"));
+			var aboutHtml = aboutTemplate.Render(Hash.FromAnonymousObject(new
+			{
+				played_games = DataManager.GetPlayedGames(),
+				remaining_games = DataManager.GetGames()
+			}));
+			File.WriteAllText("docs/about.html", aboutHtml);
 
 			// Generate index page
+
+			// Generate game pages
 		}
 	}
 }
