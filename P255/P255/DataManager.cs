@@ -82,7 +82,9 @@ namespace P255
 			var jsonString2 = File.ReadAllText("played-games.json");
 			var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString2);
 			entries.Add(newEntry);
+			
 			var options = new JsonSerializerOptions { WriteIndented = true };
+			File.WriteAllText("games.json", JsonSerializer.Serialize(gamesEntries, options));
 			File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
 
 			return selectedEntry.Game;

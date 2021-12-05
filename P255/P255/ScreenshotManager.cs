@@ -21,7 +21,7 @@ namespace P255
 			var credits = "";
 			foreach (var f in Directory.EnumerateFiles(Path.Join(".", "static-assets", "images", "screenshots")))
 			{
-				if (Path.GetFileName(f).StartsWith(shortname))
+				if (Path.GetFileName(f).StartsWith($"{shortname}-"))
 				{
 					if (Path.GetFileName(f).Contains("-title.png"))
 					{
