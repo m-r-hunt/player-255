@@ -7,7 +7,19 @@ using System.Text.Json.Serialization;
 
 namespace P255
 {
-	public class DataEntry
+	public class GamesDataEntry
+	{
+		[JsonPropertyName("game")]
+		public string Game { get; set; }
+		[JsonPropertyName("meta-rating")]
+		public string MetaRating { get; set; }
+		[JsonPropertyName("meta-user")]
+		public string MetaUser { get; set; }
+		[JsonPropertyName("date")]
+		public string Date { get; set; }
+	}
+	
+	public class PlayedDataEntry
 	{
 		[JsonPropertyName("game")]
 		public string Game { get; set; }
@@ -20,16 +32,22 @@ namespace P255
 		[JsonPropertyName("rating")]
 		public int Rating { get; set; }
 		[JsonPropertyName("shortname")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public string? Shortname { get; set; }
 		[JsonPropertyName("status")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public string? Status { get; set; }
 		[JsonPropertyName("status-note")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public string? StatusNote { get; set; }
 		[JsonPropertyName("notes")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public string? Notes { get; set; }
 		[JsonPropertyName("completion-date")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public string? CompletionDate { get; set; }
 		[JsonPropertyName("markdown")]
+		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		public bool? Markdown { get; set; }
 	}
 	public static class DataManager
@@ -37,7 +55,7 @@ namespace P255
 		public static string? GetPlaying()
 		{
 			var jsonString = File.ReadAllText("played-games.json");
-			var entries = JsonSerializer.Deserialize<List<DataEntry>>(jsonString);
+			var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
 			var last = entries.Last();
 			return last.Rating == -1 ? last.Game : null;
 		}
@@ -50,13 +68,76 @@ namespace P255
 		)
 		{
 			var jsonString = File.ReadAllText("played-games.json");
-			var entries = JsonSerializer.Deserialize<List<DataEntry>>(jsonString);
+			var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
 			var last = entries.Last();
 			
 			last.Status = ToJsonStatus(status);
 			last.StatusNote = statusNote != "" ? statusNote : null;
 			last.Rating = rating;
 			last.Notes = notes;
+			last.Markdown = true;
+			last.Shortname = MakeShortname(last.Game, entries.Select(e => e.Shortname).ToList());
+
+			var today = DateTime.Today;
+			last.CompletionDate = $"{today.Year}-{today.Month}-{today.Day}";
+			
+			var options = new JsonSerializerOptions { WriteIndented = true };
+			File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
+		}
+
+		private static string MakeShortname(string lastGame, List<string> allShortnames)
+		{
+			var shortname = "";
+			foreach (var c in lastGame.Split(' ', ':').Where(w => !string.IsNullOrEmpty(w)).Select(w => FilterRoman(w.ToLower()).First()))
+			{
+				shortname += c;
+			}
+
+			if (allShortnames.Contains(shortname))
+			{
+				var n = 2;
+				while (allShortnames.Contains(shortname + $"{n}"))
+				{
+					n += 1;
+				}
+
+				return shortname + $"{n}";
+			}
+
+			return shortname;
+		}
+
+		private static string FilterRoman(string s)
+		{
+			switch (s)
+			{
+				case "ii":
+					return "2";
+				case "iii":
+					return "3";
+				case "iv" :
+					return "4";
+				case "v":
+					return "5";
+				case "vi":
+					return "6";
+				case "vii":
+					return "7";
+				case "viii":
+					return "8";
+				case "ix":
+					return "9";
+				case "x":
+					return "10";
+				case "xi":
+					return "11";
+				case "xii":
+					return "12";
+				case "xiii":
+					return "13";
+				default:
+					return s;
+			}
 		}
 
 		private static string? ToJsonStatus(MainForm.Status status)
