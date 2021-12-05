@@ -49,13 +49,15 @@ namespace P255
 
 			var playedGames = DataManager.GetPlayedGames();
 			var remainingGames = DataManager.GetGames();
+			var isPlaying = DataManager.GetPlaying() != null;
 
 			// Generate Lists page
 			var listsTemplate = Template.Parse(File.ReadAllText("resources/templates/lists.html"));
 			var listsHtml = listsTemplate.Render(Hash.FromAnonymousObject(new
 			{
-				played_games = playedGames,
+				played_games = isPlaying ? playedGames.Take(playedGames.Count-1).ToList() : playedGames,
 				remaining_games = DataManager.GetGames(),
+				playing = isPlaying ? playedGames.Last() : null,
 			}));
 			File.WriteAllText("docs/lists.html", listsHtml);
 
@@ -70,14 +72,14 @@ namespace P255
 			{
 				percent = (playedGames.Count - 1) * 100 / 255,
 				count = playedGames.Count - 1,
-				next_up = DataManager.GetPlaying() != null ? playedGames.Last() : null,
+				next_up = isPlaying ? playedGames.Last() : null,
 				recent_games = playedGames.TakeLast(11).Reverse().TakeLast(10),
 			}));
 			File.WriteAllText("docs/index.html", indexHtml);
 
 			// Generate game pages
 			var gameTemplate = Template.Parse(File.ReadAllText("resources/templates/game-page.html"));
-			for (var i = 0; i < playedGames.Count-1; i++)
+			for (var i = 0; i < (isPlaying ? playedGames.Count-1 : playedGames.Count); i++)
 			{
 				var og = playedGames[i];
 				var g = new GamePageEntry()
@@ -105,7 +107,7 @@ namespace P255
 					g.prev = playedGames[i - 1].Shortname;
 				}
 
-				if (i < playedGames.Count - 1)
+				if ((isPlaying && i < playedGames.Count - 2) || (!isPlaying && i < playedGames.Count - 1))
 				{
 					g.next = playedGames[i + 1].Shortname;
 				}

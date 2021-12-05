@@ -111,10 +111,24 @@ namespace P255
 			var aboutCommand = new Command { MenuText = "About..." };
 			aboutCommand.Executed += (sender, e) => new AboutDialog().ShowDialog(this);
 
+			var regenerateCommand = new Command {MenuText = "Regenerate Website"};
+			regenerateCommand.Executed += (sender, e) => WebsiteManager.GenerateWebsite();
+
 			Menu = new MenuBar
 			{
 				QuitItem = quitCommand,
-				AboutItem = aboutCommand
+				AboutItem = aboutCommand,
+				Items =
+				{
+					new ButtonMenuItem
+					{
+						Text = "&Tools",
+						Items =
+						{
+							regenerateCommand,
+						}
+					}
+				}
 			};
 
 			ResetState();
