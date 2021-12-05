@@ -177,10 +177,12 @@ namespace P255
 			// TODO: Update data, rebuild website
 			var rating = StarButtons.FindIndex(r => r.Checked) + 1;
 			
-			DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
+			var shortname = DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
 			var next = DataManager.CycleNextGame();
 
 			MessageBox.Show(this, $"Next up is {next}");
+
+			ScreenshotManager.CopyScreenshots(Screenshots, shortname);
 			
 			ResetState();
 		}

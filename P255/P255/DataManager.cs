@@ -85,7 +85,7 @@ namespace P255
 			return selectedEntry.Game;
 		}
 
-		public static void WriteCompletedGame(
+		public static string WriteCompletedGame(
 			MainForm.Status status, 
 			string statusNote, 
 			int rating,
@@ -108,6 +108,8 @@ namespace P255
 			
 			var options = new JsonSerializerOptions { WriteIndented = true };
 			File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
+
+			return last.Shortname;
 		}
 
 		private static string MakeShortname(string lastGame, List<string> allShortnames)
