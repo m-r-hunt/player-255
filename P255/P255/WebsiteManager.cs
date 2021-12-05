@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using DotLiquid;
 using DotLiquid.FileSystems;
 
@@ -25,25 +26,33 @@ namespace P255
 			// Set up DotLiquid
 			Template.FileSystem = new FS();
 
+			var playedGames = DataManager.GetPlayedGames();
+			var remainingGames = DataManager.GetGames();
+
 			// Generate Lists page
 			var listsTemplate = Template.Parse(File.ReadAllText("resources/templates/lists.html"));
 			var listsHtml = listsTemplate.Render(Hash.FromAnonymousObject(new
 			{
-				played_games = DataManager.GetPlayedGames(),
-				remaining_games = DataManager.GetGames()
+				played_games = playedGames,
+				remaining_games = DataManager.GetGames(),
 			}));
 			File.WriteAllText("docs/lists.html", listsHtml);
 
 			// Generate about page
 			var aboutTemplate = Template.Parse(File.ReadAllText("resources/templates/about.html"));
-			var aboutHtml = aboutTemplate.Render(Hash.FromAnonymousObject(new
-			{
-				played_games = DataManager.GetPlayedGames(),
-				remaining_games = DataManager.GetGames()
-			}));
+			var aboutHtml = aboutTemplate.Render(Hash.FromAnonymousObject(new{}));
 			File.WriteAllText("docs/about.html", aboutHtml);
 
 			// Generate index page
+			var indexTemplate = Template.Parse(File.ReadAllText("resources/templates/index.html"));
+			var indexHtml = indexTemplate.Render(Hash.FromAnonymousObject(new
+			{
+				percent = (playedGames.Count - 1) * 100 / 255,
+				count = playedGames.Count - 1,
+				next_up = DataManager.GetPlaying() != null ? playedGames.Last() : null,
+				recent_games = playedGames.TakeLast(11).Reverse().TakeLast(10),
+			}));
+			File.WriteAllText("docs/index.html", indexHtml);
 
 			// Generate game pages
 		}
