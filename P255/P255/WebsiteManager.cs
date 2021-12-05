@@ -1,8 +1,11 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using DotLiquid;
 using DotLiquid.FileSystems;
+using Markdig;
 
 namespace P255
 {
@@ -12,6 +15,24 @@ namespace P255
 		{
 			return File.ReadAllText(Path.Join("resources", templateName.Replace("\"", "")));
 		}
+	}
+
+	class GamePageEntry
+	{
+		public string game { get; set; }
+		public string meta_rating { get; set; }
+		public string meta_user { get; set; }
+		public string date { get; set; }
+		public int rating { get; set; }
+		public string? shortname { get; set; }
+		public string? status { get; set; }
+		public string? status_note { get; set; }
+		public string? notes { get; set; }
+		public string? completion_date { get; set; }
+		public bool? markdown { get; set; }
+		public string? prev { get; set; }
+		public string? next { get; set; }
+		public List<string> screenshots { get; set; }
 	}
 	
 	public static class WebsiteManager
@@ -55,6 +76,42 @@ namespace P255
 			File.WriteAllText("docs/index.html", indexHtml);
 
 			// Generate game pages
+			var gameTemplate = Template.Parse(File.ReadAllText("resources/templates/game-page.html"));
+			for (var i = 0; i < playedGames.Count-1; i++)
+			{
+				var og = playedGames[i];
+				var g = new GamePageEntry()
+				{
+					completion_date = og.CompletionDate,
+					date = og.Date,
+					game = og.Game,
+					markdown = og.Markdown,
+					meta_rating = og.MetaRating,
+					meta_user = og.MetaUser,
+					notes = og.Notes,
+					rating = og.Rating,
+					shortname = og.Shortname,
+					status = og.Status,
+					status_note = og.StatusNote,
+					screenshots = ScreenshotManager.GetScreenshots(og.Shortname),
+				};
+				if (g.markdown ?? false)
+				{
+					g.notes = Markdown.ToHtml(g.notes);
+				}
+
+				if (i > 0)
+				{
+					g.prev = playedGames[i - 1].Shortname;
+				}
+
+				if (i < playedGames.Count - 1)
+				{
+					g.next = playedGames[i + 1].Shortname;
+				}
+				var gameHtml = gameTemplate.Render(Hash.FromAnonymousObject(g));
+				File.WriteAllText($"docs/{g.shortname}.html", gameHtml);
+			}
 		}
 	}
 }

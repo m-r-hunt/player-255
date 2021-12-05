@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="DotLiquid" Version="2.2.585" />
     <PackageReference Include="Eto.Forms" Version="2.6.0" />
+    <PackageReference Include="Markdig" Version="0.26.0" />
   </ItemGroup>
 
 </Project>
