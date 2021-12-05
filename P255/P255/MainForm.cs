@@ -35,6 +35,7 @@ namespace P255
 		private List<RadioButton> StarButtons;
 		private ObservableCollection<ScreenshotItem> Screenshots;
 		private TextArea NotesText;
+		private Button SubmitButton;
 		
 		public MainForm()
 		{
@@ -98,7 +99,8 @@ namespace P255
 			layout.BeginVertical(yscale: false);
 			var submitCommand = new Command();
 			submitCommand.Executed += DoSubmit;
-			layout.AddRow(null, new Button {Text = "Submit", Command = submitCommand});
+			SubmitButton = new Button {Text = "Submit", Command = submitCommand};
+			layout.AddRow(null, SubmitButton);
 			layout.EndVertical();
 			
 			Content = layout;
@@ -170,6 +172,7 @@ namespace P255
 			StarButtons[2].Checked = true;
 			Screenshots.Clear();
 			NotesText.Text = "";
+			SubmitButton.Enabled = nowPlaying != null;
 		}
 
 		private void DoSubmit(object? sender, EventArgs e)

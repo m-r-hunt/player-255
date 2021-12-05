@@ -4,9 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using DotLiquid;
 
 namespace P255
 {
+	[LiquidType("*")]
 	public class GamesDataEntry
 	{
 		[JsonPropertyName("game")]
@@ -19,6 +21,7 @@ namespace P255
 		public string Date { get; set; }
 	}
 	
+	[LiquidType("*")]
 	public class PlayedDataEntry
 	{
 		[JsonPropertyName("game")]
@@ -180,6 +183,20 @@ namespace P255
 				default:
 					throw new Exception("Unknown status...");
 			}
+		}
+
+		public static List<GamesDataEntry> GetGames()
+		{
+			var jsonString = File.ReadAllText("games.json");
+			var entries = JsonSerializer.Deserialize<List<GamesDataEntry>>(jsonString);
+			return entries;
+		}
+
+		public static List<PlayedDataEntry> GetPlayedGames()
+		{
+			var jsonString = File.ReadAllText("played-games.json");
+			var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
+			return entries;
 		}
 	}
 }
