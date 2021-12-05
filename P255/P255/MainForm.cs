@@ -179,10 +179,13 @@ namespace P255
 			
 			var shortname = DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
 			var next = DataManager.CycleNextGame();
+			
+			ScreenshotManager.CopyScreenshots(Screenshots, shortname);
+			
+			WebsiteManager.GenerateWebsite();
 
 			MessageBox.Show(this, $"Next up is {next}");
 
-			ScreenshotManager.CopyScreenshots(Screenshots, shortname);
 			
 			ResetState();
 		}
