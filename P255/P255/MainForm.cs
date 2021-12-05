@@ -178,6 +178,9 @@ namespace P255
 			var rating = StarButtons.FindIndex(r => r.Checked) + 1;
 			
 			DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
+			var next = DataManager.CycleNextGame();
+
+			MessageBox.Show(this, $"Next up is {next}");
 			
 			ResetState();
 		}

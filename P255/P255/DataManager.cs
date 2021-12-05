@@ -60,6 +60,31 @@ namespace P255
 			return last.Rating == -1 ? last.Game : null;
 		}
 
+		public static string CycleNextGame()
+		{
+			var jsonString = File.ReadAllText("games.json");
+			var gamesEntries = JsonSerializer.Deserialize<List<GamesDataEntry>>(jsonString);
+			var r = new Random(Guid.NewGuid().GetHashCode());
+			var selected = r.Next(gamesEntries.Count);
+			var selectedEntry = gamesEntries[selected];
+			gamesEntries.RemoveAt(selected);
+
+			var newEntry = new PlayedDataEntry();
+			newEntry.Game = selectedEntry.Game;
+			newEntry.MetaRating = selectedEntry.MetaRating;
+			newEntry.MetaUser = selectedEntry.MetaUser;
+			newEntry.Date = selectedEntry.Date;
+			newEntry.Rating = -1;
+			
+			var jsonString2 = File.ReadAllText("played-games.json");
+			var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString2);
+			entries.Add(newEntry);
+			var options = new JsonSerializerOptions { WriteIndented = true };
+			File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
+
+			return selectedEntry.Game;
+		}
+
 		public static void WriteCompletedGame(
 			MainForm.Status status, 
 			string statusNote, 
