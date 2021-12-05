@@ -132,7 +132,7 @@ namespace P255
 		private static string MakeShortname(string lastGame, List<string> allShortnames)
 		{
 			var shortname = "";
-			foreach (var c in lastGame.Split(' ', ':').Where(w => !string.IsNullOrEmpty(w)).Select(w => FilterRoman(w.ToLower()).First()))
+			foreach (var c in lastGame.Split(' ', ':', '\'').Where(w => !string.IsNullOrEmpty(w)).Select(w => FilterRoman(w.ToLower()).First()))
 			{
 				shortname += c;
 			}
