@@ -10,14 +10,14 @@ namespace P255
 {
 	public sealed class MainForm : Form
 	{
-		enum Status
+		public enum Status
 		{
 			Complete,
 			NotComplete,
 			Other,
 		};
 
-		class ScreenshotItem
+		public class ScreenshotItem
 		{
 			public string ImagePath { get; set; }
 			public string Title { get; set; }
@@ -161,7 +161,8 @@ namespace P255
 
 		private void ResetState()
 		{
-			PlayingLabel.Text = ""; //TODO Load playing
+			var nowPlaying = DataManager.GetPlaying();
+			PlayingLabel.Text = nowPlaying ?? "Nothing? Complete?";
 			StatusDropDown.SelectedValue = Status.Complete;
 			StatusText.Text = "";
 			StatusText.Enabled = false;
@@ -175,6 +176,8 @@ namespace P255
 		{
 			// TODO: Update data, rebuild website
 			var rating = StarButtons.FindIndex(r => r.Checked) + 1;
+			
+			DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
 			
 			ResetState();
 		}
