@@ -1,14 +1,13 @@
 ﻿using System;
 using Eto.Forms;
 
-namespace P255.Mac
+namespace P255.Mac;
+
+class Program
 {
-	class Program
+	[STAThread]
+	public static void Main(string[] args)
 	{
-		[STAThread]
-		public static void Main(string[] args)
-		{
-			new Application(Eto.Platforms.Mac64).Run(new MainForm());
-		}
+		new Application(Eto.Platforms.Mac64).Run(new MainForm());
 	}
 }
