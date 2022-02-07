@@ -2258,6 +2258,18 @@
     "meta-rating": "86",
     "meta-user": "9.2",
     "date": "Apr 14, 2003",
+    "rating": 4,
+    "shortname": "gstla",
+    "status": "complete",
+    "notes": "Took me way too long as it\u0027s a long JRPG I was determined never to give up on.\r\n\r\nShares many of the strengths of Golden Sun 1. Main criticisms are that the cutscenes can go on for too long and battles are a touch easy. Exploration and puzzles remain good.\r\n\r\nInteresting that the plot ends up being a kind of \u0022comedy of errors\u0022 where everyone is either trying to save the world or do what they think is right, and conflict comes from misunderstanding motives. The closest thing to a main villain is Alex, the only character acting for selfish reasons, and he never really takes center stage as a bad guy with his plot resolved in the epilogue.",
+    "completion-date": "2022-2-7",
+    "markdown": true
+  },
+  {
+    "game": "Gradius Galaxies",
+    "meta-rating": "78",
+    "meta-user": "tbd",
+    "date": "Nov 12, 2001",
     "rating": -1
   }
 ]
