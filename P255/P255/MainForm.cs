@@ -148,7 +148,7 @@ public sealed class MainForm : Form
 		foreach (var u in e.Data.Uris)
 		{
 			var s = new ScreenshotItem();
-			s.ImagePath = u.AbsolutePath;
+			s.ImagePath = u.LocalPath;
 			switch (Screenshots.Count)
 			{
 				case 0:
