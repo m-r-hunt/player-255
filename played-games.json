@@ -2270,6 +2270,30 @@
     "meta-rating": "78",
     "meta-user": "tbd",
     "date": "Nov 12, 2001",
+    "rating": 3,
+    "shortname": "gg",
+    "status": "not-complete",
+    "notes": "A fairly typical scrolling space shooter. Don\u0027t have the patience to grind through to completion.",
+    "completion-date": "2022-2-7",
+    "markdown": true
+  },
+  {
+    "game": "ESPN Final Round Golf 2002",
+    "meta-rating": "70",
+    "meta-user": "tbd",
+    "date": "Aug 28, 2001",
+    "rating": 3,
+    "shortname": "efrg2",
+    "status": "other",
+    "notes": "A fairly typical seriousish golf game. Might be the same engine as Mario Golf Advance or just very similar implementation. No main mode to complete here.",
+    "completion-date": "2022-2-7",
+    "markdown": true
+  },
+  {
+    "game": "Mega Man Battle Network 2",
+    "meta-rating": "81",
+    "meta-user": "7.6",
+    "date": "Jun 17, 2002",
     "rating": -1
   }
 ]
