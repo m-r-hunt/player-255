@@ -2294,6 +2294,54 @@
     "meta-rating": "81",
     "meta-user": "7.6",
     "date": "Jun 17, 2002",
+    "rating": 3,
+    "shortname": "mmbn2",
+    "status": "not-complete",
+    "notes": "Pretty similar to MMBN1. They have addressed some of my complaints about the original, with persistent health, a lower limit on identical chips, and better dungeon layouts. Ultimately reuses a lot of content from 1 and I decided to put it down since it was not holding my attention.",
+    "completion-date": "2022-3-17",
+    "markdown": true
+  },
+  {
+    "game": "The Pinball of the Dead",
+    "meta-rating": "79",
+    "meta-user": "tbd",
+    "date": "Jun 16, 2002",
+    "rating": 2,
+    "shortname": "tpotd",
+    "status": "other",
+    "notes": "It\u0027s another weird pinball adaptation. Not very interested.",
+    "completion-date": "2022-3-17",
+    "markdown": true
+  },
+  {
+    "game": "Hot Potato!",
+    "meta-rating": "74",
+    "meta-user": "tbd",
+    "date": "Jul 1, 2001",
+    "rating": 2,
+    "shortname": "hp",
+    "status": "other",
+    "notes": "A super weird arcade puzzle game. Or maybe it\u0027s a scrolling shooter? You shoot little coloured... things? potatos? at other ones on the road, matching colours to clear them. You only seem to need to match 2 identical ones. I see why this did not become the next tetris.",
+    "completion-date": "2022-3-18",
+    "markdown": true
+  },
+  {
+    "game": "Defender of the Crown",
+    "meta-rating": "72",
+    "meta-user": "4.0",
+    "date": "Oct 7, 2002",
+    "rating": 3,
+    "shortname": "dotc",
+    "status": "not-complete",
+    "notes": "This is an odd one. A turn based strategy game, effectively a very small Total War game, set in medieval England. Battles are just numbers going down until one side wins. Kind of clunky, didn\u0027t really capture my interest.",
+    "completion-date": "2022-3-18",
+    "markdown": true
+  },
+  {
+    "game": "Disney\u0027s Kim Possible 3: Team Possible",
+    "meta-rating": "76",
+    "meta-user": "7.7",
+    "date": "Aug 21, 2005",
     "rating": -1
   }
 ]
