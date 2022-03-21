@@ -2342,6 +2342,18 @@
     "meta-rating": "76",
     "meta-user": "7.7",
     "date": "Aug 21, 2005",
+    "rating": 2,
+    "shortname": "dskp3tp",
+    "status": "not-complete",
+    "notes": "Yet another tie in platformer. Moving on quickly.",
+    "completion-date": "2022-3-21",
+    "markdown": true
+  },
+  {
+    "game": "Mega Man Zero 2",
+    "meta-rating": "81",
+    "meta-user": "8.6",
+    "date": "Oct 14, 2003",
     "rating": -1
   }
 ]
