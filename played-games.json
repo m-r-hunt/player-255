@@ -2354,6 +2354,18 @@
     "meta-rating": "81",
     "meta-user": "8.6",
     "date": "Oct 14, 2003",
+    "rating": 3,
+    "shortname": "mmz2",
+    "status": "not-complete",
+    "notes": "Similar to other ZM games, nice platformer but sky-high difficulty and frustration, and I\u0027ve played too many of them already.",
+    "completion-date": "2022-3-23",
+    "markdown": true
+  },
+  {
+    "game": "Final Fantasy I \u0026 II: Dawn of Souls",
+    "meta-rating": "79",
+    "meta-user": "6.8",
+    "date": "Nov 29, 2004",
     "rating": -1
   }
 ]
