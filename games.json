@@ -18,28 +18,10 @@
     "date": "May 21, 2003"
   },
   {
-    "game": "Sonic Advance",
-    "meta-rating": "87",
-    "meta-user": "8.2",
-    "date": "Feb 3, 2002"
-  },
-  {
     "game": "Super Mario Advance",
     "meta-rating": "84",
     "meta-user": "7.8",
     "date": "Jun 10, 2001"
-  },
-  {
-    "game": "Spider-Man: Mysterio\u0027s Menace",
-    "meta-rating": "84",
-    "meta-user": "8.7",
-    "date": "Sep 19, 2001"
-  },
-  {
-    "game": "Puyo Pop",
-    "meta-rating": "84",
-    "meta-user": "6.6",
-    "date": "Feb 11, 2002"
   },
   {
     "game": "Classic NES Series: The Legend of Zelda",
@@ -78,12 +60,6 @@
     "date": "Dec 5, 2005"
   },
   {
-    "game": "Harvest Moon: Friends of Mineral Town",
-    "meta-rating": "81",
-    "meta-user": "9.5",
-    "date": "Nov 17, 2003"
-  },
-  {
     "game": "Sonic Advance 3",
     "meta-rating": "79",
     "meta-user": "8.6",
@@ -112,12 +88,6 @@
     "meta-rating": "77",
     "meta-user": "tbd",
     "date": "Nov 21, 2006"
-  },
-  {
-    "game": "Mech Platoon",
-    "meta-rating": "77",
-    "meta-user": "tbd",
-    "date": "Jan 3, 2002"
   },
   {
     "game": "Mega Man Battle Network 3 White",
@@ -156,28 +126,10 @@
     "date": "May 25, 2004"
   },
   {
-    "game": "Monster Truck Madness",
-    "meta-rating": "75",
-    "meta-user": "tbd",
-    "date": "Aug 11, 2003"
-  },
-  {
-    "game": "Bomberman Max 2: Blue Advance",
-    "meta-rating": "75",
-    "meta-user": "tbd",
-    "date": "May 30, 2002"
-  },
-  {
     "game": "Double Dragon Advance",
     "meta-rating": "75",
     "meta-user": "8.4",
     "date": "Nov 14, 2003"
-  },
-  {
-    "game": "Frogger\u0027s Adventures: Temple of the Frog",
-    "meta-rating": "73",
-    "meta-user": "7.8",
-    "date": "Nov 24, 2001"
   },
   {
     "game": "Driver 2 Advance",
@@ -222,12 +174,6 @@
     "date": "Mar 31, 2002"
   },
   {
-    "game": "The Urbz: Sims in the City",
-    "meta-rating": "72",
-    "meta-user": "8.9",
-    "date": "Nov 9, 2004"
-  },
-  {
     "game": "CT Special Forces",
     "meta-rating": "71",
     "meta-user": "tbd",
@@ -240,12 +186,6 @@
     "date": "Nov 8, 2005"
   },
   {
-    "game": "AirForce Delta Storm",
-    "meta-rating": "71",
-    "meta-user": "tbd",
-    "date": "Sep 16, 2002"
-  },
-  {
     "game": "Zone of the Enders: The Fist of Mars",
     "meta-rating": "71",
     "meta-user": "8.4",
@@ -256,12 +196,6 @@
     "meta-rating": "70",
     "meta-user": "7.0",
     "date": "Nov 14, 2006"
-  },
-  {
-    "game": "Ultimate Muscle: The Kinnikuman Legacy - The Path of the Superhero",
-    "meta-rating": "70",
-    "meta-user": "8.1",
-    "date": "Jun 5, 2003"
   },
   {
     "game": "DK: King of Swing",
