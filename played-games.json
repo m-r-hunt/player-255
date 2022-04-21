@@ -2498,6 +2498,30 @@
     "meta-rating": "73",
     "meta-user": "7.8",
     "date": "Nov 24, 2001",
+    "rating": 2,
+    "shortname": "fsatotf",
+    "status": "not-complete",
+    "notes": "I considered persisting with Frogger but as with many GBA games they\u2019ve put in a lives/game over system which just serves to make the game artificially longer. Fundamentally it\u2019s not a particularly fun or interesting game, and beating it won\u2019t be particularly hard but will involve occaisionally messing up and having to replay a whole level, which is just annoying.",
+    "completion-date": "2022-4-21",
+    "markdown": true
+  },
+  {
+    "game": "Need for Speed Underground 2",
+    "meta-rating": "72",
+    "meta-user": "8.2",
+    "date": "Nov 15, 2004",
+    "rating": 2,
+    "shortname": "nfsu2",
+    "status": "other",
+    "notes": "It\u0027s another racer adaptation with eye bleeding graphics. Not much to do here.",
+    "completion-date": "2022-4-21",
+    "markdown": true
+  },
+  {
+    "game": "Gunstar Super Heroes",
+    "meta-rating": "83",
+    "meta-user": "8.5",
+    "date": "Oct 25, 2005",
     "rating": -1
   }
 ]
