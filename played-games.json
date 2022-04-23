@@ -2534,6 +2534,18 @@
     "meta-rating": "72",
     "meta-user": "4.8",
     "date": "Sep 14, 2002",
+    "rating": 2,
+    "shortname": "bevs2",
+    "status": "not-complete",
+    "notes": "My complaints about the first game return. First person shooters on the GBA need to basically play like Duke Nukem or Doom, otherwise they\u0027re just going to be unfun.",
+    "completion-date": "2022-4-23",
+    "markdown": true
+  },
+  {
+    "game": "Scurge: Hive",
+    "meta-rating": "76",
+    "meta-user": "8.6",
+    "date": "Oct 31, 2006",
     "rating": -1
   }
 ]
