@@ -2522,6 +2522,18 @@
     "meta-rating": "83",
     "meta-user": "8.5",
     "date": "Oct 25, 2005",
+    "rating": 5,
+    "shortname": "gsh",
+    "status": "complete",
+    "notes": "Wow. Incredible hidden gem (hidden for me anyway). Core gameplay is a run-and-gun shooter somewhat like Metal Slug. Has amazing action set pieces with really varied gameplay, including unique uses of rotation. Great graphics with both nice pixel art and really good usage of the GBA\u0027s graphical capabilities to make special effects. I\u0027m going to be honest, I played on easy which I think was the right decision as I had a light and fun run through the action. Even so, didn\u0027t seem excessively hard at any point and probably is also good on normal (and I could even imagine playing this a bunch and getting good at it). Has some replayability with difficulties, alternate character and score/time attack. Final stage includes a boss rush which is the same boss characters with new fights. It even gets that right!",
+    "completion-date": "2022-4-23",
+    "markdown": true
+  },
+  {
+    "game": "Ballistic: Ecks vs. Sever II",
+    "meta-rating": "72",
+    "meta-user": "4.8",
+    "date": "Sep 14, 2002",
     "rating": -1
   }
 ]
