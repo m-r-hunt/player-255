@@ -770,6 +770,14 @@
   :meta-rating 72,
   :meta-user "7.9",
   :date "Oct 26, 2007"}
+ {:game "Nostalgia",
+  :meta-rating 72,
+  :meta-user "7.6",
+  :date "Oct 23, 2009"}
+ {:game "Bionicle Hereos",
+  :meta-rating 72,
+  :meta-user "6.7",
+  :date "Nov 14, 2006"}
  {:game "Moon",
   :meta-rating 71,
   :meta-user "7.5",
@@ -778,6 +786,10 @@
   :meta-rating 71,
   :meta-user "8.8",
   :date "Oct 5, 2010"}
+ {:game "Avalon Code",
+  :meta-rating 71,
+  :meta-user "7.8",
+  :date "Mar 10, 2009"}
  {:game "Digimon World DS",
   :meta-rating 71,
   :meta-user "7.8",
@@ -790,6 +802,10 @@
   :meta-rating 70,
   :meta-user "8.0",
   :date "Nov 13, 2007"}
+ {:game "Trace Memory",
+  :meta-rating 70,
+  :meta-user "8.2",
+  :date "Sep 27, 2005"}
  {:game "Neves",
   :meta-rating 70,
   :meta-user "tbd",
@@ -798,6 +814,10 @@
   :meta-rating 70,
   :meta-user "7.1",
   :date "Aug 14, 2007"}
+ {:game "Fossil Fighters",
+  :meta-rating 70,
+  :meta-user "8.4",
+  :date "Aug 10, 2009"}
  {:game "Pokemon Ranger",
   :meta-rating 69,
   :meta-user "7.3",
@@ -886,18 +906,10 @@
   :meta-rating 60,
   :meta-user "6.6",
   :date "Oct 24, 2006"}
- {:game "Mega Man Star Force: Pegasus",
-  :meta-rating 60,
-  :meta-user "8.3",
+ {:game "Mega Man Star Force: Leo",
+  :meta-rating 58,
+  :meta-user "8.6",
   :date "Aug 7, 2007"}
- {:game "Mega Man Star Force 3: Red Joker",
-  :meta-rating 59,
-  :meta-user "7.5",
-  :date "Jun 30, 2009"}
- {:game "Mega Man Star Force 2: Zerker x Ninja",
-  :meta-rating 55,
-  :meta-user "8.2",
-  :date "Jun 24, 2008"}
  {:game "Flower, Sun, and Rain",
   :meta-rating 54,
   :meta-user "7.2",
