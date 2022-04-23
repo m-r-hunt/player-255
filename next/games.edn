@@ -1,604 +1,604 @@
-[{:game "    Grand Theft Auto: Chinatown Wars",
+[{:game "Grand Theft Auto: Chinatown Wars",
   :meta-rating 93,
   :meta-user "8.3",
   :date "Mar 17, 2009"}
- {:game "    Chrono Trigger",
+ {:game "Chrono Trigger",
   :meta-rating 92,
   :meta-user "9.1",
   :date "Nov 25, 2008"}
- {:game "    Mario Kart DS",
+ {:game "Mario Kart DS",
   :meta-rating 91,
   :meta-user "8.7",
   :date "Nov 14, 2005"}
- {:game "    Mario & Luigi: Bowser's Inside Story",
+ {:game "Mario & Luigi: Bowser's Inside Story",
   :meta-rating 90,
   :meta-user "8.8",
   :date "Sep 14, 2009"}
- {:game "    The Legend of Zelda: Phantom Hourglass",
+ {:game "The Legend of Zelda: Phantom Hourglass",
   :meta-rating 90,
   :meta-user "8.0",
   :date "Oct 1, 2007"}
- {:game "    Advance Wars: Dual Strike",
+ {:game "Advance Wars: Dual Strike",
   :meta-rating 90,
   :meta-user "8.9",
   :date "Aug 22, 2005"}
- {:game "    Castlevania: Dawn of Sorrow",
+ {:game "Castlevania: Dawn of Sorrow",
   :meta-rating 89,
   :meta-user "8.5",
   :date "Oct 4, 2005"}
- {:game "    New Super Mario Bros.",
+ {:game "New Super Mario Bros.",
   :meta-rating 89,
   :meta-user "8.5",
   :date "May 15, 2006"}
- {:game "    Meteos",
+ {:game "Meteos",
   :meta-rating 88,
   :meta-user "7.4",
   :date "Jun 28, 2005"}
- {:game "    The World Ends with You",
+ {:game "The World Ends with You",
   :meta-rating 88,
   :meta-user "8.6",
   :date "Apr 22, 2008"}
- {:game "    Pokemon White Version",
+ {:game "Pokemon White Version",
   :meta-rating 87,
   :meta-user "7.7",
   :date "Mar 6, 2011"}
- {:game "    Dragon Quest IX: Sentinels of the Starry Skies",
+ {:game "Dragon Quest IX: Sentinels of the Starry Skies",
   :meta-rating 87,
   :meta-user "8.5",
   :date "Jul 11, 2010"}
- {:game "    Pokemon SoulSilver Version",
+ {:game "Pokemon SoulSilver Version",
   :meta-rating 87,
   :meta-user "8.5",
   :date "Mar 14, 2010"}
- {:game "    Elite Beat Agents",
+ {:game "Elite Beat Agents",
   :meta-rating 87,
   :meta-user "8.5",
   :date "Nov 6, 2006"}
- {:game "    The Legend of Zelda: Spirit Tracks",
+ {:game "The Legend of Zelda: Spirit Tracks",
   :meta-rating 87,
   :meta-user "8.0",
   :date "Dec 7, 2009"}
- {:game "    Pokemon HeartGold Version",
+ {:game "Pokemon HeartGold Version",
   :meta-rating 87,
   :meta-user "8.4",
   :date "Mar 14, 2010"}
- {:game "    Pokemon Black Version",
+ {:game "Pokemon Black Version",
   :meta-rating 87,
   :meta-user "7.6",
   :date "Mar 6, 2011"}
- {:game "    Kirby: Canvas Curse",
+ {:game "Kirby: Canvas Curse",
   :meta-rating 86,
   :meta-user "7.8",
   :date "Jun 13, 2005"}
- {:game "    Might & Magic: Clash of Heroes",
+ {:game "Might & Magic: Clash of Heroes",
   :meta-rating 86,
   :meta-user "7.6",
   :date "Dec 1, 2009"}
- {:game "    Mario & Luigi: Partners in Time",
+ {:game "Mario & Luigi: Partners in Time",
   :meta-rating 86,
   :meta-user "8.5",
   :date "Nov 28, 2005"}
- {:game "    Planet Puzzle League",
+ {:game "Planet Puzzle League",
   :meta-rating 86,
   :meta-user "7.8",
   :date "Jun 4, 2007"}
- {:game "    Professor Layton and the Unwound Future",
+ {:game "Professor Layton and the Unwound Future",
   :meta-rating 86,
   :meta-user "8.8",
   :date "Sep 12, 2010"}
- {:game "    Advance Wars: Days of Ruin",
+ {:game "Advance Wars: Days of Ruin",
   :meta-rating 86,
   :meta-user "8.6",
   :date "Jan 21, 2008"}
- {:game "    Radiant Historia",
+ {:game "Radiant Historia",
   :meta-rating 85,
   :meta-user "8.7",
   :date "Feb 22, 2011"}
- {:game "    Shantae: Risky's Revenge",
+ {:game "Shantae: Risky's Revenge",
   :meta-rating 85,
   :meta-user "7.7",
   :date "Oct 4, 2010"}
- {:game "    Castlevania: Portrait of Ruin",
+ {:game "Castlevania: Portrait of Ruin",
   :meta-rating 85,
   :meta-user "8.3",
   :date "Dec 5, 2006"}
- {:game "    Metroid Prime: Hunters",
+ {:game "Metroid Prime: Hunters",
   :meta-rating 85,
   :meta-user "7.9",
   :date "Mar 20, 2006"}
- {:game "    Pokemon Pearl Version",
+ {:game "Pokemon Pearl Version",
   :meta-rating 85,
   :meta-user "7.6",
   :date "Apr 22, 2007"}
- {:game "    Professor Layton and the Curious Village",
+ {:game "Professor Layton and the Curious Village",
   :meta-rating 85,
   :meta-user "8.5",
   :date "Feb 10, 2008"}
- {:game "    Super Mario 64 DS",
+ {:game "Super Mario 64 DS",
   :meta-rating 85,
   :meta-user "8.2",
   :date "Nov 20, 2004"}
- {:game "    Pokemon Diamond Version",
+ {:game "Pokemon Diamond Version",
   :meta-rating 85,
   :meta-user "7.9",
   :date "Apr 22, 2007"}
- {:game "    Final Fantasy IV",
+ {:game "Final Fantasy IV",
   :meta-rating 85,
   :meta-user "8.9",
   :date "Jul 21, 2008"}
- {:game "    Castlevania: Order of Ecclesia",
+ {:game "Castlevania: Order of Ecclesia",
   :meta-rating 85,
   :meta-user "8.5",
   :date "Oct 21, 2008"}
- {:game "    Space Invaders Extreme",
+ {:game "Space Invaders Extreme",
   :meta-rating 85,
   :meta-user "7.8",
   :date "Jun 17, 2008"}
- {:game "    Peggle: Dual Shot",
+ {:game "Peggle: Dual Shot",
   :meta-rating 84,
   :meta-user "7.8",
   :date "Feb 27, 2009"}
- {:game "    Tetris DS",
+ {:game "Tetris DS",
   :meta-rating 84,
   :meta-user "7.9",
   :date "Mar 20, 2006"}
- {:game "    Shin Megami Tensei: Devil Survivor",
+ {:game "Shin Megami Tensei: Devil Survivor",
   :meta-rating 84,
   :meta-user "4.1",
   :date "Jun 23, 2009"}
- {:game "    Professor Layton and the Diabolical Box",
+ {:game "Professor Layton and the Diabolical Box",
   :meta-rating 84,
   :meta-user "8.6",
   :date "Aug 24, 2009"}
- {:game "    Dragon Quest V: Hand of the Heavenly Bride",
+ {:game "Dragon Quest V: Hand of the Heavenly Bride",
   :meta-rating 84,
   :meta-user "8.4",
   :date "Feb 16, 2009"}
- {:game "    Ghost Trick: Phantom Detective",
+ {:game "Ghost Trick: Phantom Detective",
   :meta-rating 83,
   :meta-user "8.8",
   :date "Jan 11, 2011"}
- {:game "    Bangai-O Spirits",
+ {:game "Bangai-O Spirits",
   :meta-rating 83,
   :meta-user "7.8",
   :date "Aug 12, 2008"}
- {:game "    Bleach: The Blade of Fate",
+ {:game "Bleach: The Blade of Fate",
   :meta-rating 83,
   :meta-user "7.4",
   :date "Oct 9, 2007"}
- {:game "    Picross DS",
+ {:game "Picross DS",
   :meta-rating 83,
   :meta-user "8.0",
   :date "Jul 30, 2007"}
- {:game "    Clubhouse Games",
+ {:game "Clubhouse Games",
   :meta-rating 83,
   :meta-user "7.8",
   :date "Oct 9, 2006"}
- {:game "    Picross 3D",
+ {:game "Picross 3D",
   :meta-rating 83,
   :meta-user "8.0",
   :date "May 3, 2010"}
- {:game "    Professor Layton and the Last Specter",
+ {:game "Professor Layton and the Last Specter",
   :meta-rating 83,
   :meta-user "8.3",
   :date "Oct 18, 2011"}
- {:game "    Ninja Gaiden: Dragon Sword",
+ {:game "Ninja Gaiden: Dragon Sword",
   :meta-rating 83,
   :meta-user "7.8",
   :date "Mar 25, 2008"}
- {:game "    Dragon Quest Heroes: Rocket Slime",
+ {:game "Dragon Quest Heroes: Rocket Slime",
   :meta-rating 83,
   :meta-user "7.7",
   :date "Sep 19, 2006"}
- {:game "    Contra 4",
+ {:game "Contra 4",
   :meta-rating 83,
   :meta-user "7.9",
   :date "Nov 13, 2007"}
- {:game "    Rhythm Heaven",
+ {:game "Rhythm Heaven",
   :meta-rating 83,
   :meta-user "8.6",
   :date "Apr 5, 2009"}
- {:game "    Kirby Mass Attack",
+ {:game "Kirby Mass Attack",
   :meta-rating 83,
   :meta-user "8.1",
   :date "Sep 19, 2011"}
- {:game "    Pokemon Platinum Version",
+ {:game "Pokemon Platinum Version",
   :meta-rating 83,
   :meta-user "8.2",
   :date "Mar 22, 2009"}
- {:game "    WarioWare D.I.Y.",
+ {:game "WarioWare D.I.Y.",
   :meta-rating 82,
   :meta-user "8.2",
   :date "Mar 28, 2010"}
- {:game "    KORG DS-10 Synthesizer",
+ {:game "KORG DS-10 Synthesizer",
   :meta-rating 82,
   :meta-user "8.2",
   :date "Nov 4, 2008"}
- {:game "    Dawn of Discovery",
+ {:game "Dawn of Discovery",
   :meta-rating 82,
   :meta-user "7.3",
   :date "Jun 17, 2009"}
- {:game "    Disgaea DS",
+ {:game "Disgaea DS",
   :meta-rating 82,
   :meta-user "7.8",
   :date "Sep 23, 2008"}
- {:game "    Lunar Knights",
+ {:game "Lunar Knights",
   :meta-rating 82,
   :meta-user "7.8",
   :date "Feb 6, 2007"}
- {:game "    Viva Pinata: Pocket Paradise",
+ {:game "Viva Pinata: Pocket Paradise",
   :meta-rating 82,
   :meta-user "7.3",
   :date "Sep 8, 2008"}
- {:game "    Henry Hatsworth in the Puzzling Adventure",
+ {:game "Henry Hatsworth in the Puzzling Adventure",
   :meta-rating 82,
   :meta-user "8.0",
   :date "Mar 17, 2009"}
- {:game "    Okamiden",
+ {:game "Okamiden",
   :meta-rating 82,
   :meta-user "8.3",
   :date "Mar 10, 2011"}
- {:game "    Space Invaders Extreme 2",
+ {:game "Space Invaders Extreme 2",
   :meta-rating 82,
   :meta-user "7.1",
   :date "Oct 19, 2009"}
- {:game "    Sonic Rush",
+ {:game "Sonic Rush",
   :meta-rating 82,
   :meta-user "8.1",
   :date "Nov 15, 2005"}
- {:game "    N+",
+ {:game "N+",
   :meta-rating 82,
   :meta-user "7.5",
   :date "Aug 26, 2008"}
- {:game "    Etrian Odyssey II: Heroes of Lagaard",
+ {:game "Etrian Odyssey II: Heroes of Lagaard",
   :meta-rating 82,
   :meta-user "8.0",
   :date "Jun 13, 2008"}
- {:game "    Puzzle Quest: Challenge of the Warlords",
+ {:game "Puzzle Quest: Challenge of the Warlords",
   :meta-rating 82,
   :meta-user "8.2",
   :date "Mar 20, 2007"}
- {:game "    Nine Hours, Nine Persons, Nine Doors",
+ {:game "Nine Hours, Nine Persons, Nine Doors",
   :meta-rating 82,
   :meta-user "8.8",
   :date "Nov 16, 2010"}
- {:game "    Bleach: Dark Souls",
+ {:game "Bleach: Dark Souls",
   :meta-rating 82,
   :meta-user "7.8",
   :date "Oct 7, 2008"}
- {:game "    WarioWare: Touched!",
+ {:game "WarioWare: Touched!",
   :meta-rating 81,
   :meta-user "8.1",
   :date "Feb 14, 2005"}
- {:game "    Trauma Center: Under the Knife",
+ {:game "Trauma Center: Under the Knife",
   :meta-rating 81,
   :meta-user "8.3",
   :date "Oct 4, 2005"}
- {:game "    Fire Emblem: Shadow Dragon",
+ {:game "Fire Emblem: Shadow Dragon",
   :meta-rating 81,
   :meta-user "7.0",
   :date "Feb 16, 2009"}
- {:game "    Phoenix Wright: Ace Attorney",
+ {:game "Phoenix Wright: Ace Attorney",
   :meta-rating 81,
   :meta-user "9.0",
   :date "Oct 12, 2005"}
- {:game "    Yoshi's Island DS",
+ {:game "Yoshi's Island DS",
   :meta-rating 81,
   :meta-user "7.5",
   :date "Nov 13, 2006"}
- {:game "    Plants vs. Zombies",
+ {:game "Plants vs. Zombies",
   :meta-rating 81,
   :meta-user "7.8",
   :date "Jan 18, 2011"}
- {:game "    Final Fantasy XII: Revenant Wings",
+ {:game "Final Fantasy XII: Revenant Wings",
   :meta-rating 81,
   :meta-user "8.9",
   :date "Nov 20, 2007"}
- {:game "    Super Scribblenauts",
+ {:game "Super Scribblenauts",
   :meta-rating 81,
   :meta-user "8.3",
   :date "Oct 12, 2010"}
- {:game "    Worms: Open Warfare 2",
+ {:game "Worms: Open Warfare 2",
   :meta-rating 81,
   :meta-user "8.1",
   :date "Sep 4, 2007"}
- {:game "    Phoenix Wright: Ace Attorney - Trials and Tribulations",
+ {:game "Phoenix Wright: Ace Attorney - Trials and Tribulations",
   :meta-rating 81,
   :meta-user "9.0",
   :date "Oct 23, 2007"}
- {:game "    Sid Meier's Civilization Revolution",
+ {:game "Sid Meier's Civilization Revolution",
   :meta-rating 80,
   :meta-user "7.7",
   :date "Jul 8, 2008"}
- {:game "    Dragon Quest IV: Chapters of the Chosen",
+ {:game "Dragon Quest IV: Chapters of the Chosen",
   :meta-rating 80,
   :meta-user "8.1",
   :date "Sep 16, 2008"}
- {:game "    Pokemon Black Version 2",
+ {:game "Pokemon Black Version 2",
   :meta-rating 80,
   :meta-user "7.5",
   :date "Oct 7, 2012"}
- {:game "    Age of Empires: The Age of Kings",
+ {:game "Age of Empires: The Age of Kings",
   :meta-rating 80,
   :meta-user "8.0",
   :date "Feb 14, 2006"}
- {:game "    Final Fantasy Tactics A2: Grimoire of the Rift",
+ {:game "Final Fantasy Tactics A2: Grimoire of the Rift",
   :meta-rating 80,
   :meta-user "8.9",
   :date "Jun 24, 2008"}
- {:game "    Pokemon White Version 2",
+ {:game "Pokemon White Version 2",
   :meta-rating 80,
   :meta-user "7.4",
   :date "Oct 7, 2012"}
- {:game "    Shin Megami Tensei: Strange Journey",
+ {:game "Shin Megami Tensei: Strange Journey",
   :meta-rating 80,
   :meta-user "4.0",
   :date "Mar 23, 2010"}
- {:game "    Ninjatown",
+ {:game "Ninjatown",
   :meta-rating 80,
   :meta-user "8.3",
   :date "Oct 28, 2008"}
- {:game "    LEGO Rock Band",
+ {:game "LEGO Rock Band",
   :meta-rating 80,
   :meta-user "7.6",
   :date "Nov 3, 2009"}
- {:game "    Pokemon Conquest",
+ {:game "Pokemon Conquest",
   :meta-rating 80,
   :meta-user "8.3",
   :date "Jun 18, 2012"}
- {:game "    Bookworm",
+ {:game "Bookworm",
   :meta-rating 80,
   :meta-user "tbd",
   :date "Nov 30, 2009"}
- {:game "    Lufia: Curse of the Sinistrals",
+ {:game "Lufia: Curse of the Sinistrals",
   :meta-rating 80,
   :meta-user "8.1",
   :date "Oct 12, 2010"}
- {:game "    Lock's Quest",
+ {:game "Lock's Quest",
   :meta-rating 80,
   :meta-user "8.3",
   :date "Sep 8, 2008"}
- {:game "    LEGO Indiana Jones: The Original Adventures",
+ {:game "LEGO Indiana Jones: The Original Adventures",
   :meta-rating 80,
   :meta-user "7.9",
   :date "Jun 3, 2008"}
- {:game "    LEGO Star Wars: The Complete Saga",
+ {:game "LEGO Star Wars: The Complete Saga",
   :meta-rating 80,
   :meta-user "5.7",
   :date "Nov 6, 2007"}
- {:game "    Phineas and Ferb",
+ {:game "Phineas and Ferb",
   :meta-rating 80,
   :meta-user "4.2",
   :date "Feb 3, 2009"}
- {:game "    Shin Megami Tensei: Devil Survivor 2",
+ {:game "Shin Megami Tensei: Devil Survivor 2",
   :meta-rating 79,
   :meta-user "3.4",
   :date "Feb 28, 2012"}
- {:game "    Scribblenauts",
+ {:game "Scribblenauts",
   :meta-rating 79,
   :meta-user "7.6",
   :date "Sep 15, 2009"}
- {:game "    Sonic Colors",
+ {:game "Sonic Colors",
   :meta-rating 79,
   :meta-user "7.9",
   :date "Nov 16, 2010"}
- {:game "    Trauma Center: Under the Knife 2",
+ {:game "Trauma Center: Under the Knife 2",
   :meta-rating 79,
   :meta-user "8.5",
   :date "Jul 2, 2008"}
- {:game "    The New York Times Crosswords",
+ {:game "The New York Times Crosswords",
   :meta-rating 79,
   :meta-user "6.7",
   :date "May 29, 2007"}
- {:game "    Monster Tale",
+ {:game "Monster Tale",
   :meta-rating 79,
   :meta-user "8.0",
   :date "Mar 16, 2011"}
- {:game "    Mario vs. Donkey Kong: Mini-Land Mayhem",
+ {:game "Mario vs. Donkey Kong: Mini-Land Mayhem",
   :meta-rating 79,
   :meta-user "7.9",
   :date "Nov 14, 2010"}
- {:game "    Metroid Prime Pinball",
+ {:game "Metroid Prime Pinball",
   :meta-rating 79,
   :meta-user "7.9",
   :date "Oct 24, 2005"}
- {:game "    Golden Sun: Dark Dawn",
+ {:game "Golden Sun: Dark Dawn",
   :meta-rating 79,
   :meta-user "8.2",
   :date "Nov 29, 2010"}
- {:game "    Geometry Wars: Galaxies",
+ {:game "Geometry Wars: Galaxies",
   :meta-rating 79,
   :meta-user "7.9",
   :date "Nov 27, 2007"}
- {:game "    Spider-Man 3",
+ {:game "Spider-Man 3",
   :meta-rating 79,
   :meta-user "6.6",
   :date "May 4, 2007"}
- {:game "    Rock Band 3",
+ {:game "Rock Band 3",
   :meta-rating 79,
   :meta-user "5.5",
   :date "Oct 26, 2010"}
- {:game "    Broken Sword: Shadow of the Templars - The Director's Cut",
+ {:game "Broken Sword: Shadow of the Templars - The Director's Cut",
   :meta-rating 78,
   :meta-user "8.0",
   :date "Mar 24, 2009"}
- {:game "    Bomberman Land Touch!",
+ {:game "Bomberman Land Touch!",
   :meta-rating 78,
   :meta-user "7.4",
   :date "Nov 7, 2006"}
- {:game "    Big Bang Mini",
+ {:game "Big Bang Mini",
   :meta-rating 78,
   :meta-user "8.2",
   :date "Jan 21, 2009"}
- {:game "    Hotel Dusk: Room 215",
+ {:game "Hotel Dusk: Room 215",
   :meta-rating 78,
   :meta-user "8.5",
   :date "Jan 22, 2007"}
- {:game "    Robocalypse",
+ {:game "Robocalypse",
   :meta-rating 78,
   :meta-user "8.2",
   :date "Nov 17, 2008"}
- {:game "    Dragon Quest VI: Realms of Revelation",
+ {:game "Dragon Quest VI: Realms of Revelation",
   :meta-rating 78,
   :meta-user "8.4",
   :date "Feb 14, 2011"}
- {:game "    Age of Empires: Mythologies",
+ {:game "Age of Empires: Mythologies",
   :meta-rating 78,
   :meta-user "6.8",
   :date "Nov 24, 2008"}
- {:game "    Apollo Justice: Ace Attorney",
+ {:game "Apollo Justice: Ace Attorney",
   :meta-rating 78,
   :meta-user "8.2",
   :date "Feb 19, 2008"}
- {:game "    Rune Factory: A Fantasy Harvest Moon",
+ {:game "Rune Factory: A Fantasy Harvest Moon",
   :meta-rating 78,
   :meta-user "8.2",
   :date "Aug 14, 2007"}
- {:game "    Soul Bubbles",
+ {:game "Soul Bubbles",
   :meta-rating 78,
   :meta-user "8.0",
   :date "Jun 10, 2008"}
- {:game "    Sonic Rush Adventure",
+ {:game "Sonic Rush Adventure",
   :meta-rating 78,
   :meta-user "8.1",
   :date "Sep 18, 2007"}
- {:game "    Anno 1701: Dawn of Discovery",
+ {:game "Anno 1701: Dawn of Discovery",
   :meta-rating 78,
   :meta-user "7.5",
   :date "Mar 4, 2008"}
- {:game "    Mega Man ZX Advent",
+ {:game "Mega Man ZX Advent",
   :meta-rating 78,
   :meta-user "8.5",
   :date "Oct 23, 2007"}
- {:game "    Ultimate Spider-Man",
+ {:game "Ultimate Spider-Man",
   :meta-rating 78,
   :meta-user "7.7",
   :date "Sep 19, 2005"}
- {:game "    Sonic & Sega All-Stars Racing",
+ {:game "Sonic & Sega All-Stars Racing",
   :meta-rating 78,
   :meta-user "7.9",
   :date "Feb 23, 2010"}
- {:game "    Dragon Ball: Origins",
+ {:game "Dragon Ball: Origins",
   :meta-rating 78,
   :meta-user "7.6",
   :date "Nov 4, 2008"}
- {:game "    Chibi-Robo! Park Patrol",
+ {:game "Chibi-Robo! Park Patrol",
   :meta-rating 78,
   :meta-user "7.5",
   :date "Sep 24, 2007"}
- {:game "    Alice in Wonderland",
+ {:game "Alice in Wonderland",
   :meta-rating 78,
   :meta-user "tbd",
   :date "Mar 2, 2010"}
- {:game "    Ace Attorney Investigations: Miles Edgeworth",
+ {:game "Ace Attorney Investigations: Miles Edgeworth",
   :meta-rating 78,
   :meta-user "8.4",
   :date "Feb 16, 2010"}
- {:game "    Chronicles of Mystery: The Secret Tree of Life",
+ {:game "Chronicles of Mystery: The Secret Tree of Life",
   :meta-rating 78,
   :meta-user "tbd",
   :date "Mar 1, 2011"}
- {:game "    Spider-Man: Web of Shadows",
+ {:game "Spider-Man: Web of Shadows",
   :meta-rating 77,
   :meta-user "7.1",
   :date "Oct 21, 2008"}
- {:game "    Rune Factory 3: A Fantasy Harvest Moon",
+ {:game "Rune Factory 3: A Fantasy Harvest Moon",
   :meta-rating 77,
   :meta-user "8.3",
   :date "Nov 9, 2010"}
- {:game "    Rune Factory 2: A Fantasy Harvest Moon",
+ {:game "Rune Factory 2: A Fantasy Harvest Moon",
   :meta-rating 77,
   :meta-user "8.0",
   :date "Nov 18, 2008"}
- {:game "    WordJong",
+ {:game "WordJong",
   :meta-rating 77,
   :meta-user "7.7",
   :date "Nov 16, 2007"}
- {:game "    Final Fantasy III",
+ {:game "Final Fantasy III",
   :meta-rating 77,
   :meta-user "8.6",
   :date "Nov 14, 2006"}
- {:game "    Retro Game Challenge",
+ {:game "Retro Game Challenge",
   :meta-rating 77,
   :meta-user "6.9",
   :date "Feb 10, 2009"}
- {:game "    DK: Jungle Climber",
+ {:game "DK: Jungle Climber",
   :meta-rating 77,
   :meta-user "6.5",
   :date "Sep 10, 2007"}
- {:game "    Bejeweled Twist",
+ {:game "Bejeweled Twist",
   :meta-rating 77,
   :meta-user "tbd",
   :date "Jan 18, 2010"}
- {:game "    Etrian Odyssey III: The Drowned City",
+ {:game "Etrian Odyssey III: The Drowned City",
   :meta-rating 77,
   :meta-user "8.3",
   :date "Sep 21, 2010"}
- {:game "    Harvest Moon DS: Sunshine Islands",
+ {:game "Harvest Moon DS: Sunshine Islands",
   :meta-rating 77,
   :meta-user "7.7",
   :date "Nov 12, 2009"}
- {:game "    Dragon Quest Monsters: Joker 2",
+ {:game "Dragon Quest Monsters: Joker 2",
   :meta-rating 77,
   :meta-user "7.7",
   :date "Sep 19, 2011"}
- {:game "    Final Fantasy Crystal Chronicles: Ring of Fates",
+ {:game "Final Fantasy Crystal Chronicles: Ring of Fates",
   :meta-rating 77,
   :meta-user "7.4",
   :date "Mar 11, 2008"}
- {:game "    Mechanic Master",
+ {:game "Mechanic Master",
   :meta-rating 76,
   :meta-user "tbd",
   :date "Oct 21, 2008"}
- {:game "    Puyo Pop Fever",
+ {:game "Puyo Pop Fever",
   :meta-rating 76,
   :meta-user "6.8",
   :date "May 3, 2005"}
- {:game "    Mario vs. Donkey Kong 2: March of the Minis",
+ {:game "Mario vs. Donkey Kong 2: March of the Minis",
   :meta-rating 76,
   :meta-user "7.9",
   :date "Sep 25, 2006"}
- {:game "    Suikoden Tierkreis",
+ {:game "Suikoden Tierkreis",
   :meta-rating 76,
   :meta-user "7.8",
   :date "Mar 17, 2009"}
- {:game "    Solatorobo: Red the Hunter",
+ {:game "Solatorobo: Red the Hunter",
   :meta-rating 76,
   :meta-user "8.3",
   :date "Sep 27, 2011"}
- {:game "    Knights in the Nightmare",
+ {:game "Knights in the Nightmare",
   :meta-rating 76,
   :meta-user "8.5",
   :date "Jun 3, 2009"}
- {:game "    Chronos Twins",
+ {:game "Chronos Twins",
   :meta-rating 76,
   :meta-user "5.3",
   :date "Jan 18, 2010"}
- {:game "    Mario & Sonic at the Olympic Winter Games",
+ {:game "Mario & Sonic at the Olympic Winter Games",
   :meta-rating 76,
   :meta-user "7.6",
   :date "Oct 13, 2009"}
- {:game "    Phoenix Wright: Ace Attorney - Justice for All",
+ {:game "Phoenix Wright: Ace Attorney - Justice for All",
   :meta-rating 76,
   :meta-user "8.6",
   :date "Jan 16, 2007"}
- {:game "    Kirby Super Star Ultra",
+ {:game "Kirby Super Star Ultra",
   :meta-rating 76,
   :meta-user "8.8",
   :date "Sep 22, 2008"}
- {:game "    Star Fox Command",
+ {:game "Star Fox Command",
   :meta-rating 76,
   :meta-user "7.2",
   :date "Aug 28, 2006"}
- {:game "    Tetris Party Deluxe",
+ {:game "Tetris Party Deluxe",
   :meta-rating 76,
   :meta-user "tbd",
   :date "May 25, 2010"}
- {:game "    Aliens: Infestation",
+ {:game "Aliens: Infestation",
   :meta-rating 76,
   :meta-user "8.2",
   :date "Oct 11, 2011"}
- {:game "    Mega Man ZX",
+ {:game "Mega Man ZX",
   :meta-rating 76,
   :meta-user "8.1",
   :date "Sep 12, 2006"}
