@@ -2546,6 +2546,18 @@
     "meta-rating": "76",
     "meta-user": "8.6",
     "date": "Oct 31, 2006",
+    "rating": 4,
+    "shortname": "sh",
+    "status": "complete",
+    "notes": "Pretty good. Isn\u0027t as much of a metroidvania as you might think (despite plot ripping off Fusion) as it\u0027s perfectly linear with no extra upgrades rewarding exploration. Outstays its welcome a bit. You have to collect so many keycards and press so many switches.",
+    "completion-date": "2022-5-11",
+    "markdown": true
+  },
+  {
+    "game": "Advance Wars 2: Black Hole Rising",
+    "meta-rating": "89",
+    "meta-user": "9.3",
+    "date": "Jun 24, 2003",
     "rating": -1
   }
 ]
