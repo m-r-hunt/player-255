@@ -2558,6 +2558,42 @@
     "meta-rating": "89",
     "meta-user": "9.3",
     "date": "Jun 24, 2003",
+    "rating": 4,
+    "shortname": "aw2bhr",
+    "status": "not-complete",
+    "notes": "Although Advance Wars 2 is really good, I ended up putting it down. The problem is as the campaign goes on the battles become larger and more complex, and generally longer. I find I have the most fun on smaller battles that can be done in a short amount of time, rather than a long slog. These long battles usually end up lacking really strong tactics too and become \u0022fight efficiently and churn out units to counter what the enemy is doing\u0022 until you win, rather than any interesting strategy.",
+    "completion-date": "2022-5-14",
+    "markdown": true
+  },
+  {
+    "game": "Double Dragon Advance",
+    "meta-rating": "75",
+    "meta-user": "8.4",
+    "date": "Nov 14, 2003",
+    "rating": 3,
+    "shortname": "dda",
+    "status": "not-complete",
+    "notes": "It\u0027s a beat-em-up. Seems fine, this type of game rarely clicks with me.",
+    "completion-date": "2022-5-14",
+    "markdown": true
+  },
+  {
+    "game": "DK: King of Swing",
+    "meta-rating": "70",
+    "meta-user": "5.0",
+    "date": "Sep 19, 2005",
+    "rating": 3,
+    "shortname": "dkos",
+    "status": "complete",
+    "notes": "This has kind of a special significance for the GBA challenge as it\u0027s the reason why I dropped the floor on game ratings down to 70 and have put up with so many bad platformers. Was it worth it? Not really... A unique core mechanic but some weird design choices and it doesn\u0027t have a ton of legs.",
+    "completion-date": "2022-5-15",
+    "markdown": true
+  },
+  {
+    "game": "Pokemon Ruby Version",
+    "meta-rating": "82",
+    "meta-user": "8.7",
+    "date": "Mar 18, 2003",
     "rating": -1
   }
 ]
