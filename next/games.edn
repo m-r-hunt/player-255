@@ -58,14 +58,6 @@
   :meta-rating 87,
   :meta-user "8.0",
   :date "Dec 7, 2009"}
- {:game "Pokemon HeartGold Version",
-  :meta-rating 87,
-  :meta-user "8.4",
-  :date "Mar 14, 2010"}
- {:game "Pokemon Black Version",
-  :meta-rating 87,
-  :meta-user "7.6",
-  :date "Mar 6, 2011"}
  {:game "Kirby: Canvas Curse",
   :meta-rating 86,
   :meta-user "7.8",
@@ -118,10 +110,6 @@
   :meta-rating 85,
   :meta-user "8.2",
   :date "Nov 20, 2004"}
- {:game "Pokemon Diamond Version",
-  :meta-rating 85,
-  :meta-user "7.9",
-  :date "Apr 22, 2007"}
  {:game "Final Fantasy IV",
   :meta-rating 85,
   :meta-user "8.9",
@@ -326,10 +314,6 @@
   :meta-rating 80,
   :meta-user "8.9",
   :date "Jun 24, 2008"}
- {:game "Pokemon White Version 2",
-  :meta-rating 80,
-  :meta-user "7.4",
-  :date "Oct 7, 2012"}
  {:game "Shin Megami Tensei: Strange Journey",
   :meta-rating 80,
   :meta-user "4.0",
