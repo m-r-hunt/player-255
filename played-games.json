@@ -2594,6 +2594,42 @@
     "meta-rating": "82",
     "meta-user": "8.7",
     "date": "Mar 18, 2003",
+    "rating": 4,
+    "shortname": "prv",
+    "status": "complete",
+    "notes": "So since this isn\u0027t the first gen 3 game I\u0027ve played for the challenge, this time I tried doing a solo pokemon run. Swampert proved to be a beast as his only weakness is grass and there\u0027s no grass gym leader/E4. Honestly the hardest fight was probably the rival in the early/midgame (before acquiring an ice move).",
+    "completion-date": "2022-5-17",
+    "markdown": true
+  },
+  {
+    "game": "Mario Tennis: Power Tour",
+    "meta-rating": "81",
+    "meta-user": "8.0",
+    "date": "Dec 5, 2005",
+    "rating": 3,
+    "shortname": "mtpt",
+    "status": "not-complete",
+    "notes": "This is from the same stable as some of my favourite games like Mario Golf and Golden Sun. However, I just don\u0027t enjoy playing tennis against the AI that much. It gets repetetive pretty fast.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "Kelly Slater\u0027s Pro Surfer",
+    "meta-rating": "72",
+    "meta-user": "tbd",
+    "date": "Aug 21, 2002",
+    "rating": 2,
+    "shortname": "kssps",
+    "status": "not-complete",
+    "notes": "Another entry into the \u0022extreme sports games that don\u0027t scale well onto GBA\u0022. Not much here.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "Mega Man Battle Network 3 White",
+    "meta-rating": "77",
+    "meta-user": "8.5",
+    "date": "Jun 24, 2003",
     "rating": -1
   }
 ]
