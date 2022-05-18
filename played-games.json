@@ -2630,6 +2630,54 @@
     "meta-rating": "77",
     "meta-user": "8.5",
     "date": "Jun 24, 2003",
+    "rating": 3,
+    "shortname": "mmbn3w",
+    "status": "not-complete",
+    "notes": "My problem with this is the same as MMBN2 - it\u0027s very similar to MMBN1 which I did not enjoy enough to support 3 games of content.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "Lunar Legend",
+    "meta-rating": "79",
+    "meta-user": "7.8",
+    "date": "Dec 8, 2002",
+    "rating": 3,
+    "shortname": "ll",
+    "status": "not-complete",
+    "notes": "A pretty generic jrpg which failed to grab me.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "River City Ransom EX",
+    "meta-rating": "75",
+    "meta-user": "8.4",
+    "date": "May 25, 2004",
+    "rating": 2,
+    "shortname": "rcre",
+    "status": "not-complete",
+    "notes": "This is a beat-em-up. A bit of an odd one, I found the character art style very odd. Gameplay seemed a bit rough with enemies moving a lot faster than you can.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "CT Special Forces",
+    "meta-rating": "71",
+    "meta-user": "tbd",
+    "date": "Jan 4, 2004",
+    "rating": 2,
+    "shortname": "csf",
+    "status": "not-complete",
+    "notes": "This is another odd one. It wants to be a run and gun platformer like Metal Slug, but fails to capture anything that makes that genre fun. Controls are stiff and awkward, your default gun is very bad and you don\u0027t get a ton of ammo for other guns. Gameplay is slowed down by awkward platforming and somewhat mazelike levels. Didn\u0027t enjoy it.",
+    "completion-date": "2022-5-18",
+    "markdown": true
+  },
+  {
+    "game": "Drill Dozer",
+    "meta-rating": "81",
+    "meta-user": "8.8",
+    "date": "Feb 6, 2006",
     "rating": -1
   }
 ]
