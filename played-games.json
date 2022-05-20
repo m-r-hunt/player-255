@@ -2678,6 +2678,30 @@
     "meta-rating": "81",
     "meta-user": "8.8",
     "date": "Feb 6, 2006",
+    "rating": 5,
+    "shortname": "dd",
+    "status": "complete",
+    "notes": "A really solid platformer with a novel drilling mechanic that gets fully explored. Well designed levels, all of which bring something new, doesn\u0027t outstay its welcome. Can\u0027t ask for much more.",
+    "completion-date": "2022-5-20",
+    "markdown": true
+  },
+  {
+    "game": "Tony Hawk\u0027s Pro Skater 3",
+    "meta-rating": "90",
+    "meta-user": "8.0",
+    "date": "Mar 4, 2002",
+    "rating": 2,
+    "shortname": "thsps3",
+    "status": "not-complete",
+    "notes": "How many Tony Hawk games is this now? At least this is the last one.",
+    "completion-date": "2022-5-20",
+    "markdown": true
+  },
+  {
+    "game": "Harry Potter and the Goblet of Fire",
+    "meta-rating": "71",
+    "meta-user": "6.0",
+    "date": "Nov 8, 2005",
     "rating": -1
   }
 ]
