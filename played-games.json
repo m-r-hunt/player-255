@@ -2702,6 +2702,90 @@
     "meta-rating": "71",
     "meta-user": "6.0",
     "date": "Nov 8, 2005",
+    "rating": 3,
+    "shortname": "hpatgof",
+    "status": "not-complete",
+    "notes": "A top down adventure. I found it kind of funny that you just press a to fire a generic magic bolt and the game describes it as being one of 5 different canonical HP spells based on context. Anyway, not up to too much.",
+    "completion-date": "2022-5-20",
+    "markdown": true
+  },
+  {
+    "game": "Eragon",
+    "meta-rating": "70",
+    "meta-user": "7.0",
+    "date": "Nov 14, 2006",
+    "rating": 3,
+    "shortname": "e",
+    "status": "not-complete",
+    "notes": "I was surprised that this was actually kind of a jrpg. Not that good though.",
+    "completion-date": "2022-5-20",
+    "markdown": true
+  },
+  {
+    "game": "Justice League Heroes: The Flash",
+    "meta-rating": "72",
+    "meta-user": "7.4",
+    "date": "Oct 17, 2006",
+    "rating": 3,
+    "shortname": "jlhtf",
+    "status": "not-complete",
+    "notes": "Some neat Flash features, including slow-mo and a zoom-to-enemies button. Outside of that, kind of a mindless button bashy beat-em-up.",
+    "completion-date": "2022-5-20",
+    "markdown": true
+  },
+  {
+    "game": "Yggdra Union",
+    "meta-rating": "77",
+    "meta-user": "tbd",
+    "date": "Nov 21, 2006",
+    "rating": 4,
+    "shortname": "yu",
+    "status": "not-complete",
+    "notes": "Interesting SRPG with a bunch of weird systems including using cards for turns, persistent health and items, only one attack per turn, etc. Doesn\u0027t quite land I think but an interesting game.",
+    "completion-date": "2022-5-21",
+    "markdown": true
+  },
+  {
+    "game": "Super Ghouls \u0027n Ghosts",
+    "meta-rating": "78",
+    "meta-user": "8.4",
+    "date": "Sep 23, 2002",
+    "rating": 3,
+    "shortname": "sgng",
+    "status": "complete",
+    "notes": "Infamously nintendo-hard action platformer. Requires near perfect play to progress as you can only take 2 hits before dying and health pickups seem to be rare. Not really for me.",
+    "completion-date": "2022-5-21",
+    "markdown": true
+  },
+  {
+    "game": "Disney\u0027s Extreme Skate Adventure",
+    "meta-rating": "70",
+    "meta-user": "tbd",
+    "date": "Sep 3, 2003",
+    "rating": 2,
+    "shortname": "dsesa",
+    "status": "not-complete",
+    "notes": "Turns out I was wrong when I thought I\u0027d played the last Tony Hawk\u0027s skateboarding game. Being a licensed tie-in did not improve this game.",
+    "completion-date": "2022-5-21",
+    "markdown": true
+  },
+  {
+    "game": "Denki Blocks!",
+    "meta-rating": "77",
+    "meta-user": "tbd",
+    "date": "Oct 30, 2001",
+    "rating": 3,
+    "shortname": "db",
+    "status": "not-complete",
+    "notes": "Kind of a simple puzzle game. Pressing directions moves all the blocks in the level, match each colour into one big block. In general just completing each puzzle seems easy but it has some bonus objectives which would actually be challenging to acheive. Didn\u0027t end up sticking with it.",
+    "completion-date": "2022-5-21",
+    "markdown": true
+  },
+  {
+    "game": "Zone of the Enders: The Fist of Mars",
+    "meta-rating": "71",
+    "meta-user": "8.4",
+    "date": "Mar 3, 2002",
     "rating": -1
   }
 ]

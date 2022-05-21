@@ -36,24 +36,6 @@
     "date": "Jun 7, 2004"
   },
   {
-    "game": "Super Ghouls \u0027n Ghosts",
-    "meta-rating": "78",
-    "meta-user": "8.4",
-    "date": "Sep 23, 2002"
-  },
-  {
-    "game": "Denki Blocks!",
-    "meta-rating": "77",
-    "meta-user": "tbd",
-    "date": "Oct 30, 2001"
-  },
-  {
-    "game": "Yggdra Union",
-    "meta-rating": "77",
-    "meta-user": "tbd",
-    "date": "Nov 21, 2006"
-  },
-  {
     "game": "Super Bust-A-Move",
     "meta-rating": "77",
     "meta-user": "tbd",
@@ -78,12 +60,6 @@
     "date": "Oct 22, 2002"
   },
   {
-    "game": "Justice League Heroes: The Flash",
-    "meta-rating": "72",
-    "meta-user": "7.4",
-    "date": "Oct 17, 2006"
-  },
-  {
     "game": "Hamtaro: Ham Ham Heartbreak",
     "meta-rating": "72",
     "meta-user": "8.8",
@@ -94,23 +70,5 @@
     "meta-rating": "72",
     "meta-user": "tbd",
     "date": "Mar 31, 2002"
-  },
-  {
-    "game": "Zone of the Enders: The Fist of Mars",
-    "meta-rating": "71",
-    "meta-user": "8.4",
-    "date": "Mar 3, 2002"
-  },
-  {
-    "game": "Eragon",
-    "meta-rating": "70",
-    "meta-user": "7.0",
-    "date": "Nov 14, 2006"
-  },
-  {
-    "game": "Disney\u0027s Extreme Skate Adventure",
-    "meta-rating": "70",
-    "meta-user": "tbd",
-    "date": "Sep 3, 2003"
   }
 ]
