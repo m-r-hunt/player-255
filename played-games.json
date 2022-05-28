@@ -2786,6 +2786,18 @@
     "meta-rating": "71",
     "meta-user": "8.4",
     "date": "Mar 3, 2002",
+    "rating": 4,
+    "shortname": "zotetfom",
+    "status": "complete",
+    "notes": "Pretty good tactical RPG. Light on the tactics due to the aiming/dodging minigame, good story.",
+    "completion-date": "2022-5-27",
+    "markdown": true
+  },
+  {
+    "game": "Yoshi\u0027s Island: Super Mario Advance 3",
+    "meta-rating": "91",
+    "meta-user": "9.0",
+    "date": "Sep 24, 2002",
     "rating": -1
   }
 ]
