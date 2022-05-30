@@ -2798,6 +2798,18 @@
     "meta-rating": "91",
     "meta-user": "9.0",
     "date": "Sep 24, 2002",
+    "rating": 4,
+    "shortname": "ysisma3",
+    "status": "complete",
+    "notes": "A very solid platformer, of course from the Mario family. Quite forgiving due to not really punishing hits and Yoshi\u0027s floaty jumps. Does slip a bit into frustrating on a few levels, but generally good and with interesting stuff in all levels.",
+    "completion-date": "2022-5-30",
+    "markdown": true
+  },
+  {
+    "game": "Hamtaro: Ham Ham Heartbreak",
+    "meta-rating": "72",
+    "meta-user": "8.8",
+    "date": "Apr 8, 2003",
     "rating": -1
   }
 ]
