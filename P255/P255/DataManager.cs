@@ -84,8 +84,21 @@ public static class DataManager
 	{
 		var jsonString = File.ReadAllText("games.json");
 		var gamesEntries = JsonSerializer.Deserialize<List<GamesDataEntry>>(jsonString);
+		
+		if (gamesEntries.Count <= 0)
+		{
+			return "Uh, all finished! Congratulation !";
+		}
+		
 		var r = new Random(Guid.NewGuid().GetHashCode());
 		var selected = r.Next(gamesEntries!.Count);
+		
+		// Rig it so WarioWare is last
+		while (gamesEntries.Count > 1 && gamesEntries[selected].Game == "WarioWare, Inc.: Mega Microgame$!")
+		{
+			selected = r.Next(gamesEntries!.Count);
+		}
+		
 		var selectedEntry = gamesEntries[selected];
 		gamesEntries.RemoveAt(selected);
 
