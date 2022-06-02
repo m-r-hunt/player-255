@@ -2822,6 +2822,30 @@
     "meta-rating": "83",
     "meta-user": "8.3",
     "date": "Mar 9, 2003",
+    "rating": 3,
+    "shortname": "sa2",
+    "status": "not-complete",
+    "notes": "Now, all 3 Sonic Advance games have ended up back loaded into the very end of the challenge. I kind of enjoyed the first one but I really don\u0027t want to play another 2 in quick succesion. If they\u0027d been nicely spaced apart by 6 months or a year I probably would have played through. Anyway, all that is to say Sonic Advance 2 is getting somewhat of a quick rejection.",
+    "completion-date": "2022-6-2",
+    "markdown": true
+  },
+  {
+    "game": "Classic NES Series: The Legend of Zelda",
+    "meta-rating": "84",
+    "meta-user": "8.5",
+    "date": "Jun 2, 2004",
+    "rating": 2,
+    "shortname": "cnstloz",
+    "status": "not-complete",
+    "notes": "The original Zelda: we have a lot to thank it for, including some of the best GBA games. However, in my opinion it has aged very badly and I do not enjoy trying to play it. Clunky gameplay, a confusing overworld map, and cryptic badly-translated NPC messages. Had a quick play but not going to slog through it.",
+    "completion-date": "2022-6-2",
+    "markdown": true
+  },
+  {
+    "game": "Super Mario Advance",
+    "meta-rating": "84",
+    "meta-user": "7.8",
+    "date": "Jun 10, 2001",
     "rating": -1
   }
 ]
