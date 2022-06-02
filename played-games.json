@@ -2810,6 +2810,18 @@
     "meta-rating": "72",
     "meta-user": "8.8",
     "date": "Apr 8, 2003",
+    "rating": 3,
+    "shortname": "hhhh",
+    "status": "complete",
+    "notes": "Yes, my second mega-cute hamster game. This one is more of an adventure, where you go around trying to reunite hamster couples that are being split up by a hamster devil. Gameplay is mainly learning and then using \u0022hamchat\u0022 verbs to do various actions. Often quite illogical and requires a guide to get through it. Still, didn\u0027t totally hate it.",
+    "completion-date": "2022-6-2",
+    "markdown": true
+  },
+  {
+    "game": "Sonic Advance 2",
+    "meta-rating": "83",
+    "meta-user": "8.3",
+    "date": "Mar 9, 2003",
     "rating": -1
   }
 ]
