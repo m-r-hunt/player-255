@@ -2846,6 +2846,42 @@
     "meta-rating": "84",
     "meta-user": "7.8",
     "date": "Jun 10, 2001",
+    "rating": 3,
+    "shortname": "sma",
+    "status": "not-complete",
+    "notes": "Ah yes, Super Mario: The Kind of Wierd and Bad One. This game holds a wierd place in my heart as one of the first games I had on the GBA, but it\u0027s also not great IMO.",
+    "completion-date": "2022-6-2",
+    "markdown": true
+  },
+  {
+    "game": "The Scorpion King: Sword of Osiris",
+    "meta-rating": "72",
+    "meta-user": "tbd",
+    "date": "Mar 31, 2002",
+    "rating": 3,
+    "shortname": "tsksoo",
+    "status": "not-complete",
+    "notes": "This was less bad than I thought it was going to be. Surprisingly solid, gets repetetive very fast though.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "Monster Rancher Advance",
+    "meta-rating": "76",
+    "meta-user": "tbd",
+    "date": "Nov 28, 2001",
+    "rating": 2,
+    "shortname": "mra",
+    "status": "not-complete",
+    "notes": "Similar to the other Monster Rancher Advance, it\u0027s a weird monster training game that doesn\u0027t really grab me.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "Sonic Advance 3",
+    "meta-rating": "79",
+    "meta-user": "8.6",
+    "date": "Jun 7, 2004",
     "rating": -1
   }
 ]

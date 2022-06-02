@@ -6,12 +6,6 @@
     "date": "May 21, 2003"
   },
   {
-    "game": "Sonic Advance 3",
-    "meta-rating": "79",
-    "meta-user": "8.6",
-    "date": "Jun 7, 2004"
-  },
-  {
     "game": "Super Bust-A-Move",
     "meta-rating": "77",
     "meta-user": "tbd",
@@ -24,21 +18,9 @@
     "date": "Nov 5, 2003"
   },
   {
-    "game": "Monster Rancher Advance",
-    "meta-rating": "76",
-    "meta-user": "tbd",
-    "date": "Nov 28, 2001"
-  },
-  {
     "game": "Driver 2 Advance",
     "meta-rating": "73",
     "meta-user": "6.6",
     "date": "Oct 22, 2002"
-  },
-  {
-    "game": "The Scorpion King: Sword of Osiris",
-    "meta-rating": "72",
-    "meta-user": "tbd",
-    "date": "Mar 31, 2002"
   }
 ]
