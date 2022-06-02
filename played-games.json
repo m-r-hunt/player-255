@@ -2882,6 +2882,18 @@
     "meta-rating": "79",
     "meta-user": "8.6",
     "date": "Jun 7, 2004",
+    "rating": 3,
+    "shortname": "sa3",
+    "status": "not-complete",
+    "notes": "Similar to SA2, getting a bit of a short shrift from me.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "Driver 2 Advance",
+    "meta-rating": "73",
+    "meta-user": "6.6",
+    "date": "Oct 22, 2002",
     "rating": -1
   }
 ]
