@@ -2894,6 +2894,42 @@
     "meta-rating": "73",
     "meta-user": "6.6",
     "date": "Oct 22, 2002",
+    "rating": 2,
+    "shortname": "d2a",
+    "status": "not-complete",
+    "notes": "Another driving game, same problems as most of the others, GBA just can\u0027t do 3D well. At least this is the last one.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "The Lord of the Rings: The Return of the King",
+    "meta-rating": "77",
+    "meta-user": "8.2",
+    "date": "Nov 5, 2003",
+    "rating": 3,
+    "shortname": "tlotrtrotk",
+    "status": "not-complete",
+    "notes": "I was trying to beat this, but I ran into a hard wall. It\u0027s a straightforward action RPG. However I reached a point where I had apparently built my character wrong (not enough accuracy) and couldn\u0027t reliably land hits on skeletons. I was then faced with a level that contained a massive wall of skeletons you have to fight through and no other option, and couldn\u0027t make it through despite some attempts and grinding. What\u0027s worse is that I used my healing items, they do not return after death, and there was no shop available to buy them as you can\u0027t go backwards to previous areas. So, this game seemed decent but it\u0027s not super well balanced.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "Super Bust-A-Move",
+    "meta-rating": "77",
+    "meta-user": "tbd",
+    "date": "Nov 27, 2001",
+    "rating": 3,
+    "shortname": "sb",
+    "status": "not-complete",
+    "notes": "It\u0027s an arcade puzzle game. It feels like it\u0027s struggling to fit on the gba, gems are a little small and the arrow control feels imprecise. Didn\u0027t love it.",
+    "completion-date": "2022-6-3",
+    "markdown": true
+  },
+  {
+    "game": "WarioWare, Inc.: Mega Microgame$!",
+    "meta-rating": "89",
+    "meta-user": "8.8",
+    "date": "May 21, 2003",
     "rating": -1
   }
 ]
