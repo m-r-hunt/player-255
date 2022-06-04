@@ -75,6 +75,7 @@ public static class WebsiteManager
 			count = isPlaying ? playedGames.Count - 1 : playedGames.Count,
 			next_up = isPlaying ? playedGames.Last() : null,
 			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(toTake),
+			total_games = playedGames.Count + remainingGames.Count,
 		}));
 		File.WriteAllText("docs/ds/index.html", indexHtml);
 
