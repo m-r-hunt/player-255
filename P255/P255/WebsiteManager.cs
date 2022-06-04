@@ -69,8 +69,8 @@ public static class WebsiteManager
 		var indexTemplate = Template.Parse(File.ReadAllText("resources/templates/index.html"));
 		var indexHtml = indexTemplate.Render(Hash.FromAnonymousObject(new
 		{
-			percent = (playedGames.Count - 1) * 100 / 255,
-			count = playedGames.Count - 1,
+			percent = isPlaying ? (playedGames.Count - 1) * 100 / 255 : 100,
+			count = isPlaying ? playedGames.Count - 1 : playedGames.Count,
 			next_up = isPlaying ? playedGames.Last() : null,
 			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(10),
 		}));
