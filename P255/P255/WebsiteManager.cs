@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -67,12 +68,13 @@ public static class WebsiteManager
 
 		// Generate index page
 		var indexTemplate = Template.Parse(File.ReadAllText("resources/templates/index.html"));
+		var toTake = Math.Min(10, playedGames.Count - 1);
 		var indexHtml = indexTemplate.Render(Hash.FromAnonymousObject(new
 		{
 			percent = isPlaying ? (playedGames.Count - 1) * 100 / 255 : 100,
 			count = isPlaying ? playedGames.Count - 1 : playedGames.Count,
 			next_up = isPlaying ? playedGames.Last() : null,
-			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(10),
+			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(toTake),
 		}));
 		File.WriteAllText("docs/ds/index.html", indexHtml);
 

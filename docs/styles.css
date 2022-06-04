@@ -213,9 +213,9 @@ h3 {
 }
 
 .games-list-col-title-image {
-    /* Half-size of GBA screen */
-    height: 80px;
-    width: 120px;
+    /* Half-size of DS screen */
+    height: 192px;
+    width: 128px;
     flex: initial;
     margin-right: 10px;
     margin-left: 10px;
@@ -271,7 +271,7 @@ h3 {
 }
 
 .screenshot {
-    height: 160px;
-    width: 240px;
+    height: 384px;
+    width: 256px;
     margin: 10px;
 }
