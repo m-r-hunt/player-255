@@ -10,7 +10,7 @@ public class ScreenshotManager
 	{
 		foreach (var s in screenshots)
 		{
-			File.Copy(s.ImagePath, Path.Join(".", "static-assets", "images", "screenshots", $"{shortname}-{s.Title}.png")); 
+			File.Copy(s.ImagePath, Path.Join(".", "static-assets", "images", "screenshots", "ds", $"{shortname}-{s.Title}.png")); 
 		}
 	}
 
@@ -19,7 +19,7 @@ public class ScreenshotManager
 		var others = new List<string>();
 		var title = "";
 		var credits = "";
-		foreach (var f in Directory.EnumerateFiles(Path.Join(".", "static-assets", "images", "screenshots")))
+		foreach (var f in Directory.EnumerateFiles(Path.Join(".", "static-assets", "images", "screenshots", "ds")))
 		{
 			if (Path.GetFileName(f).StartsWith($"{shortname}-"))
 			{

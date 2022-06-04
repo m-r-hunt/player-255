@@ -58,12 +58,12 @@ public static class WebsiteManager
 			remaining_games = remainingGames,
 			playing = isPlaying ? playedGames.Last() : null,
 		}));
-		File.WriteAllText("docs/lists.html", listsHtml);
+		File.WriteAllText("docs/ds/lists.html", listsHtml);
 
 		// Generate about page
 		var aboutTemplate = Template.Parse(File.ReadAllText("resources/templates/about.html"));
 		var aboutHtml = aboutTemplate.Render(Hash.FromAnonymousObject(new{}));
-		File.WriteAllText("docs/about.html", aboutHtml);
+		File.WriteAllText("docs/ds/about.html", aboutHtml);
 
 		// Generate index page
 		var indexTemplate = Template.Parse(File.ReadAllText("resources/templates/index.html"));
@@ -74,7 +74,7 @@ public static class WebsiteManager
 			next_up = isPlaying ? playedGames.Last() : null,
 			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(10),
 		}));
-		File.WriteAllText("docs/index.html", indexHtml);
+		File.WriteAllText("docs/ds/index.html", indexHtml);
 
 		// Generate game pages
 		var gameTemplate = Template.Parse(File.ReadAllText("resources/templates/game-page.html"));
@@ -111,7 +111,7 @@ public static class WebsiteManager
 				g.next = playedGames[i + 1].Shortname;
 			}
 			var gameHtml = gameTemplate.Render(Hash.FromAnonymousObject(g));
-			File.WriteAllText($"docs/{g.shortname}.html", gameHtml);
+			File.WriteAllText($"docs/ds/{g.shortname}.html", gameHtml);
 		}
 	}
 }
