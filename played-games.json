@@ -2930,6 +2930,11 @@
     "meta-rating": "89",
     "meta-user": "8.8",
     "date": "May 21, 2003",
-    "rating": -1
+    "rating": 5,
+    "shortname": "wimm",
+    "status": "complete",
+    "notes": "If you haven\u0027t played a WarioWare game, you should. Fun and fast-paced minigames are supported by surreal whacky humour. Really fun, a great end to the challenge.",
+    "completion-date": "2022-6-4",
+    "markdown": true
   }
 ]
