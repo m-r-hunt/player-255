@@ -14,13 +14,13 @@ public class GamesDataEntry
 	[JsonPropertyName("game")]
 	public string Game { get; set; }
 	[JsonPropertyName("meta-rating")]
-	public string MetaRating { get; set; }
+	public int MetaRating { get; set; }
 	[JsonPropertyName("meta-user")]
 	public string MetaUser { get; set; }
 	[JsonPropertyName("date")]
 	public string Date { get; set; }
 
-	public GamesDataEntry(string game, string metaRating, string metaUser, string date)
+	public GamesDataEntry(string game, int metaRating, string metaUser, string date)
 	{
 		Game = game;
 		MetaRating = metaRating;
@@ -35,7 +35,7 @@ public class PlayedDataEntry
 	[JsonPropertyName("game")]
 	public string Game { get; set; }
 	[JsonPropertyName("meta-rating")]
-	public string MetaRating { get; set; }
+	public int MetaRating { get; set; }
 	[JsonPropertyName("meta-user")]
 	public string MetaUser { get; set; }
 	[JsonPropertyName("date")]
@@ -61,7 +61,7 @@ public class PlayedDataEntry
 	[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 	public bool? Markdown { get; set; }
 		
-	public PlayedDataEntry(string game, string metaRating, string metaUser, string date)
+	public PlayedDataEntry(string game, int metaRating, string metaUser, string date)
 	{
 		Game = game;
 		MetaRating = metaRating;

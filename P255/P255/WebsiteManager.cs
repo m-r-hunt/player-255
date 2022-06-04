@@ -19,7 +19,7 @@ class FS : IFileSystem
 class GamePageEntry
 {
 	public string? game { get; set; }
-	public string? meta_rating { get; set; }
+	public int? meta_rating { get; set; }
 	public string? meta_user { get; set; }
 	public string? date { get; set; }
 	public int rating { get; set; }
