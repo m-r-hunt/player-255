@@ -165,7 +165,7 @@ public static class DataManager
 		last.Shortname = MakeShortname(last.Game, data.PlayedGames.Select(e => e.Shortname!).ToList());
 
 		var today = DateTime.Today;
-		last.CompletionDate = $"{today.Year}-{today.Month}-{today.Day}";
+		last.CompletionDate = $"{today.Year}-{today.Month,2:D2}-{today.Day,2:D2}";
 
 		WriteData();
 
