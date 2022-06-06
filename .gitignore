@@ -19,3 +19,5 @@ pom.xml.asc
 *.sublime-workspace
 
 __pycache__
+
+drafts
