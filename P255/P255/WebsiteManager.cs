@@ -48,7 +48,7 @@ public static class WebsiteManager
 		Template.FileSystem = new FS();
 
 		var playedGames = DataManager.GetPlayedGames();
-		var remainingGames = DataManager.GetGames();
+		var remainingGames = DataManager.GetUnplayedGames();
 		var isPlaying = DataManager.GetPlaying() != null;
 
 		// Generate Lists page

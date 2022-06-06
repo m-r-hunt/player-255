@@ -38,6 +38,8 @@ public sealed class MainForm : Form
 		
 	public MainForm()
 	{
+		var data = Randomizer.GetRandomOrder();
+		
 		Title = "Player 255";
 		MinimumSize = new Size(700, 800);
 
@@ -135,11 +137,6 @@ public sealed class MainForm : Form
 		};
 
 		ResetState();
-
-		// TODO: Move out, just here so I remember basics of DotLiquid.
-		var template = Template.Parse("hi {{name}}");
-		var rendered = template.Render(Hash.FromAnonymousObject(new { name = "tobi" }));
-		Console.WriteLine(rendered);
 	}
 
 	private void OnScreenshotDropped(object? sender, DragEventArgs e)
@@ -197,8 +194,8 @@ public sealed class MainForm : Form
 		// TODO: Update data, rebuild website
 		var rating = StarButtons.FindIndex(r => r.Checked) + 1;
 			
-		var shortname = DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
 		var next = DataManager.CycleNextGame();
+		var shortname = DataManager.WriteCompletedGame(StatusDropDown.SelectedValue, StatusText.Text, rating, NotesText.Text);
 			
 		ScreenshotManager.CopyScreenshots(Screenshots, shortname);
 			

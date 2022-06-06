@@ -8,6 +8,17 @@ using DotLiquid;
 
 namespace P255;
 
+public class P255Data
+{
+	[JsonPropertyName("first_game")] public string FirstGame{ get; set; }
+	[JsonPropertyName("last_game")] public string LastGame{ get; set; }
+	[JsonPropertyName("now_playing")] public string NowPlaying{ get; set; }
+	[JsonPropertyName("ordered_series")] public List<List<string>> OrderedSeries{ get; set; }
+	[JsonPropertyName("unordered_series")] public List<List<string>> UnorderedSeries{ get; set; }
+	[JsonPropertyName("played_games")] public List<PlayedDataEntry> PlayedGames{ get; set; }
+	[JsonPropertyName("games")] public List<GamesDataEntry> Games{ get; set; }
+}
+
 [LiquidType("*")]
 public class GamesDataEntry
 {
@@ -72,47 +83,67 @@ public class PlayedDataEntry
 }
 public static class DataManager
 {
+	private static P255Data? _data;
+	
+	public static P255Data GetData()
+	{
+		if (_data == null)
+		{
+			var jsonString = File.ReadAllText("p255.json");
+			_data = JsonSerializer.Deserialize<P255Data>(jsonString)!;
+		}
+		return _data;
+	}
+
+	private static void WriteData()
+	{
+		var options = new JsonSerializerOptions { WriteIndented = true };
+		File.WriteAllText("p255.json", JsonSerializer.Serialize(_data, options));
+	}
+	
 	public static string? GetPlaying()
 	{
-		var jsonString = File.ReadAllText("played-games.json");
-		var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
-		var last = entries!.Last();
-		return last.Rating == -1 ? last.Game : null;
+		var data = GetData();
+		return data.NowPlaying;
 	}
 
 	public static string CycleNextGame()
 	{
-		var jsonString = File.ReadAllText("games.json");
-		var gamesEntries = JsonSerializer.Deserialize<List<GamesDataEntry>>(jsonString);
+		var data = GetData();
 		
-		if (gamesEntries.Count <= 0)
+		var order = Randomizer.GetRandomOrder();
+		
+		// Sanity Checks
+		int i = 0;
+		for (i = 0; i < data.PlayedGames.Count; i++)
 		{
-			return "Uh, all finished! Congratulation !";
+			if (data.PlayedGames[i].Game != order[i])
+			{
+				throw new Exception("Existing played game order doesn't match randomzied order");
+			}
+		}
+		if (data.NowPlaying != order[i])
+		{
+			throw new Exception("Existing played game order doesn't match randomzied order");
+		}
+
+		var e = data.Games.First(ee => ee.Game == data.NowPlaying);
+		
+		var newEntry = new PlayedDataEntry(e.Game, e.MetaRating, e.MetaUser, e.Date);
+		data.PlayedGames.Add(newEntry);
+
+		i += 1;
+		if (i >= order.Count)
+		{
+			data.NowPlaying = "Challenge Finished!";
+		}
+		else
+		{
+			data.NowPlaying = order[i];
 		}
 		
-		var r = new Random(Guid.NewGuid().GetHashCode());
-		var selected = r.Next(gamesEntries!.Count);
-		
-		// Rig it so WarioWare is last
-		while (gamesEntries.Count > 1 && gamesEntries[selected].Game == "WarioWare, Inc.: Mega Microgame$!")
-		{
-			selected = r.Next(gamesEntries!.Count);
-		}
-		
-		var selectedEntry = gamesEntries[selected];
-		gamesEntries.RemoveAt(selected);
-
-		var newEntry = new PlayedDataEntry(selectedEntry.Game, selectedEntry.MetaRating, selectedEntry.MetaUser, selectedEntry.Date);
-
-		var jsonString2 = File.ReadAllText("played-games.json");
-		var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString2);
-		entries!.Add(newEntry);
-			
-		var options = new JsonSerializerOptions { WriteIndented = true };
-		File.WriteAllText("games.json", JsonSerializer.Serialize(gamesEntries, options));
-		File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
-
-		return selectedEntry.Game;
+		WriteData();
+		return data.NowPlaying;
 	}
 
 	public static string WriteCompletedGame(
@@ -122,22 +153,20 @@ public static class DataManager
 	string notes
 	)
 	{
-		var jsonString = File.ReadAllText("played-games.json");
-		var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
-		var last = entries!.Last();
+		var data = GetData();
+		var last = data.PlayedGames.Last();
 			
 		last.Status = ToJsonStatus(status);
 		last.StatusNote = statusNote != "" ? statusNote : null;
 		last.Rating = rating;
 		last.Notes = notes;
 		last.Markdown = true;
-		last.Shortname = MakeShortname(last.Game, entries!.Select(e => e.Shortname!).ToList());
+		last.Shortname = MakeShortname(last.Game, data.PlayedGames.Select(e => e.Shortname!).ToList());
 
 		var today = DateTime.Today;
 		last.CompletionDate = $"{today.Year}-{today.Month}-{today.Day}";
-			
-		var options = new JsonSerializerOptions { WriteIndented = true };
-		File.WriteAllText("played-games.json", JsonSerializer.Serialize(entries, options));
+
+		WriteData();
 
 		return last.Shortname;
 	}
@@ -212,17 +241,15 @@ public static class DataManager
 		}
 	}
 
-	public static List<GamesDataEntry> GetGames()
+	public static List<GamesDataEntry> GetUnplayedGames()
 	{
-		var jsonString = File.ReadAllText("games.json");
-		var entries = JsonSerializer.Deserialize<List<GamesDataEntry>>(jsonString);
-		return entries!;
+		var data = GetData();
+		return data.Games.Where(e => data.PlayedGames.All(ee => ee.Game != e.Game)).ToList();
 	}
 
 	public static List<PlayedDataEntry> GetPlayedGames()
 	{
-		var jsonString = File.ReadAllText("played-games.json");
-		var entries = JsonSerializer.Deserialize<List<PlayedDataEntry>>(jsonString);
-		return entries!;
+		var data = GetData();
+		return data.PlayedGames;
 	}
 }
