@@ -54,7 +54,9 @@ class Bucket
 		return a;
 	}
 
-	public bool IsFull()
+	public bool IsFull() => Games.Count >= Capacity;
+
+	public bool RejectIfFull()
 	{
 		if (Games.Count >= Capacity)
 		{
@@ -117,7 +119,7 @@ public static class Randomizer
 			do
 			{
 				idx = Bucket.RNG.Next(candidateBucketsMin, candidateBucketsMax);
-			} while (bc.Buckets[idx].IsFull());
+			} while (bc.Buckets[idx].RejectIfFull());
 			bc.Buckets[idx].Games.Add(series[i]);
 			RandomLog.LogSpoiler($"Adding series game {series[i]} to bucket {idx}");
 		}
