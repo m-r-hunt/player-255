@@ -31,11 +31,12 @@ class Bucket
 	public int Capacity;
 	public List<string> Games;
 
+	public static Random RNG;
 	public static void Shuffle(List<string> a)
 	{
 		for (var i = 1; i < a.Count; i++)
 		{
-			var j = Random.Shared.Next(0, i+1);
+			var j = RNG.Next(0, i+1);
 			(a[j], a[i]) = (a[i], a[j]);
 		}
 	}
@@ -115,7 +116,7 @@ public static class Randomizer
 			var idx = -1;
 			do
 			{
-				idx = Random.Shared.Next(candidateBucketsMin, candidateBucketsMax);
+				idx = Bucket.RNG.Next(candidateBucketsMin, candidateBucketsMax);
 			} while (bc.Buckets[idx].IsFull());
 			bc.Buckets[idx].Games.Add(series[i]);
 			RandomLog.LogSpoiler($"Adding series game {series[i]} to bucket {idx}");
@@ -125,6 +126,8 @@ public static class Randomizer
 	public static List<String> GetRandomOrder()
 	{
 		var data = DataManager.GetData();
+
+		Bucket.RNG = new Random(data.Seed);
 
 		var bucketCount = 7;
 		foreach (var series in data.OrderedSeries)

@@ -10,6 +10,7 @@ namespace P255;
 
 public class P255Data
 {
+	[JsonPropertyName("seed")] public int Seed{ get; set; }
 	[JsonPropertyName("first_game")] public string FirstGame{ get; set; }
 	[JsonPropertyName("last_game")] public string LastGame{ get; set; }
 	[JsonPropertyName("now_playing")] public string NowPlaying{ get; set; }
@@ -244,7 +245,7 @@ public static class DataManager
 	public static List<GamesDataEntry> GetUnplayedGames()
 	{
 		var data = GetData();
-		return data.Games.Where(e => data.PlayedGames.All(ee => ee.Game != e.Game)).ToList();
+		return data.Games.Where(e => data.PlayedGames.All(ee => ee.Game != e.Game) && e.Game != data.NowPlaying).ToList();
 	}
 
 	public static List<PlayedDataEntry> GetPlayedGames()
