@@ -55,7 +55,7 @@ public sealed class MainForm : Form
 		PlayingLabel = new();
 		var copyButton = new Button {Text = "Copy Name"};
 		var copyCommand = new Command();
-		copyCommand.Executed += (sender, args) => Clipboard.Instance.Text = DataManager.GetPlaying() + " gba rom";
+		copyCommand.Executed += (sender, args) => Clipboard.Instance.Text = DataManager.GetPlaying() + " ds rom";
 		copyButton.Command = copyCommand;
 		layout.AddRow(PlayingLabel, null, copyButton);
 		layout.EndGroup();
