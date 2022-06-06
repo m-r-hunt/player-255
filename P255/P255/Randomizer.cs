@@ -75,15 +75,21 @@ class BucketChain
 	{
 		RandomLog.Log($"BucketChain({games}, {bucketCount})");
 		Buckets = new();
-		var remaining = games;
+		
 		var size = games / bucketCount;
-		while (remaining > 0)
+		for (int i = 0; i < bucketCount; i++)
 		{
-			var c = remaining < 2 * size ? remaining : size;
-			Buckets.Add(new Bucket(c));
-			remaining -= c;
-			RandomLog.Log($"Made a bucket of size {c}");
+			Buckets.Add(new Bucket(size));
 		}
+		var total = size * bucketCount;
+		while (total < games)
+		{
+			var idx = Bucket.RNG.Next(bucketCount);
+			Buckets[idx].Capacity += 1;
+			RandomLog.Log($"Expanded Bucket {idx}");
+			total += 1;
+		}
+		
 		RandomLog.Log($"Total buckets: {Buckets.Count}");
 	}
 
@@ -131,7 +137,7 @@ public static class Randomizer
 
 		Bucket.RNG = new Random(data.Seed);
 
-		var bucketCount = 7;
+		var bucketCount = 1;
 		foreach (var series in data.OrderedSeries)
 		{
 			bucketCount = LCM(bucketCount, series.Count);
@@ -174,6 +180,27 @@ public static class Randomizer
 		var ret = new List<string> {data.FirstGame};
 		ret.AddRange(bc.Flatten());
 		ret.Add(data.LastGame);
+		
+		// Sanity checks
+		if (ret.Count != data.Games.Count)
+		{
+			throw new Exception("Randomizing failed somehow?");
+		}
+		if (!data.Games.All(g => ret.Contains(g.Game)))
+		{
+			foreach (var g in data.Games)
+			{
+				if (!ret.Contains(g.Game))
+				{
+					Console.WriteLine($"Missing {g.Game}");
+				}
+			}
+			foreach (var g in ret)
+			{
+				Console.WriteLine($"{g}");
+			}
+			throw new Exception($"Randomizing failed somehow? {data.Games.Where(g => ret.Contains(g.Game)).First().Game}");
+		}
 		
 		return ret;
 	}

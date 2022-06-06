@@ -11,6 +11,82 @@
     [
       "Luminous Arc",
       "Luminous Arc 2"
+    ],
+    [
+      "Mario vs. Donkey Kong: Mini-Land Mayhem",
+      "Mario vs. Donkey Kong 2: March of the Minis"
+    ],
+    [
+      "Dragon Quest V: Hand of the Heavenly Bride",
+      "Dragon Quest VI: Realms of Revelation",
+      "Dragon Quest IX: Sentinels of the Starry Skies"
+    ],
+    [
+      "Dragon Quest Monsters: Joker",
+      "Dragon Quest Monsters: Joker 2"
+    ],
+    [
+      "Professor Layton and the Curious Village",
+      "Professor Layton and the Diabolical Box",
+      "Professor Layton and the Unwound Future",
+      "Professor Layton and the Last Specter"
+    ],
+    [
+      "Space Invaders Extreme",
+      "Space Invaders Extreme 2"
+    ],
+    [
+      "Shin Megami Tensei: Devil Survivor",
+      "Shin Megami Tensei: Devil Survivor 2"
+    ],
+    [
+      "Picross DS",
+      "Picross 3D"
+    ],
+    [
+      "Sonic Rush",
+      "Sonic Rush Adventure",
+      "Sonic Colors"
+    ],
+    [
+      "Etrian Odyssey",
+      "Etrian Odyssey II: Heroes of Lagaard",
+      "Etrian Odyssey III: The Drowned City"
+    ],
+    [
+      "Puzzle Quest: Challenge of the Warlords",
+      "Puzzle Quest 2",
+      "Puzzle Quest: Galactrix"
+    ],
+    [
+      "Trauma Center: Under the Knife",
+      "Trauma Center: Under the Knife 2"
+    ],
+    [
+      "Phoenix Wright: Ace Attorney",
+      "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "Phoenix Wright: Ace Attorney - Justice for All",
+      "Apollo Justice: Ace Attorney"
+    ],
+    [
+      "Scribblenauts",
+      "Super Scribblenauts"
+    ],
+    [
+      "Mega Man ZX",
+      "Mega Man ZX Advent"
+    ],
+    [
+      "Dementium: The Ward",
+      "Dementium II"
+    ],
+    [
+      "Blue Dragon Plus",
+      "Blue Dragon: Awakened Shadow"
+    ],
+    [
+      "Touch Detective",
+      "Touch Detective 2 1/2"
     ]
   ],
   "unordered_series": [
@@ -20,6 +96,45 @@
       "Pokemon Pearl Version",
       "Pokemon Platinum Version",
       "Pokemon Black Version 2"
+    ],
+    [
+      "Advance Wars: Dual Strike",
+      "Advance Wars: Days of Ruin"
+    ],
+    [
+      "Castlevania: Dawn of Sorrow",
+      "Castlevania: Portrait of Ruin",
+      "Castlevania: Order of Ecclesia"
+    ],
+    [
+      "Bleach: The Blade of Fate",
+      "Bleach: Dark Souls"
+    ],
+    [
+      "Age of Empires: The Age of Kings",
+      "Age of Empires: Mythologies"
+    ],
+    [
+      "LEGO Indiana Jones: The Original Adventures",
+      "LEGO Star Wars: The Complete Saga"
+    ],
+    [
+      "Ultimate Spider-Man",
+      "Spider-Man: Web of Shadows",
+      "Spider-Man 3"
+    ],
+    [
+      "Rune Factory: A Fantasy Harvest Moon",
+      "Rune Factory 2: A Fantasy Harvest Moon",
+      "Rune Factory 3: A Fantasy Harvest Moon"
+    ],
+    [
+      "Heroes of Mana",
+      "Children of Mana"
+    ],
+    [
+      "Call of Duty: World at War",
+      "Call of Duty 4: Modern Warfare"
     ]
   ],
   "played_games": [],
@@ -655,12 +770,6 @@
       "date": "Sep 18, 2007"
     },
     {
-      "game": "Anno 1701: Dawn of Discovery",
-      "meta-rating": 78,
-      "meta-user": "7.5",
-      "date": "Mar 4, 2008"
-    },
-    {
       "game": "Mega Man ZX Advent",
       "meta-rating": 78,
       "meta-user": "8.5",
@@ -911,12 +1020,6 @@
       "meta-rating": 75,
       "meta-user": "8.3",
       "date": "May 15, 2007"
-    },
-    {
-      "game": "Bejeweled 3",
-      "meta-rating": 75,
-      "meta-user": "tbd",
-      "date": "Nov 15, 2011"
     },
     {
       "game": "Zubo",
@@ -1213,24 +1316,6 @@
       "date": "Apr 14, 2009"
     },
     {
-      "game": "Pokemon Ranger: Guardian Signs",
-      "meta-rating": 68,
-      "meta-user": "8.1",
-      "date": "Oct 4, 2010"
-    },
-    {
-      "game": "Pokemon Ranger: Shadows of Almia",
-      "meta-rating": 68,
-      "meta-user": "8.1",
-      "date": "Nov 10, 2008"
-    },
-    {
-      "game": "Digimon World: Dawn",
-      "meta-rating": 68,
-      "meta-user": "7.6",
-      "date": "Sep 18, 2007"
-    },
-    {
       "game": "Lost Magic",
       "meta-rating": 68,
       "meta-user": "7.9",
@@ -1241,12 +1326,6 @@
       "meta-rating": 67,
       "meta-user": "8.4",
       "date": "Sep 23, 2008"
-    },
-    {
-      "game": "Cooking Mama",
-      "meta-rating": 67,
-      "meta-user": "7.3",
-      "date": "Sep 12, 2006"
     },
     {
       "game": "Touch Detective 2 1/2",
