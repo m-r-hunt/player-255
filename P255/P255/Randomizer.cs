@@ -6,8 +6,8 @@ namespace P255;
 
 static class RandomLog
 {
-	private static bool _verbose = true;
-	private static bool _logSpoilers = true;
+	private static bool _verbose = false;
+	private static bool _logSpoilers = false;
 
 	public static void Log(string message)
 	{
