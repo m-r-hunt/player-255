@@ -50,14 +50,16 @@ public static class WebsiteManager
 		var playedGames = DataManager.GetPlayedGames();
 		var remainingGames = DataManager.GetUnplayedGames();
 		var isPlaying = DataManager.GetPlaying() != null;
+		var totalGames = DataManager.GetTotalGames();
+		var nowPlaying = DataManager.GetPlaying();
 
 		// Generate Lists page
 		var listsTemplate = Template.Parse(File.ReadAllText("resources/templates/lists.html"));
 		var listsHtml = listsTemplate.Render(Hash.FromAnonymousObject(new
 		{
-			played_games = isPlaying ? playedGames.Take(playedGames.Count-1).ToList() : playedGames,
+			played_games = playedGames,
 			remaining_games = remainingGames,
-			playing = isPlaying ? playedGames.Last() : null,
+			playing = nowPlaying,
 		}));
 		File.WriteAllText("docs/ds/lists.html", listsHtml);
 
@@ -68,20 +70,20 @@ public static class WebsiteManager
 
 		// Generate index page
 		var indexTemplate = Template.Parse(File.ReadAllText("resources/templates/index.html"));
-		var toTake = Math.Min(10, playedGames.Count - 1);
+		var toTake = Math.Min(10, playedGames.Count);
 		var indexHtml = indexTemplate.Render(Hash.FromAnonymousObject(new
 		{
-			percent = isPlaying ? (playedGames.Count - 1) * 100 / 255 : 100,
-			count = isPlaying ? playedGames.Count - 1 : playedGames.Count,
-			next_up = isPlaying ? playedGames.Last() : null,
-			recent_games = playedGames.TakeLast(11).Reverse().TakeLast(toTake),
-			total_games = playedGames.Count + remainingGames.Count,
+			percent = playedGames.Count * 100 / totalGames,
+			count = playedGames.Count,
+			next_up = nowPlaying,
+			recent_games = playedGames.TakeLast(toTake).Reverse(),
+			total_games = totalGames,
 		}));
 		File.WriteAllText("docs/ds/index.html", indexHtml);
 
 		// Generate game pages
 		var gameTemplate = Template.Parse(File.ReadAllText("resources/templates/game-page.html"));
-		for (var i = 0; i < (isPlaying ? playedGames.Count-1 : playedGames.Count); i++)
+		for (var i = 0; i < playedGames.Count; i++)
 		{
 			var og = playedGames[i];
 			var g = new GamePageEntry()
@@ -109,7 +111,7 @@ public static class WebsiteManager
 				g.prev = playedGames[i - 1].Shortname;
 			}
 
-			if ((isPlaying && i < playedGames.Count - 2) || (!isPlaying && i < playedGames.Count - 1))
+			if ((isPlaying && i < playedGames.Count - 1) || (!isPlaying && i < playedGames.Count - 1))
 			{
 				g.next = playedGames[i + 1].Shortname;
 			}

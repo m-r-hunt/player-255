@@ -253,4 +253,9 @@ public static class DataManager
 		var data = GetData();
 		return data.PlayedGames;
 	}
+
+	public static int GetTotalGames()
+	{
+		return GetData().Games.Count;
+	}
 }
