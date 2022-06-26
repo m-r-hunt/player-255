@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Yoshi Touch \u0026 Go",
+  "now_playing": "Ninja Gaiden: Dragon Sword",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -203,6 +203,18 @@
       "shortname": "td",
       "status": "complete",
       "notes": "Touch Detective is a pretty straight point and click adventure title. It\u0027s one of the lowest metacritic rated games, but I stuck it in (along with the sequel) as I\u0027ve played bits before and I wanted to have a go at experiencing it properly.\r\n\r\nWeak use of DS features generally. Plays out almost entirely on the touch screen with touch based gameplay, but the top screen is almost entirely unused. Basically just has a close up of the main character reacting to events and a label telling you where you are.\r\n\r\nThe gameplay is simple point and click stuff, talk to people (with simple dialogue trees and short conversations), find and examine items, combine them together, and use them to solve puzzles in the world. The design goes off the rails very quickly, and even the first case descends into literal dream logic which makes almost no sense. There doesn\u0027t seem to be a way to solve a lot of things in the game without a lot of trial and error or guide usage. There\u0027s also some acausal behaviour where a character won\u0027t appear to advance the plot unless you\u0027ve hit the right arbitrary triggers to continue.\r\n\r\nStorywise, you play as a young girl who\u0027s inherited her family\u0027s detective agency, and you need to solve 4 cases to be recognised by the Great Detective Society. You proceed to solve the requesite 4 cases at which point the game ends. Nothing too wild going on there but it\u0027s an excuse to have some episodic mysteries to solve.\r\n\r\nGraphically and thematically I quite like the game. It\u0027s got this \u0022dark cartoon\u0022, almost Tim Burtonish style to it which I think works. The story and cases are mostly cute and innocent with surreal twists to them.\r\n\r\nThe game is pretty short with the 4 cases taking roughly the same amount of time rather than lengthening later on. There are only a handful of areas in the game too (even compared to Hotel Dusk\u0027s tiny hotel last time).\r\n\r\nOne particular dialog broke my mind. The \u0022correct solution\u0022 was to say \u0022no\u0022 when asked if you know who did it. Then after a few lines of dialog the main character says they do know who did it and you get to pick from a list of options. wat. That made no sense at all. That was in the 4th case, which might be the most nonsensical of all, with the Circus Master who is like an insane dementia case and the culprit who just pops up and admits it once you\u0027ve smashed your head into a wall.\r\n\r\nOverall, a bit of a lacklustre adventure game, slightly saved by its general style.\r\n",
+      "completion-date": "2022-06-26",
+      "markdown": true
+    },
+    {
+      "game": "Yoshi Touch \u0026 Go",
+      "meta-rating": 73,
+      "meta-user": "7.0",
+      "date": "Mar 14, 2005",
+      "rating": 3,
+      "shortname": "yt\u0026g",
+      "status": "other",
+      "notes": "Yoshi\u0027s Touch \u0026 Go is the only other Yoshi-based game, which I did not mark as being in a series with Yoshi\u0027s Island DS. So here it is, a few games later, thanks RNGesus.\r\n\r\nIt\u0027s a kind of arcade-style action game. It\u0027s split into 2 \u0022phases\u0022. In the first, Baby Mario descends on the top screen and you have to anticipate his fall and draw cloud platforms on the touch screen to guide him past enemies and into coins to score points. Enemies can also be circled to turn them into bubbles which can then be thrown around. Everything is a bit physicsy as Mario, the enemies and coins are all affected by your cloud platforms.\r\n\r\nThen it moves to Yoshi carrying Baby Mario horizontally. You can still draw clouds to move Yoshi around, but mainly you tap to throw eggs at enemies across both screens.\r\n\r\nThe game is just a score attack driven game, with a few modes that vary slightly in how long you play and what the goal is. There\u0027s no way to get to the credits or \u0022beat the game\u0022 that I could see (apart from beating all the built-in high scores). I put it down after playing enough to get a sense of it. Didn\u0027t fall in love with the gameplay, but it\u0027s OK.\r\n",
       "completion-date": "2022-06-26",
       "markdown": true
     }
