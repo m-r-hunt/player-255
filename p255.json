@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Puchi Puchi Virus",
+  "now_playing": "Professor Layton and the Curious Village",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -240,6 +240,18 @@
       "status": "not-complete",
       "notes": "Advance Wars Dual Strike is a very straight adaptation of Advance Wars onto the DS. You have the option to use touch screen controls but that\u0027s it really.\r\n\r\nThe core gameplay is the same as the classic Advance Wars formula. What they\u0027ve done is *even more* of the stuff we saw in AW2 on GBA: more COs, more units including a super-super-heavy tank and some whacky stuff like stealth bombers, more weird Black Hole structures and mission objectives. I think the game is almost buckling under the weight of all this stuff, but it just about manages to hold up.\r\n\r\nThe big new thing is having a tag team of 2 COs, either split across two fronts or alternating turns on a single battlefield. This leads to the new double-super CO power where you get to use both super powers and take 2 turns in a row. This mechanic is insanely swingy as taking 2 turns and getting 2 powers is ridiculous. It\u0027s a combination of demoralising and annoying when the AI does it as you have to sit through 2 turns of getting hammered extra hard, and they nearly always get to use theirs first because it charges up faster when you\u0027re losing units. I\u0027m not very convinced this adds a lot to the game.\r\n\r\nAnother problem is that remembering all the factors involved in damage calculation makes it a lot harder to predict the outcome of any given battle, which should be a core part of AW gameplay. You\u0027ve got 8 different COs interacting with their abilities modifying things, terrain, Com Tower buffs, and a lot more types of units in the mix. It\u0027s just a mess really, and detracts from what I see as the tight strategy core of AW as a series.\r\n\r\nI still hate fog of war missions.\r\n\r\nI think the campaign is tuned to be kind of easy. I certainly found myself walking through missions for a long time. In general it felt like as long as you went with a vaguely reasonable strategy victory was pretty inevitable. There is a hard campaign so maybe that is tuned to be more challenging.\r\n\r\nA lot of the time I felt that starting missions was a big roadblock. Especially later in the game where the missions become big and complicated, with you controlling 3 factions with 2 COs each, I just found myself struggling to find the energy to start missions.\r\n\r\nOverall the core of Advance Wars is the solid strategy game it\u0027s always been, but it\u0027s grown out of control and too bombastic in this installment. The bigger and more elaborate the maps get, the harder I find it to keep playing, and I ultimately decided to put this down.\r\n",
       "completion-date": "2022-07-01",
+      "markdown": true
+    },
+    {
+      "game": "Puchi Puchi Virus",
+      "meta-rating": 73,
+      "meta-user": "4.2",
+      "date": "May 20, 2009",
+      "rating": 3,
+      "shortname": "ppv",
+      "status": "complete",
+      "notes": "So Puchi Puchi Virus is firmly in the \u0022I had no idea what this game was\u0022 category. It\u0027s an arcadey puzzle game where you have to form triangles of coloured viruses on a hex grid, and set off big chain reactions to score big points.\r\n\r\nThe core mechanic is OK, but not quite good enough to really warrant as much game as we got here.\r\n\r\nThe story and writing were surprisingly good, with a solid dose of weird humour and a few references thrown in. Each \u0022patient\u0022/level has a few lines and a backstory thrown in for good measure, and the cutscenes that break up the gameplay were kind of funny.\r\n\r\nThe game is strutured around 102 patients (levels) which you have to cure 90 of to finish the game. Each one has a unique win condition, except there\u0027s a lot of \u0022the same one but with different numbers\u0022. Almost all of them are just \u0022score x points in 3 minutes\u0022 or \u0022create x chains of length y\u0022. It gets pretty repetetive. Also, late on the game stopped giving me cases and I had to figure out that randomly playing practice mode would unlock the last few cases.\r\n\r\nI burned through Puchi Puchi Virus pretty fast, I had some fun with it but I can\u0027t see myself playing it again.",
+      "completion-date": "2022-07-02",
       "markdown": true
     }
   ],
