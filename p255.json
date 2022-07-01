@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Ninja Gaiden: Dragon Sword",
+  "now_playing": "Advance Wars: Dual Strike",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -216,6 +216,18 @@
       "status": "other",
       "notes": "Yoshi\u0027s Touch \u0026 Go is the only other Yoshi-based game, which I did not mark as being in a series with Yoshi\u0027s Island DS. So here it is, a few games later, thanks RNGesus.\r\n\r\nIt\u0027s a kind of arcade-style action game. It\u0027s split into 2 \u0022phases\u0022. In the first, Baby Mario descends on the top screen and you have to anticipate his fall and draw cloud platforms on the touch screen to guide him past enemies and into coins to score points. Enemies can also be circled to turn them into bubbles which can then be thrown around. Everything is a bit physicsy as Mario, the enemies and coins are all affected by your cloud platforms.\r\n\r\nThen it moves to Yoshi carrying Baby Mario horizontally. You can still draw clouds to move Yoshi around, but mainly you tap to throw eggs at enemies across both screens.\r\n\r\nThe game is just a score attack driven game, with a few modes that vary slightly in how long you play and what the goal is. There\u0027s no way to get to the credits or \u0022beat the game\u0022 that I could see (apart from beating all the built-in high scores). I put it down after playing enough to get a sense of it. Didn\u0027t fall in love with the gameplay, but it\u0027s OK.\r\n",
       "completion-date": "2022-06-26",
+      "markdown": true
+    },
+    {
+      "game": "Ninja Gaiden: Dragon Sword",
+      "meta-rating": 83,
+      "meta-user": "7.8",
+      "date": "Mar 25, 2008",
+      "rating": 3,
+      "shortname": "ngds",
+      "status": "complete",
+      "notes": "Ninja Gaiden: Dragon Sword is an adaptation of the Ninja Gaiden series for the DS. Specifically the later 3D Ninja Gaiden games that are more like spectacle fighters rather than the original 2D platformers.\r\n\r\nNinja Gaiden: Dragon Sword is our first instance of contrived subtitles that abbreviate to DS - Ninja Gaiden: Dragon Sword = NG:DS. We\u0027ll be seeing plenty of them in the DS challenge.\r\n\r\nWhen playing, you have the DS oriented sideways again, and control mostly using the touch screen. Touch to run around, slash or tap enemies to attack them, etc. Press any physical button to block. There are some special moves on specific gesture sequences too.\r\n\r\nThe game has some really cool elements like boss fights with big boss enemies and the camera shifting to a closer in perspective. Boss fights felt dramatic and fun generally. The special magic moves feel really powerful and cool to fire off, although the \u0022draw the symbol\u0022 minigame was a bit pointless since you\u0027re not timed or risking damage as you do it.\r\n\r\nThere are some criticisms to make. A lot of the time I felt like I was doing the touch screen equivalent of button mashing and doing just fine in combat.\r\n\r\nCombat also gets fairly repetetive quickly as you\u0027re almost always fighting really large waves of the same few enemy types. Seriously, almost every room will have wave after wave of enemies spawning. I got into the habit of running through a lot of rooms where the fight wasn\u0027t mandatory to progress. Enemy variety over the whole game is ok, but each level only has 3-4 types of enemies present so they get stale within each level.\r\n\r\nOh I should probably mention the game has a story. It\u0027s nothing to write home about, big boobed demon ladies are messing things up and kidnapping your (love interest or sister) (I missed which one it was) and you (a ninja) have to collect some mcguffins and then use the titular Dragon Sword to stop them. It\u0027s an excuse to murder a bunch of demons and enemy ninjas.\r\n\r\nThe game isn\u0027t too tough, there are plenty of save points that fill up your health and magic, and I was able to plough through the game without many deaths. The bosses get tougher later on though.\r\n\r\nHonestly NG:DS exceeded the expectations I formed after I assessed what kind of game it was. It plays out better than I would have thought \u0022spectacle fighter using touch controls\u0022 would. I think it might have ended up better if they had just gone with classic button controls and could have made the game feel tighter and more precise.\r\n",
+      "completion-date": "2022-06-28",
       "markdown": true
     }
   ],
