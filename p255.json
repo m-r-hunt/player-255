@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Mario Kart DS",
+  "now_playing": "Knights in the Nightmare",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -299,6 +299,18 @@
       "shortname": "smtds",
       "status": "complete",
       "notes": "So the randomizer is definitely messing with me as punishment for dropping Strange Journey. However, despite the shared supertitle, Devil Survivor is quite a different game. Shared elements are the demon designs, some themes and elements like demon fusing.\r\n\r\nSMT:DS is an SRPG. Move around, attack enemies, complete objectives in battles (often killing all enemies, but reasonably often with other elements like protecting NPCs in the mix). Between battles you can do party management, buying new demons and fusing them, and get a bunch of story scenes between story battles. The game is half a visual novel really.\r\n\r\nYou don\u0027t have to negotiate with demons to recruit them, my least favourite SMT mechanic. Instead there\u0027s an auction for new demons accessible between battles. It\u0027s not the greatest system ever but it does the job without infuriating me like demon negotiation.\r\n\r\nYou\u0027re offered a lot of dialogue choices in the visual novel section as well as choices of who to talk to. It\u0027s not very clear what impact you\u0027re having with these, if any. It seems that your choices unlock different endings but that only shows up on the final day. I think the story up until then is fairly set really...\r\n\r\nThere\u0027s a weird balance issue with magic. There are only 2 \u0022tiers\u0022 of magic spells, with the second one appearing quite late in the game. It starts off quite strong, but then gets weaker over time compared to physical attacks, but then when the second tier starts appearing it spikes up in power again.\r\n\r\nThe battle difficulty can be a bit all over the place. Usually fights are hard because of the victory/defeat conditions, like needing to save NPCs or prevent enemies escaping. It was pretty rare to lose in a straight up fight. Often this makes the demon powers that affect tactical map movement disproportionately valuable.\r\n\r\nOverall, decent game but I did end up kind of wanting to get it over with. Somewhat not helped by coming straight after another SMT.\r\n",
+      "completion-date": "2022-07-20",
+      "markdown": true
+    },
+    {
+      "game": "Mario Kart DS",
+      "meta-rating": 91,
+      "meta-user": "8.7",
+      "date": "Nov 14, 2005",
+      "rating": 4,
+      "shortname": "mkd",
+      "status": "complete",
+      "notes": "It\u0027s Mario Kart. What do you want? Unlike the GBA game this feels like a fully realised Mario Kart game.\r\n\r\nThe Mario Kart rubberbanding bullshit seems very heavily in force here. It seems impossible to get the lead out of the gate, so you always end up chasing for about half the race. Blue shells are everywhere. Generally kind of annoying.\r\n\r\nIt really really feels like the top CPUs are about 1.5x as fast as you at the beginning of the race and then drop off to 0.8x late in the race.\r\n\r\nI was going to claim there was no finishing the game after beating all the cups on 100cc. But I looked it up and there is a credits after finishing mission mode (simple missions like drive through the rings in x seconds or collect all the coins) so I did that.\r\n\r\nOverall, as I said earlier, it\u0027s Mario Kart.\r\n",
       "completion-date": "2022-07-20",
       "markdown": true
     }
