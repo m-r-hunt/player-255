@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Knights in the Nightmare",
+  "now_playing": "Nostalgia",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -312,6 +312,18 @@
       "status": "complete",
       "notes": "It\u0027s Mario Kart. What do you want? Unlike the GBA game this feels like a fully realised Mario Kart game.\r\n\r\nThe Mario Kart rubberbanding bullshit seems very heavily in force here. It seems impossible to get the lead out of the gate, so you always end up chasing for about half the race. Blue shells are everywhere. Generally kind of annoying.\r\n\r\nIt really really feels like the top CPUs are about 1.5x as fast as you at the beginning of the race and then drop off to 0.8x late in the race.\r\n\r\nI was going to claim there was no finishing the game after beating all the cups on 100cc. But I looked it up and there is a credits after finishing mission mode (simple missions like drive through the rings in x seconds or collect all the coins) so I did that.\r\n\r\nOverall, as I said earlier, it\u0027s Mario Kart.\r\n",
       "completion-date": "2022-07-20",
+      "markdown": true
+    },
+    {
+      "game": "Knights in the Nightmare",
+      "meta-rating": 76,
+      "meta-user": "8.5",
+      "date": "Jun 3, 2009",
+      "rating": 3,
+      "shortname": "kitn",
+      "status": "not-complete",
+      "notes": "Knights in the Nightmare is an absolutely wild game. It belongs to the same (very loose) series as Riviera and Yggdra Union from the GBA.\r\n\r\nIt has crazy mechanics. It\u0027s probably best summarised as a RPG/Strategy/Bullet Hell game. It has so many systems layered on top of each other that it\u0027s threatening to collapse under the weight.\r\n\r\nNice graphics and presentation with a unique style, similar to the sibling games.\r\n\r\nUltimately though it\u0027s the kind of game I\u0027m excited to dip into but will burn out on if I try and make it all the way through. And it\u0027s coming off the back of some similar games, so I\u0027ve decided to put it down.\r\n",
+      "completion-date": "2022-07-21",
       "markdown": true
     }
   ],
