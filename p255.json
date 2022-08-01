@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Nostalgia",
+  "now_playing": "Phoenix Wright: Ace Attorney",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -324,6 +324,18 @@
       "status": "not-complete",
       "notes": "Knights in the Nightmare is an absolutely wild game. It belongs to the same (very loose) series as Riviera and Yggdra Union from the GBA.\r\n\r\nIt has crazy mechanics. It\u0027s probably best summarised as a RPG/Strategy/Bullet Hell game. It has so many systems layered on top of each other that it\u0027s threatening to collapse under the weight.\r\n\r\nNice graphics and presentation with a unique style, similar to the sibling games.\r\n\r\nUltimately though it\u0027s the kind of game I\u0027m excited to dip into but will burn out on if I try and make it all the way through. And it\u0027s coming off the back of some similar games, so I\u0027ve decided to put it down.\r\n",
       "completion-date": "2022-07-21",
+      "markdown": true
+    },
+    {
+      "game": "Nostalgia",
+      "meta-rating": 72,
+      "meta-user": "7.6",
+      "date": "Oct 23, 2009",
+      "rating": 4,
+      "shortname": "n",
+      "status": "complete",
+      "notes": "Nostalgia plays it extremely straight, everything you expect from a classic JRPG. The combat system is a straightforward turn-based affair, gets the job done. The first quest is literally \u0022go kill rats in the sewer to join the adventurer\u0027s guild\u0022.\r\n\r\nThere is a moderate level of character customisation (something I look for in JRPGs). Each character has a pretty set role based on their stats and available skills. However you do get to pick skills from a skill tree for some customisation and you get to equip 2 \u0022gadgets\u0022 on each character which have significant effects.\r\n\r\nGood graphics (for DS 3D at least).\r\n\r\nThe world map is cool and probably the most unique feature. You fly around on your airship right from the start of the game. Airship combat works slightly differently to normal combat. There\u0027s a nice sense of exploration and you\u0027re actually exploring the real earth with somewhat real geography.\r\n\r\nThe setting is a steampunk victorian-ish era. Airships galore. It has kind of an Indiana Jones feel, although tempered by a certain level of generic JRPG flavour.\r\n\r\nGame isn\u0027t too hard generally. There are also save points in dungeons which restore your health/mana which is nice. The one point of contention was airship fights. You have the ability to change between altitude \u0022layers\u0022 (low/mid/high) and the difficulty of enemies on higher layers is very high when you first unlock them. I don\u0027t think I was bad or underlevelled because I had no trouble with story-triggered airship fights. But I really had to minimize time in the higher layers (which you need to go through to pass over mountains in some areas of the map) for a lot of the game or risk getting blown away by random battles.\r\n\r\nSeriously the airship balance is so bad when you first unlock a new layer. Like \u0022the enemies in the new layer will murder you and it\u0027s impossible to escape from battles\u0022 bad. The airship also doesn\u0027t really level up like your characters, it only gets appreciably stronger with new equipment so you have to progress through the game significantly to unlock new stuff before you stop getting stomped. The rest of the game is so pathetically easy that this one part of the game feels like a real shock. Then you get into a story scripted airship battle and you\u0027re back to oneshotting things...\r\n\r\nActually I think the game might be too easy. I used the obvious combination of the main character\u0027s first 2 learned abilities: Boost Attack Power for several turns \u002B do a multi-hit attack. This did a ton of damage and one or two shot bosses for a significant portion of the game. In general it felt like I was walking through without doing much in the way of grinding or sidequesting. I think I prefer \u0022too easy\u0022 over \u0022obnoxiously hard\u0022, but they didn\u0027t get that close to a good balance here.\r\n\r\nThe difficulty does peek up slightly towards the end but not terribly so. It was offset for me when I realised how busted delaying the enemy\u0027s turn combined with doubling up turns on my biggest damage dealer (which by the way was still the first character using the first attack up \u002B multihit attack combo from the very beginning of the game).\r\n\r\nThe game starts to feel a bit thin in the second half or so. The plot becomes \u0022find the 7 mcguffins\u0022 and there is a lot of reskinned enemies, with very little challenge present.\r\n\r\nOverall this is a nice, fairly fun JRPG. The biggest problem is that it doesn\u0027t really stand out in any single area or have much that\u0027s unique or original going on. It\u0027s the most 7/10 game I\u0027ve ever played. Still had fun with it generally.",
+      "completion-date": "2022-07-26",
       "markdown": true
     }
   ],
