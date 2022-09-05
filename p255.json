@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Might \u0026 Magic: Clash of Heroes",
+  "now_playing": "The World Ends with You",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -372,6 +372,18 @@
       "status": "complete",
       "notes": "The first DS pokemon game. First of 5 in fact. It\u0027s definitely a Pokemon game, that\u0027s most of what I think about it. I\u0027m not super familiar with Black 2 as opposed to the GBA games.\r\n\r\nThe pacing is a little strange. It felt like the first 6 gyms come rapid-fire, really fast, and then it suddenly slows down with a lot more world to explore in the top right of the map and the Team Plasma storyline resolving before you get to finish up the game.\r\n\r\nThe game\u0027s really trying to force you with a bunch of minigame crap that I don\u0027t care about which annoyed me. Pokemon cinema, the shopping mall thing, the weird pokemon world championship (why is this not part of the main plot about you becoming pokemon champion and instead a minigame unlocked half way through?). All of it can get thrown in the bin as far as I\u0027m concerned.\r\n\r\nI played the game in a pretty normal/casual way, built a decent team, and walked through the game without doing anything too fancy. I did find that my levels were falling a bit behind late in the game (probably due to not exploring the whole world and grinding all the available trainers) so I just cheated in some rare candies to keep up. No shame, just wanted to get through it in a timely fashion.\r\n\r\nOverall, as I said above, it\u0027s definitely a pokemon game, but on the downward slope towards modern mainline Pokemon games which I stopped enjoying at all around Pokemon Sun/Moon (excessive cutscenes, minigame junk forced on the player, not really accomodating experienced players even with a \u0022skip tutorial\u0022 option, etc.).",
       "completion-date": "2022-08-27",
+      "markdown": true
+    },
+    {
+      "game": "Might \u0026 Magic: Clash of Heroes",
+      "meta-rating": 86,
+      "meta-user": "7.6",
+      "date": "Dec 1, 2009",
+      "rating": 4,
+      "shortname": "m\u0026mcoh",
+      "status": "not-complete",
+      "notes": "Might and Magic: Clash of Heroes is a spinoff from the well known RPG/strategy series. This one is a basically match-3 puzzle game, where each puzzle level is a battle against an opponent playing their version of the puzzle. Match units to start them charging up (or create walls), and then after n turns they will fire off, destroying stuff on the opponent\u0027s side of the field. It has a story campaign mode which adds light RPG mechanics as you walk around a world map, talking to people, buying units and doing quests.\r\n\r\nThe main problem with the game I saw is that it\u0027s very RNG dependant, particularly with how units spawn in at the start of battle. The large \u0022special\u0022 units exacerbate this problem as if they land akwardly it can take many moves to \u0022unbury\u0022 and then  fire them. This is a problem as moves are very limited and precious, and the big units are also by far the most powerful. This creates a big swing between a pretty easy level or an unwinnable setup. It also means the big units are kind of a double edged sword and not using them (or only using 1 of a possible 2 slots) can be better. Which feels bad, the big units should be big, powerful, and valuable but this gets messed up.\r\n\r\nThe game is divided into chapters where you play as a different faction, get to play with all new units and abilities. This is pretty good as the game moves on right as the progression for a faction is done, and it keeps things fresh.\r\n\r\nI ran into a big difficulty wall a bit past half way through the game. At the end of the Necropolis chapter, the game starts giving the AI big advantages (free elite/champion units charging up on the first turn). I found this really hard to deal with, and only managed to get past using the \u0022revive after death\u0022 artifact. Then the final boss of necropolis seemed really tough. I don\u0027t know if there was some strategy I should have been using or if I just needed to have mastered the puzzle mechanics at a much higher level. Nothing in the game seemed particularly hard before that point. Maybe my under-use of the bigger units was finally catching up and I should have been getting really good at charging up the big 2x2 champion units. However to even start doing that I\u0027d need to go back and do a bunch of grinding to level them up at that point.\r\n\r\nSide note: walls always seemed really bad, and could do almost nothing against high level units (ex. 5 power walls when the enemy champions are firing with ~50-100 power). I almost never tried to make walls, only getting them as a side effect of chaining multiple units together. Not sure if I missed something there.\r\n\r\nAnyway, long story short, I ran into a difficulty wall and am skipping as I don\u0027t want to try and bash my head against it any longer. It\u0027s a bit of a shame as I was getting quite into the game before that. It definitely exceeded my expectations.\r\n",
+      "completion-date": "2022-08-28",
       "markdown": true
     }
   ],
