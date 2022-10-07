@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "The World Ends with You",
+  "now_playing": "Mario \u0026 Luigi: Partners in Time",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -384,6 +384,18 @@
       "status": "not-complete",
       "notes": "Might and Magic: Clash of Heroes is a spinoff from the well known RPG/strategy series. This one is a basically match-3 puzzle game, where each puzzle level is a battle against an opponent playing their version of the puzzle. Match units to start them charging up (or create walls), and then after n turns they will fire off, destroying stuff on the opponent\u0027s side of the field. It has a story campaign mode which adds light RPG mechanics as you walk around a world map, talking to people, buying units and doing quests.\r\n\r\nThe main problem with the game I saw is that it\u0027s very RNG dependant, particularly with how units spawn in at the start of battle. The large \u0022special\u0022 units exacerbate this problem as if they land akwardly it can take many moves to \u0022unbury\u0022 and then  fire them. This is a problem as moves are very limited and precious, and the big units are also by far the most powerful. This creates a big swing between a pretty easy level or an unwinnable setup. It also means the big units are kind of a double edged sword and not using them (or only using 1 of a possible 2 slots) can be better. Which feels bad, the big units should be big, powerful, and valuable but this gets messed up.\r\n\r\nThe game is divided into chapters where you play as a different faction, get to play with all new units and abilities. This is pretty good as the game moves on right as the progression for a faction is done, and it keeps things fresh.\r\n\r\nI ran into a big difficulty wall a bit past half way through the game. At the end of the Necropolis chapter, the game starts giving the AI big advantages (free elite/champion units charging up on the first turn). I found this really hard to deal with, and only managed to get past using the \u0022revive after death\u0022 artifact. Then the final boss of necropolis seemed really tough. I don\u0027t know if there was some strategy I should have been using or if I just needed to have mastered the puzzle mechanics at a much higher level. Nothing in the game seemed particularly hard before that point. Maybe my under-use of the bigger units was finally catching up and I should have been getting really good at charging up the big 2x2 champion units. However to even start doing that I\u0027d need to go back and do a bunch of grinding to level them up at that point.\r\n\r\nSide note: walls always seemed really bad, and could do almost nothing against high level units (ex. 5 power walls when the enemy champions are firing with ~50-100 power). I almost never tried to make walls, only getting them as a side effect of chaining multiple units together. Not sure if I missed something there.\r\n\r\nAnyway, long story short, I ran into a difficulty wall and am skipping as I don\u0027t want to try and bash my head against it any longer. It\u0027s a bit of a shame as I was getting quite into the game before that. It definitely exceeded my expectations.\r\n",
       "completion-date": "2022-08-28",
+      "markdown": true
+    },
+    {
+      "game": "The World Ends with You",
+      "meta-rating": 88,
+      "meta-user": "8.6",
+      "date": "Apr 22, 2008",
+      "rating": 5,
+      "shortname": "twewy",
+      "status": "complete",
+      "notes": "TWEWY is a great game, one of my favourites. I had some weird timing as I had just finished the sequel (unrelated to the DS challenge) shortly before starting it for the challenge. This meant I was a bit less enthusiastic than I might otherwise have been, but I got there in the end.\r\n\r\nTWEWY smashes so many JRPG conventions and replaces them with unique systems. Some of these work really well, some of them fall a little flat. The 2 screen battling has never quite felt really good and I think the remake version does it better. The scanning replacing random battles and drop rate system is just so much better than any other RPG.\r\n\r\nThe story and setting are just so good. If you\u0027ve never played TWEWY and you\u0027re reading it, go play it. Preferably the switch remake version.",
+      "completion-date": "2022-10-07",
       "markdown": true
     }
   ],
