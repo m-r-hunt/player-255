@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Mario \u0026 Luigi: Partners in Time",
+  "now_playing": "Feel the Magic: XY/XX",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -396,6 +396,18 @@
       "status": "complete",
       "notes": "TWEWY is a great game, one of my favourites. I had some weird timing as I had just finished the sequel (unrelated to the DS challenge) shortly before starting it for the challenge. This meant I was a bit less enthusiastic than I might otherwise have been, but I got there in the end.\r\n\r\nTWEWY smashes so many JRPG conventions and replaces them with unique systems. Some of these work really well, some of them fall a little flat. The 2 screen battling has never quite felt really good and I think the remake version does it better. The scanning replacing random battles and drop rate system is just so much better than any other RPG.\r\n\r\nThe story and setting are just so good. If you\u0027ve never played TWEWY and you\u0027re reading it, go play it. Preferably the switch remake version.",
       "completion-date": "2022-10-07",
+      "markdown": true
+    },
+    {
+      "game": "Mario \u0026 Luigi: Partners in Time",
+      "meta-rating": 86,
+      "meta-user": "8.5",
+      "date": "Nov 28, 2005",
+      "rating": 3,
+      "shortname": "m\u0026lpit",
+      "status": "complete",
+      "notes": "This is the second Mario \u0026 Luigi game, sequel to Superstar Saga on the GBA.\r\n\r\nI enjoyed this a lot less than the first one. I think it might be the worst one in comparison to SS and Bowser\u0027s Inside Story (coming up later on the DS).\r\n\r\nThe babies are the big new gimmick, using X and Y to control them, but they don\u0027t really land. Splitting the party is kind of cool but not mind blowing. A lot of what you actually end up doing, like the special moves, is derivative of SS but made more awkward by needing to split up the party to do them.\r\n\r\nCompared to SS, almost every aspect of the game has been simplified. No more MP for Bros attacks, now they are items you find. This makes resource management much simpler as you just save most of them for boss fights and then unleash effectively unlimited big hits. Only one type of bean to find. No connect overworld, instead a series of stages with no incentive to explore or backtrack.\r\n\r\nThe game feels really.. slow in general. Dungeons go on for about 2-3x as long as I wanted them to with the same 2-3 enemies throughout and the same puzzle mechanics. Many regular enemies have attacks that go on for ages, bogging down random encounters which should be short and punchy. Many bros item attacks take a really long time to execute, especially if you want maximum damage. The game as a whole just really dragged for me.\r\n\r\nThat\u0027s a bunch of complaining, the game is still really good in a lot of ways but just doesn\u0027t live up to the potential of the series.\r\n",
+      "completion-date": "2022-11-14",
       "markdown": true
     }
   ],
