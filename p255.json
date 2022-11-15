@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Feel the Magic: XY/XX",
+  "now_playing": "Chronos Twins",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -408,6 +408,18 @@
       "status": "complete",
       "notes": "This is the second Mario \u0026 Luigi game, sequel to Superstar Saga on the GBA.\r\n\r\nI enjoyed this a lot less than the first one. I think it might be the worst one in comparison to SS and Bowser\u0027s Inside Story (coming up later on the DS).\r\n\r\nThe babies are the big new gimmick, using X and Y to control them, but they don\u0027t really land. Splitting the party is kind of cool but not mind blowing. A lot of what you actually end up doing, like the special moves, is derivative of SS but made more awkward by needing to split up the party to do them.\r\n\r\nCompared to SS, almost every aspect of the game has been simplified. No more MP for Bros attacks, now they are items you find. This makes resource management much simpler as you just save most of them for boss fights and then unleash effectively unlimited big hits. Only one type of bean to find. No connect overworld, instead a series of stages with no incentive to explore or backtrack.\r\n\r\nThe game feels really.. slow in general. Dungeons go on for about 2-3x as long as I wanted them to with the same 2-3 enemies throughout and the same puzzle mechanics. Many regular enemies have attacks that go on for ages, bogging down random encounters which should be short and punchy. Many bros item attacks take a really long time to execute, especially if you want maximum damage. The game as a whole just really dragged for me.\r\n\r\nThat\u0027s a bunch of complaining, the game is still really good in a lot of ways but just doesn\u0027t live up to the potential of the series.\r\n",
       "completion-date": "2022-11-14",
+      "markdown": true
+    },
+    {
+      "game": "Feel the Magic: XY/XX",
+      "meta-rating": 75,
+      "meta-user": "8.2",
+      "date": "Nov 16, 2004",
+      "rating": 4,
+      "shortname": "ftmx",
+      "status": "complete",
+      "notes": "This is a weird one, that I had not played before. The closest comparison is probably to Warioware, although in Feel the Magic the minigames are a bit more involved, and arranged in a sequence with the narrative to tell the story. However they remain deeply surreal and crazy, feature unicyle chases and escaping from the inside of a snake and all sorts of other whackiness.\r\n\r\nThe game is pretty fun in general. There were just a handful of minigames that didn\u0027t land for me and were frustrating to get past. Sometimes you have choices of which game to play and can skip ones you don\u0027t like, but you\u0027re often forced to play the single option available.\r\n\r\nThe game has a pretty strong visual style which I think has aged quite well. A \u0022remaster\u0022 of this game would not need to do much other than render the polygons in high detail with antialiasing. The music is pretty good too. The story follows a man who falls in love with a woman, and proceeds to join a stunt team to impress her, and ends up battling a purple-mohawked-nemesis for her affections.\r\n\r\nOverall, a fun little game, if short and with some flaws.",
+      "completion-date": "2022-11-15",
       "markdown": true
     }
   ],
