@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Chronos Twins",
+  "now_playing": "Custom Robo Arena",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -420,6 +420,42 @@
       "status": "complete",
       "notes": "This is a weird one, that I had not played before. The closest comparison is probably to Warioware, although in Feel the Magic the minigames are a bit more involved, and arranged in a sequence with the narrative to tell the story. However they remain deeply surreal and crazy, feature unicyle chases and escaping from the inside of a snake and all sorts of other whackiness.\r\n\r\nThe game is pretty fun in general. There were just a handful of minigames that didn\u0027t land for me and were frustrating to get past. Sometimes you have choices of which game to play and can skip ones you don\u0027t like, but you\u0027re often forced to play the single option available.\r\n\r\nThe game has a pretty strong visual style which I think has aged quite well. A \u0022remaster\u0022 of this game would not need to do much other than render the polygons in high detail with antialiasing. The music is pretty good too. The story follows a man who falls in love with a woman, and proceeds to join a stunt team to impress her, and ends up battling a purple-mohawked-nemesis for her affections.\r\n\r\nOverall, a fun little game, if short and with some flaws.",
       "completion-date": "2022-11-15",
+      "markdown": true
+    },
+    {
+      "game": "Chronos Twins",
+      "meta-rating": 76,
+      "meta-user": "5.3",
+      "date": "Jan 18, 2010",
+      "rating": 2,
+      "shortname": "ct",
+      "status": "complete",
+      "notes": "This is an obscure game with a few weird things going on. Firstly, it\u0027s not entirely clear whether the correct title is Chronos Twin or Chronos Twin**s**. The game features some bad English translation so the correct answer may be lost to history. Secondly, this game was released on both DS and DSiWare, with the DS version being more obscure and only released in Europe. I\u0027m not convinced I knew the DS version existed and came very close to accidentally including a DSiWare title in the DS list, which would have been bad.\r\n\r\nIn terms of gameplay, this game is closest to Mega Man, running and gunning and gentle platforming. The unique twist is the time split. The game takes place on both screen simulteneously, with one screen representing the past and one the future. You move on both in lockstep. In places where the terrain is different, if either contains an obstacle both will be blocked by it. This also means you can stand on platforms that only exist in one zone. This takes a little getting used to and basically means you\u0027re playing on both screens at the same time. Taking a hit in either zone damages you the same. You have different buttons to shoot in each time too. Finally, there\u0027s some light causality: if you destroy a box in the past it will be destroyed in the future, but not vice-versa. This is used for some light puzzling.\r\n\r\nI found myself moving fairly slowly through the game, needing to look at both screens to figure out the next set of obstacles before moving on. This kept the pace somewhat sedate for me. When you\u0027re forced to move fast on some occaisions, it\u0027s super intense and hard to concentrate on both screens at once to navigate correctly.\r\n\r\nThe further I got into the game, the less I liked the core mechanic. As things get more intense it becomes effectively impossible to read the levels on the fly, and it becomes more about memorisation of what\u0027s coming up.\r\n\r\nDeath is punished in a way that\u0027s a little annoying but not too obnoxious. Losing a life resets you back to a checkpoint (which are decently frequent) except in boss fights where you can keep going. Losing all your lives restarts the current stage but this usually isn\u0027t too incredibly far back.\r\n\r\nThe game is very linear, even in the sense that you\u0027re always moving left-to-right without that much verticality. There are no unlockables or other stuff to find exploring (or any way to explore off the path).\r\n\r\nUltimately I respect this game for trying something unique and executing it relatively well, but it has too many flaws and not enough game to make it really good.\r\n",
+      "completion-date": "2022-11-16",
+      "markdown": true
+    },
+    {
+      "game": "Broken Sword: Shadow of the Templars - The Director\u0027s Cut",
+      "meta-rating": 78,
+      "meta-user": "8.0",
+      "date": "Mar 24, 2009",
+      "rating": 3,
+      "shortname": "bssott-tdsc",
+      "status": "other",
+      "notes": "I messed up by including this in the list. It\u0027s the same game as a GBA title that I was not fond of. It is a slightly better version obviously but I\u0027m not playing this again. Filing under \u0022other\u0022 for \u0022should not be included in the challenge\u0022.",
+      "completion-date": "2022-11-16",
+      "markdown": true
+    },
+    {
+      "game": "Bust-A-Move DS",
+      "meta-rating": 75,
+      "meta-user": "7.3",
+      "date": "Dec 6, 2005",
+      "rating": 2,
+      "shortname": "bd",
+      "status": "other",
+      "notes": "An arcade puzzle game in the Bust-a-Move/puzzle-bobble series. It\u0027s fine as these things go, I\u0027m not a huge fan. No story/campaign mode so I moved on relatively fast.",
+      "completion-date": "2022-11-16",
       "markdown": true
     }
   ],
