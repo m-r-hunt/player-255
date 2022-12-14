@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Custom Robo Arena",
+  "now_playing": "Drone Tactics",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -456,6 +456,18 @@
       "status": "other",
       "notes": "An arcade puzzle game in the Bust-a-Move/puzzle-bobble series. It\u0027s fine as these things go, I\u0027m not a huge fan. No story/campaign mode so I moved on relatively fast.",
       "completion-date": "2022-11-16",
+      "markdown": true
+    },
+    {
+      "game": "Custom Robo Arena",
+      "meta-rating": 74,
+      "meta-user": "8.3",
+      "date": "Mar 19, 2007",
+      "rating": 2,
+      "shortname": "cra",
+      "status": "not-complete",
+      "notes": "I wanted to like this one and finish it but ultimately I gave up.\r\n\r\nIt started off fairly strong. Action RPG robot battling combined with an RPG shell that\u0027s quite reminiscent of Mega Man Battle Network in theme and certain aspects of its execution. However, it just got really stale and I was having no fun, struggling to motivate myself to play, despite being only about 1/2 way through the game.\r\n\r\nThe combat was fun at first but doesn\u0027t really have enough variety fighting against the AI. Various mechanics make it annoying, like enforced grinding to progress (despite levelling up doing apparently nothing) and some other bits of annoying design.\r\n\r\nI think if this game was about half as long it would have been better and I would have finished it.",
+      "completion-date": "2022-12-14",
       "markdown": true
     }
   ],
