@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Drone Tactics",
+  "now_playing": "The Dark Spire",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -468,6 +468,30 @@
       "status": "not-complete",
       "notes": "I wanted to like this one and finish it but ultimately I gave up.\r\n\r\nIt started off fairly strong. Action RPG robot battling combined with an RPG shell that\u0027s quite reminiscent of Mega Man Battle Network in theme and certain aspects of its execution. However, it just got really stale and I was having no fun, struggling to motivate myself to play, despite being only about 1/2 way through the game.\r\n\r\nThe combat was fun at first but doesn\u0027t really have enough variety fighting against the AI. Various mechanics make it annoying, like enforced grinding to progress (despite levelling up doing apparently nothing) and some other bits of annoying design.\r\n\r\nI think if this game was about half as long it would have been better and I would have finished it.",
       "completion-date": "2022-12-14",
+      "markdown": true
+    },
+    {
+      "game": "Drone Tactics",
+      "meta-rating": 74,
+      "meta-user": "7.4",
+      "date": "May 12, 2008",
+      "rating": 3,
+      "shortname": "dt",
+      "status": "not-complete",
+      "notes": "Some things to know about Drone Tactics: it\u0027s very obscure. Relatively few references online, no GameFAQs walkthrough and not a ton of info out there.\r\n\r\nDrone Tatics is a tactics RPG like the many others on GBA and DS. It reminded me a lot of ZOE: Fist of Mars on GBA although I couldn\u0027t find any connection on a cursory research. It has a pretty offbeat story and theme, alien insects from another world need human help to turn into giant insect mechs and duke it out.\r\n\r\nGameplay is pretty straightforward tactics RPG stuff, with the addition of you having a deck of cards, basically special abilities you equip and can use X times per battle. There\u0027s no shuffling or drawing so the card thing doesn\u0027t really mean much. You can customise your mechs between missions with different weapons in the 3 slots for melee, guns, and artillery. There\u0027s item crafting and unlockable stuff in chests in missions, all the usual kind of thing.\r\n\r\nThe enemy AI is a bit weak. Enemies will pretty much always attack you in a predictable way, you can bait their attacks out simply enough. Sometimes the AI is clearly set to be passive until you come into range and you can take all the time you want to clear them out (aided by the fact you can heal up in your snail-base).\r\n\r\nUnlike most tactics RPGs where your units will automatically hit back, in this game you get a choice of options: counter-attack, defend, or evade. Counter attacking is fine as long as you can tank the hit. Evading is totally all-or-nothing. I never found it very useful and mostly ignored the stat that affected it (although the AI would somtimes pick it and get lucky misses which was annoying). Defending however seemed very strong and the best option in most situations that you\u0027re not confident enough to counter attack. I often favoured defense-granting parts on my units for this reason.\r\n\r\nIt occasionally got frustrating when enemy units had high defense and would start defending when low on HP, making them hard to finish off, with a lot of attacks doing straight-up zero damage. The Beam weapon/barrier mechanic helps with this a bit... except when the enemy also has decent/high barrier, since most beam weapons are a bit weaker than the regular versions.\r\n\r\nHonestly at times it goes pretty hard even on easy. I think the game is balanced around you taking advantage of the \u0022Badlands\u0022 mode to grind and level up. Boss enemies in particular are often very strong and require a good ambush combined with battle cards to take them out. There seems to be some kind of invisible damage scaling based on level, not otherwise reflected in stats, so keeping yourself levelled up is important. It tends to feel quite all-or-nothing. Either you\u0027re doing fine ploughing through enemies by the dozen or one specific tough enemy can just screw up a whole mission. Luckily missions generally aren\u0027t super long so going away to regear, grind, or just try a different strategy doesn\u0027t bog down too much.\r\n\r\nIt\u0027s kind of fun though. Maybe not the most tactical depth ever, but the game moves at a nice pace and you\u0027ve got a decent amount of options for customising your units and card deck and decent enough maps to play on.\r\n\r\nDefinitely a bit of a hidden gem since I knew nothing about it before and had fun, but ultimately still a bit medium and falling short of greatness. I ended up pitching it after it had been going on for a while as I was bogging down quite badly.\r\n",
+      "completion-date": "2023-01-02",
+      "markdown": true
+    },
+    {
+      "game": "Polarium",
+      "meta-rating": 73,
+      "meta-user": "8.4",
+      "date": "Apr 18, 2005",
+      "rating": 2,
+      "shortname": "p",
+      "status": "other",
+      "notes": "This is one I remember clearly as a very early DS game I owned as a kid. It\u0027s kind of a medium puzzle game. Clear lines of blocks by swapping them between black and white. Two modes, an arcadey mode where lines drop and you have to clear them as fast as possible, and a puzzle mode with preset configurations to clear.\r\n\r\nNot very stunning. Also a puzzle game without a story or credits as far as I can tell.",
+      "completion-date": "2023-01-02",
       "markdown": true
     }
   ],
