@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "The Dark Spire",
+  "now_playing": "Monster Lab",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -491,6 +491,18 @@
       "shortname": "p",
       "status": "other",
       "notes": "This is one I remember clearly as a very early DS game I owned as a kid. It\u0027s kind of a medium puzzle game. Clear lines of blocks by swapping them between black and white. Two modes, an arcadey mode where lines drop and you have to clear them as fast as possible, and a puzzle mode with preset configurations to clear.\r\n\r\nNot very stunning. Also a puzzle game without a story or credits as far as I can tell.",
+      "completion-date": "2023-01-02",
+      "markdown": true
+    },
+    {
+      "game": "The Dark Spire",
+      "meta-rating": 69,
+      "meta-user": "7.8",
+      "date": "Apr 14, 2009",
+      "rating": 2,
+      "shortname": "tds",
+      "status": "not-complete",
+      "notes": "This was one of the low scorers that I was interested to pull in for the challenge.\r\n\r\nTurns out, it\u0027s not very good. Going for an Etrian Odyssey style 1st person dungeon crawler, with a bit more of a classic RPG style. The visual style is interesting. But it\u0027s not really very fun.",
       "completion-date": "2023-01-02",
       "markdown": true
     }
