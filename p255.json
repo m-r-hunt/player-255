@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Monster Lab",
+  "now_playing": "Final Fantasy Crystal Chronicles: Ring of Fates",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -504,6 +504,18 @@
       "status": "not-complete",
       "notes": "This was one of the low scorers that I was interested to pull in for the challenge.\r\n\r\nTurns out, it\u0027s not very good. Going for an Etrian Odyssey style 1st person dungeon crawler, with a bit more of a classic RPG style. The visual style is interesting. But it\u0027s not really very fun.",
       "completion-date": "2023-01-02",
+      "markdown": true
+    },
+    {
+      "game": "Monster Lab",
+      "meta-rating": 75,
+      "meta-user": "tbd",
+      "date": "Nov 4, 2008",
+      "rating": 3,
+      "shortname": "ml",
+      "status": "not-complete",
+      "notes": "This is an interesting one. No knowledge of it before going in.\r\n\r\nYou play a mad scientist who interacts with the world by constructing monsters and sending them out into the countryside. You control the monsters walking around a node-based world map and get into fights, which are 1v1 turn-based battles with inidividual limb targetting. Collect parts and complete quests, and then use the parts to make new monster parts to make stronger monsters.\r\n\r\nThe game loves both pre-rendered cutscenes (I think compressed down from the home console versions) and minigames. So many minigames. The controls are a bit weirdly split between buttons and touch screen, can\u0027t quite decide what it wants to be.\r\n\r\nThe big fatal flaw of this game which lead to me rage quitting it, is that every time you make a new monster part, a key element of the gameplay loop, you have to do a 1 minute long unskippable minigame. You do the same minigame each time for each element/monster part, and they were easy and boring *the first time* I did them. Really can\u0027t imagine playing a whole game of them. Shame as this does have some interesting ideas and could have been good with some relatively small tweaks.",
+      "completion-date": "2023-01-03",
       "markdown": true
     }
   ],
