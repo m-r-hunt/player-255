@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Final Fantasy Crystal Chronicles: Ring of Fates",
+  "now_playing": "Castlevania: Dawn of Sorrow",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -516,6 +516,30 @@
       "status": "not-complete",
       "notes": "This is an interesting one. No knowledge of it before going in.\r\n\r\nYou play a mad scientist who interacts with the world by constructing monsters and sending them out into the countryside. You control the monsters walking around a node-based world map and get into fights, which are 1v1 turn-based battles with inidividual limb targetting. Collect parts and complete quests, and then use the parts to make new monster parts to make stronger monsters.\r\n\r\nThe game loves both pre-rendered cutscenes (I think compressed down from the home console versions) and minigames. So many minigames. The controls are a bit weirdly split between buttons and touch screen, can\u0027t quite decide what it wants to be.\r\n\r\nThe big fatal flaw of this game which lead to me rage quitting it, is that every time you make a new monster part, a key element of the gameplay loop, you have to do a 1 minute long unskippable minigame. You do the same minigame each time for each element/monster part, and they were easy and boring *the first time* I did them. Really can\u0027t imagine playing a whole game of them. Shame as this does have some interesting ideas and could have been good with some relatively small tweaks.",
       "completion-date": "2023-01-03",
+      "markdown": true
+    },
+    {
+      "game": "Final Fantasy Crystal Chronicles: Ring of Fates",
+      "meta-rating": 77,
+      "meta-user": "7.4",
+      "date": "Mar 11, 2008",
+      "rating": 3,
+      "shortname": "ffccrof",
+      "status": "not-complete",
+      "notes": "This initially started off fun but I fell off it hard and couldn\u0027t bring myself to come back and finish it. Reminds me of Children of Mana, better in some ways but worse in others.\r\n\r\nThe game is really inconsistently structured with times where you can\u0027t go to the town for ages or are stuck with no way to return to the world map.\r\n\r\nIt\u0027s clearly mostly designed for coop and in single player you\u0027re saddled with the AI which is just really pathetic most of the time. Since the single character you\u0027re controlling dies fairly quickly to boss attacks you have the AI characters as back ups... but because the AI is so bad they usually all end up dead unless you baby sit them. A recipe for frustration.\r\n\r\nThis game but with a proper single player/character mode could be quite good.",
+      "completion-date": "2023-02-10",
+      "markdown": true
+    },
+    {
+      "game": "Puzzle Quest: Challenge of the Warlords",
+      "meta-rating": 82,
+      "meta-user": "8.2",
+      "date": "Mar 20, 2007",
+      "rating": 3,
+      "shortname": "pqcotw",
+      "status": "not-complete",
+      "notes": "A fun enough take on Bejewelled style match-3 mixed with RPG elements.\r\n\r\nThe randomness can be frustrating although there\u0027s generally no penalty for failure.\r\n\r\nIts main flaw is that its very long with loads of quests, but doesn\u0027t really change up the gameplay or keep it interesting.",
+      "completion-date": "2023-02-10",
       "markdown": true
     }
   ],
