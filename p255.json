@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Castlevania: Dawn of Sorrow",
+  "now_playing": "N\u002B",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -540,6 +540,18 @@
       "status": "not-complete",
       "notes": "A fun enough take on Bejewelled style match-3 mixed with RPG elements.\r\n\r\nThe randomness can be frustrating although there\u0027s generally no penalty for failure.\r\n\r\nIts main flaw is that its very long with loads of quests, but doesn\u0027t really change up the gameplay or keep it interesting.",
       "completion-date": "2023-02-10",
+      "markdown": true
+    },
+    {
+      "game": "Castlevania: Dawn of Sorrow",
+      "meta-rating": 89,
+      "meta-user": "8.5",
+      "date": "Oct 4, 2005",
+      "rating": 5,
+      "shortname": "cdos",
+      "status": "complete",
+      "notes": "It\u0027s a direct sequel to Aria of Sorrow, the best Castlevania game on the GBA and one of the best games overall. Copy and paste pretty much everything from the GBA review in here.\r\n\r\nA few criticisms specific to Dawn:\r\n\r\nIt\u0027s really similar to Aria. A lot of the sprite work seems to be the same copied over, the game is very visually similar (with a little more space to breathe on DS screens).\r\n\r\nThe DS\u0027s hardware isn\u0027t really being taken advantage of. The top screen is only map/status screen. There\u0027s a gimmicky mechanic where you have to finish off bosses by drawing a \u0022magic seal\u0022 pattern. And one upgrade where you can smash blocks by touching the touch screen which is very underutilized.\r\n\r\nAs with the first game, it can be tricky to remember where you need to use new upgrades you unlock and certain rooms are awkward to get back to meaning it\u0027s annoying if you go there and realise you can\u0027t actually progress through them. Also it\u0027s weird that there\u0027s no really convenient save point next to a warp room.\r\n\r\nThere\u0027s some of the \u0022long straight hallway with 50 copies of the same enemy\u0022 design which is always a low point of these games.\r\n\r\nIn terms of what they added, the game is generally a bit bigger and better. There\u0027s no a weapon upgrade system using monster souls, which gives you an incentive to hunt specific monsters even if you\u0027re not going for 100% collection, and lets you pick whatever weapon you want to upgrade and keep for the entire game.\r\n\r\nAria of Sorrow was great. And the biggest criticism of this game is that it is mostly Aria of Sorrow 1.5, which isn\u0027t much of a negative. Easy 5/5.\r\n",
+      "completion-date": "2023-02-12",
       "markdown": true
     }
   ],
