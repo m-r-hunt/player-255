@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Mario vs. Donkey Kong 2: March of the Minis",
+  "now_playing": "Sonic Rush",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -587,6 +587,18 @@
       "shortname": "gtpd",
       "status": "complete",
       "notes": "This game is really good. It\u0027s made by the Phoenix Wright people and it shows (in a good way).\r\n\r\nUnique gameplay, kind of a point and click adventure but with a unique mechanic for manipulating the environment and a time loop mechanic that seems to predate the recent trend in that direction.\r\n\r\nGreat story that sucked me in towards the end.\r\n\r\nReally nice graphics, looks great on DS.\r\n\r\nOnly criticisms: sometimes a little wordy, some puzzles a little hard to solve logically like a lot of point and click games.\r\n\r\nIt\u0027s a shame this game didn\u0027t get more attention.",
+      "completion-date": "2023-04-27",
+      "markdown": true
+    },
+    {
+      "game": "Mario vs. Donkey Kong 2: March of the Minis",
+      "meta-rating": 76,
+      "meta-user": "7.9",
+      "date": "Sep 25, 2006",
+      "rating": 2,
+      "shortname": "mvdk2motm",
+      "status": "not-complete",
+      "notes": "This is a sequel to a GBA game that I was not super impressed with. However, it has a totally different gameplay style, lemmings-ish control of the mini marios rather than a more traditional puzzle platformer. That meant I gave it a chance to be in the challenge.\r\n\r\nHaving given it a try, I really was not a fan. Gameplay is pretty boring, poking the mini marios to move around and waiting for them to get where they are going. You have a lot of control over them so you can pretty much do anything with them like a platformer character if you can tap fast enough.\r\n\r\nThe game has a lot of content (at least 8 worlds x 9 levels) which I was not prepared to slog through.",
       "completion-date": "2023-04-27",
       "markdown": true
     }
