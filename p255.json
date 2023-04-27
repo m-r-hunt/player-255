@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Ghost Trick: Phantom Detective",
+  "now_playing": "Mario vs. Donkey Kong 2: March of the Minis",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -576,6 +576,18 @@
       "status": "not-complete",
       "notes": "This stalled me out for a long time because I wasn\u0027t feeling it. I tried to get back into it but it\u0027s just not very fun.\r\n\r\nIt\u0027s a top down action game. Core gameplay reminds me most of DS Zelda games - touch screen action adventure. But the structure of the game is a level based action game. Follows the story of the original Dragon Ball (not Z) and kid Goku.\r\n\r\nCore fighting gameplay gets repetetive very fast and you have to fight dozens of the same enemies that take many hits to kill. Boss fights were a little better. Definitely got sick of it fast.",
       "completion-date": "2023-04-23",
+      "markdown": true
+    },
+    {
+      "game": "Ghost Trick: Phantom Detective",
+      "meta-rating": 83,
+      "meta-user": "8.8",
+      "date": "Jan 11, 2011",
+      "rating": 5,
+      "shortname": "gtpd",
+      "status": "complete",
+      "notes": "This game is really good. It\u0027s made by the Phoenix Wright people and it shows (in a good way).\r\n\r\nUnique gameplay, kind of a point and click adventure but with a unique mechanic for manipulating the environment and a time loop mechanic that seems to predate the recent trend in that direction.\r\n\r\nGreat story that sucked me in towards the end.\r\n\r\nReally nice graphics, looks great on DS.\r\n\r\nOnly criticisms: sometimes a little wordy, some puzzles a little hard to solve logically like a lot of point and click games.\r\n\r\nIt\u0027s a shame this game didn\u0027t get more attention.",
+      "completion-date": "2023-04-27",
       "markdown": true
     }
   ],
