@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Sonic Rush",
+  "now_playing": "Ultimate Spider-Man",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -600,6 +600,54 @@
       "status": "not-complete",
       "notes": "This is a sequel to a GBA game that I was not super impressed with. However, it has a totally different gameplay style, lemmings-ish control of the mini marios rather than a more traditional puzzle platformer. That meant I gave it a chance to be in the challenge.\r\n\r\nHaving given it a try, I really was not a fan. Gameplay is pretty boring, poking the mini marios to move around and waiting for them to get where they are going. You have a lot of control over them so you can pretty much do anything with them like a platformer character if you can tap fast enough.\r\n\r\nThe game has a lot of content (at least 8 worlds x 9 levels) which I was not prepared to slog through.",
       "completion-date": "2023-04-27",
+      "markdown": true
+    },
+    {
+      "game": "Sonic Rush",
+      "meta-rating": 82,
+      "meta-user": "8.1",
+      "date": "Nov 15, 2005",
+      "rating": 3,
+      "shortname": "sr",
+      "status": "complete",
+      "notes": "Sonic Rush is a 2D Sonic game, completely original for the DS.\r\n\r\nI\u0027m not a massive fan of 2D Sonic games as a rule. A game where you\u0027re encouraged to zoom around as fast as possible with barely any horizontal field of view to see things coming is ok when it\u0027s stage 1 and there aren\u0027t really any penalties for messing up, but becomes obnoxious as soon as it starts to up the difficulty and put in things like bottomless death pits and water where you drown if you\u0027re slightly too slow.\r\n\r\nSonic Rush has some mechanics around doing tricks and boosting with some kind of meter and makes no attempt at all to tutorialise it in game aside from telling you you\u0027re garbage at the end of each stage.\r\n\r\nBy far the best parts of the Sonic Rush are the boss fights. The game takes on a 2.5D style with a dynamic camera, the bosses are giant 3D modelled mechs, and you dodge attacks and hit their big glowing weakpoints until they die. They are kind of hindered by Sonic\u0027s unescapable design choice to have you never die as long as you can keep picking up at least 1 ring after taking a hit, but what can you do?\r\n\r\nHad some fun with it, did the minimum to just beat the game with Sonic and the other character or get extra secrets. Didn\u0027t hate it but it hasn\u0027t changed my views on 2D Sonic.\r\n",
+      "completion-date": "2023-04-28",
+      "markdown": true
+    },
+    {
+      "game": "Cooking Mama 2: Dinner With Friends",
+      "meta-rating": 70,
+      "meta-user": "8.0",
+      "date": "Nov 13, 2007",
+      "rating": 3,
+      "shortname": "cm2dwf",
+      "status": "other",
+      "notes": "I had to include at least one Cooking Mama game, I believe this one had the highest rating. The DS was in the high point of Nintendo trying to appeal to casual/non-traditional audiences with their consoles (before mobile gaming ate that market completely). I left a few of the most iconic titles in.\r\n\r\nCooking Mama is essentially a string of little minigames you do in order to cook vairous dishes. It has a few different modes which give you slightly different contexts to cook in. It\u0027s fun but fairly shallow.\r\n\r\nThe game doesn\u0027t really have a \u0022story mode\u0022 or end so I\u0027ve filled it under \u0022Other\u0022. Credits available from the options menu though.",
+      "completion-date": "2023-04-28",
+      "markdown": true
+    },
+    {
+      "game": "Bleach: Dark Souls",
+      "meta-rating": 82,
+      "meta-user": "7.8",
+      "date": "Oct 7, 2008",
+      "rating": 2,
+      "shortname": "bds",
+      "status": "not-complete",
+      "notes": "It\u0027s a fighting game based on classic anime Bleach. It has some really convoluted systems like a whole deckbuilding thing going on. I guess I left it in because it was highly rated and I didn\u0027t realise what it was like? Not a fan, probably should have taken it out.",
+      "completion-date": "2023-04-28",
+      "markdown": true
+    },
+    {
+      "game": "Picross DS",
+      "meta-rating": 83,
+      "meta-user": "8.0",
+      "date": "Jul 30, 2007",
+      "rating": 4,
+      "shortname": "pd",
+      "status": "other",
+      "notes": "I like Picross. This is a pretty nice implementation of it. Decent sounds, animation, etc. Wish the tutorials were skippable but whatever.\r\n\r\nAnother one without much of a completion/story mode. Did a lot of the normal puzzles before moving on.",
+      "completion-date": "2023-04-28",
       "markdown": true
     }
   ],
