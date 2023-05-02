@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Zubo",
+  "now_playing": "Avalon Code",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -679,11 +679,35 @@
       "meta-rating": 77,
       "meta-user": "8.3",
       "date": "Nov 9, 2010",
-      "rating": 4,
+      "rating": 3,
       "shortname": "rf3afhm",
       "status": "complete",
       "notes": "As a farming game, it\u0027s doing the usual harvest moon stuff. It captures that addictive gameplay loop where you want to play one more day. One thing that\u0027s weird is that the 4 main dungeons in the game are locked to a specific season each, so you can use the farming patches in them to grow any plant at any time. Your main farm and the passage of the seasons become a lot less relevant as a result.\r\n\r\nAs an action RPG, it\u0027s also fine. Fast paced, can be a little grindy when you enter a new area with a big step up in difficulty but basically good. You do get stunned on hit but don\u0027t always get iframes which means you can get wombo comboed to death, which can be frustrating.\r\n\r\nCombining them works OK, they do feed into each other reasonably well and it definitely engages me more than a straight farming game usually does.\r\n\r\nShops seem to be open pretty consistently just whenever which makes shopping a lot less annoying than in some farming games.\r\n\r\nDecent story about a human village and a monster village reuniting. The game\u0027s take on how monsters work is a bit weird, given the main character is half wooly (i.e. a sheep) but can also tame and use woolies to farm wool.\r\n\r\nThere isn\u0027t a lot of feedback when you\u0027re running out of RP (basically stamina), especially when you\u0027re inside a crafting menu. When you run out of RP, you start draining health instead. This makes it way too easy to accidentally kill yourself by crafting too much. The penalty for dying isn\u0027t too step, you lose some money, but it\u0027s still annoying.\r\n\r\nThis game creates some weird incentives. I spent a week doing nothing but taking care of my animals and feeding my chosen love interest sashimi once a day while I waited for the story to advance. I also realised that story progression was gated behind levelling up my chicken so I went grinding for several days to level it up.\r\n\r\nWhen you finally propose to your chosen waifu near the end of the game, there\u0027s a nice animated cutscene. It\u0027s not quite explicit, but this heavily features one of the possible romance partners, the most \u0022obvious\u0022 one but not necessarily the one you actually romanced. Really feels like they didn\u0027t have the budget for individual ones.\r\n\r\nOverall I had a lot of fun. Might get sick of it with 2 more games in the series but we\u0027ll see when we get there.\r\n",
       "completion-date": "2023-05-01",
+      "markdown": true
+    },
+    {
+      "game": "Zubo",
+      "meta-rating": 75,
+      "meta-user": "7.6",
+      "date": "Mar 10, 2009",
+      "rating": 2,
+      "shortname": "z",
+      "status": "not-complete",
+      "notes": "Zubo is a light RPG that uses touch controls. The obvious comparison for me is to the Mario and Luigi games. You have a team of 3 \u0022Zubo\u0022s, little bean shaped dancers who battle it out. When attacking, you tap the touch screen in time with prompts to do extra damage and generate power points for using special moves. The story is some typical stuff where you\u0027re a human who\u0027s been transported into the Zubo world and is working to save it.\r\n\r\nThe battle system is very shallow. It has an extremely simple rock-paper-scissors element system. You can recruit and swap different zubos but there\u0027s not a lot of reason to use anything except one of each element. Attacks have nice animations, but they take a long time to play out even for the most basic attack. Enemies play the same animations but you just have to sit through them every time (with a speed up button at least).\r\n\r\nOn the overworld map between battles the game uses touch controls and an awkward close camera angle. It\u0027s not quite over-the-shoulder but it\u0027s very zoomed in compared to most DS games in a similar style. Touch controls to move and interact are very stiff as well.\r\n\r\nAt the end of the day Zubo is kind of fine, but became stale and boring very quickly. Not enough there to support a whole RPG.\r\n",
+      "completion-date": "2023-05-02",
+      "markdown": true
+    },
+    {
+      "game": "Meteos",
+      "meta-rating": 88,
+      "meta-user": "7.4",
+      "date": "Jun 28, 2005",
+      "rating": 4,
+      "shortname": "m",
+      "status": "complete",
+      "notes": "Meteos is a match 3 puzzle game. The unique twist is that when you match 3, they form a rocket and start flying upwards. Any blocks that are pushed up off the screen this way are gone, but the rocket may not get all the way off the screen if more blocks fall onto it. And you can match further blocks mid-flight to give it more thrust.\r\n\r\nMeteos is made by the Kirby/Smash Bros people, and is polished nicely as you might expect.\r\n\r\nThere are a lot of planets in the game, which are effectively stages with their own unique properties like block types and gravity. This makes a surprising difference to gameplay. You have high gravity planets where it\u0027s all about making individual matches blast off contrasted with low gravity planets where you need to make mid air combos to acheive liftoff.\r\n\r\nIt has a story mode with end credits unlike a lot of arcade puzzle games. Didn\u0027t take too long to complete once although it\u0027s obviously meant to be replayed.\r\n\r\nMeteos is definitely one of the better arcade puzzle games out there. Not quite a Tetris but not a million miles off. The high level of polish applied helps a lot. Obviously didn\u0027t take off as a game with massive longevity.\r\n",
+      "completion-date": "2023-05-02",
       "markdown": true
     }
   ],
