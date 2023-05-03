@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Avalon Code",
+  "now_playing": "Wario: Master of Disguise",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -708,6 +708,18 @@
       "status": "complete",
       "notes": "Meteos is a match 3 puzzle game. The unique twist is that when you match 3, they form a rocket and start flying upwards. Any blocks that are pushed up off the screen this way are gone, but the rocket may not get all the way off the screen if more blocks fall onto it. And you can match further blocks mid-flight to give it more thrust.\r\n\r\nMeteos is made by the Kirby/Smash Bros people, and is polished nicely as you might expect.\r\n\r\nThere are a lot of planets in the game, which are effectively stages with their own unique properties like block types and gravity. This makes a surprising difference to gameplay. You have high gravity planets where it\u0027s all about making individual matches blast off contrasted with low gravity planets where you need to make mid air combos to acheive liftoff.\r\n\r\nIt has a story mode with end credits unlike a lot of arcade puzzle games. Didn\u0027t take too long to complete once although it\u0027s obviously meant to be replayed.\r\n\r\nMeteos is definitely one of the better arcade puzzle games out there. Not quite a Tetris but not a million miles off. The high level of polish applied helps a lot. Obviously didn\u0027t take off as a game with massive longevity.\r\n",
       "completion-date": "2023-05-02",
+      "markdown": true
+    },
+    {
+      "game": "Avalon Code",
+      "meta-rating": 71,
+      "meta-user": "7.8",
+      "date": "Mar 10, 2009",
+      "rating": 3,
+      "shortname": "ac",
+      "status": "not-complete",
+      "notes": "Avalon Code is an action RPG.\r\n\r\nThe premise is that you have been chosen by the \u0022Book of Prophecy\u0022. The world is ending, it\u0027s your job to record in the book things worthy to be recreated in the new world. And of course other people want to take it off you and use it for their own ends.\r\n\r\nThe game uses the top screen for action, and the bottom screen for the book. This is really just menus/maps/inventory/etc, but the style of having it all be part of the magic book is nice. It also has a unique mechanic, where you record things in the book and can then manipulate their \u0022DNA\u0022 by moving little blocks around on a grid. When you first take a negative modifier off your sword and put it on an enemy instead this is a cool idea.\r\n\r\nThe problem is, it\u0027s attached to a pretty mediocre ARPG. And the item manipulation system ultimately doesn\u0027t have that much depth to it.\r\n\r\nEnded up putting it down rather than trying to get through the whole thing.\r\n",
+      "completion-date": "2023-05-03",
       "markdown": true
     }
   ],
