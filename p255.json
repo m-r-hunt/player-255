@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Wario: Master of Disguise",
+  "now_playing": "Super Monkey Ball: Touch \u0026 Roll",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -720,6 +720,18 @@
       "status": "not-complete",
       "notes": "Avalon Code is an action RPG.\r\n\r\nThe premise is that you have been chosen by the \u0022Book of Prophecy\u0022. The world is ending, it\u0027s your job to record in the book things worthy to be recreated in the new world. And of course other people want to take it off you and use it for their own ends.\r\n\r\nThe game uses the top screen for action, and the bottom screen for the book. This is really just menus/maps/inventory/etc, but the style of having it all be part of the magic book is nice. It also has a unique mechanic, where you record things in the book and can then manipulate their \u0022DNA\u0022 by moving little blocks around on a grid. When you first take a negative modifier off your sword and put it on an enemy instead this is a cool idea.\r\n\r\nThe problem is, it\u0027s attached to a pretty mediocre ARPG. And the item manipulation system ultimately doesn\u0027t have that much depth to it.\r\n\r\nEnded up putting it down rather than trying to get through the whole thing.\r\n",
       "completion-date": "2023-05-03",
+      "markdown": true
+    },
+    {
+      "game": "Wario: Master of Disguise",
+      "meta-rating": 60,
+      "meta-user": "7.4",
+      "date": "Mar 5, 2007",
+      "rating": 2,
+      "shortname": "wmod",
+      "status": "not-complete",
+      "notes": "Wario Master of Disguise is a platformer. It has slightly awkward controls where you platform with just the d-pad (up to jump) so the touch screen is free to do interactions. You have a magic \u0022disguise\u0022 wand to change into different forms, unlocked as you progress, than can interact with the environment. Outside of that, it plays out pretty much like Warioland 4 except you change forms at will rather than getting them when you\u0027re hit by enemies or environment hazards. It has a bit more of a metroidvania flavour as a result, although it\u0027s still divided into levels rather than a big connected world.\r\n\r\nThe touch screen minigames to open chests get repetetive over time and are a bit of a break in the flow of gameplay.\r\n\r\nThe problem with Master of Disguise is that it\u0027s just not very fun. One handed platforming is awkward, and the game is designed around this so you move slowly and awkwardly. Also Wario\u0027s physics change drastically with different forms which is quite disorienting. The touch screen controlled abilities are... kind of fine but having to keep switching forms by drawing is annoying. Opening chests gets annoying very fast which really makes the game feel bad. And because of the way the map is split into two that you use doors to travel between, and that you can\u0027t see the other half of the map, makes exploration unnecessarily tedious.\r\n\r\nI put this down for most of a month and when I came back, was not motivated to push through and finish the game.\r\n",
+      "completion-date": "2023-05-27",
       "markdown": true
     }
   ],
