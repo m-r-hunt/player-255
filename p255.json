@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Art Academy",
+  "now_playing": "Monster Tale",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -803,6 +803,30 @@
       "shortname": "rgc",
       "status": "complete",
       "notes": "Retro Game Challenge is a pretty unique game. The premise/frame story is that you have been captured by a demon who has sent you back in time to the 80s to play classic video games. He gives you challenges for a series of faux-NES games (clearly homages to real classic NES games) to escape.\r\n\r\nIt\u0027s really fun. The fake NES games capture what\u0027s fun about classic games, and the addition of manuals and magazines with hints, secrets, and cheats is really nice and shows a real attention to detail. The games are a bit lighter and shorter than real classic games, and are designed in generally a bit more forgiving way than classic games.\r\n\r\nThere are 4 mini challenges give for each game initially which advance the story and unlock new games. Then at the end your final challenge is to beat every game in the collection. This isn\u0027t that arduous as each game has some kind of major secrets or cheats to make this doable. For example, Cosmic Gate has a secret to warp straight to the end of the game which is revealed in the final in-game magazine issue. Some of these, like the ability to go straight to the credits in Guadia Quest with a hidden NPC, feel like they were put in the game for me to not get stuck on this game in the challenge.\r\n\r\nNow follows mini reviews of the 8 titles in the game:\r\n\r\n## Cosmic Gate\r\n\r\nA Galaga-style space shooter. Pretty basic, but fun enough, and the warp system is kinda interesting.\r\n\r\n## Robot Ninja Haggle man\r\n\r\n2D platformer which seems split between mutliple titles in influence. Kill all the enemies in a looping stage, then beat a \u0022boss\u0022, repeat. Not a massive fan of this, it\u0027s ok, but I don\u0027t find it super fun.\r\n\r\n## Rally King\r\n\r\nTop down driving game. Fairly fun, always find drifting/boosting finnicky although you can pretty much win without using them. Short, only 4 tracks.\r\n\r\n## Star Prince\r\n\r\nMuch more sophisticated space shooter with unique stages and bosses. Pretty fun especially with the right powerups.\r\n\r\n## Rally King SP\r\n\r\nAlmost identical to Rally King with tweaked stages. A bit of a let down. The story explanation that it\u0027s a promo tie-in with instant noodles is funny but the game feels like filler.\r\n\r\n## Robot Ninja Haggle Man 2\r\n\r\nPretty similar to RNHM1 with larger stages and better graphics. Much the same feelings about it, didn\u0027t win me over.\r\n\r\nHaving to actually beat the game was frustrating. The levels are bigger and have way more enemies than Haggle Man 1, and you still can only ever take 2 hits before dying with no way to heal. This adds up to some very frustrating stages, especially since you again have to go through the whole set of 8 stages twice. I initially missed the level select cheat, which does at least allow you to skip through to the final boss.\r\n\r\n## Guadia Quest\r\n\r\nThis is probably the highlight for me. A full Dragon Quest-style JRPG. Has some slightly unique mechanics with the weapon stat system and the recruitable \u0022Guadia\u0022 monsters. Because it\u0027s a bit smaller than a real game, isn\u0027t too long or frustrating to play. Had fun with it.\r\n\r\n## Robot Ninja Haggle Man 3\r\n\r\nA big change for this sequel, it\u0027s more of an action platformer with some moderate metroidvania elements. Very fun.\r\n",
+      "completion-date": "2023-06-15",
+      "markdown": true
+    },
+    {
+      "game": "Art Academy",
+      "meta-rating": 75,
+      "meta-user": "8.0",
+      "date": "Oct 26, 2010",
+      "rating": 4,
+      "shortname": "aa",
+      "status": "not-complete",
+      "notes": "Art Academy is a drawing program with art lessons built in. I included it, not because its a game I wanted to complete but because it\u0027s an iconic DS title I wanted to have a look at.\r\n\r\nIt\u0027s fairly well featured with different drawing tools. The art lessons are ok, but they don\u0027t attempt to give feedback, you just have to judge yourself how well you\u0027re following along.\r\n\r\nA certified DS classic.",
+      "completion-date": "2023-06-15",
+      "markdown": true
+    },
+    {
+      "game": "Age of Empires: Mythologies",
+      "meta-rating": 78,
+      "meta-user": "6.8",
+      "date": "Nov 24, 2008",
+      "rating": 2,
+      "shortname": "aoem",
+      "status": "complete",
+      "notes": "A few wierd things about this game: you may have noticed the title is actually different from the original pc game title. It\u0027s actually an original game for the DS and not a direct port. It\u0027s a turn-based strategy game more akin to Advance Wars than anything else.\r\n\r\nAnyway I\u0027m afraid it\u0027s thrown onto the pile of mediocre DS strategy games I don\u0027t like enough/am not patient enough to play through.",
       "completion-date": "2023-06-15",
       "markdown": true
     }
