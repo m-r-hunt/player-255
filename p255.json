@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Professor Layton and the Diabolical Box",
+  "now_playing": "Trauma Center: Under the Knife",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -840,6 +840,18 @@
       "status": "not-complete",
       "notes": "I hadn\u0027t heard of this game before and it has strong hidden gem energy. The art is incredible, the gameplay is pretty fun and everything about it is pretty well polished.\r\n\r\nIt has a unique DS mechanic which is your monster pet who hangs out on the touch screen when not in use. It\u0027s a little gimmicky, can be annoying when you need him to open doors and he\u0027s being slow, but basically works fine.\r\n\r\nThe game has one massive flaw which ended up putting me off: it\u0027s a metroidvania platformer but the level design is bad. Rather than being fun to backtrack and explore with new abilities, you\u0027re forced to walk really far back and forth across the map over and over again. Your new abilities don\u0027t really unlock new shortcuts or paths outside of the one new area you\u0027re going to in each section. And there aren\u0027t really interesting hidden secrets or things to find. So it just becomes boring. It then drags out for too long, to the point I got so bored of playing I couldn\u0027t force myself to continue.\r\n\r\nAll the elements of a really great metroidvania platformer are in here, but because of the world design it just falls flat and becomes boring. It\u0027s a shame, but what can you do?",
       "completion-date": "2023-07-09",
+      "markdown": true
+    },
+    {
+      "game": "Professor Layton and the Diabolical Box",
+      "meta-rating": 84,
+      "meta-user": "8.6",
+      "date": "Aug 24, 2009",
+      "rating": 4,
+      "shortname": "platdb",
+      "status": "complete",
+      "notes": "It\u0027s another Professor Layton game! Fundamentally, it\u0027s more of the same, but it\u0027s more of the same that I quite like.\r\n\r\nThe story is very much on a theme with the first one, with a new silly twist ending.\r\n\r\nThe puzzles were mostly good and felt fun. There were a few too many of the \u0022push blocks around to free one from an exit\u0022 which I am quite sick of. Also this particular game loved really challenging spot the difference puzzles across the two screens.\r\n",
+      "completion-date": "2023-08-24",
       "markdown": true
     }
   ],
