@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Trauma Center: Under the Knife",
+  "now_playing": "Lost Magic",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -852,6 +852,54 @@
       "status": "complete",
       "notes": "It\u0027s another Professor Layton game! Fundamentally, it\u0027s more of the same, but it\u0027s more of the same that I quite like.\r\n\r\nThe story is very much on a theme with the first one, with a new silly twist ending.\r\n\r\nThe puzzles were mostly good and felt fun. There were a few too many of the \u0022push blocks around to free one from an exit\u0022 which I am quite sick of. Also this particular game loved really challenging spot the difference puzzles across the two screens.\r\n",
       "completion-date": "2023-08-24",
+      "markdown": true
+    },
+    {
+      "game": "Trauma Center: Under the Knife",
+      "meta-rating": 81,
+      "meta-user": "8.3",
+      "date": "Oct 4, 2005",
+      "rating": 5,
+      "shortname": "tcutk",
+      "status": "complete",
+      "notes": "I really like Trauma Center games. It\u0027s a surgery simulator using the DS touch screen.\r\n\r\nThe story is fairly melodramatic anime stuff. Bioterrorists attacking with super viruses, lots of over the top character growth.\r\n\r\nGameplay is fun surgery simulation, sew up wounds, laser tumors, etc. Most of the game is spent \u0022fighting\u0022 the GUILT super virus(?) things which usually feel more like battling an enemy than healing a person. You also have the \u0022Healing Touch\u0022 aka slow down time for a bit.\r\n\r\nOnly criticisms are that some of the GUILT are really rough to fight (Deftera and Triti...), some of them need you to do things in a particular order that the game does not communicate well, and the game is just really hard, especially towards the end.\r\n\r\nOverall, very good 5/5",
+      "completion-date": "2023-08-25",
+      "markdown": true
+    },
+    {
+      "game": "Dragon Quest V: Hand of the Heavenly Bride",
+      "meta-rating": 84,
+      "meta-user": "8.4",
+      "date": "Feb 16, 2009",
+      "rating": 4,
+      "shortname": "dq5hothb",
+      "status": "not-complete",
+      "notes": "The first Dragon Quest game! Note that I left DQIV because I actually beat it on my own time, relatively recently, outside of any P255 challenges and I did not want to replay it.\r\n\r\nThe unique features of this one are that it takes place across multiple \u0022generations\u0022 in the main character\u0027s life - childhood, adulthood, having children of his own. There\u0027s also a monster catching system which was very influential on other games e.g. pokemon.\r\n\r\nThis is a long RPG and it was somewhat the victim of circumstance with me not summoning up the energy to get through it.",
+      "completion-date": "2023-09-27",
+      "markdown": true
+    },
+    {
+      "game": "Space Invaders Extreme",
+      "meta-rating": 85,
+      "meta-user": "7.8",
+      "date": "Jun 17, 2008",
+      "rating": 4,
+      "shortname": "sie",
+      "status": "complete",
+      "notes": "This is Space Invaders turned up to 11. Much more of a bullet hell, with plenty of \u0022juice\u0022 in the gaming sense. Fairly short to just beat once but with replay value, branching stages etc. Lives and dying near the end of a stage can be annoying. Pretty fun in general.",
+      "completion-date": "2023-09-27",
+      "markdown": true
+    },
+    {
+      "game": "Kingdom Hearts 358/2 Days",
+      "meta-rating": 75,
+      "meta-user": "8.4",
+      "date": "Sep 29, 2009",
+      "rating": 3,
+      "shortname": "kh3d",
+      "status": "not-complete",
+      "notes": "This game does a reasonable job of replicating the gameplay of Kingdom Hearts in portable DS format, but with a structure based on short missions, presumably to make it better for a portable format. Quite interminable cutscenes, and fairly long I think, I don\u0027t have this in me to finish at the moment.",
+      "completion-date": "2023-09-28",
       "markdown": true
     }
   ],
