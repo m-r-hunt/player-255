@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Moon",
+  "now_playing": "Elebits: The Adventures of Kai and Zero",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -912,6 +912,18 @@
       "status": "not-complete",
       "notes": "This is one I have very clear memories of from my childhood. It\u0027s a hybrid RTS/RPG where you cast magic spells using the touch screen to draw runes and command monsters.\r\n\r\nIt\u0027s not that good. Anything that relies on drawing recognition under pressure is just going to be rough. And the whole strategy elements aren\u0027t particularly well done. Didn\u0027t want to persist with it.",
       "completion-date": "2023-09-28",
+      "markdown": true
+    },
+    {
+      "game": "Moon",
+      "meta-rating": 71,
+      "meta-user": "7.5",
+      "date": "Jan 13, 2009",
+      "rating": 3,
+      "shortname": "m2",
+      "status": "other",
+      "notes": "This is an FPS. I\u0027d never heard of it before. Quite well made, technically impressive. Run around, shoot enemies, explore with some light metroidvania elements. Bit of a story about discovering an alien base that has been abducting humans and using them to make alien crack. Strong hidden gem energy, main negative points are repetetive environments and slight overuse of the gameplay elements.\r\n\r\nSadly I encountered a game breaking bug where a car I was supposed to be using to drive through a timed suggestion did not spawn. I checked a walkthrough video and it\u0027s definitely supposed to be there. Possibly triggered because I previously parked in the wrong place before a later cutscene. No way to restart the level or rollback save. I was too far in/the game was not good enough for me to restart at this point, but I\u0027m filing this as \u0022Other\u0022 because it\u0027s not my fault for giving up.",
+      "completion-date": "2023-09-29",
       "markdown": true
     }
   ],
