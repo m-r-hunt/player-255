@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Lost Magic",
+  "now_playing": "Moon",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -899,6 +899,18 @@
       "shortname": "kh3d",
       "status": "not-complete",
       "notes": "This game does a reasonable job of replicating the gameplay of Kingdom Hearts in portable DS format, but with a structure based on short missions, presumably to make it better for a portable format. Quite interminable cutscenes, and fairly long I think, I don\u0027t have this in me to finish at the moment.",
+      "completion-date": "2023-09-28",
+      "markdown": true
+    },
+    {
+      "game": "Lost Magic",
+      "meta-rating": 68,
+      "meta-user": "7.9",
+      "date": "Apr 25, 2006",
+      "rating": 2,
+      "shortname": "lm",
+      "status": "not-complete",
+      "notes": "This is one I have very clear memories of from my childhood. It\u0027s a hybrid RTS/RPG where you cast magic spells using the touch screen to draw runes and command monsters.\r\n\r\nIt\u0027s not that good. Anything that relies on drawing recognition under pressure is just going to be rough. And the whole strategy elements aren\u0027t particularly well done. Didn\u0027t want to persist with it.",
       "completion-date": "2023-09-28",
       "markdown": true
     }
