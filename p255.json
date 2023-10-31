@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Elebits: The Adventures of Kai and Zero",
+  "now_playing": "DK: Jungle Climber",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -924,6 +924,18 @@
       "status": "other",
       "notes": "This is an FPS. I\u0027d never heard of it before. Quite well made, technically impressive. Run around, shoot enemies, explore with some light metroidvania elements. Bit of a story about discovering an alien base that has been abducting humans and using them to make alien crack. Strong hidden gem energy, main negative points are repetetive environments and slight overuse of the gameplay elements.\r\n\r\nSadly I encountered a game breaking bug where a car I was supposed to be using to drive through a timed suggestion did not spawn. I checked a walkthrough video and it\u0027s definitely supposed to be there. Possibly triggered because I previously parked in the wrong place before a later cutscene. No way to restart the level or rollback save. I was too far in/the game was not good enough for me to restart at this point, but I\u0027m filing this as \u0022Other\u0022 because it\u0027s not my fault for giving up.",
       "completion-date": "2023-09-29",
+      "markdown": true
+    },
+    {
+      "game": "Elebits: The Adventures of Kai and Zero",
+      "meta-rating": 75,
+      "meta-user": "8.3",
+      "date": "Jan 6, 2009",
+      "rating": 3,
+      "shortname": "etaokaz",
+      "status": "not-complete",
+      "notes": "Elebits/Eledees is a cute action-adventure game where you are hunting down the titular characters to use their electrical powers. It\u0027s a sequel to a Wii game.\r\n\r\nIt failed to grab me. The core touchscreen gameplay is just a bit too awkward, and it lacks the spark to really make it great.",
+      "completion-date": "2023-10-29",
       "markdown": true
     }
   ],
