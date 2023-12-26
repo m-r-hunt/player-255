@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "DK: Jungle Climber",
+  "now_playing": "Lock\u0027s Quest",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -936,6 +936,18 @@
       "status": "not-complete",
       "notes": "Elebits/Eledees is a cute action-adventure game where you are hunting down the titular characters to use their electrical powers. It\u0027s a sequel to a Wii game.\r\n\r\nIt failed to grab me. The core touchscreen gameplay is just a bit too awkward, and it lacks the spark to really make it great.",
       "completion-date": "2023-10-29",
+      "markdown": true
+    },
+    {
+      "game": "DK: Jungle Climber",
+      "meta-rating": 77,
+      "meta-user": "6.5",
+      "date": "Sep 10, 2007",
+      "rating": 2,
+      "shortname": "djc",
+      "status": "not-complete",
+      "notes": "I was pretty medium on the first one, and ended up not liking this one. They have made some improvements and there are some kinda interesting mechanics, but it just got annoying and frustrating later in the game.",
+      "completion-date": "2023-12-26",
       "markdown": true
     }
   ],
