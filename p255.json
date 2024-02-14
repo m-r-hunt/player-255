@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Lock\u0027s Quest",
+  "now_playing": "Worms: Open Warfare 2",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -948,6 +948,102 @@
       "status": "not-complete",
       "notes": "I was pretty medium on the first one, and ended up not liking this one. They have made some improvements and there are some kinda interesting mechanics, but it just got annoying and frustrating later in the game.",
       "completion-date": "2023-12-26",
+      "markdown": true
+    },
+    {
+      "game": "Lock\u0027s Quest",
+      "meta-rating": 80,
+      "meta-user": "8.3",
+      "date": "Sep 8, 2008",
+      "rating": 2,
+      "shortname": "lsq",
+      "status": "not-complete",
+      "notes": "A tower defence game that kind of mixes genres. Ultimately a bit slow and not that interesting. Didn\u0027t love it, stalled for a long time.",
+      "completion-date": "2024-02-10",
+      "markdown": true
+    },
+    {
+      "game": "Robocalypse",
+      "meta-rating": 78,
+      "meta-user": "8.2",
+      "date": "Nov 17, 2008",
+      "rating": 2,
+      "shortname": "r",
+      "status": "not-complete",
+      "notes": "A kind of middle-of-the-road RTS. RTS still isn\u0027t good on handhelds, even with a touchscreen, at least not without a much bigger genre rethink.",
+      "completion-date": "2024-02-10",
+      "markdown": true
+    },
+    {
+      "game": "Viva Pinata: Pocket Paradise",
+      "meta-rating": 82,
+      "meta-user": "7.3",
+      "date": "Sep 8, 2008",
+      "rating": 4,
+      "shortname": "vppp",
+      "status": "other",
+      "notes": "This is a blast from the past. This franchise was a big deal back in the day, and I haven\u0027t thought about it for years.\r\n\r\nThis is a decent portable adaptation. Graphics look relatively good for DS 3D. Gameplay is mostly ported over from the original.\r\n\r\nIt is a sandbox game, so other than 100%ing how do you beat it? Credits from the options menu...",
+      "completion-date": "2024-02-10",
+      "markdown": true
+    },
+    {
+      "game": "Radiant Historia",
+      "meta-rating": 85,
+      "meta-user": "8.7",
+      "date": "Feb 22, 2011",
+      "rating": 3,
+      "shortname": "rh",
+      "status": "not-complete",
+      "notes": "JRPG with an interesting set up - you\u0027re trying to save the world by time travelling into alternate timelines to find the one where you can save everything.\r\n\r\nHas an interesting battle system, but I think this kind of ended up working against it in a strange way, since you can\u0027t turn off your brain and mash through random encounters, but there are a lot of random encounters.\r\n\r\nI tried self-experimenting by playing this on a full 2x speed, and I think maybe I liked it more because of that, but it didn\u0027t boost it enough for me to actually get through it.",
+      "completion-date": "2024-02-11",
+      "markdown": true
+    },
+    {
+      "game": "Puyo Pop Fever",
+      "meta-rating": 76,
+      "meta-user": "6.8",
+      "date": "May 3, 2005",
+      "rating": 2,
+      "shortname": "ppf",
+      "status": "complete",
+      "notes": "Puyo Pop is not my favourite arcade puzzler. This adaptation is fine. I beat one of the stage modes which I\u0027m counting as completion, not sure if you can get credits somehow but that didn\u0027t do it.",
+      "completion-date": "2024-02-11",
+      "markdown": true
+    },
+    {
+      "game": "Sonic \u0026 Sega All-Stars Racing",
+      "meta-rating": 78,
+      "meta-user": "7.9",
+      "date": "Feb 23, 2010",
+      "rating": 4,
+      "shortname": "s\u0026sar",
+      "status": "complete",
+      "notes": "Solid Mario Kart-alike. Good graphics and track visuals. Slightly jank gameplay. A few places I felt like the correct route wasn\u0027t signposted well and I just stacked it into a wall the first lap or two.\r\n\r\nThere was one course that was really hard, like all 90 corners and u turns. Even the power up that blast you fast forward when you\u0027re at the back (e.g. like the bullet bill in mario) was unable to navigate the course.\r\n\r\nCompleted all the cups (on easy) and saw credits. \r\n",
+      "completion-date": "2024-02-13",
+      "markdown": true
+    },
+    {
+      "game": "Contra 4",
+      "meta-rating": 83,
+      "meta-user": "7.9",
+      "date": "Nov 13, 2007",
+      "rating": 3,
+      "shortname": "c4",
+      "status": "not-complete",
+      "notes": "Seems like an OK run-and-gun shooter. Plays just like the older games I think but uses the DS screens for extra vertical view.\r\n\r\nHowever I refuse on principal to engage with a game that has limited lives, game overs, and *limited continues* on the DS.",
+      "completion-date": "2024-02-13",
+      "markdown": true
+    },
+    {
+      "game": "Big Bang Mini",
+      "meta-rating": 78,
+      "meta-user": "8.2",
+      "date": "Jan 21, 2009",
+      "rating": 3,
+      "shortname": "bbm",
+      "status": "not-complete",
+      "notes": "Decent game. Shooter where you shoot up to the top screen and dodge on the bottom screen. Slightly awkward touch controls.\r\n\r\nA lot of levels, and it\u0027s just not fun enough to sustain all the way through.",
+      "completion-date": "2024-02-14",
       "markdown": true
     }
   ],
