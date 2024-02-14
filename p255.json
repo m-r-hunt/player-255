@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Worms: Open Warfare 2",
+  "now_playing": "Spider-Man 3",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -1043,6 +1043,18 @@
       "shortname": "bbm",
       "status": "not-complete",
       "notes": "Decent game. Shooter where you shoot up to the top screen and dodge on the bottom screen. Slightly awkward touch controls.\r\n\r\nA lot of levels, and it\u0027s just not fun enough to sustain all the way through.",
+      "completion-date": "2024-02-14",
+      "markdown": true
+    },
+    {
+      "game": "Worms: Open Warfare 2",
+      "meta-rating": 81,
+      "meta-user": "8.1",
+      "date": "Sep 4, 2007",
+      "rating": 3,
+      "shortname": "wow2",
+      "status": "not-complete",
+      "notes": "An adequate version of worms. Not the best though. Has a campaign mode but it doesn\u0027t seem amazing. Worms isn\u0027t best in single player.",
       "completion-date": "2024-02-14",
       "markdown": true
     }
