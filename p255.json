@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Spider-Man 3",
+  "now_playing": "Soul Bubbles",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -1056,6 +1056,18 @@
       "status": "not-complete",
       "notes": "An adequate version of worms. Not the best though. Has a campaign mode but it doesn\u0027t seem amazing. Worms isn\u0027t best in single player.",
       "completion-date": "2024-02-14",
+      "markdown": true
+    },
+    {
+      "game": "Spider-Man 3",
+      "meta-rating": 79,
+      "meta-user": "6.6",
+      "date": "May 4, 2007",
+      "rating": 2,
+      "shortname": "s3",
+      "status": "not-complete",
+      "notes": "I thought this was going to be good as it has a decent score and other Spider-Man games have been decent (if not amazing).\r\n\r\nIt kinda sucks actually.\r\n\r\nHeavily touch based controls that add no value, only make the game worse to play. \r\n\r\nEarly on in the game it hit me with \u0022Enemies with weapons are hard to attack or web\u0022 and offered no solution to how to deal with them. Then put several in the way as mandatory obstacles. What am I supposed to do?\r\n\r\nIn general enemies are few but each one has a ton of health. I think it wants you to make a lot of use of webs and attacks like throws and juggles but the crappy controls make that suck.\r\n\r\nEnded up putting it down.\r\n",
+      "completion-date": "2024-02-15",
       "markdown": true
     }
   ],
