@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Soul Bubbles",
+  "now_playing": "Sonic Rush Adventure",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -1068,6 +1068,30 @@
       "status": "not-complete",
       "notes": "I thought this was going to be good as it has a decent score and other Spider-Man games have been decent (if not amazing).\r\n\r\nIt kinda sucks actually.\r\n\r\nHeavily touch based controls that add no value, only make the game worse to play. \r\n\r\nEarly on in the game it hit me with \u0022Enemies with weapons are hard to attack or web\u0022 and offered no solution to how to deal with them. Then put several in the way as mandatory obstacles. What am I supposed to do?\r\n\r\nIn general enemies are few but each one has a ton of health. I think it wants you to make a lot of use of webs and attacks like throws and juggles but the crappy controls make that suck.\r\n\r\nEnded up putting it down.\r\n",
       "completion-date": "2024-02-15",
+      "markdown": true
+    },
+    {
+      "game": "Soul Bubbles",
+      "meta-rating": 78,
+      "meta-user": "8.0",
+      "date": "Jun 10, 2008",
+      "rating": 3,
+      "shortname": "sb",
+      "status": "not-complete",
+      "notes": "I stalled on this for a long time. Ended up chucking it to get back onto making progress.\r\n\r\nIt\u0027s a touch screen action game and it\u0027s just a bit medium.",
+      "completion-date": "2024-06-01",
+      "markdown": true
+    },
+    {
+      "game": "Dementium: The Ward",
+      "meta-rating": 72,
+      "meta-user": "7.9",
+      "date": "Oct 26, 2007",
+      "rating": 4,
+      "shortname": "dtw",
+      "status": "not-complete",
+      "notes": "Now this was a long stall. Just dropped off the challenge for a long time.\r\n\r\nDementium is a pretty cool survival horror. The DS touch FPS controls are a little rough but it looks pretty good for a DS game.\r\n\r\nNeed a fresh start, so moving on...",
+      "completion-date": "2025-02-08",
       "markdown": true
     }
   ],
