@@ -2,7 +2,7 @@
   "seed": 255,
   "first_game": "The Legend of Zelda: Phantom Hourglass",
   "last_game": "WarioWare: Touched!",
-  "now_playing": "Sonic Rush Adventure",
+  "now_playing": "Dragon Ball Z: Attack of the Saiyans",
   "ordered_series": [
     [
       "Mario \u0026 Luigi: Partners in Time",
@@ -1092,6 +1092,30 @@
       "status": "not-complete",
       "notes": "Now this was a long stall. Just dropped off the challenge for a long time.\r\n\r\nDementium is a pretty cool survival horror. The DS touch FPS controls are a little rough but it looks pretty good for a DS game.\r\n\r\nNeed a fresh start, so moving on...",
       "completion-date": "2025-02-08",
+      "markdown": true
+    },
+    {
+      "game": "Sonic Rush Adventure",
+      "meta-rating": 78,
+      "meta-user": "8.1",
+      "date": "Sep 18, 2007",
+      "rating": 2,
+      "shortname": "sra",
+      "status": "not-complete",
+      "notes": "I\u0027m (still) not a big fan of 2d Sonic gameplay. Similar to the first Sonic Rush, this is a fairly well constructed version of that gameplay, combined with cool 2.5d elements, particularly the boss fights.\r\n\r\nThe \u0022Adventure\u0022 in the title refers to this game having some more adventure mechanics - you can talk to NPCs at your home base for the game, there\u0027s a world map you go sail around in to get to stages (but when you get there it\u0027s like a classic sonic 2 stages \u002B a boss setup). The wheels fell off though when the game makes you grind and replay the same stages to gather materials to progress the story. I\u0027m just about hanging in with Sonic when I can mostly breeze through it but that really put me off.",
+      "completion-date": "2025-02-09",
+      "markdown": true
+    },
+    {
+      "game": "New Super Mario Bros.",
+      "meta-rating": 89,
+      "meta-user": "8.5",
+      "date": "May 15, 2006",
+      "rating": 4,
+      "shortname": "nsmb",
+      "status": "complete",
+      "notes": "A really solid 2D Mario, that kind of relaunched the 2D side of Mario platformers. Pretty fun but not my favourite. Sped through it with the warp cannons.",
+      "completion-date": "2025-02-23",
       "markdown": true
     }
   ],
